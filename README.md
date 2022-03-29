@@ -2,21 +2,14 @@
 
 Awesome public courses, welcome to share other wonderful learning resources by PR.
 
-> 本项目主要面向汉语人群，收集了一些比较好的课程资源，一起撸起袖子加油干。<img src="china.png" width="10%"/>
+> 本项目主要面向汉语人群，收集了一些比较好的课程资源，一起撸起袖子加油干 <img src="china.png" width="5%"/>。
 
 Resourse is collected from the following platforms, thanks to them.
 
 > 客套话。
 
 <div align="center">
-<figure>
-    <img src="bilibili.svg" width="30%"/>
-    <figcaption>bilibili</figcaption>
-</figure>
-<figure>
-    <img src="youtube.svg" width="15%"/>
-    <figcaption>youtube</figcaption>
-</figure>
+<img src="bilibili.svg" width="10%"/> &nbsp &nbsp &nbsp &nbsp &nbsp <img src="youtube.svg" width="5%"/>
 </div>
 
 OK, let's start studying 🙌
