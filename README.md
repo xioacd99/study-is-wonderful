@@ -63,6 +63,16 @@ OK, let's start studying 🙌
 ## 耶鲁
 1. [博弈论](https://www.bilibili.com/BV1Kt411h7Ep) <img src="bilibili.svg" width="5%"/>
 
+## others
+
+1. [线性代数/微积分/概率论【深度之眼】](https://www.bilibili.com/video/BV1Eg41177FC?spm_id_from=333.999.0.0)
+2. [微积分的本质【3Blue1Brown】](https://space.bilibili.com/88461692/channel/seriesdetail?sid=1528931)
+3. [网络结构/梯度下降/反向传播【3Blue1Brown】](https://space.bilibili.com/88461692/channel/seriesdetail?sid=1528929)
+
+
+
+
+
 # Computer Science
 
 ## general
@@ -196,6 +206,20 @@ OK, let's start studying 🙌
 2. [MIT·微观经济学](https://www.bilibili.com/BV1MV411U75D) <img src="bilibili.svg" width="5%"/>
 3. [MIT·金融理论](https://www.bilibili.com/BV1Ft4112796) <img src="bilibili.svg" width="5%"/>
 4. [MIT·行为经济学](https://www.bilibili.com/BV11U4y1g78u) <img src="bilibili.svg" width="5%"/>
+
+# Tools
+
+1. [Python-100-Days](https://github.com/jackfrued/Python-100-Days)
+2. [eat tensorflow2 in 30 days](https://github.com/lyhue1991/eat_tensorflow2_in_30_days)
+3. [eat pytorch in 20 days](https://github.com/lyhue1991/eat_pytorch_in_20_days)
+
+
+
+# Competitions platform
+
+1. [Kaggle](https://www.kaggle.com/competitions)
+2. [TIANCHI](https://tianchi.aliyun.com/competition/gameList/activeList)
+3. [Data Fountain](https://lab.datafountain.cn/)
 
 # Physics
 
