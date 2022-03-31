@@ -71,6 +71,8 @@ OK, let's start studying 🙌
 2. [MIT·The Missing Semester of Your CS Education](https://www.bilibili.com/BV1x7411H7wa) <img src="bilibili.svg" width="5%"/>
 3. [哈佛·CS50X 计算机入门](https://www.bilibili.com/BV1ER4y157uA) <img src="bilibili.svg" width="5%"/>
 4. [斯坦福·编程方法学](https://www.bilibili.com/BV1zs411h7t8) <img src="bilibili.svg" width="5%"/>
+5. [斯坦福·CS101](https://web.stanford.edu/class/cs101/)
+6. [MIT·Introduction to Computer Science and Programming in Python](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)
 
 ## Algorithms and Data Structures
 
@@ -79,6 +81,9 @@ OK, let's start studying 🙌
 3. [MIT·高级数据结构](https://www.bilibili.com/BV1iE411n7yJ) <img src="bilibili.svg" width="5%"/>
 4. [MIT·高级算法](https://www.bilibili.com/BV11E411u73m) <img src="bilibili.svg" width="5%"/>
 5. [MIT·数据结构与算法设计](https://www.bilibili.com/BV1sf4y1H7vb) <img src="bilibili.svg" width="5%"/>
+6. [伯克利·CS 61B](https://inst.eecs.berkeley.edu/~cs61b/sp20/index.html)
+7. [斯坦福·CS106B Programming Abstractions](https://web.stanford.edu/class/cs106b/)
+8. [CSE 373 《The Algorithm Design Manual》](https://www3.cs.stonybrook.edu/~skiena/373/videos/)
 
 ## System and Architecture
 
@@ -87,6 +92,10 @@ OK, let's start studying 🙌
 3. [MIT·操作系统](https://www.bilibili.com/BV1QA411F7ij) <img src="bilibili.svg" width="5%"/>
 4. [MIT·分布式系统](https://www.bilibili.com/BV1CU4y1P7PE) <img src="bilibili.svg" width="5%"/>
 5. [MIT·计算机系统安全](https://www.bilibili.com/BV1jt411F7Wh) <img src="bilibili.svg" width="5%"/>
+
+6. [伯克利·CS 61C](https://inst.eecs.berkeley.edu/~cs61c/fa20/)
+7. [CMU·15-213](http://www.cs.cmu.edu/~213/)
+8. [斯坦福·CS 107](http://web.stanford.edu/class/cs107/)
 
 ## Artificial Intelligence (general)
 
@@ -100,6 +109,8 @@ OK, let's start studying 🙌
 9. [MIT·深度学习](https://www.bilibili.com/BV1qt411c7Na) <img src="bilibili.svg" width="5%"/>
 10. [MIT·机器学习](https://www.bilibili.com/BV1a7411M7wH) <img src="bilibili.svg" width="5%"/>
 11. [斯坦福·人工智能原理与技术](https://www.bilibili.com/BV1Ht4y1U75j) <img src="bilibili.svg" width="5%"/>
+9. [伯克利·CS 188](https://inst.eecs.berkeley.edu//~cs188/fa19/)
+10. [伯克利·CS 189](https://www.eecs189.org/)
 
 ### Computer Vision (CV)
 
@@ -142,6 +153,7 @@ OK, let's start studying 🙌
 3. [加州理工·数据驱动算法设计](https://www.bilibili.com/BV1ip4y1X7uY) <img src="bilibili.svg" width="5%"/>
 4. [斯坦福·大数据概论](https://www.bilibili.com/BV1SC4y187x1) <img src="bilibili.svg" width="5%"/>
 5. [哈佛·大数据算法](https://www.bilibili.com/BV1v54y1x7dQ) <img src="bilibili.svg" width="5%"/>
+6. [斯坦福·CS 246](http://web.stanford.edu/class/cs246/)
 
 ## Database
 
