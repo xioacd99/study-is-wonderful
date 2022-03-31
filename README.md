@@ -83,7 +83,7 @@ OK, let's start studying 🙌
 5. [MIT·数据结构与算法设计](https://www.bilibili.com/BV1sf4y1H7vb) <img src="bilibili.svg" width="5%"/>
 6. [伯克利·CS 61B](https://inst.eecs.berkeley.edu/~cs61b/sp20/index.html)
 7. [斯坦福·CS106B Programming Abstractions](https://web.stanford.edu/class/cs106b/)
-8. [CSE 373 《The Algorithm Design Manual》](https://www3.cs.stonybrook.edu/~skiena/373/videos/)
+8. [CSE 373 "The Algorithm Design Manual"](https://www3.cs.stonybrook.edu/~skiena/373/videos/)
 
 ## System and Architecture
 
@@ -92,7 +92,6 @@ OK, let's start studying 🙌
 3. [MIT·操作系统](https://www.bilibili.com/BV1QA411F7ij) <img src="bilibili.svg" width="5%"/>
 4. [MIT·分布式系统](https://www.bilibili.com/BV1CU4y1P7PE) <img src="bilibili.svg" width="5%"/>
 5. [MIT·计算机系统安全](https://www.bilibili.com/BV1jt411F7Wh) <img src="bilibili.svg" width="5%"/>
-
 6. [伯克利·CS 61C](https://inst.eecs.berkeley.edu/~cs61c/fa20/)
 7. [CMU·15-213](http://www.cs.cmu.edu/~213/)
 8. [斯坦福·CS 107](http://web.stanford.edu/class/cs107/)
