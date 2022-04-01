@@ -104,6 +104,7 @@ OK, let's start studying 🙌
 6. [伯克利·CS 61C](https://inst.eecs.berkeley.edu/~cs61c/fa20/)
 7. CMU·15-213：[B 站翻译](https://www.bilibili.com/video/BV1iW411d7hd) <img src="bilibili.svg" width="5%"/>, [课程网页](http://www.cs.cmu.edu/~213/)
 8. [斯坦福·CS 107](http://web.stanford.edu/class/cs107/)
+9. [南京大学·操作系统](https://space.bilibili.com/202224425/channel/collectiondetail?sid=192498) <img src="bilibili.svg" width="5%"/>
 
 ## Artificial Intelligence (general)
 
