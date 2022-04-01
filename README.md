@@ -93,7 +93,7 @@ OK, let's start studying 🙌
 4. [MIT·分布式系统](https://www.bilibili.com/BV1CU4y1P7PE) <img src="bilibili.svg" width="5%"/>
 5. [MIT·计算机系统安全](https://www.bilibili.com/BV1jt411F7Wh) <img src="bilibili.svg" width="5%"/>
 6. [伯克利·CS 61C](https://inst.eecs.berkeley.edu/~cs61c/fa20/)
-7. [CMU·15-213](http://www.cs.cmu.edu/~213/)
+7. CMU·15-213：[B 站翻译](https://www.bilibili.com/video/BV1iW411d7hd), <img src="bilibili.svg" width="5%"/> [课程网页](http://www.cs.cmu.edu/~213/)
 8. [斯坦福·CS 107](http://web.stanford.edu/class/cs107/)
 
 ## Artificial Intelligence (general)
