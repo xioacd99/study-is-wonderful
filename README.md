@@ -5,8 +5,9 @@
 > [Smart TOC](https://chrome.google.com/webstore/detail/smart-toc/lifgeihcfpkmmlfjbailfpfhbahhibba?utm_source=chrome-ntp-icon) 示例如下：
 
 <div align="center">
-<img src="toc.jpg" width="50%"/>
+<img src="toc.jpg" width="70%"/>
 </div>
+
 
 Awesome public courses, welcome to share other wonderful learning resources by issue or PR.
 
