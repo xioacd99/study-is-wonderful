@@ -1,6 +1,14 @@
 # study-is-wonderful
 
-Awesome public courses, welcome to share other wonderful learning resources by PR.
+> 由于课程列表很长，推荐安装谷歌扩展 Smart TOC 来提升阅读体验（会自动在网页右侧边缘生成一个可跳转的目录。
+> 
+> [Smart TOC](https://chrome.google.com/webstore/detail/smart-toc/lifgeihcfpkmmlfjbailfpfhbahhibba?utm_source=chrome-ntp-icon) 示例如下：
+
+<div align="center">
+<img src="toc.jpg" width="50%"/>
+</div>
+
+Awesome public courses, welcome to share other wonderful learning resources by issue or PR.
 
 > 本项目主要面向汉语人群，收集了一些比较好的课程资源，一起撸起袖子加油干 <img src="china.png" width="5%"/>。
 
@@ -93,7 +101,7 @@ OK, let's start studying 🙌
 4. [MIT·分布式系统](https://www.bilibili.com/BV1CU4y1P7PE) <img src="bilibili.svg" width="5%"/>
 5. [MIT·计算机系统安全](https://www.bilibili.com/BV1jt411F7Wh) <img src="bilibili.svg" width="5%"/>
 6. [伯克利·CS 61C](https://inst.eecs.berkeley.edu/~cs61c/fa20/)
-7. CMU·15-213：[B 站翻译](https://www.bilibili.com/video/BV1iW411d7hd), <img src="bilibili.svg" width="5%"/> [课程网页](http://www.cs.cmu.edu/~213/)
+7. CMU·15-213：[B 站翻译](https://www.bilibili.com/video/BV1iW411d7hd) <img src="bilibili.svg" width="5%"/>, [课程网页](http://www.cs.cmu.edu/~213/)
 8. [斯坦福·CS 107](http://web.stanford.edu/class/cs107/)
 
 ## Artificial Intelligence (general)
