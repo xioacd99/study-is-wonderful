@@ -15,6 +15,14 @@
 >
 > This project is maintained again. [Issues](https://github.com/xioacd99/study-is-wonderful/issues) and [pull requests](https://github.com/xioacd99/study-is-wonderful/pulls) are welcome for recommendations, corrections, and improvements.
 
+> 课程列表较长，推荐使用 Chrome 扩展 [Smart TOC](https://chrome.google.com/webstore/detail/smart-toc/lifgeihcfpkmmlfjbailfpfhbahhibba?utm_source=chrome-ntp-icon)，在页面右侧生成可跳转目录。
+>
+> For easier navigation through this long list, try the Chrome extension [Smart TOC](https://chrome.google.com/webstore/detail/smart-toc/lifgeihcfpkmmlfjbailfpfhbahhibba?utm_source=chrome-ntp-icon), which adds a navigable table of contents to the side of the page.
+
+<div align="center">
+<img src="toc.jpg" alt="Smart TOC 目录示例 / Smart TOC navigation example" width="70%">
+</div>
+
 ## 目录 Contents
 
 - [数学 Math](#数学-math)
