@@ -178,7 +178,7 @@
   >
   > Learn programming methods and practice breaking big problems into manageable steps.
 
-- [CS101](https://web.stanford.edu/class/cs101/) <img src="website.svg" alt="Course website" width="18">
+- [CS101](https://web.stanford.edu/class/cs101/) <img src="icons/stanford.svg" alt="Stanford course website" width="72">
   > 认识计算机的硬件、软件和数据，并接触变量与循环等编程概念。
   >
   > Meet computer hardware, software, and data, along with programming ideas such as variables and loops.
@@ -213,17 +213,17 @@
   >
   > Learn how to organize data and design algorithms that help programs solve problems systematically.
 
-- [CS 61B](https://inst.eecs.berkeley.edu/~cs61b/sp20/index.html) <img src="website.svg" alt="Course website" width="18">
+- [CS 61B](https://inst.eecs.berkeley.edu/~cs61b/sp20/index.html) <img src="icons/berkeley.svg" alt="UC Berkeley course website" width="92">
   > 学习数据结构，也就是让程序存放、查找和处理数据的方法。
   >
   > Learn data structures, the ways programs store, find, and work with data.
 
-- [CS106B 编程抽象 / CS106B Programming Abstractions](https://web.stanford.edu/class/cs106b/) <img src="website.svg" alt="Course website" width="18">
+- [CS106B 编程抽象 / CS106B Programming Abstractions](https://web.stanford.edu/class/cs106b/) <img src="icons/stanford.svg" alt="Stanford course website" width="72">
   > 用编程抽象把复杂问题拆开，学习递归和数据结构等解决问题的工具。
   >
   > Use programming abstractions to manage complexity and learn tools such as recursion and data structures.
 
-- [CSE 373《算法设计手册》 / CSE 373 "The Algorithm Design Manual"](https://www3.cs.stonybrook.edu/~skiena/373/videos/) <img src="website.svg" alt="Course website" width="18">
+- [CSE 373《算法设计手册》 / CSE 373 "The Algorithm Design Manual"](https://www3.cs.stonybrook.edu/~skiena/373/videos/) <img src="icons/stonybrook.svg" alt="Stony Brook course website" width="87">
   > 学习分析算法，比较搜索、排序和图算法等方法需要多少时间与空间。
   >
   > Analyze algorithms by comparing the time and space needed for searching, sorting, graph algorithms, and more.
@@ -253,17 +253,17 @@
   >
   > Explore computer systems security and the basic challenges of protecting systems and information.
 
-- [CS 61C](https://inst.eecs.berkeley.edu/~cs61c/fa20/) <img src="website.svg" alt="Course website" width="18">
+- [CS 61C](https://inst.eecs.berkeley.edu/~cs61c/fa20/) <img src="icons/berkeley.svg" alt="UC Berkeley course website" width="92">
   > 通过伯克利 CS 61C 课程学习计算机科学。
   >
   > Study computer science through Berkeley’s CS 61C course.
 
-- [15-213](https://www.bilibili.com/video/BV1iW411d7hd) <img src="bilibili.svg" alt="Bilibili" width="20"> · [课程网页 / Link 2](http://www.cs.cmu.edu/~213/) <img src="website.svg" alt="Course website" width="18">
+- [15-213](https://www.bilibili.com/video/BV1iW411d7hd) <img src="bilibili.svg" alt="Bilibili" width="20"> · [课程网页 / Link 2](http://www.cs.cmu.edu/~213/) <img src="icons/cmu.svg" alt="Carnegie Mellon course website" width="45">
   > 从程序员的角度认识计算机系统，了解机器代码、内存和网络等概念。
   >
   > See computer systems from a programmer’s perspective, including machine code, memory, and networking.
 
-- [CS 107](http://web.stanford.edu/class/cs107/) <img src="website.svg" alt="Course website" width="18">
+- [CS 107](http://web.stanford.edu/class/cs107/) <img src="icons/stanford.svg" alt="Stanford course website" width="72">
   > 走近计算机内部，学习 C 语言、内存和机器代码如何影响程序运行。
   >
   > Look inside computer systems and learn how C, memory, and machine code shape program execution.
@@ -298,7 +298,7 @@
   >
   > Explore algorithms for working with large amounts of data.
 
-- [斯坦福·CS 246 / Stanford·CS 246](http://web.stanford.edu/class/cs246/) <img src="website.svg" alt="Course website" width="18">
+- [斯坦福·CS 246 / Stanford·CS 246](http://web.stanford.edu/class/cs246/) <img src="icons/stanford.svg" alt="Stanford course website" width="72">
   > 学习从海量数据中寻找有用模式的方法。
   >
   > Explore methods for finding useful patterns in massive datasets.
@@ -475,12 +475,12 @@
   >
   > Explore principles for building AI systems that search, reason and learn.
 
-- [伯克利·CS 188 / Berkeley·CS 188](https://inst.eecs.berkeley.edu//~cs188/fa19/) <img src="website.svg" alt="Course website" width="18">
+- [伯克利·CS 188 / Berkeley·CS 188](https://inst.eecs.berkeley.edu//~cs188/fa19/) <img src="icons/berkeley.svg" alt="UC Berkeley course website" width="92">
   > 通过搜索、推理和学习等方法，认识人工智能的基础。
   >
   > Explore AI foundations through ideas such as search, reasoning and learning.
 
-- [伯克利·CS 189 / Berkeley·CS 189](https://www.eecs189.org/) <img src="website.svg" alt="Course website" width="18">
+- [伯克利·CS 189 / Berkeley·CS 189](https://www.eecs189.org/) <img src="icons/berkeley.svg" alt="UC Berkeley course website" width="92">
   > 了解如何用数据训练模型，以及怎样判断模型的表现。
   >
   > Explore how models learn from data and how their performance can be assessed.
