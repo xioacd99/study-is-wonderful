@@ -2,7 +2,8 @@
 
 # Study Is Wonderful
 
-**跨学科公开课与技术博客精选 | A multidisciplinary collection of open courses and technical blogs**
+**跨学科公开课与技术博客精选**<br>
+**A multidisciplinary collection of open courses and technical blogs**
 
 </div>
 
@@ -31,692 +32,692 @@
 ## 数学 Math
 
 - [数学思维课 / Mathematical Thinking](https://www.bilibili.com/BV1dq4y127TF) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关斯坦福 Math 56 课程介绍数学思维、证明和逻辑推理。 [参考](https://bulletin.stanford.edu/courses/2226181)
+  > 练习像数学家一样提问、推理，并用证明解释答案为什么成立。
   >
-  > Related Stanford Math 56 introduces mathematical thinking, proofs and logical reasoning. [Reference](https://bulletin.stanford.edu/courses/2226181)
+  > Practice asking questions, reasoning and explaining why an answer is true with a proof.
 
-- [凸优化 / Convex Optimization](https://www.bilibili.com/BV1Pg4y187Ed) <img src="bilibili.svg" alt="Bilibili" width="20"> · [官方视频参考 / Official video reference](https://see.stanford.edu/Course/EE364A/85) <img src="website.svg" alt="Stanford Engineering Everywhere" width="18">
-  > 相关官方参考课程 Stanford EE364A 涵盖凸集与凸函数、对偶性与内点法。 [参考](https://see.stanford.edu/Course/EE364A)
+- [凸优化 / Convex Optimization](https://www.bilibili.com/BV1Pg4y187Ed) <img src="bilibili.svg" alt="Bilibili" width="20">
+  > 认识利用凸性寻找最优解的方法，就像寻找碗底的最低点。
   >
-  > The related official course Stanford EE364A covers Convex sets and functions, Duality and interior-point methods. [Reference](https://see.stanford.edu/Course/EE364A)
+  > Explore how convexity can help find an optimal solution, like finding the bottom of a bowl.
 
 - [傅里叶变换及其应用 / The Fourier Transform and Its Applications](https://www.bilibili.com/BV1Qx411J7ER) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关官方参考课程 Stanford EE261 涵盖傅里叶级数与变换、卷积、采样与快速傅里叶变换。 [参考](https://see.stanford.edu/Course/EE261)
+  > 认识傅里叶变换如何把复杂信号拆成不同频率的成分。
   >
-  > The related official course Stanford EE261 covers Fourier series and transforms, Convolution, sampling and FFT. [Reference](https://see.stanford.edu/Course/EE261)
+  > See how the Fourier transform breaks a complex signal into frequencies.
 
 - [矩阵论与应用 / Matrix Theory and Applications](https://www.bilibili.com/BV17h411W7bk) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关官方参考课程 Stanford ENGR108 涵盖向量与矩阵、线性方程和最小二乘。 [参考](https://web.stanford.edu/class/engr108/index.html)
+  > 用向量和矩阵整齐地表示数据与方程，并探索它们的应用。
   >
-  > The related official course Stanford ENGR108 covers Vectors and matrices, Linear equations and least squares. [Reference](https://web.stanford.edu/class/engr108/index.html)
+  > Use vectors and matrices to organize data and equations and explore their applications.
 
 - [凸优化 / Convex Optimization](https://www.bilibili.com/BV12x411z7ot) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 CMU 15-759 课程讨论凸优化理论，涉及梯度下降与内点法。 [参考](https://csd.cmu.edu/course/15759/s25)
+  > 学习用凸优化在满足限制的选择中寻找最好结果。
   >
-  > Related CMU 15-759 treats convex optimization theory, including gradient descent and interior-point methods. [Reference](https://csd.cmu.edu/course/15759/s25)
+  > Learn how convex optimization finds the best result among constrained choices.
 
 - [最优化进阶与随机方法 / Advanced Optimization and Stochastic Methods](https://www.bilibili.com/BV1J64y1F7nW) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 CMU 12-768 课程讲授不确定性下的大规模优化、随机优化及排队理论。 [参考](https://cee.engineering.cmu.edu/education/course-descriptions/12-768.html)
+  > 探索寻找最优解的方法，以及如何处理带有随机性的情况。
   >
-  > Related CMU 12-768 covers large-scale and stochastic optimization and queueing theory under uncertainty. [Reference](https://cee.engineering.cmu.edu/education/course-descriptions/12-768.html)
+  > Explore optimization methods and how to handle randomness.
 
 - [离散微分几何 / Discrete Differential Geometry](https://www.bilibili.com/BV1RQ4y1Z7HL) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 CMU 15-458 课程结合微分几何与计算，研究曲线、曲面、曲率和几何处理。 [参考](https://csd.cs.cmu.edu/course/15458/s24)
+  > 用离散的点和网格来研究曲线、曲面与几何形状。
   >
-  > Related CMU 15-458 combines differential geometry and computation to study curves, surfaces, curvature and geometry processing. [Reference](https://csd.cs.cmu.edu/course/15458/s24)
+  > Study curves, surfaces and geometric shapes using discrete points and meshes.
 
 - [最优化方法 / Optimization Methods](https://www.bilibili.com/BV19y4y1W7X1) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关伯克利 EECS 127 课程介绍优化模型及其在机器学习和决策中的应用。 [参考](https://www2.eecs.berkeley.edu/Courses/EECS127/)
+  > 探索怎样在各种可能选择中找到符合条件的最优解。
   >
-  > Related Berkeley EECS 127 introduces optimization models and their applications in machine learning and decision-making. [Reference](https://www2.eecs.berkeley.edu/Courses/EECS127/)
+  > Explore how to find the best feasible solution among possible choices.
 
 - [数值分析 / Numerical Analysis](https://www.bilibili.com/BV1gv411j7rd) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关伯克利 Math 128A 涵盖插值、数值微积分及线性方程组的直接解法。 [参考](https://persson.berkeley.edu/math128a/)
+  > 研究如何用计算机算出近似答案，并分析误差。
   >
-  > Related Berkeley Math 128A covers interpolation, numerical differentiation and integration, and direct methods for linear systems. [Reference](https://persson.berkeley.edu/math128a/)
+  > Study how computers find approximate answers and how to analyze error.
 
 - [随机过程 / Stochastic Processes](https://www.bilibili.com/BV1qB4y1A7t3) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关伯克利 Stat 206a 的选题包括布朗运动、马尔可夫过程和鞅，具体内容逐年变化。 [参考](https://stat206a.berkeley.edu/)
+  > 研究随时间变化、结果带有不确定性的过程。
   >
-  > Related Berkeley Stat 206a may cover Brownian motion, Markov processes and martingales; topics vary by year. [Reference](https://stat206a.berkeley.edu/)
+  > Study processes that change over time with uncertain outcomes.
 
 - [数值方法 / Numerical Methods](https://www.bilibili.com/BV1sT4y1S7Aa) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关牛津 A7 课程介绍线性方程组、函数逼近和微分方程的数值方法。 [参考](https://courses.maths.ox.ac.uk/course/view.php?id=4372)
+  > 学习用数值计算近似解决难以直接求解的数学问题。
   >
-  > Related Oxford A7 introduces numerical methods for linear systems, function approximation and differential equations. [Reference](https://courses.maths.ox.ac.uk/course/view.php?id=4372)
+  > Learn numerical ways to approximate solutions to hard mathematical problems.
 
 - [概率论 / Probability](https://www.bilibili.com/BV1kE41157pa) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关哈佛 Stat 110 课程将概率作为理解随机性与统计的工具，涵盖随机变量及其分布。 [参考](https://stat110.hsites.harvard.edu/about)
+  > 用概率描述不确定性，例如事情发生的可能性。
   >
-  > Related Harvard Stat 110 introduces probability as a tool for randomness and statistics, including random variables and distributions. [Reference](https://stat110.hsites.harvard.edu/about)
+  > Use probability to describe uncertainty, such as how likely an event is.
 
 - [抽象代数 / Abstract Algebra](https://www.bilibili.com/BV1Ds41167HE) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关哈佛 Math 55A 课程介绍抽象代数，包括群论和线性代数。 [参考](https://www.math.harvard.edu/course/mathematics-55a/)
+  > 研究群、环等抽象结构，以及其中运算遵循的规则。
   >
-  > Related Harvard Math 55A introduces abstract algebra, including group theory and linear algebra. [Reference](https://www.math.harvard.edu/course/mathematics-55a/)
+  > Study abstract structures such as groups and rings and the rules of their operations.
 
 - [概率论 / Probability](https://www.bilibili.com/BV19s41167TE) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 MIT 18.600 课程介绍概率、随机变量以及二项、几何和泊松分布。 [参考](https://ocw.mit.edu/courses/18-600-probability-and-random-variables-fall-2019/)
+  > 学习用概率和随机变量描述不确定的结果。
   >
-  > Related MIT 18.600 introduces probability, random variables, and binomial, geometric and Poisson distributions. [Reference](https://ocw.mit.edu/courses/18-600-probability-and-random-variables-fall-2019/)
+  > Learn to describe uncertain outcomes using probability and random variables.
 
 - [应用统计 / Applied Statistics](https://www.bilibili.com/BV14t411N7uw) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 MIT 18.05 课程介绍概率分布、贝叶斯推断、假设检验和回归。 [参考](https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/)
+  > 学习从数据中估计、比较并作出有依据的判断。
   >
-  > Related MIT 18.05 introduces probability distributions, Bayesian inference, hypothesis testing and regression. [Reference](https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/)
+  > Learn to estimate, compare and make informed judgments from data.
 
 - [离散随机过程 / Discrete Stochastic Processes](https://www.bilibili.com/BV1Qs41167VS) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关官方参考课程 MIT 6.262 涵盖泊松过程与马尔可夫链、更新过程与鞅。 [参考](https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/video_galleries/video-lectures/)
+  > 研究随机事件如何在一系列时刻或状态中演变。
   >
-  > The related official course MIT 6.262 covers Poisson processes and Markov chains, Renewal processes and martingales. [Reference](https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/video_galleries/video-lectures/)
+  > Study how random events evolve across times or states.
 
 - [傅里叶分析 / Fourier Analysis](https://www.bilibili.com/BV1Qz4y167rb) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 MIT 18.103 课程涵盖勒贝格积分、傅里叶级数与傅里叶积分。 [参考](https://ocw.mit.edu/courses/18-103-fourier-analysis-fall-2013/)
+  > 用频率的视角研究函数与信号，就像把声音分解成音调。
   >
-  > Related MIT 18.103 covers Lebesgue integration, Fourier series and Fourier integrals. [Reference](https://ocw.mit.edu/courses/18-103-fourier-analysis-fall-2013/)
+  > Study functions and signals through frequencies, like breaking sound into tones.
 
-- [线性代数 / Linear Algebra](https://www.bilibili.com/BV1zx411g7gq) <img src="bilibili.svg" alt="Bilibili" width="20"> · [官方视频参考 / Official video reference](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/video_galleries/video-lectures/) <img src="website.svg" alt="MIT OpenCourseWare" width="18">
-  > 相关官方参考课程 MIT 18.06 涵盖矩阵与线性代数应用。 [参考](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/pages/syllabus/)
+- [线性代数 / Linear Algebra](https://www.bilibili.com/BV1zx411g7gq) <img src="bilibili.svg" alt="Bilibili" width="20">
+  > 学习用向量和矩阵解决线性方程，理解空间中的方向。
   >
-  > The related official course MIT 18.06 covers Matrices and linear algebra applications. [Reference](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/pages/syllabus/)
+  > Use vectors and matrices to solve linear equations and understand directions in space.
 
 - [线性代数 / Linear Algebra](https://www.bilibili.com/BV1fi4y1x7AH) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关官方参考课程 MIT 18.06 涵盖矩阵与线性代数应用。 [参考](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/pages/syllabus/)
+  > 探索向量、矩阵和线性变换怎样描述数据与空间。
   >
-  > The related official course MIT 18.06 covers Matrices and linear algebra applications. [Reference](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/pages/syllabus/)
+  > Explore how vectors, matrices and linear transformations describe data and space.
 
 - [离散数学 / Discrete Mathematics](https://www.bilibili.com/BV1zh41167Uy) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 MIT 6.042J 课程介绍逻辑、证明、图论、计数与离散概率。 [参考](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/)
+  > 研究离散对象，例如逻辑命题、集合和由点线组成的图。
   >
-  > Related MIT 6.042J introduces logic, proofs, graph theory, counting and discrete probability. [Reference](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/)
+  > Study discrete objects such as logical statements, sets and graphs of points and links.
 
 - [复分析 / Complex Analysis](https://www.bilibili.com/BV1EJ41147q3) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关官方参考课程 MIT 18.04 涵盖复解析函数、物理与工程应用。 [参考](https://ocw.mit.edu/courses/18-04-complex-variables-with-applications-spring-2018/)
+  > 探索包含虚数的复数和复函数如何帮助解决数学问题。
   >
-  > The related official course MIT 18.04 covers Complex analytic functions, Applications in physics and engineering. [Reference](https://ocw.mit.edu/courses/18-04-complex-variables-with-applications-spring-2018/)
+  > Explore complex numbers and functions and how they help solve mathematical problems.
 
 - [微分方程 / Differential Equations](https://www.bilibili.com/BV1eM4y1g7De) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关官方参考课程 MIT 18.03SC 涵盖一阶、二阶微分方程、傅里叶级数与拉普拉斯变换。 [参考](https://www.ocw.mit.edu/courses/18-03sc-differential-equations-fall-2011/pages/syllabus/syllabus/)
+  > 用方程描述变化，例如物体的位置怎样随时间改变。
   >
-  > The related official course MIT 18.03SC covers First- and second-order differential equations, Fourier series and Laplace transforms. [Reference](https://www.ocw.mit.edu/courses/18-03sc-differential-equations-fall-2011/pages/syllabus/syllabus/)
+  > Use equations to describe change, such as how an object’s position changes over time.
 
 - [图论与可加组合学 / Graph Theory and Additive Combinatorics](https://www.bilibili.com/BV1Ei4y1x73V) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 MIT 18.217 课程研究图论与可加组合学的联系，包括罗斯定理和伪随机图。 [参考](https://ocw.mit.edu/courses/18-217-graph-theory-and-additive-combinatorics-fall-2019/pages/syllabus/)
+  > 研究点和连线组成的图，以及数字集合相加产生的组合规律。
   >
-  > Related MIT 18.217 explores connections between graph theory and additive combinatorics, including Roth’s theorem and pseudorandom graphs. [Reference](https://ocw.mit.edu/courses/18-217-graph-theory-and-additive-combinatorics-fall-2019/pages/syllabus/)
+  > Study graphs of points and links and patterns formed by adding sets of numbers.
 
 - [黎曼几何 / Riemannian Geometry](https://www.bilibili.com/BV19T4y1M7W5) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 MIT 18.965 几何课程涵盖黎曼流形、曲率和微分形式。 [参考](https://math.mit.edu/classes/18.965/2017FA/)
+  > 研究弯曲空间中的距离与曲率，像理解地球表面的几何。
   >
-  > Related MIT 18.965 geometry covers Riemannian manifolds, curvature and differential forms. [Reference](https://math.mit.edu/classes/18.965/2017FA/)
+  > Study distance and curvature in curved spaces, such as the surface of Earth.
 
 - [博弈论 / Game Theory](https://www.bilibili.com/BV1Kt411h7Ep) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关官方参考课程 Yale ECON 159 涵盖策略思维与纳什均衡、逆向归纳与信息不对称。 [参考](https://oyc.yale.edu/economics/econ-159)
+  > 研究当每个人的选择都会影响别人时，如何分析策略。
   >
-  > The related official course Yale ECON 159 covers Strategic thinking and Nash equilibrium, Backward induction and asymmetric information. [Reference](https://oyc.yale.edu/economics/econ-159)
+  > Study strategies when each person’s choices affect others.
 
 ## 计算机科学 Computer Science
 
 - [理论计算机科学中的重要思想 / Great Ideas in Theoretical Computer Science](https://www.bilibili.com/BV1Wh411y7V9) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 同名官方课程涵盖算法、可计算性、图论和证明（2015 课程）。 [参考](https://www.cs.cmu.edu/~arielpro/15251f15/schedule.html)
+  > 用数学的眼光认识计算机能解决什么问题，以及解决问题需要多少资源。
   >
-  > A similarly named official course explores algorithms, computability, graph theory, and proofs. [Reference](https://www.cs.cmu.edu/~arielpro/15251f15/schedule.html)
+  > Explore what computers can solve and how much work solutions require, using mathematical ideas.
 
 - [计算机教育中缺失的一课 / The Missing Semester of Your CS Education](https://www.bilibili.com/BV1x7411H7wa) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 同名官方课程涵盖Shell、命令行、调试、版本控制等（2026 课程）。 [参考](https://missing.csail.mit.edu/)
+  > 认识程序员常用的工具，比如命令行、调试工具和版本管理。
   >
-  > A similarly named official course teaches practical development tools including the shell, command line, debugging, and version control. [Reference](https://missing.csail.mit.edu/)
+  > Meet tools programmers use, such as the command line, debuggers, and version control.
 
 - [CS50X 计算机入门 / CS50X Introduction to Computer Science](https://www.bilibili.com/BV1ER4y157uA) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 同名官方课程涵盖Scratch、C、算法、数据结构、Python、SQL、Web（2026 课程）。 [参考](https://cs50.harvard.edu/x/)
+  > 从零认识计算机科学与编程，学习如何把问题拆成计算机可以执行的步骤。
   >
-  > A similarly named official course introduces programming and computer science through Scratch, C, algorithms, data structures, Python, SQL, and web development. [Reference](https://cs50.harvard.edu/x/)
+  > Start learning computer science and programming by breaking problems into steps a computer can follow.
 
 - [编程方法学 / Programming Methodology](https://www.bilibili.com/BV1zs411h7t8) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 同名官方课程涵盖Karel、Java、控制流程与程序分解。 [参考](https://see.stanford.edu/Course/CS106A/194)
+  > 学习编程的方法，练习把一个大问题拆成容易处理的小步骤。
   >
-  > A similarly named official course introduces programming using Karel and Java, including control flow and program decomposition. [Reference](https://see.stanford.edu/Course/CS106A/194)
+  > Learn programming methods and practice breaking big problems into manageable steps.
 
 - [CS101](https://web.stanford.edu/class/cs101/) <img src="website.svg" alt="Course website" width="18">
-  > 同名官方课程涵盖硬件、软件、数据、变量和循环。 [参考](https://web.stanford.edu/class/cs101/)
+  > 认识计算机的硬件、软件和数据，并接触变量与循环等编程概念。
   >
-  > A similarly named official course introduces computer hardware, software, data, variables, and loops. [Reference](https://web.stanford.edu/class/cs101/)
+  > Meet computer hardware, software, and data, along with programming ideas such as variables and loops.
 
 - [计算机科学与 Python 编程导论 / Introduction to Computer Science and Programming in Python](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/) <img src="ocw.svg" alt="MIT OpenCourseWare" width="32">
-  > 同名官方课程涵盖Python 3.5、分支、循环、递归、调试、面向对象与效率。 [参考](https://www.ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/syllabus/)
+  > 用 Python 学习编程基础，练习用小程序解决问题。
   >
-  > A similarly named official course introduces Python programming with branching, loops, recursion, debugging, object-oriented programming, and efficiency. [Reference](https://www.ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/syllabus/)
+  > Learn programming basics in Python and practice solving problems with small programs.
 
 - [经典算法 / Classical Algorithms](https://www.bilibili.com/BV1kf4y1w7Kn) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 MIT 6.046J 课程介绍排序、搜索树、动态规划和图算法等经典算法的设计与分析。 [参考](https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2012/)
+  > 认识经典算法，了解计算机解决问题时可以采用的步骤。
   >
-  > Related MIT 6.046J teaches design and analysis of classical algorithms, including sorting, search trees, dynamic programming and graph algorithms. [Reference](https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2012/)
+  > Explore classic algorithms, or step-by-step methods computers can use to solve problems.
 
 - [算法导论 / Introduction to Algorithms](https://www.bilibili.com/BV1fu41127MN) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 同名官方课程涵盖数据结构、排序、图搜索、动态规划（2020 课程）。 [参考](https://www.ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/syllabus/)
+  > 入门算法，学习如何设计解决问题的步骤并思考它们的效率。
   >
-  > A similarly named official course covers data structures, sorting, graph search, and dynamic programming. [Reference](https://www.ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/syllabus/)
+  > Get started with algorithms by thinking about steps for solving problems and how efficiently they work.
 
 - [高级数据结构 / Advanced Data Structures](https://www.bilibili.com/BV1iE411n7yJ) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 MIT 6.851 课程研究高级数据结构，其中包括可保留和修改历史版本的持久化数据结构。 [参考](https://ocw.mit.edu/courses/6-851-advanced-data-structures-spring-2012/resources/session-1-persistent-data-structures/)
+  > 学习高级数据结构，也就是组织和使用数据的进阶方法。
   >
-  > Related MIT 6.851 studies advanced data structures, including persistent structures that retain and modify historical versions. [Reference](https://ocw.mit.edu/courses/6-851-advanced-data-structures-spring-2012/resources/session-1-persistent-data-structures/)
+  > Explore advanced data structures, or more sophisticated ways to organize and use data.
 
 - [高级算法 / Advanced Algorithms](https://www.bilibili.com/BV11E411u73m) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 MIT 6.854J 研究生课程介绍随机化、网络流和近似算法等高级设计方法。 [参考](https://ocw.mit.edu/courses/6-854j-advanced-algorithms-fall-2005/)
+  > 学习高级算法，探索解决计算问题的进阶方法。
   >
-  > Related MIT graduate course 6.854J covers advanced design methods including randomization, network flows and approximation algorithms. [Reference](https://ocw.mit.edu/courses/6-854j-advanced-algorithms-fall-2005/)
+  > Explore advanced algorithms and more sophisticated ways to solve computational problems.
 
 - [数据结构与算法设计 / Data Structures and Algorithm Design](https://www.bilibili.com/BV1sf4y1H7vb) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 MIT 6.046J 课程涵盖搜索树、散列、分治、动态规划和图算法。 [参考](https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2012/)
+  > 学习如何组织数据并设计算法，让程序有条理地解决问题。
   >
-  > Related MIT 6.046J covers search trees, hashing, divide and conquer, dynamic programming and graph algorithms. [Reference](https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2012/)
+  > Learn how to organize data and design algorithms that help programs solve problems systematically.
 
 - [CS 61B](https://inst.eecs.berkeley.edu/~cs61b/sp20/index.html) <img src="website.svg" alt="Course website" width="18">
-  > 同名官方课程涵盖数据结构。 [参考](https://inst.eecs.berkeley.edu/~cs61b/sp20/index.html)
+  > 学习数据结构，也就是让程序存放、查找和处理数据的方法。
   >
-  > A similarly named official course covers data structures and their use in software. [Reference](https://inst.eecs.berkeley.edu/~cs61b/sp20/index.html)
+  > Learn data structures, the ways programs store, find, and work with data.
 
 - [CS106B 编程抽象 / CS106B Programming Abstractions](https://web.stanford.edu/class/cs106b/) <img src="website.svg" alt="Course website" width="18">
-  > 同名官方课程涵盖C++、抽象数据类型、递归、指针与动态内存。 [参考](https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1244/)
+  > 用编程抽象把复杂问题拆开，学习递归和数据结构等解决问题的工具。
   >
-  > A similarly named official course covers abstract data types, recursion, pointers, and dynamic memory using C++. [Reference](https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1244/)
+  > Use programming abstractions to manage complexity and learn tools such as recursion and data structures.
 
 - [CSE 373《算法设计手册》 / CSE 373 "The Algorithm Design Manual"](https://www3.cs.stonybrook.edu/~skiena/373/videos/) <img src="website.svg" alt="Course website" width="18">
-  > 同名官方课程涵盖算法分析、搜索、排序、图算法、复杂度与 NP 完全性。 [参考](https://www3.cs.stonybrook.edu/~skiena/373/videos/)
+  > 学习分析算法，比较搜索、排序和图算法等方法需要多少时间与空间。
   >
-  > A similarly named official course covers algorithm analysis, searching, sorting, graph algorithms, complexity, and NP-completeness. [Reference](https://www3.cs.stonybrook.edu/~skiena/373/videos/)
+  > Analyze algorithms by comparing the time and space needed for searching, sorting, graph algorithms, and more.
 
 - [计算机系统介绍 / Introduction to Computer Systems](https://www.bilibili.com/BV1uK4y1e7ep) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 CMU 15-213 课程涵盖机器级代码、内存管理、网络与并发计算。 [参考](https://csd.cs.cmu.edu/15213-introduction-to-computer-systems)
+  > 认识计算机系统，探索软件和硬件如何协作运行程序。
   >
-  > Related CMU 15-213 covers machine-level code, memory management, networking and concurrency. [Reference](https://csd.cs.cmu.edu/15213-introduction-to-computer-systems)
+  > Explore computer systems and how software and hardware work together to run programs.
 
 - [操作系统与系统编程 / Operating System and Systems Programming](https://www.bilibili.com/BV1ix411676b) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关伯克利 CS 162 课程涵盖进程、同步、内存管理和文件系统。 [参考](https://www2.eecs.berkeley.edu/Courses/CS162/)
+  > 认识操作系统如何为程序提供运行环境，并了解系统编程。
   >
-  > Related Berkeley CS 162 covers processes, synchronization, memory management and file systems. [Reference](https://www2.eecs.berkeley.edu/Courses/CS162/)
+  > Explore how operating systems provide an environment for programs and learn about systems programming.
 
 - [操作系统 / Operating Systems](https://www.bilibili.com/BV1QA411F7ij) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 MIT 6.1810 课程以 xv6 讲授操作系统设计，包括虚拟内存、线程和文件系统。 [参考](https://pdos.csail.mit.edu/6.1810/2025/overview.html)
+  > 学习操作系统的基本概念，认识管理计算机资源的软件。
   >
-  > Related MIT 6.1810 teaches operating-system design using xv6, including virtual memory, threads and file systems. [Reference](https://pdos.csail.mit.edu/6.1810/2025/overview.html)
+  > Learn the basic ideas behind operating systems, the software that manages computer resources.
 
 - [分布式系统 / Distributed Systems](https://www.bilibili.com/BV1CU4y1P7PE) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 MIT 6.5840 分布式系统课程研究容错、复制和一致性。 [参考](https://pdos.csail.mit.edu/6.824/index.html)
+  > 认识分布式系统，探索多台计算机如何协作完成任务。
   >
-  > Related MIT 6.5840 studies fault tolerance, replication and consistency in distributed systems. [Reference](https://pdos.csail.mit.edu/6.824/index.html)
+  > Explore distributed systems and how multiple computers work together on tasks.
 
 - [计算机系统安全 / Computer Systems Security](https://www.bilibili.com/BV1jt411F7Wh) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 MIT 6.858 课程探讨安全计算机系统的设计和实现。 [参考](https://css.csail.mit.edu/6.858/2019/general.html)
+  > 学习计算机系统安全，认识保护系统和信息的基本问题。
   >
-  > Related MIT 6.858 explores the design and implementation of secure computer systems. [Reference](https://css.csail.mit.edu/6.858/2019/general.html)
+  > Explore computer systems security and the basic challenges of protecting systems and information.
 
 - [CS 61C](https://inst.eecs.berkeley.edu/~cs61c/fa20/) <img src="website.svg" alt="Course website" width="18">
-  > 相关伯克利 CS 61C 课程介绍计算机架构与机器结构。 [参考](https://notes.cs61c.org/)
+  > 通过伯克利 CS 61C 课程学习计算机科学。
   >
-  > Related Berkeley CS 61C introduces computer architecture and machine structures. [Reference](https://notes.cs61c.org/)
+  > Study computer science through Berkeley’s CS 61C course.
 
 - [15-213](https://www.bilibili.com/video/BV1iW411d7hd) <img src="bilibili.svg" alt="Bilibili" width="20"> · [课程网页 / Link 2](http://www.cs.cmu.edu/~213/) <img src="website.svg" alt="Course website" width="18">
-  > 同名官方课程涵盖机器代码、性能、内存、网络和并发。 [参考](https://csd.cs.cmu.edu/15213-introduction-to-computer-systems)
+  > 从程序员的角度认识计算机系统，了解机器代码、内存和网络等概念。
   >
-  > A similarly named official course explores machine-level code, performance, memory, networks, and concurrency. [Reference](https://csd.cs.cmu.edu/15213-introduction-to-computer-systems)
+  > See computer systems from a programmer’s perspective, including machine code, memory, and networking.
 
 - [CS 107](http://web.stanford.edu/class/cs107/) <img src="website.svg" alt="Course website" width="18">
-  > 同名官方课程涵盖C、数据表示、机器码、编译与内存。 [参考](https://web.stanford.edu/class/archive/cs/cs107/cs107.1214/index)
+  > 走近计算机内部，学习 C 语言、内存和机器代码如何影响程序运行。
   >
-  > A similarly named official course explores C, data representation, machine code, compilation, and memory. [Reference](https://web.stanford.edu/class/archive/cs/cs107/cs107.1214/index)
+  > Look inside computer systems and learn how C, memory, and machine code shape program execution.
 
 - [操作系统 / Operating Systems](https://space.bilibili.com/202224425/channel/collectiondetail?sid=192498) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 南京大学相关操作系统课程涵盖进程与线程、调度、内存管理、同步与文件系统。 [参考](https://gist.nju.edu.cn/course-os/)
+  > 学习操作系统的基本概念，认识管理计算机资源的软件。
   >
-  > A related Nanjing University operating systems course covers processes, threads, scheduling, memory management, synchronization and file systems. [Reference](https://gist.nju.edu.cn/course-os/)
+  > Learn the basic ideas behind operating systems, the software that manages computer resources.
 
 - [CMU·应用数据科学 / CMU·Applied Data Science](https://www.bilibili.com/BV1Pa411F7VP) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 课程介绍待补充。
+  > 了解怎样用数据和计算方法解决实际问题。
   >
-  > Course introduction coming soon.
+  > Explore how data and computational methods can help solve practical problems.
 
 - [加州伯克利·数据科学原理与技术 / UC Berkeley·Principles and Techniques of Data Science](https://www.bilibili.com/BV19741117jR) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > Berkeley Data 100 的官方大纲介绍数据清理、可视化、统计推断和预测建模。 [参考](https://ds100.org/sp21/syllabus/)
+  > 学习清理、分析和展示数据，并用数据建立预测。
   >
-  > The official Berkeley Data 100 syllabus covers data cleaning, visualization, statistical inference and predictive modeling. [Reference](https://ds100.org/sp21/syllabus/)
+  > Explore how to clean, analyze and visualize data, and use it to make predictions.
 
 - [加州理工·数据驱动算法设计 / Caltech·Data-Driven Algorithm Design](https://www.bilibili.com/BV1ip4y1X7uY) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 课程介绍待补充。
+  > 探索如何利用数据帮助设计算法。
   >
-  > Course introduction coming soon.
+  > Explore how data can help guide the design of algorithms.
 
 - [斯坦福·大数据概论 / Stanford·Introduction to Big Data](https://www.bilibili.com/BV1SC4y187x1) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 第三方索引将原视频标为 Stanford CS246；该课程资料涉及大规模数据挖掘与数据流。视频身份及版本尚未独立核实。 [参考](https://web.stanford.edu/class/cs246/slides/01-intro.pdf)
+  > 了解如何处理和挖掘大规模数据。
   >
-  > A third-party index identifies the original video as Stanford CS246, whose materials cover massive-data mining and data streams. [Reference](https://web.stanford.edu/class/cs246/slides/01-intro.pdf)
+  > Explore how to process and mine large datasets.
 
 - [哈佛·大数据算法 / Harvard·Big Data Algorithms](https://www.bilibili.com/BV1v54y1x7dQ) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 课程介绍待补充。
+  > 探索处理大量数据时使用的算法。
   >
-  > Course introduction coming soon.
+  > Explore algorithms for working with large amounts of data.
 
 - [斯坦福·CS 246 / Stanford·CS 246](http://web.stanford.edu/class/cs246/) <img src="website.svg" alt="Course website" width="18">
-  > Stanford CS246 研究大规模数据挖掘，课程材料涉及数据流和相关算法；原项目链接指向课程网页，具体年份可能变化。 [参考](https://web.stanford.edu/class/cs246/slides/01-intro.pdf)
+  > 学习从海量数据中寻找有用模式的方法。
   >
-  > Stanford CS246 studies mining massive datasets, including data streams and related algorithms. The original catalog links to the course site, whose edition may change. [Reference](https://web.stanford.edu/class/cs246/slides/01-intro.pdf)
+  > Explore methods for finding useful patterns in massive datasets.
 
 - [CMU·数据库系统介绍 / CMU·Introduction to Database Systems](https://www.bilibili.com/BV1Cp4y1C7dv) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 CMU 数据库课程介绍数据库系统内部架构，包含数据模型、索引、查询与事务处理。 [参考](https://15445.courses.cs.cmu.edu/spring2025/)
+  > 了解数据库如何存储数据，以及怎样高效地查询它。
   >
-  > A related CMU course introduces database internals, including data models, indexes, queries, and transactions. [Reference](https://15445.courses.cs.cmu.edu/spring2025/)
+  > Explore how databases store data and support efficient queries.
 
 - [CMU·数据库系统 / CMU·Database Systems](https://www.bilibili.com/BV1rN411f7Ef) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 CMU 高级数据库课程研究数据库系统的高级设计与实现。 [参考](https://db.cs.cmu.edu/courses/)
+  > 探索数据库系统如何组织、访问和管理数据。
   >
-  > A related CMU course studies advanced database system design and implementation. [Reference](https://db.cs.cmu.edu/courses/)
+  > Explore how database systems organize, access and manage data.
 
 - [加州伯克利·数据库导论 / UC Berkeley·Introduction to Databases](https://www.bilibili.com/BV1yb4y1n7rb) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > Berkeley CS186 相关资料介绍数据库事务、并发控制和故障恢复。 [参考](https://cs186berkeley.net/notes/note11/)
+  > 了解数据库如何处理查询和同时发生的事务。
   >
-  > Related Berkeley CS186 materials cover transactions, concurrency control and recovery. [Reference](https://cs186berkeley.net/notes/note11/)
+  > Explore how databases handle queries and concurrent transactions.
 
 - [CMU·并行计算结构与编程 / CMU·Parallel Computer Architecture and Programming](https://www.bilibili.com/BV16k4y1z7z9) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > CMU 15-418 结合并行硬件与软件设计，探讨同步、通信以及共享内存与消息传递。 [参考](https://www.cs.cmu.edu/afs/cs/academic/class/15418-s11/public/info/syllabus.pdf)
+  > 探索怎样让多个处理单元一起工作，并编写利用它们的程序。
   >
-  > CMU 15-418 combines parallel hardware and software design, including synchronization, communication, shared memory and message passing. [Reference](https://www.cs.cmu.edu/afs/cs/academic/class/15418-s11/public/info/syllabus.pdf)
+  > Explore how multiple processors work together and how to program them.
 
 - [加州伯克利·并行计算应用 / UC Berkeley·Applications of Parallel Computing](https://www.bilibili.com/BV1qV411q7RS) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > Berkeley CS267 的 2016 大纲涉及共享内存、MPI、GPU 和云计算等并行模型。 [参考](https://people.eecs.berkeley.edu/~demmel/cs267_Spr16/Syllabus.html)
+  > 了解如何用并行计算更快地解决计算问题。
   >
-  > Berkeley CS267’s 2016 syllabus covers parallel models including shared memory, MPI, GPUs and cloud computing. [Reference](https://people.eecs.berkeley.edu/~demmel/cs267_Spr16/Syllabus.html)
+  > Explore how parallel computing can help solve computational problems faster.
 
 - [加州伯克利·并行程序设计导论 / UC Berkeley·Introduction to Parallel Programming](https://www.bilibili.com/BV1QQ4y1o7rn) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 课程介绍待补充。
+  > 学习将任务分给多个处理单元同时执行的编程思路。
   >
-  > Course introduction coming soon.
+  > Explore programming ideas for dividing work among processors that run together.
 
 - [康奈尔·软件工程 / Cornell·Software Engineering](https://www.bilibili.com/BV1aW411E7yr) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > Cornell CS5150 通过团队项目实践软件生命周期、需求、设计和测试。 [参考](https://www.cs.cornell.edu/courses/cs5150/2020sp/projects.html)
+  > 了解团队如何规划、设计、构建和测试软件。
   >
-  > Cornell CS5150 uses team projects to practice software lifecycles, requirements, design and testing. [Reference](https://www.cs.cornell.edu/courses/cs5150/2020sp/projects.html)
+  > Explore how teams plan, design, build and test software.
 
 - [CMU·智能系统软件工程 / CMU·Software Engineering for Intelligent Systems](https://www.bilibili.com/BV1qA411n7X5) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > CMU 相关课程研究如何为包含机器学习组件的系统进行需求、数据与基础设施工程，并考虑公平性。 [参考](https://www.cs.cmu.edu/~ckaestne/pdf/seai19.pdf)
+  > 探索如何为包含人工智能组件的系统设计和维护软件。
   >
-  > A related CMU course addresses requirements, data and infrastructure engineering for systems with machine-learning components, including fairness. [Reference](https://www.cs.cmu.edu/~ckaestne/pdf/seai19.pdf)
+  > Explore how to design and maintain software with AI components.
 
 - [斯坦福·编译原理 / Stanford·Compilers](https://www.bilibili.com/BV1NW41177q4) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 Stanford CS143 课程讲解词法分析、语法分析、类型检查与代码生成。 [参考](https://web.stanford.edu/class/cs143/) 原目录中该链接被两个不同课程复用，目标待核实。
+  > 了解编译器如何把一种程序语言转换成另一种形式；原链接目标待核实。 原目录中该链接被两个不同课程复用，目标待核实。
   >
-  > A related Stanford CS143 course covers lexical analysis, parsing, type checking and code generation. The original link is reused for statistical learning and [Reference](https://web.stanford.edu/class/cs143/) This link is reused for two different entries; its target needs verification.
+  > Explore how compilers translate programs; the original link’s target remains unverified. This link is reused for two different entries; its target needs verification.
 
 - [康奈尔·高级编译原理 / Cornell·Advanced Compilers](https://www.bilibili.com/BV1hZ4y1L7X4) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 Cornell 高级编译课程讨论中间表示、数据流分析、优化及即时编译等。 [参考](https://www.cs.cornell.edu/courses/cs6120/2025fa/self-guided/)
+  > 深入探索把程序转换成计算机可执行形式的编译技术。
   >
-  > A related Cornell course covers intermediate representations, data-flow analysis, optimization, and just-in-time compilation. [Reference](https://www.cs.cornell.edu/courses/cs6120/2025fa/self-guided/)
+  > Explore advanced compiler techniques for translating programs.
 
 - [CMU·计算机网络 / CMU·Computer Networks](https://www.bilibili.com/BV1wT4y1A7cd) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > CMU 15-441 官方课程介绍网络架构、路由、拥塞控制和网络安全。 [参考](https://www.csd.cs.cmu.edu/course/15441/f25)
+  > 了解计算机网络如何连接设备并传递信息。
   >
-  > CMU 15-441 covers network architecture, routing, congestion control and network security. [Reference](https://www.csd.cs.cmu.edu/course/15441/f25)
+  > Explore how computer networks connect devices and carry information.
 
 - [斯坦福·计算机网络 / Stanford·Computer Networks](https://www.bilibili.com/BV137411Z7LR) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > Stanford CS144 的相关课程作业通过构造 TCP 接收器学习网络协议。 [参考](https://cs144.github.io/assignments/check2.pdf)
+  > 探索数据如何通过网络在计算机之间传送。
   >
-  > A related Stanford CS144 assignment teaches networking protocols by implementing a TCP receiver. [Reference](https://cs144.github.io/assignments/check2.pdf)
+  > Explore how data travels between computers over networks.
 
 - [斯坦福·网络安全 / Stanford·Network Security](https://www.bilibili.com/BV1yA411s7Tp) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 课程介绍待补充。
+  > 了解保护网络和网络通信安全的基本问题。
   >
-  > Course introduction coming soon.
+  > Explore basic challenges in protecting networks and communications.
 
 - [CMU·计算机图形学 / CMU·Computer Graphics](https://www.bilibili.com/BV1QZ4y1K7ga) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 CMU 计算机图形学课程涵盖光栅化、几何变换、光线追踪及动画等基础。 [参考](https://graphics.cs.cmu.edu/courses/)
+  > 探索计算机如何用数学和程序生成图像。
   >
-  > A related CMU graphics course covers rasterization, geometric transforms, ray tracing, and animation. [Reference](https://graphics.cs.cmu.edu/courses/)
+  > Explore how computers use mathematics and programs to create images.
 
 - [闫令琪·现代计算机图形学入门 / Lingqi Yan·Introduction to Modern Computer Graphics](https://www.bilibili.com/BV1X7411F744) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > GAMES101 课程资料涵盖光栅化、光线追踪、几何和动画等图形学基础。 [参考](https://lingqiyan.github.io/ucsb-assets/teaching/games101.html)
+  > 通过光栅化、光线追踪等方法，了解计算机如何生成图像。
   >
-  > GAMES101 course materials cover graphics fundamentals including rasterization, ray tracing, geometry and animation. [Reference](https://lingqiyan.github.io/ucsb-assets/teaching/games101.html)
+  > Explore how computers create images using methods such as rasterization and ray tracing.
 
 - [MIT·计算机图形学 / MIT·Computer Graphics](https://www.bilibili.com/BV167411g7iK) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 MIT 6.837 课程介绍图形算法、实时渲染、图形硬件与 OpenGL。 [参考](https://ocw.mit.edu/courses/6-837-computer-graphics-fall-2012/pages/syllabus/)
+  > 了解计算机图形学中生成和表示图像的基本思路。
   >
-  > A related MIT 6.837 course introduces graphics algorithms, real-time rendering, graphics hardware and OpenGL. [Reference](https://ocw.mit.edu/courses/6-837-computer-graphics-fall-2012/pages/syllabus/)
+  > Explore basic ideas for creating and representing images with computers.
 
 - [CMU·人机交互系列讲座 / CMU·Human-Computer Interaction Lecture Series](https://www.bilibili.com/BV1Bb411v7YH) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > CMU 人机交互研究所的相关讲座系列分享人机交互研究，往期讲座提供部分录播。 [参考](https://hcii.cmu.edu/seminar-series)
+  > 探索人们如何与计算机系统互动。
   >
-  > The related CMU Human-Computer Interaction Institute seminar series shares HCI research and offers recordings of many past talks. [Reference](https://hcii.cmu.edu/seminar-series)
+  > Explore how people interact with computer systems.
 
 - [普林斯顿·比特币与加密技术 / Princeton·Bitcoin and Cryptocurrency Technologies](https://www.bilibili.com/BV1FL411K7vK) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关普林斯顿课程探讨比特币的技术原理、安全、匿名性与加密货币的现实影响。 [参考](https://online.princeton.edu/bitcoin-and-cryptocurrency-technologies)
+  > 了解比特币及其背后的密码学技术。
   >
-  > The related Princeton course examines Bitcoin’s technical foundations, security, anonymity and real-world implications. [Reference](https://online.princeton.edu/bitcoin-and-cryptocurrency-technologies)
+  > Explore Bitcoin and the cryptographic technologies behind it.
 
 - [斯坦福·密码学 / Stanford·Cryptography](https://www.bilibili.com/BV1Ht411w7Re) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关斯坦福 CS255 课程介绍对称与公钥加密、消息完整性和数字签名。 [参考](https://crypto.stanford.edu/~dabo/courses/cs255_winter25/overview.html)
+  > 了解用数学方法保护信息的密码学。
   >
-  > Related Stanford CS255 introduces symmetric and public-key encryption, message integrity and digital signatures. [Reference](https://crypto.stanford.edu/~dabo/courses/cs255_winter25/overview.html)
+  > Explore cryptography, which uses mathematics to help protect information.
 
 - [斯坦福·C++ 中的抽象编程 / Stanford·Programming Abstractions in C++](https://www.bilibili.com/BV1G7411k7jG) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关斯坦福 CS106B 课程使用 C++ 介绍递归、数据抽象和基本数据结构。 [参考](https://see.stanford.edu/Course/CS106B)
+  > 学习用 C++ 的抽象工具组织和解决编程问题。
   >
-  > Related Stanford CS106B uses C++ to teach recursion, data abstraction and fundamental data structures. [Reference](https://see.stanford.edu/Course/CS106B)
+  > Explore how abstractions in C++ help organize and solve programming problems.
 
 - [MIT·计算机程序的构造与解释 / MIT·Structure and Interpretation of Computer Programs](https://www.bilibili.com/BV1AA411t7Wk) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 MIT 6.001 课程使用 Scheme，讲授数据抽象和高阶过程。 [参考](https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/pages/readings/)
+  > 通过构造和理解程序，探索计算机科学的基本思想。
   >
-  > Related MIT 6.001 uses Scheme and covers data abstraction and higher-order procedures. [Reference](https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/pages/readings/)
+  > Explore foundational computer science ideas by constructing and understanding programs.
 
 - [MIT·信号与系统 / MIT·Signals and Systems](https://www.bilibili.com/BV1L4411H7w3) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 MIT 信号与系统资料介绍信号、系统模型及傅里叶变换等。 [参考](https://ocw.mit.edu/courses/6-011-introduction-to-communication-control-and-signal-processing-spring-2010/)
+  > 了解如何描述和分析随时间变化的信号与系统。
   >
-  > Related MIT material introduces signals, system models, and Fourier transforms. [Reference](https://ocw.mit.edu/courses/6-011-introduction-to-communication-control-and-signal-processing-spring-2010/)
+  > Explore how to describe and analyze signals and systems that change over time.
 
 - [奥本海姆·MIT·信号与系统 / Oppenheim·MIT·Signals and Systems](https://www.bilibili.com/BV1CZ4y1j7hs) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 MIT 课程由 Alan Oppenheim 讲解信号与系统。 [参考](https://ocw.mit.edu/courses/res-6-007-signals-and-systems-spring-2011/)
+  > 了解信号如何经过系统发生变化，以及怎样用数学分析这些变化。
   >
-  > A related MIT course taught by Alan Oppenheim introduces signals and systems. [Reference](https://ocw.mit.edu/courses/res-6-007-signals-and-systems-spring-2011/)
+  > Explore how systems transform signals and how mathematics can describe those changes.
 
 - [MIT·计算结构 / MIT·Computation Structures](https://www.bilibili.com/BV197411s736) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 MIT 6.004 课程从逻辑门、电路到处理器介绍数字系统的构造。 [参考](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2009/)
+  > 探索计算机如何由基本电路和构件组成。
   >
-  > Related MIT 6.004 introduces digital systems from logic gates and circuits to processors. [Reference](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2009/)
+  > Explore how computers are built from circuits and basic components.
 
 - [MIT·python 编程 / MIT·Python Programming](https://www.bilibili.com/BV1mq4y1u7NB) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 MIT 6.0001 课程面向编程初学者，以 Python 介绍计算思维和编写小程序。 [参考](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)
+  > 学习使用 Python 表达想法并编写程序。
   >
-  > Related MIT 6.0001 introduces computational thinking and small Python programs to beginners. [Reference](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)
+  > Explore how to express ideas and write programs in Python.
 
 - [MIT·区块链与金钱 / MIT·Blockchain and Money](https://www.bilibili.com/BV1pK4y1r7Jf) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 MIT 15.S12 课程探讨比特币、区块链、分布式账本和金融应用。 [参考](https://ocw.mit.edu/courses/15-s12-blockchain-and-money-fall-2018/)
+  > 探索区块链与货币、金融之间的关系。
   >
-  > Related MIT 15.S12 examines Bitcoin, blockchains, distributed ledgers and financial applications. [Reference](https://ocw.mit.edu/courses/15-s12-blockchain-and-money-fall-2018/)
+  > Explore the relationship between blockchains, money and finance.
 
 ## 人工智能 Artificial Intelligence
 
 - [CMU·人工智能 (研究生) / CMU·Artificial Intelligence (Graduate)](https://www.bilibili.com/BV1pC4y1t7px) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 CMU 15-780 课程涵盖搜索、规划、优化、深度学习和多智能体系统。 [参考](https://csd.cs.cmu.edu/course/15780/s25)
+  > 了解让计算机表现出智能的基本思路。
   >
-  > Related CMU 15-780 covers search, planning, optimization, deep learning and multi-agent systems. [Reference](https://csd.cs.cmu.edu/course/15780/s25)
+  > Explore basic ideas for making computers behave intelligently.
 
 - [李宏毅·Deep Learning Theory / Hung-yi Lee·Deep Learning Theory](https://www.youtube.com/watch?v=KKT2VkTdFyc&list=RDLVKKT2VkTdFyc&start_radio=1&rv=KKT2VkTdFyc&t=5) <img src="youtube.svg" alt="YouTube" width="20">
-  > 台大课程大纲将原视频列为浅层网络的函数拟合能力，并延伸至网络深度、损失曲面和泛化等理论问题。 [参考](https://nol.ntu.edu.tw/nol/coursesearch/print_table.php?class=02&course_id=921+U2620&dpt_code=9420&semester=108-2&ser_no=95134)
+  > 从理论角度理解深度神经网络为什么可能有效。
   >
-  > An NTU syllabus identifies the original video as a lecture on shallow networks’ function-fitting ability; related lectures examine depth, loss surfaces and generalization. [Reference](https://nol.ntu.edu.tw/nol/coursesearch/print_table.php?class=02&course_id=921+U2620&dpt_code=9420&semester=108-2&ser_no=95134)
+  > Explore theoretical ideas about why deep neural networks can work.
 
 - [李宏毅·Next Step of Machine Learning / Hung-yi Lee·Next Step of Machine Learning](https://www.youtube.com/watch?v=XnyM3-xtxHs&list=PLJV_el3uVTsOK_ZK5L0Iv_EQoL1JefRL4) <img src="youtube.svg" alt="YouTube" width="20">
-  > 课程介绍待补充。
+  > 思考机器学习可以向哪些方向继续发展。
   >
-  > Course introduction coming soon.
+  > Consider possible next steps in machine learning.
 
 - [李宏毅·Advanced Topics in Deep Learning / Hung-yi Lee·Advanced Topics in Deep Learning](https://www.youtube.com/watch?v=IzHoNwlCGnE&list=PLJV_el3uVTsPMxPbjeX7PicgWbY7F8wW9) <img src="youtube.svg" alt="YouTube" width="20">
-  > 课程介绍待补充。
+  > 探索深度学习中更深入的研究主题。
   >
-  > Course introduction coming soon.
+  > Explore advanced research topics in deep learning.
 
 - [李宏毅·机器学习-v1 / Hung-yi Lee·Machine Learning-v1](https://www.youtube.com/watch?v=CXgbekl66jc&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49) <img src="youtube.svg" alt="YouTube" width="20"> · [李宏毅·机器学习-v2 / Hung-yi Lee·Machine Learning-v2](https://www.youtube.com/watch?v=Ye018rCVvOo&list=PLJV_el3uVTsMhtt7_Y6sgTHGHp1Vb2P2J) <img src="youtube.svg" alt="YouTube" width="20"> · [李宏毅·机器学习-v1 / Hung-yi Lee·Machine Learning-v1](https://www.youtube.com/watch?v=7XZR0-4uS5s&list=PLJV_el3uVTsPM2mM-OQzJXziCGJa8nJL8) <img src="youtube.svg" alt="YouTube" width="20"> · [李宏毅·机器学习-TA 补充课 / Hung-yi Lee·Machine Learning: TA Supplement](https://www.youtube.com/watch?v=eybCCtNKwzA&list=PLJV_el3uVTsM8QoIIe9JrSDjB0e1UkbEC) <img src="youtube.svg" alt="YouTube" width="20">
-  > 台大课纲列出其中一个原播放列表，涉及机器学习基础、反向传播和神经网络训练。 [参考](https://nol.ntu.edu.tw/nol/coursesearch/print_table.php?class=02&course_id=921+U2620&dpt_code=9420&semester=108-2&ser_no=95134)
+  > 学习让计算机从数据中发现规律的机器学习方法。
   >
-  > An NTU syllabus cites one of the original playlists, covering machine-learning fundamentals, backpropagation and neural-network training. [Reference](https://nol.ntu.edu.tw/nol/coursesearch/print_table.php?class=02&course_id=921+U2620&dpt_code=9420&semester=108-2&ser_no=95134)
+  > Learn about machine learning, where computers find patterns in data.
 
 - [MIT·深度学习 / MIT·Deep Learning](https://www.bilibili.com/BV1qt411c7Na) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 MIT 6.7960 课程涵盖神经网络架构、反向传播、泛化及视觉和语言应用。 [参考](https://ocw.mit.edu/courses/6-7960-deep-learning-fall-2024/)
+  > 了解使用多层神经网络从数据中学习的深度学习。
   >
-  > Related MIT 6.7960 covers neural architectures, backpropagation, generalization and applications in vision and language. [Reference](https://ocw.mit.edu/courses/6-7960-deep-learning-fall-2024/)
+  > Explore deep learning, which uses multilayer neural networks to learn from data.
 
 - [MIT·机器学习 / MIT·Machine Learning](https://www.bilibili.com/BV1a7411M7wH) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > MIT 18.065 官方课程以线性代数为基础，探讨概率统计、优化和深度学习中的矩阵方法。原视频可能对应此课，但尚未直接核实。 [参考](https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/)
+  > 了解计算机如何从数据中学习，并用学到的规律作预测。
   >
-  > MIT 18.065 uses linear algebra to study matrix methods in probability, statistics, optimization, and deep learning. The original video may correspond to this course, but has not been directly verified. [Reference](https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/)
+  > Explore how computers learn patterns from data and use them to make predictions.
 
 - [斯坦福·人工智能原理与技术 / Stanford·Principles and Techniques of Artificial Intelligence](https://www.bilibili.com/BV1Ht4y1U75j) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关斯坦福 CS221 课程介绍搜索、机器学习、马尔可夫决策过程和图模型。 [参考](https://web.stanford.edu/class/archive/cs/cs221/cs221.1186/index.html)
+  > 了解设计能搜索、推理和学习的人工智能系统的基本思路。
   >
-  > Related Stanford CS221 introduces search, machine learning, Markov decision processes and graphical models. [Reference](https://web.stanford.edu/class/archive/cs/cs221/cs221.1186/index.html)
+  > Explore principles for building AI systems that search, reason and learn.
 
 - [伯克利·CS 188 / Berkeley·CS 188](https://inst.eecs.berkeley.edu//~cs188/fa19/) <img src="website.svg" alt="Course website" width="18">
-  > Berkeley CS 188 官方课程介绍搜索、博弈、概率推断和机器学习等人工智能基础；所引大纲并非原目录 2019 年页面。 [参考](https://inst.eecs.berkeley.edu/~cs188/assets/cs188-syllabus-print-version.pdf)
+  > 通过搜索、推理和学习等方法，认识人工智能的基础。
   >
-  > Berkeley’s CS 188 syllabus introduces AI through search, games, probabilistic inference and machine learning. The cited syllabus is not the original 2019 course page. [Reference](https://inst.eecs.berkeley.edu/~cs188/assets/cs188-syllabus-print-version.pdf)
+  > Explore AI foundations through ideas such as search, reasoning and learning.
 
 - [伯克利·CS 189 / Berkeley·CS 189](https://www.eecs189.org/) <img src="website.svg" alt="Course website" width="18">
-  > Berkeley CS 189 当前课程涵盖聚类、降维、回归、分类及神经网络，结合机器学习的理论与应用。 [参考](https://eecs189.org/)
+  > 了解如何用数据训练模型，以及怎样判断模型的表现。
   >
-  > The current Berkeley CS 189 course covers clustering, dimensionality reduction, regression, classification and neural networks, combining theory and applications. [Reference](https://eecs189.org/)
+  > Explore how models learn from data and how their performance can be assessed.
 
 - [李宏毅·GAN-2018 / Hung-yi Lee·GAN-2018](https://www.youtube.com/watch?v=DQNNMiAP5lw&list=PLJV_el3uVTsMq6JEFPW35BCiOQTsoqwNw) <img src="youtube.svg" alt="YouTube" width="20"> · [李宏毅·GAN-2017 / Hung-yi Lee·GAN-2017](https://www.youtube.com/watch?v=G0dZc-8yIjE&list=PLJV_el3uVTsMd2G9ZjcpJn1YfnM9wVOBf) <img src="youtube.svg" alt="YouTube" width="20">
-  > 转载页面列出 2018 系列讲次，包括条件生成、GAN 基本理论、WGAN 和序列生成；2017 列表的内容未独立核实。 [参考](https://www.bilibili.com/video/BV1Bg4y187WC/)
+  > 认识生成对抗网络：两个模型相互较量，帮助生成新数据。
   >
-  > A mirrored listing of the 2018 series includes conditional generation, GAN theory, WGAN and sequence generation. The 2017 playlist has not been independently verified. [Reference](https://www.bilibili.com/video/BV1Bg4y187WC/)
+  > Explore generative adversarial networks, where two models compete to help generate new data.
 
 - [CMU·自然语言处理 / CMU·Natural Language Processing](https://www.bilibili.com/BV1dC4y1h788) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 CMU 11-411/611 课程介绍用语言模型构建实用自然语言处理应用。 [参考](https://www.cs.cmu.edu/~ehn/11-611/)
+  > 了解计算机如何处理和分析人类语言。
   >
-  > Related CMU 11-411/611 introduces practical natural language processing applications using language models. [Reference](https://www.cs.cmu.edu/~ehn/11-611/)
+  > Explore how computers process and analyze human language.
 
 - [斯坦福·深度自然语言处理 / Stanford·Deep Natural Language Processing](https://www.bilibili.com/BV1pt411h7aT) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > Stanford CS224N 官方课程介绍用神经网络处理自然语言，并通过作业和项目实践。 [参考](https://web.stanford.edu/class/cs224n/)
+  > 了解如何用神经网络帮助计算机处理语言。
   >
-  > Stanford CS224N introduces neural approaches to natural language processing through assignments and projects. [Reference](https://web.stanford.edu/class/cs224n/)
+  > Explore how neural networks can help computers process language.
 
 - [CMU·高级自然语言处理 / CMU·Advanced Natural Language Processing](https://www.bilibili.com/BV1H3411k7GA) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > CMU 相关课程 11-711 涵盖句法、语义与语篇分析及神经建模，包含研究项目。 [参考](https://lti.cmu.edu/misc-pages/intranet-course-info.html)
+  > 深入探索计算机分析人类语言的方法。
   >
-  > The related CMU course 11-711 covers syntactic, semantic and discourse analysis, neural modeling and a research project. [Reference](https://lti.cmu.edu/misc-pages/intranet-course-info.html)
+  > Explore advanced methods for computers to analyze human language.
 
 - [李宏毅·Deep Learning for Human Languange Processing / Hung-yi Lee·Deep Learning for Human Languange Processing](https://www.youtube.com/watch?v=nER51ZyJaCQ&list=PLJV_el3uVTsO07RpBYFsXg-bN5Lu0nhdG) <img src="youtube.svg" alt="YouTube" width="20">
-  > 李宏毅的相关台大课程研究如何将深度学习应用于语音与文字处理。 [参考](https://gice.ntu.edu.tw/courses/CSP_group_courses/60_Deep_Learning_for_Human_Language_Processing.pdf)
+  > 探索用深度学习处理人类语言的方法。
   >
-  > Hung-yi Lee’s related NTU course applies deep learning to speech and text processing. [Reference](https://gice.ntu.edu.tw/courses/CSP_group_courses/60_Deep_Learning_for_Human_Language_Processing.pdf)
+  > Explore deep-learning methods for processing human language.
 
 - [李宏毅·Deep Reinforcement Learning / Hung-yi Lee·Deep Reinforcement Learning](https://www.youtube.com/watch?v=z95ZYgPgXOY&list=PLJV_el3uVTsODxQFgzMzPLa16h6B8kWM_) <img src="youtube.svg" alt="YouTube" width="20">
-  > 与原链接匹配的转载列表涵盖策略梯度、PPO 和 Q-learning 等深度强化学习讲次。 [参考](https://www.bilibili.com/video/BV1wb41127KH/)
+  > 了解智能体如何通过尝试和反馈学习行动，并结合深度学习。
   >
-  > A mirrored listing matching the original link includes lectures on policy gradients, PPO and Q-learning. [Reference](https://www.bilibili.com/video/BV1wb41127KH/)
+  > Explore how an agent can learn actions from trials and feedback using deep learning.
 
 - [斯坦福·强化学习 / Stanford·Reinforcement Learning](https://www.bilibili.com/BV1sb411s7eQ) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > Stanford CS234 官方课程介绍强化学习中的决策、探索与泛化。 [参考](https://web.stanford.edu/class/archive/cs/cs234/cs234.1176/index.html)
+  > 了解智能体如何根据行动后的反馈改进决策。
   >
-  > Stanford CS234 introduces decision-making, exploration and generalization in reinforcement learning. [Reference](https://web.stanford.edu/class/archive/cs/cs234/cs234.1176/index.html)
+  > Explore how an agent improves its decisions using feedback from its actions.
 
 - [MIT·识别，估计和学习 / MIT·Identification, Estimation, and Learning](https://www.bilibili.com/BV1KL4y1e7F7) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 MIT 2.160 课程涵盖最小二乘估计、卡尔曼滤波和系统辨识。 [参考](https://ocw.mit.edu/courses/2-160-identification-estimation-and-learning-spring-2006/)
+  > 探索如何根据观察识别、估计和学习系统的规律。
   >
-  > Related MIT 2.160 covers least-squares estimation, Kalman filtering and system identification. [Reference](https://ocw.mit.edu/courses/2-160-identification-estimation-and-learning-spring-2006/)
+  > Explore identification, estimation and learning from observations.
 
 - [加州伯克利·深度强化学习 / UC Berkeley·Deep Reinforcement Learning](https://www.bilibili.com/BV1fx411S7S8) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > Berkeley 相关深度强化学习课程包括模仿学习、策略梯度、Q 学习与 actor-critic。 [参考](https://rail.eecs.berkeley.edu/deeprlcourse/)
+  > 探索结合神经网络与反馈学习的深度强化学习。
   >
-  > A related Berkeley deep reinforcement learning course covers imitation learning, policy gradients, Q-learning and actor-critic methods. [Reference](https://rail.eecs.berkeley.edu/deeprlcourse/)
+  > Explore deep reinforcement learning, which combines neural networks with learning from feedback.
 
 - [加州伯克利·统计机器学习 / UC Berkeley·Statistical Machine Learning](https://www.bilibili.com/BV1KA41157yn) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关伯克利 STAT 154 课程涵盖统计学习、数据分析、回归和分类。 [参考](https://www.stat.berkeley.edu/~songmei/Teaching/STAT154_Fall2021/index.html)
+  > 从统计角度理解机器如何从数据中学习。
   >
-  > Related Berkeley STAT 154 covers statistical learning, data analysis, regression and classification. [Reference](https://www.stat.berkeley.edu/~songmei/Teaching/STAT154_Fall2021/index.html)
+  > Explore how machines learn from data through a statistical lens.
 
 - [斯坦福·统计学习 / Stanford·Statistical Learning](https://www.bilibili.com/BV1NW41177q4) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关统计学习公开课程涵盖回归、分类、重采样、正则化和树模型。 [参考](https://www.statlearning.com/online-courses) 原目录中该链接被两个不同课程复用，目标待核实。
+  > 学习利用统计方法从数据中建立模型和做预测。 原目录中该链接被两个不同课程复用，目标待核实。
   >
-  > A related statistical learning course covers regression, classification, resampling, regularization and tree-based methods. [Reference](https://www.statlearning.com/online-courses) This link is reused for two different entries; its target needs verification.
+  > Explore statistical methods for modeling data and making predictions. This link is reused for two different entries; its target needs verification.
 
 - [CMU·结构化数据机器学习 / CMU·Machine Learning for Structured Data](https://www.bilibili.com/BV1MK4y1a7PS) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 CMU 10-418/618 课程研究结构化预测，包括概率图模型、推断和深度学习。 [参考](https://www.cs.cmu.edu/~mgormley/courses/10418/syllabus.html)
+  > 探索如何让机器学习处理具有内部关系或结构的数据。
   >
-  > Related CMU 10-418/618 studies structured prediction using probabilistic graphical models, inference and deep learning. [Reference](https://www.cs.cmu.edu/~mgormley/courses/10418/syllabus.html)
+  > Explore machine learning for data with internal structure or relationships.
 
 - [加州理工·机器学习与统计推断基础 / Caltech·Foundations of Machine Learning and Statistical Inference](https://www.bilibili.com/BV1uA411n7oV) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关加州理工 Learning From Data 课程介绍机器学习的理论、算法与应用。 [参考](https://home.work.caltech.edu/telecourse)
+  > 探索机器学习与统计推断的基础：如何从数据中学习和判断。
   >
-  > Related Caltech course Learning From Data introduces machine-learning theory, algorithms and applications. [Reference](https://home.work.caltech.edu/telecourse)
+  > Explore foundations of learning and statistical inference from data.
 
 - [李宏毅·Structured Learning / Hung-yi Lee·Structured Learning](https://www.youtube.com/watch?v=5OYu0vxXEv8&list=PLJV_el3uVTsNHQKxv49vpq7NSn-zim18V) <img src="youtube.svg" alt="YouTube" width="20">
-  > 李宏毅相关课程列有结构化学习和序列标注；其研究以语音识别为结构化输入输出的例子。 [参考](https://speech.ee.ntu.edu.tw/~tlkagk/courses_ML16.html)
+  > 了解如何让模型学习彼此有关联的输出。
   >
-  > Hung-yi Lee’s related course lists structured learning and sequence labeling; his research illustrates structured inputs and outputs with speech recognition. [Reference](https://speech.ee.ntu.edu.tw/~tlkagk/courses_ML16.html)
+  > Explore how models can learn outputs that have relationships or structure.
 
 - [斯坦福·图机器学习 / Stanford·Machine Learning with Graphs](https://www.bilibili.com/BV1Vg4y1z7Nf) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > Stanford CS224W 2019 年大纲涵盖节点分类、节点表示、图神经网络、PageRank 与社区发现；原视频与该版本的对应关系尚未独立核实。 [参考](https://web.stanford.edu/class/cs224w/handouts/CS224W_Info_Handout.pdf)
+  > 探索如何用机器学习分析由节点和连接组成的图。
   >
-  > The 2019 Stanford CS224W syllabus covers node classification and representations, graph neural networks, PageRank and community detection. [Reference](https://web.stanford.edu/class/cs224w/handouts/CS224W_Info_Handout.pdf)
+  > Explore machine learning on graphs made of nodes and connections.
 
 - [斯坦福·机器人学 / Stanford·Robotics](https://www.bilibili.com/BV16s411q7o7) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关斯坦福 CS223A 课程介绍机器人运动学、动力学与控制。 [参考](https://cs.stanford.edu/group/manips/teaching/cs223a/)
+  > 了解让机器人感知环境并行动的机器人学。
   >
-  > Related Stanford CS223A introduces robot kinematics, dynamics and control. [Reference](https://cs.stanford.edu/group/manips/teaching/cs223a/)
+  > Explore robotics and the challenge of making robots perceive and act.
 
 - [MIT·医疗机器学习 / MIT·Machine Learning for Healthcare](https://www.bilibili.com/BV1oa411c7eD) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 MIT 6.S897 课程研究临床数据、疾病预测及医疗机器学习的可解释性与公平性。 [参考](https://ocw.mit.edu/courses/6-s897-machine-learning-for-healthcare-spring-2019/pages/syllabus/)
+  > 探索机器学习如何帮助分析医疗相关数据。
   >
-  > Related MIT 6.S897 studies clinical data, disease prediction, interpretability and fairness in healthcare machine learning. [Reference](https://ocw.mit.edu/courses/6-s897-machine-learning-for-healthcare-spring-2019/pages/syllabus/)
+  > Explore how machine learning can help analyze healthcare data.
 
 ## 经济学 Economics
 
 - [金融市场 / Financial Markets](https://www.bilibili.com/BV1ab411b7jq) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关耶鲁 ECON 252 课程介绍风险管理、行为金融及证券、保险与银行。 [参考](https://oyc.yale.edu/economics/econ-252)
+  > 认识金融市场如何连接投资、融资和风险。
   >
-  > Related Yale ECON 252 introduces risk management, behavioral finance, securities, insurance and banking. [Reference](https://oyc.yale.edu/economics/econ-252)
+  > Explore how financial markets connect investment, funding and risk.
 
 - [微观经济学 / Microeconomics](https://www.bilibili.com/BV1MV411U75D) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 MIT 14.01SC 课程以供求关系和价格变化介绍微观经济学。 [参考](https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/pages/unit-1-supply-and-demand/)
+  > 研究个人和企业如何作选择，以及价格怎样受供需影响。
   >
-  > Related MIT course 14.01SC introduces microeconomics through supply, demand and price changes; [Reference](https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/pages/unit-1-supply-and-demand/)
+  > Study choices by people and firms and how supply and demand affect prices.
 
 - [金融理论 / Financial Theory](https://www.bilibili.com/BV1Ft4112796) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 MIT 15.401 课程介绍资产估值、投资组合与风险分析。 [参考](https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/syllabus/)
+  > 学习用金融理论理解资产价值、投资和风险。
   >
-  > Related MIT 15.401 introduces asset valuation, portfolio theory and risk analysis. [Reference](https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/syllabus/)
+  > Use financial theory to understand asset values, investment and risk.
 
 - [行为经济学 / Behavioral Economics](https://www.bilibili.com/BV11U4y1g78u) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 MIT 14.13 课程从心理学视角检视经济模型假设与实际行为之间的差异。 [参考](https://ocw.mit.edu/courses/14-13-psychology-and-economics-spring-2020/)
+  > 探索心理因素怎样影响人们的经济选择。
   >
-  > Related MIT 14.13 uses psychology to examine departures of human behavior from assumptions in economic models. [Reference](https://ocw.mit.edu/courses/14-13-psychology-and-economics-spring-2020/)
+  > Explore how psychology influences people’s economic choices.
 
 ## 物理学 Physics
 
 - [量子力学 / Quantum Mechanics](https://www.bilibili.com/BV1w4411s7da) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关斯坦福 PHYSICS 130 课程涵盖波函数、薛定谔方程、可观测量与角动量。 [参考](https://bulletin.stanford.edu/courses/1226821)
+  > 探索量子力学如何描述原子等微观世界。
   >
-  > Related Stanford PHYSICS 130 covers wavefunctions, the Schrödinger equation, observables and angular momentum. [Reference](https://bulletin.stanford.edu/courses/1226821)
+  > Explore how quantum mechanics describes the microscopic world of atoms and particles.
 
 - [广义相对论 / General Relativity](https://www.bilibili.com/BV1tE411R75K) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关斯坦福 PHYSICS 262 课程涵盖弯曲时空、爱因斯坦场方程及黑洞等应用。 [参考](https://bulletin.stanford.edu/courses/1227311)
+  > 认识广义相对论如何用弯曲的时空解释引力。
   >
-  > Related Stanford PHYSICS 262 covers curved spacetime, Einstein field equations and applications including black holes. [Reference](https://bulletin.stanford.edu/courses/1227311)
+  > See how general relativity explains gravity through curved spacetime.
 
 - [弦理论和 M 理论 / String Theory and M Theory](https://www.bilibili.com/BV1CE411Q7Cc) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关斯坦福物理课程介绍微扰弦论，涵盖玻色弦和超弦。 [参考](https://explorecourses.stanford.edu/m_search?filter-catalognumber-PHYSICS=on&filter-term-Spring=on&page=3&q=PHYSICS)
+  > 探索用弦和更广泛的 M 理论描述基本物理的想法。
   >
-  > A related Stanford physics course introduces perturbative string theory, including bosonic and superstrings. [Reference](https://explorecourses.stanford.edu/m_search?filter-catalognumber-PHYSICS=on&filter-term-Spring=on&page=3&q=PHYSICS)
+  > Explore ideas in string theory and M-theory for describing fundamental physics.
 
 ## 心理学 Psychology
 
 - [心理统计学 / Psychological Statistics](https://www.bilibili.com/BV1UJ411c7d8) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关伯克利 Psychology 102 课程介绍心理学研究中的数据分析和假设检验。 [参考](https://psychology.berkeley.edu/sites/default/files/psych_102_-_generic_2018.pdf)
+  > 学习用统计方法分析心理学研究收集的数据。
   >
-  > Related Berkeley Psychology 102 introduces data analysis and hypothesis testing in psychological research. [Reference](https://psychology.berkeley.edu/sites/default/files/psych_102_-_generic_2018.pdf)
+  > Learn statistical methods for analyzing data from psychology research.
 
 - [社会认知心理学 / Social and Cognitive Psychology](https://www.bilibili.com/BV1Hx411u7SK) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关伯克利 Psychology 164 课程把社会、人格和临床心理学的问题与认知研究相结合。 [参考](https://undergraduate.catalog.berkeley.edu/courses/1196731)
+  > 探索我们如何理解别人，以及社会环境如何影响思考。
   >
-  > Related Berkeley Psychology 164 connects social, personality and clinical psychology with cognitive research. [Reference](https://undergraduate.catalog.berkeley.edu/courses/1196731)
+  > Explore how we understand others and how social settings shape thought.
 
-- [心理学导论 / Introduction to Psychology](https://www.bilibili.com/BV1Ps411Z7h1) <img src="bilibili.svg" alt="Bilibili" width="20"> · [官方视频参考 / Official video reference](https://oyc.yale.edu/psychology/psyc-110/lecture-1) <img src="website.svg" alt="Open Yale Courses" width="18">
-  > 相关耶鲁 PSYC 110 课程介绍神经科学、发展、认知、社会和临床心理学。 [参考](https://oyc.yale.edu/psychology/psyc-110/lecture-1)
+- [心理学导论 / Introduction to Psychology](https://www.bilibili.com/BV1Ps411Z7h1) <img src="bilibili.svg" alt="Bilibili" width="20">
+  > 认识心理学如何研究思考、情绪和行为。
   >
-  > Related Yale course PSYC 110 introduces neuroscience and developmental, cognitive, social and clinical psychology; [Reference](https://oyc.yale.edu/psychology/psyc-110/lecture-1)
+  > Discover how psychology studies thought, emotion and behavior.
 
 - [积极心理学 / Positive Psychology](https://www.bilibili.com/BV1ga41127Zt) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关哈佛积极心理学课程介绍正念、个人优势及积极关系。 [参考](https://learn.hms.harvard.edu/programs/positive-psychology)
+  > 探索心理学怎样研究优势、幸福感和积极关系。
   >
-  > A related Harvard positive psychology course introduces mindfulness, personal strengths and positive relationships. [Reference](https://learn.hms.harvard.edu/programs/positive-psychology)
+  > Explore how psychology studies strengths, well-being and positive relationships.
 
 - [心理学导论 / Introduction to Psychology](https://www.bilibili.com/BV1hZ4y1w7kd) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关哈佛 PSYC S-1 课程概览认知、情绪、发展、社会和临床心理学。 [参考](https://coursebrowser.dce.harvard.edu/course/introduction-to-psychology/)
+  > 了解心理学如何研究人的思想、感受和行为。
   >
-  > Related Harvard PSYC S-1 surveys cognition, emotion, development, social and clinical psychology. [Reference](https://coursebrowser.dce.harvard.edu/course/introduction-to-psychology/)
+  > Learn how psychology investigates thoughts, feelings and behavior.
 
 - [幸福课 / Happiness Course](https://www.bilibili.com/BV1px411d7xr) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关哈佛 Managing Happiness 课程从积极心理学、神经科学与哲学探讨幸福。 [参考](https://pll.harvard.edu/course/managing-happiness)
+  > 探索幸福和生活满意度可以怎样被理解与研究。
   >
-  > Related Harvard course Managing Happiness examines well-being through positive psychology, neuroscience and philosophy. [Reference](https://pll.harvard.edu/course/managing-happiness)
+  > Explore how happiness and life satisfaction can be understood and studied.
 
 ## 社会科学 Social Sciences
 
 - [现代社会理论基础 / Foundations of Modern Social Theory](https://www.bilibili.com/BV1ux411r736) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关耶鲁 SOCY 151 课程研读霍布斯、马克思、韦伯及涂尔干等社会思想家。 [参考](https://oyc.yale.edu/sociology/socy-151)
+  > 认识社会思想家怎样解释社会、制度和人与人的关系。
   >
-  > Related Yale course SOCY 151 studies social thinkers including Hobbes, Marx, Weber and Durkheim; [Reference](https://oyc.yale.edu/sociology/socy-151)
+  > Discover how social thinkers explain society, institutions and human relationships.
 
 - [资本主义 / Capitalism](https://www.bilibili.com/BV1x5411g7R5) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关耶鲁 PLSC 270 课程借生物进化的视角探讨资本主义及其社会后果。 [参考](https://oyc.yale.edu/political-science/plsc-270)
+  > 探索资本主义中企业、市场与社会之间的关系。
   >
-  > Related Yale PLSC 270 examines capitalism and its social consequences through an evolutionary lens. [Reference](https://oyc.yale.edu/political-science/plsc-270)
+  > Explore relationships among businesses, markets and society under capitalism.
 
 - [政治哲学导论 / Introduction to Political Philosophy](https://www.bilibili.com/BV1wx411y7uW) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关耶鲁 PLSC 114 课程通过西方思想家的著作探讨城邦、主权国家、宪政和民主。 [参考](https://oyc.yale.edu/political-science/plsc-114)
+  > 通过思想家的问题，思考政府、自由与公正。
   >
-  > Related Yale course PLSC 114 examines the polis, sovereignty, constitutional government and democracy through major Western political thinkers; [Reference](https://oyc.yale.edu/political-science/plsc-114)
+  > Think about government, freedom and justice through the questions of political thinkers.
 
 ## 生物学 Biology
 
 - [人类行为生物学 / Human Behavioral Biology](https://www.bilibili.com/BV1FF411Y72Y) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关斯坦福 BIO 150 课程结合神经科学、内分泌学等领域研究人类行为。 [参考](https://bulletin.stanford.edu/courses/1119251)
+  > 探索大脑、身体和环境怎样共同影响人类行为。
   >
-  > Related Stanford BIO 150 draws on neuroscience, endocrinology and other disciplines to examine human behavior. [Reference](https://bulletin.stanford.edu/courses/1119251)
+  > Explore how brains, bodies and environments interact to shape human behavior.
 
 ## 哲学与艺术 Philosophy and Arts
 
 - [美学 / Aesthetics](https://www.bilibili.com/BV1av411e778) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关剑桥美学课程回顾古希腊至当代哲学家对美的不同定义。 [参考](https://www.pace.cam.ac.uk/courses/component-courses/what-beautiful-introduction-aesthetics-0)
+  > 思考什么是美，以及我们为什么会对艺术产生不同感受。
   >
-  > A related Cambridge aesthetics course surveys philosophers’ definitions of beauty from antiquity to the present. [Reference](https://www.pace.cam.ac.uk/courses/component-courses/what-beautiful-introduction-aesthetics-0)
+  > Consider what beauty is and why people respond differently to art.
 
 ## 其他 Others
 
 - [几何折叠算法 / Geometric Folding Algorithms](https://www.bilibili.com/BV14q4y1R7Ra) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关 MIT 6.849 课程研究连杆、折纸和多面体折叠的算法及应用。 [参考](https://ocw.mit.edu/courses/6-849-geometric-folding-algorithms-linkages-origami-polyhedra-fall-2012/)
+  > 用算法研究纸张、连杆和多面体怎样折叠。
   >
-  > Related MIT 6.849 studies algorithms and applications for linkages, origami and polyhedral folding. [Reference](https://ocw.mit.edu/courses/6-849-geometric-folding-algorithms-linkages-origami-polyhedra-fall-2012/)
+  > Use algorithms to study how paper, linkages and polyhedra can fold.
 
 - [如何创业 / How to Start a Startup](https://www.bilibili.com/BV1KK4y1s7mY) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 斯坦福相关材料列出的创业讲座主题包括产品、团队、增长和融资。 [参考](https://pacscenter.stanford.edu/wp-content/uploads/2017/01/Designing-For-Philanthropy-Impact-The-Giving-Compass.pdf)
+  > 探索如何把一个点子发展成创业项目。
   >
-  > Related Stanford materials list startup lectures on products, teams, growth and fundraising. [Reference](https://pacscenter.stanford.edu/wp-content/uploads/2017/01/Designing-For-Philanthropy-Impact-The-Giving-Compass.pdf)
+  > Explore how an idea can grow into a startup.
 
 - [SCI 论文写作课程 / Scientific Paper Writing](https://www.bilibili.com/BV1zv41177JQ) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关斯坦福 Writing in the Sciences 课程教授科学写作，并包含科研资助申请写作指导。 [参考](https://create.stanford.edu/resources/educational-resources)
+  > 学习怎样更清楚地写作和表达科学研究。
   >
-  > Related Stanford course Writing in the Sciences teaches scientific writing and includes grant-writing guidance. [Reference](https://create.stanford.edu/resources/educational-resources)
+  > Learn to write and explain scientific research more clearly.
 
 - [欧丽娟说红楼梦 / Ou Lijuan on Dream of the Red Chamber](https://www.bilibili.com/BV1hp4y1t7zq) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 欧丽娟在台湾大学的相关《红楼梦》课程从文化与人物角度解读作品。 [参考](https://ocw.aca.ntu.edu.tw/courses/101S120/)
+  > 跟随欧丽娟解读《红楼梦》中的人物和文化。
   >
-  > Ou Lijuan’s related National Taiwan University course examines Dream of the Red Chamber through culture and character; [Reference](https://ocw.aca.ntu.edu.tw/courses/101S120/)
+  > Explore characters and culture in Dream of the Red Chamber with Ou Lijuan.
 
 - [罗翔讲刑法 / Luo Xiang on Criminal Law](https://www.bilibili.com/BV1dj411f7vb) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 课程介绍待补充。
+  > 通过罗翔的讲解认识刑法及其基本问题。
   >
-  > Course introduction coming soon.
+  > Explore criminal law and its basic questions through Luo Xiang’s explanations.
 
 - [聆听音乐 / Listening to Music](https://www.bilibili.com/BV1sW411a7nM) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关耶鲁 MUSI 112 课程介绍主动聆听及节奏、旋律、和声和曲式。 [参考](https://oyc.yale.edu/music/musi-112/lecture-1)
+  > 学习更仔细地聆听音乐中的节奏、旋律与结构。
   >
-  > Related Yale course MUSI 112 introduces active listening, rhythm, melody, harmony and musical form; [Reference](https://oyc.yale.edu/music/musi-112/lecture-1)
+  > Learn to listen more closely to rhythm, melody and musical structure.
 
 - [文学理论导论 / Introduction to Literary Theory](https://www.bilibili.com/BV15s411x7LU) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关耶鲁 ENGL 300 课程介绍文学理论，包括形式主义、结构主义和解构。 [参考](https://oyc.yale.edu/english/engl-300)
+  > 探索文学理论如何帮助我们提出问题并理解作品。
   >
-  > Related Yale course ENGL 300 introduces literary theory, including formalism, structuralism and deconstruction; [Reference](https://oyc.yale.edu/english/engl-300)
+  > Explore how literary theory helps us ask questions and interpret writing.
 
 - [如何管理情绪 / Managing Emotions](https://www.bilibili.com/BV1KK4y1P7Df) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关耶鲁课程面向学校人员，介绍识别和管理情绪以及理解压力的策略。 [参考](https://medicine.yale.edu/childstudy/services/community-and-schools-programs/center-for-emotional-intelligence/course/)
+  > 探索识别情绪和应对压力的方法。
   >
-  > A related Yale course for school staff introduces strategies for identifying and managing emotions and understanding stress. [Reference](https://medicine.yale.edu/childstudy/services/community-and-schools-programs/center-for-emotional-intelligence/course/)
+  > Explore ways to recognize emotions and respond to stress.
 
 - [谈判概论 / Introduction to Negotiation](https://www.bilibili.com/BV13T4y1L7AT) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 相关耶鲁谈判入门课程介绍分析和塑造谈判过程与结果的概念框架。 [参考](https://som.yale.edu/programs/mba/curriculum/year-1-core)
+  > 学习分析谈判中各方的目标，并寻找双方都能接受的结果。
   >
-  > A related Yale introduction to negotiation teaches a framework for analyzing and shaping negotiation processes and outcomes. [Reference](https://som.yale.edu/programs/mba/curriculum/year-1-core)
+  > Learn to analyze each side’s goals and seek outcomes they can accept.
 
 ## 技术博客 Technical blogs
 
