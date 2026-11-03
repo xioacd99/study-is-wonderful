@@ -196,7 +196,7 @@
   > A related CMU course introduces database internals, including data models, indexes, queries, and transactions. The linked video's edition is unverified. [Reference](https://15445.courses.cs.cmu.edu/spring2025/)
 
 - [CMU·Database Systems](https://www.bilibili.com/BV1rN411f7Ef) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > Course content and exact edition need verification.
+  > A related CMU course studies advanced database system design and implementation. The original video edition is unverified. [Reference](https://db.cs.cmu.edu/courses/)
 
 - [UC Berkeley·Introduction to Databases](https://www.bilibili.com/BV1yb4y1n7rb) <img src="bilibili.svg" alt="Bilibili" width="20">
   > Related Berkeley CS186 materials cover transactions, concurrency control and recovery. The original video’s course and edition are unverified. [Reference](https://cs186berkeley.net/notes/note11/)
@@ -217,7 +217,7 @@
   > A related CMU course addresses requirements, data and infrastructure engineering for systems with machine-learning components, including fairness. The original video’s correspondence to this edition is unverified. [Reference](https://www.cs.cmu.edu/~ckaestne/pdf/seai19.pdf)
 
 - [Stanford·Compilers](https://www.bilibili.com/BV1NW41177q4) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > Course content and exact edition need verification. This link is reused for two different entries; its target needs verification.
+  > A related Stanford CS143 course covers lexical analysis, parsing, type checking and code generation. The original link is reused for statistical learning and its target is unverified. [Reference](https://web.stanford.edu/class/cs143/) This link is reused for two different entries; its target needs verification.
 
 - [Cornell·Advanced Compilers](https://www.bilibili.com/BV1hZ4y1L7X4) <img src="bilibili.svg" alt="Bilibili" width="20">
   > A related Cornell course covers intermediate representations, data-flow analysis, optimization, and just-in-time compilation. The linked video's edition is unverified. [Reference](https://www.cs.cornell.edu/courses/cs6120/2025fa/self-guided/)
@@ -238,7 +238,7 @@
   > GAMES101 course materials cover graphics fundamentals including rasterization, ray tracing, geometry and animation. The original video’s exact edition is unverified. [Reference](https://lingqiyan.github.io/ucsb-assets/teaching/games101.html)
 
 - [MIT·Computer Graphics](https://www.bilibili.com/BV167411g7iK) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > Course content and exact edition need verification.
+  > A related MIT 6.837 course introduces graphics algorithms, real-time rendering, graphics hardware and OpenGL. The original video edition is unverified. [Reference](https://ocw.mit.edu/courses/6-837-computer-graphics-fall-2012/pages/syllabus/)
 
 - [CMU·Human-Computer Interaction Lecture Series](https://www.bilibili.com/BV1Bb411v7YH) <img src="bilibili.svg" alt="Bilibili" width="20">
   > The related CMU Human-Computer Interaction Institute seminar series shares HCI research and offers recordings of many past talks. Its match to the linked video version is unverified. [Reference](https://hcii.cmu.edu/seminar-series)

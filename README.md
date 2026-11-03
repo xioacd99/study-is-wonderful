@@ -196,7 +196,7 @@
   > 相关 CMU 数据库课程介绍数据库系统内部架构，包含数据模型、索引、查询与事务处理。原视频版本待核实。 [参考](https://15445.courses.cs.cmu.edu/spring2025/)
 
 - [CMU·数据库系统](https://www.bilibili.com/BV1rN411f7Ef) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 课程内容与具体版本待核实。
+  > 相关 CMU 高级数据库课程研究数据库系统的高级设计与实现；原视频版本待核实。 [参考](https://db.cs.cmu.edu/courses/)
 
 - [加州伯克利·数据库导论](https://www.bilibili.com/BV1yb4y1n7rb) <img src="bilibili.svg" alt="Bilibili" width="20">
   > Berkeley CS186 相关资料介绍数据库事务、并发控制和故障恢复；原视频是否为该课及同一版本未知。 [参考](https://cs186berkeley.net/notes/note11/)
@@ -217,7 +217,7 @@
   > CMU 相关课程研究如何为包含机器学习组件的系统进行需求、数据与基础设施工程，并考虑公平性；原视频与该课程版本的对应关系未核实。 [参考](https://www.cs.cmu.edu/~ckaestne/pdf/seai19.pdf)
 
 - [斯坦福·编译原理](https://www.bilibili.com/BV1NW41177q4) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 课程内容与具体版本待核实。 原目录中该链接被两个不同课程复用，目标待核实。
+  > 相关 Stanford CS143 课程讲解词法分析、语法分析、类型检查与代码生成；原链接与统计学习条目重复，视频对应关系待核实。 [参考](https://web.stanford.edu/class/cs143/) 原目录中该链接被两个不同课程复用，目标待核实。
 
 - [康奈尔·高级编译原理](https://www.bilibili.com/BV1hZ4y1L7X4) <img src="bilibili.svg" alt="Bilibili" width="20">
   > 相关 Cornell 高级编译课程讨论中间表示、数据流分析、优化及即时编译等。原视频版本待核实。 [参考](https://www.cs.cornell.edu/courses/cs6120/2025fa/self-guided/)
@@ -238,7 +238,7 @@
   > GAMES101 课程资料涵盖光栅化、光线追踪、几何和动画等图形学基础；原视频与官方资料的具体版本对应未核实。 [参考](https://lingqiyan.github.io/ucsb-assets/teaching/games101.html)
 
 - [MIT·计算机图形学](https://www.bilibili.com/BV167411g7iK) <img src="bilibili.svg" alt="Bilibili" width="20">
-  > 课程内容与具体版本待核实。
+  > 相关 MIT 6.837 课程介绍图形算法、实时渲染、图形硬件与 OpenGL；原视频版本待核实。 [参考](https://ocw.mit.edu/courses/6-837-computer-graphics-fall-2012/pages/syllabus/)
 
 - [CMU·人机交互系列讲座](https://www.bilibili.com/BV1Bb411v7YH) <img src="bilibili.svg" alt="Bilibili" width="20">
   > CMU 人机交互研究所的相关讲座系列分享人机交互研究，往期讲座提供部分录播。与原视频版本的对应尚未核实。 [参考](https://hcii.cmu.edu/seminar-series)
