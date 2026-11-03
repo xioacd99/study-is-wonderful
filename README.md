@@ -435,6 +435,16 @@
 
 ## 人工智能 Artificial Intelligence
 
+- [斯坦福 CS336：从零构建语言模型（第一讲） / Stanford CS336: Language Modeling from Scratch (Lecture 1)](https://www.youtube.com/watch?v=SQ3fZ1sAqXI) <img src="youtube.svg" alt="YouTube" width="20">
+  > 从第一讲认识语言模型与分词，开启对大模型构建方法的学习。
+  >
+  > Start exploring how language models are built, beginning with an overview and tokenization.
+
+- [浙江大学大模型原理与技术 / Zhejiang University: Principles and Techniques of Large Models](https://www.bilibili.com/video/BV1PB6XYFET2/) <img src="bilibili.svg" alt="Bilibili" width="20">
+  > 从语言模型基础出发，学习大模型架构、微调与检索增强生成等内容。
+  >
+  > Learn about language model foundations, architectures, fine-tuning, and retrieval-augmented generation.
+
 - [CMU·人工智能 (研究生) / CMU·Artificial Intelligence (Graduate)](https://www.bilibili.com/BV1pC4y1t7px) <img src="bilibili.svg" alt="Bilibili" width="20">
   > 了解让计算机表现出智能的基本思路。
   >
@@ -721,6 +731,14 @@
 
 ## 技术博客 Technical blogs
 
-暂无已收录文章。
+### 智能体与 AI 编程 Agents and AI coding
 
-No articles have been added yet.
+- [Codex 编排的开源规范 Symphony / An open-source spec for Codex orchestration: Symphony](https://openai.com/index/open-source-codex-orchestration-symphony/) 🌐 OpenAI
+  > 了解如何以任务看板协调编码智能体的工作区、执行与人工审查。
+  >
+  > See how a task board can coordinate coding agents, their workspaces, and human review.
+
+- [用并行 Claude 团队构建 C 编译器 / Building a C compiler with a team of parallel Claudes](https://www.anthropic.com/research/building-c-compiler) 🌐 Anthropic
+  > 通过构建编译器的实验，了解多个智能体协作、测试与长期运行的经验和限制。
+  >
+  > Explore lessons and limits of coordinating and testing multiple agents through a compiler-building experiment.
