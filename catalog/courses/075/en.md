@@ -1,0 +1,17 @@
+# MIT·Machine Learning for Healthcare
+
+[Browse by subject](../../subjects.en.md) · [Browse by platform](../../platforms.en.md) · [简体中文](./zh.md)
+
+- **Name:** MIT·Machine Learning for Healthcare
+- **Subject:** Artificial Intelligence
+- **Institution or presenter (as listed):** Massachusetts Institute of Technology
+- **Topic basis:** Topic stated in the original catalog: Machine Learning for Healthcare.
+- **Original catalog classification:** Computer Science / Artificial Intelligence (general) / Other Topics
+- **Instructor, prerequisites, language and availability:** Not independently verified.
+- **Other uncertainty:** Course content and version have not been independently verified.
+- **Evidence:** [Original README snapshot](../../archive/original.md) and original links below. Titles and classifications come from the source catalog; syllabi have not been independently checked.
+- **Catalog date:** 2026-11-03
+
+## Video platforms and original links
+
+- **Bilibili**: [MIT·Machine Learning for Healthcare](https://www.bilibili.com/BV1oa411c7eD)

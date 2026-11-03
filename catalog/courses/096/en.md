@@ -1,0 +1,17 @@
+# Lingqi Yan·Introduction to Modern Computer Graphics
+
+[Browse by subject](../../subjects.en.md) · [Browse by platform](../../platforms.en.md) · [简体中文](./zh.md)
+
+- **Name:** Lingqi Yan·Introduction to Modern Computer Graphics
+- **Subject:** Computer Science
+- **Institution or presenter (as listed):** Lingqi Yan
+- **Topic basis:** Topic stated in the original catalog: Introduction to Modern Computer Graphics.
+- **Original catalog classification:** Computer Science / Computer Graphics
+- **Instructor, prerequisites, language and availability:** Not independently verified.
+- **Other uncertainty:** Course content and version have not been independently verified.
+- **Evidence:** [Original README snapshot](../../archive/original.md) and original links below. Titles and classifications come from the source catalog; syllabi have not been independently checked.
+- **Catalog date:** 2026-11-03
+
+## Video platforms and original links
+
+- **Bilibili**: [Lingqi Yan·Introduction to Modern Computer Graphics](https://www.bilibili.com/BV1X7411F744)
