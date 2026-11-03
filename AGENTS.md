@@ -1,8 +1,22 @@
-# Project maintenance instructions
+# 项目维护规范
 
-- Keep the catalog multidisciplinary and write the root README as a single bilingual document, with English immediately following Chinese in titles and descriptions.
-- Submit routine and daily updates to the `dev` branch first. Merge into `main` only when the owner explicitly requests it.
-- Preserve existing course entries, source links and human edits. Verify information against its source; mark uncertain details rather than inventing them.
-- Do not publish private reports or internal links. Respect the rights and terms of external course and article publishers.
-- The proposed automated discovery workflow is not enabled; do not represent candidate resources as accepted entries without review.
+## 项目定位与沟通
 
+- 保持跨学科公开课与技术博客的定位，面向所有爱学习的人；语气轻松、友好、易懂，欢迎 Issue 和 Pull Request。
+- 开始修改前阅读本文件和当前 README，尊重现有内容及维护者的最新指示；后续明确的用户要求优先于本文档中的项目约定。
+
+## README 展示
+
+- 根目录使用一份中英双语 README：中文和英文紧邻，项目副标题分行，课程中文简介后紧跟英文简介。无需单独维护英文 README。
+- 顶部保留简洁的项目介绍和协作引用，以及可点击的学科目录；课程和已收录博客按学科直接平铺，不把读者引到深层课程详情页。
+- 课程名称本身直接链接对应的课程或视频。每个来源旁显示清晰、可读、有替代文本且与真实来源相符的平台图标；多个原始来源均应保留。不要把官网伪装成视频平台。
+- 每个课程下面用简短中英文引用介绍课程研究什么、能学到什么；让初学者容易理解，同时保持专业准确。不要堆砌“参考”等额外链接或重复的防御性措辞，不在课程标题中加入无关说明。
+- 介绍须依据可核查的信息，不编造讲师、课程内容或版本；不确定时使用中性且有依据的表述。若原链接确有实质冲突，应简洁准确地提示，不把相近课程当成原视频的确定大纲。
+- 保留现有课程、原始链接、人工内容和可用资源。视频无法访问不等于失效；查找可靠、尽量同课程同讲师的替代来源，不得编造，也不得未经授权静默删除原链接。不要重建已移除的原目录存档。
+- 新内容应分类清楚并保持中英文对应；不编造文章或未实现功能，不创建空链接或把待审资源说成已收录。
+
+## 分支与发布
+
+- 日常及例行更新先提交到 `dev`；只有维护者明确提出合并时才合入 `main`。修改前确认最新分支状态，避免覆盖并发改动。
+- 自动发现及每日推送尚未启用；不得声称任务已启用，也不自行创建自动任务。
+- 不公开私人报告、内部链接或秘密；遵守课程、文章及素材原权利人的许可和平台条款。
