@@ -8,6 +8,8 @@
 
 </div>
 
+> Originally created for Chinese-speaking learners, this project collects worthwhile courses. Let’s roll up our sleeves and learn together! <img src="china.png" alt="China" width="5%"/>
+
 > This project is maintained again. [Issues](https://github.com/xioacd99/study-is-wonderful/issues) and [pull requests](https://github.com/xioacd99/study-is-wonderful/pulls) are welcome for recommendations, corrections, and improvements.
 
 ## Contents

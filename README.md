@@ -8,6 +8,8 @@
 
 </div>
 
+> 本项目主要面向汉语人群，收集了一些比较好的课程资源，一起撸起袖子加油干 <img src="china.png" width="5%"/>。
+
 > 本项目已恢复维护，欢迎通过 [Issue](https://github.com/xioacd99/study-is-wonderful/issues) 推荐资源或反馈问题，也欢迎提交 [Pull Request](https://github.com/xioacd99/study-is-wonderful/pulls)。
 
 ## 目录
