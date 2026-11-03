@@ -733,12 +733,12 @@
 
 ### 智能体与 AI 编程 Agents and AI coding
 
-- [Codex 编排的开源规范 Symphony / An open-source spec for Codex orchestration: Symphony](https://openai.com/index/open-source-codex-orchestration-symphony/) 🌐 OpenAI
+- [Codex 编排的开源规范 Symphony / An open-source spec for Codex orchestration: Symphony](https://openai.com/index/open-source-codex-orchestration-symphony/) OpenAI
   > 了解如何以任务看板协调编码智能体的工作区、执行与人工审查。
   >
   > See how a task board can coordinate coding agents, their workspaces, and human review.
 
-- [用并行 Claude 团队构建 C 编译器 / Building a C compiler with a team of parallel Claudes](https://www.anthropic.com/research/building-c-compiler) 🌐 Anthropic
+- [用并行 Claude 团队构建 C 编译器 / Building a C compiler with a team of parallel Claudes](https://www.anthropic.com/research/building-c-compiler) Anthropic
   > 通过构建编译器的实验，了解多个智能体协作、测试与长期运行的经验和限制。
   >
   > Explore lessons and limits of coordinating and testing multiple agents through a compiler-building experiment.
