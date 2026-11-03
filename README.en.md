@@ -18,3 +18,7 @@ Explore courses in mathematics, computer science, economics, physics, psychology
 - [Original catalog archive](catalog/archive/original.md)
 
 The catalog retains 134 original course entries, each with Chinese and English details. Course metadata and video availability require verification; unknown details are marked on each page.
+
+## Contributing
+
+This project is maintained again. Issues and pull requests of all kinds are welcome, including suggestions, corrections, and improvements to courses and documentation.
