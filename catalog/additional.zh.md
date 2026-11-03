@@ -8,4 +8,4 @@
 
 > 李飞飞的 [cs231n](https://www.bilibili.com/BV1nJ411z7fe) 我看过，感觉不咋地，就没加。
 
-[原 README 快照](archive/original.md) · 2026-11-03
+[原 README 快照](https://github.com/xioacd99/study-is-wonderful/blob/10b5a985780c0b98b651c61ca9bff2fba99b0373/README.md) · 2026-11-03

@@ -1,6 +1,6 @@
 # Platform index
 
-[简体中文](platforms.zh.md) · [Subject index](subjects.en.md) · [Additional resources](additional.en.md) · [Original README](archive/original.md)
+[简体中文](platforms.zh.md) · [Subject index](subjects.en.md) · [Additional resources](additional.en.md)
 
 ## Bilibili
 

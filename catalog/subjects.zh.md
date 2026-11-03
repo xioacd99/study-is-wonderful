@@ -1,6 +1,6 @@
 # 学科索引
 
-[English](subjects.en.md) · [平台索引](platforms.zh.md) · [额外资料](additional.zh.md) · [Original README](archive/original.md)
+[English](subjects.en.md) · [平台索引](platforms.zh.md) · [额外资料](additional.zh.md)
 
 ## 数学
 

@@ -8,4 +8,4 @@ These are the original curator’s recommendations and personal comment, not num
 
 > The original curator watched Fei-Fei Li’s [cs231n](https://www.bilibili.com/BV1nJ411z7fe), but chose not to include it based on personal preference.
 
-[Original README snapshot](archive/original.md) · 2026-11-03
+[Original README snapshot](https://github.com/xioacd99/study-is-wonderful/blob/10b5a985780c0b98b651c61ca9bff2fba99b0373/README.md) · 2026-11-03

@@ -1,6 +1,6 @@
 # Subject index
 
-[简体中文](subjects.zh.md) · [Platform index](platforms.en.md) · [Additional resources](additional.en.md) · [Original README](archive/original.md)
+[简体中文](subjects.zh.md) · [Platform index](platforms.en.md) · [Additional resources](additional.en.md)
 
 ## Math
 

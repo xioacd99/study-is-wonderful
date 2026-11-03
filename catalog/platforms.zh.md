@@ -1,6 +1,6 @@
 # 平台索引
 
-[English](platforms.en.md) · [学科索引](subjects.zh.md) · [额外资料](additional.zh.md) · [Original README](archive/original.md)
+[English](platforms.en.md) · [学科索引](subjects.zh.md) · [额外资料](additional.zh.md)
 
 ## Bilibili
 
