@@ -1,4 +1,14 @@
-# study-is-wonderful
+<div align="center">
+
+# Study Is Wonderful
+
+**跨学科公开课与学习资源精选**
+
+汇集数学、计算机、经济学、物理学、心理学等领域的公开课程。
+
+[简体中文](README.md) | [English](README.en.md)
+
+</div>
 
 > 由于课程列表很长，推荐安装谷歌扩展 Smart TOC 来提升阅读体验（会自动在网页右侧边缘生成一个可跳转的目录。
 > 
