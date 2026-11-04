@@ -750,3 +750,17 @@
   > 通过构建编译器的实验，了解多个智能体协作、测试与长期运行的经验和限制。
   >
   > Explore lessons and limits of coordinating and testing multiple agents through a compiler-building experiment.
+
+### AI 评测 AI evaluation
+
+- [LifeVal：评估 AI 完成日常任务的能力 / LifeVal](https://openai.com/index/lifeval/) <img src="https://github.com/openai.png" alt="OpenAI" width="20">
+  > 认识围绕日常实际需求构建的评测，关注 AI 能否帮助人们完成任务。
+  >
+  > Explore an evaluation of how well AI helps people complete practical everyday tasks.
+
+### 工程基础设施 Engineering infrastructure
+
+- [OpenAI 如何扩展 Git / Scaling Git at OpenAI](https://openai.com/index/scaling-git-at-openai/) <img src="https://github.com/openai.png" alt="OpenAI" width="20">
+  > 了解 Pando 如何保持 Git 兼容，同时支持并行分支写入和高吞吐读取。
+  >
+  > Explore how Pando supports concurrent branch updates and high-throughput reads while retaining Git compatibility.
