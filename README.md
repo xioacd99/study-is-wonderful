@@ -473,7 +473,22 @@
   >
   > Explore advanced research topics in deep learning.
 
-- [李宏毅·机器学习-v1 / Hung-yi Lee·Machine Learning-v1](https://www.youtube.com/watch?v=CXgbekl66jc&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49) <img src="youtube.svg" alt="YouTube" width="20"> · [李宏毅·机器学习-v2 / Hung-yi Lee·Machine Learning-v2](https://www.youtube.com/watch?v=Ye018rCVvOo&list=PLJV_el3uVTsMhtt7_Y6sgTHGHp1Vb2P2J) <img src="youtube.svg" alt="YouTube" width="20"> · [李宏毅·机器学习-v1 / Hung-yi Lee·Machine Learning-v1](https://www.youtube.com/watch?v=7XZR0-4uS5s&list=PLJV_el3uVTsPM2mM-OQzJXziCGJa8nJL8) <img src="youtube.svg" alt="YouTube" width="20"> · [李宏毅·机器学习-TA 补充课 / Hung-yi Lee·Machine Learning: TA Supplement](https://www.youtube.com/watch?v=eybCCtNKwzA&list=PLJV_el3uVTsM8QoIIe9JrSDjB0e1UkbEC) <img src="youtube.svg" alt="YouTube" width="20">
+- [李宏毅·机器学习-v1 / Hung-yi Lee·Machine Learning-v1](https://www.youtube.com/watch?v=CXgbekl66jc&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49) <img src="youtube.svg" alt="YouTube" width="20">
+  > 学习让计算机从数据中发现规律的机器学习方法。
+  >
+  > Learn about machine learning, where computers find patterns in data.
+
+- [李宏毅·机器学习-v2 / Hung-yi Lee·Machine Learning-v2](https://www.youtube.com/watch?v=Ye018rCVvOo&list=PLJV_el3uVTsMhtt7_Y6sgTHGHp1Vb2P2J) <img src="youtube.svg" alt="YouTube" width="20">
+  > 学习让计算机从数据中发现规律的机器学习方法。
+  >
+  > Learn about machine learning, where computers find patterns in data.
+
+- [李宏毅·机器学习-v1 / Hung-yi Lee·Machine Learning-v1](https://www.youtube.com/watch?v=7XZR0-4uS5s&list=PLJV_el3uVTsPM2mM-OQzJXziCGJa8nJL8) <img src="youtube.svg" alt="YouTube" width="20">
+  > 学习让计算机从数据中发现规律的机器学习方法。
+  >
+  > Learn about machine learning, where computers find patterns in data.
+
+- [李宏毅·机器学习-TA 补充课 / Hung-yi Lee·Machine Learning: TA Supplement](https://www.youtube.com/watch?v=eybCCtNKwzA&list=PLJV_el3uVTsM8QoIIe9JrSDjB0e1UkbEC) <img src="youtube.svg" alt="YouTube" width="20">
   > 学习让计算机从数据中发现规律的机器学习方法。
   >
   > Learn about machine learning, where computers find patterns in data.
@@ -503,7 +518,12 @@
   >
   > Explore how models learn from data and how their performance can be assessed.
 
-- [李宏毅·GAN-2018 / Hung-yi Lee·GAN-2018](https://www.youtube.com/watch?v=DQNNMiAP5lw&list=PLJV_el3uVTsMq6JEFPW35BCiOQTsoqwNw) <img src="youtube.svg" alt="YouTube" width="20"> · [李宏毅·GAN-2017 / Hung-yi Lee·GAN-2017](https://www.youtube.com/watch?v=G0dZc-8yIjE&list=PLJV_el3uVTsMd2G9ZjcpJn1YfnM9wVOBf) <img src="youtube.svg" alt="YouTube" width="20">
+- [李宏毅·GAN-2018 / Hung-yi Lee·GAN-2018](https://www.youtube.com/watch?v=DQNNMiAP5lw&list=PLJV_el3uVTsMq6JEFPW35BCiOQTsoqwNw) <img src="youtube.svg" alt="YouTube" width="20">
+  > 认识生成对抗网络：两个模型相互较量，帮助生成新数据。
+  >
+  > Explore generative adversarial networks, where two models compete to help generate new data.
+
+- [李宏毅·GAN-2017 / Hung-yi Lee·GAN-2017](https://www.youtube.com/watch?v=G0dZc-8yIjE&list=PLJV_el3uVTsMd2G9ZjcpJn1YfnM9wVOBf) <img src="youtube.svg" alt="YouTube" width="20">
   > 认识生成对抗网络：两个模型相互较量，帮助生成新数据。
   >
   > Explore generative adversarial networks, where two models compete to help generate new data.
@@ -751,7 +771,7 @@
   >
   > Explore lessons and limits of coordinating and testing multiple agents through a compiler-building experiment.
 
-- [轻量编排器：让路由器少做一点 / The Thin Orchestrator](https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/) · Meta Engineering
+- [轻量编排器：让路由器少做一点 / The Thin Orchestrator](https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/) <img src="https://github.com/meta.png" alt="Meta Engineering" width="20">
   > 了解如何把流程调度与专业推理分开，让编排器负责顺序和检查，专门的智能体处理具体任务。
   >
   > Learn to separate workflow coordination from domain reasoning, with an orchestrator managing order and checks while specialist agents handle individual tasks.
@@ -763,7 +783,7 @@
   >
   > Explore an evaluation of how well AI helps people complete practical everyday tasks.
 
-- [设计能应对 AI 能力进步的技术评测 / Designing AI-resistant technical evaluations](https://www.anthropic.com/research/AI-resistant-technical-evaluations) · Anthropic
+- [设计能应对 AI 能力进步的技术评测 / Designing AI-resistant technical evaluations](https://www.anthropic.com/research/AI-resistant-technical-evaluations) <img src="https://github.com/anthropics.png" alt="Anthropic" width="20">
   > 通过性能工程招聘测试的多轮改版，思考怎样在 AI 能力提升时继续评估人的问题分析与工具构建能力。
   >
   > Follow successive redesigns of a performance-engineering hiring test to explore how to assess human problem-solving and tool-building as AI improves.
@@ -777,12 +797,12 @@
 
 ### 科研与工程应用 Science and engineering applications
 
-- [用 Google Antigravity 开展智能体化学信息学 / Agentic cheminformatics with Google Antigravity](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/) · Google DeepMind
+- [用 Google Antigravity 开展智能体化学信息学 / Agentic cheminformatics with Google Antigravity](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/) <img src="https://github.com/google-deepmind.png" alt="Google DeepMind" width="20">
   > 了解智能体如何整理分子数据、调用化学计算工具并提出候选分子，以及为什么计算结果仍需实验验证。
   >
   > Explore how agents organize molecular data, use chemistry tools, and propose candidate molecules, and why computational results still need experimental validation.
 
-- [加速物理世界的工程设计 / Accelerating engineering for the physical world](https://openai.com/index/accelerating-engineering-for-the-physical-world/) · OpenAI
+- [加速物理世界的工程设计 / Accelerating engineering for the physical world](https://openai.com/index/accelerating-engineering-for-the-physical-world/) <img src="https://github.com/openai.png" alt="OpenAI" width="20">
   > 了解 AI 如何协助机械设计、电路、固件与仿真，并认识制造公差和装配要求仍需工程人员审查的原因。
   >
   > See how AI can assist mechanical design, electronics, firmware, and simulation, and why engineers still need to review manufacturing tolerances and assembly requirements.
