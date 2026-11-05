@@ -751,6 +751,11 @@
   >
   > Explore lessons and limits of coordinating and testing multiple agents through a compiler-building experiment.
 
+- [轻量编排器：让路由器少做一点 / The Thin Orchestrator](https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/) · Meta Engineering
+  > 了解如何把流程调度与专业推理分开，让编排器负责顺序和检查，专门的智能体处理具体任务。
+  >
+  > Learn to separate workflow coordination from domain reasoning, with an orchestrator managing order and checks while specialist agents handle individual tasks.
+
 ### AI 评测 AI evaluation
 
 - [LifeVal：评估 AI 完成日常任务的能力 / LifeVal](https://openai.com/index/lifeval/) <img src="https://github.com/openai.png" alt="OpenAI" width="20">
@@ -758,9 +763,26 @@
   >
   > Explore an evaluation of how well AI helps people complete practical everyday tasks.
 
+- [设计能应对 AI 能力进步的技术评测 / Designing AI-resistant technical evaluations](https://www.anthropic.com/research/AI-resistant-technical-evaluations) · Anthropic
+  > 通过性能工程招聘测试的多轮改版，思考怎样在 AI 能力提升时继续评估人的问题分析与工具构建能力。
+  >
+  > Follow successive redesigns of a performance-engineering hiring test to explore how to assess human problem-solving and tool-building as AI improves.
+
 ### 工程基础设施 Engineering infrastructure
 
 - [OpenAI 如何扩展 Git / Scaling Git at OpenAI](https://openai.com/index/scaling-git-at-openai/) <img src="https://github.com/openai.png" alt="OpenAI" width="20">
   > 了解 Pando 如何保持 Git 兼容，同时支持并行分支写入和高吞吐读取。
   >
   > Explore how Pando supports concurrent branch updates and high-throughput reads while retaining Git compatibility.
+
+### 科研与工程应用 Science and engineering applications
+
+- [用 Google Antigravity 开展智能体化学信息学 / Agentic cheminformatics with Google Antigravity](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/) · Google DeepMind
+  > 了解智能体如何整理分子数据、调用化学计算工具并提出候选分子，以及为什么计算结果仍需实验验证。
+  >
+  > Explore how agents organize molecular data, use chemistry tools, and propose candidate molecules, and why computational results still need experimental validation.
+
+- [加速物理世界的工程设计 / Accelerating engineering for the physical world](https://openai.com/index/accelerating-engineering-for-the-physical-world/) · OpenAI
+  > 了解 AI 如何协助机械设计、电路、固件与仿真，并认识制造公差和装配要求仍需工程人员审查的原因。
+  >
+  > See how AI can assist mechanical design, electronics, firmware, and simulation, and why engineers still need to review manufacturing tolerances and assembly requirements.
