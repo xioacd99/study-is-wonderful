@@ -776,6 +776,11 @@
   >
   > Learn to separate workflow coordination from domain reasoning, with an orchestrator managing order and checks while specialist agents handle individual tasks.
 
+- [CodeMender：用 AI 协助修复代码漏洞 / Introducing CodeMender: an AI agent for code security](https://deepmind.google/blog/introducing-codemender-an-ai-agent-for-code-security/) <img src="https://github.com/google-deepmind.png" alt="Google DeepMind" width="20">
+  > 了解智能体如何定位漏洞根因、生成补丁并用程序分析和测试检查改动，以及人工审查在发布前的作用。
+  >
+  > Explore how an agent finds vulnerability root causes, creates patches, and checks changes with program analysis and testing, with human review before submission.
+
 ### AI 评测 AI evaluation
 
 - [LifeVal：评估 AI 完成日常任务的能力 / LifeVal](https://openai.com/index/lifeval/) <img src="https://github.com/openai.png" alt="OpenAI" width="20">
@@ -787,6 +792,16 @@
   > 通过性能工程招聘测试的多轮改版，思考怎样在 AI 能力提升时继续评估人的问题分析与工具构建能力。
   >
   > Follow successive redesigns of a performance-engineering hiring test to explore how to assess human problem-solving and tool-building as AI improves.
+
+- [用强化学习训练对齐审计员 / Training Alignment Auditors via Reinforcement Learning](https://alignment.anthropic.com/2026/training-alignment-auditors/) <img src="https://github.com/anthropics.png" alt="Anthropic" width="20">
+  > 认识如何训练模型调查另一个模型的隐藏行为，并了解奖励设计与正常样本如何影响审计质量和误报。
+  >
+  > Learn how models can be trained to investigate another model’s hidden behaviors, and how reward design and benign examples affect audit quality and false positives.
+
+- [用自我评估扩展滥用检测 / Scaling Misuse Detection with Self-Assessment](https://safeguards.anthropic.com/2026/self-assessment/) <img src="https://github.com/anthropics.png" alt="Anthropic" width="20">
+  > 了解模型如何在回复后复用对话计算来初步检查潜在滥用，以及为什么这类检查仍需与其他安全措施配合。
+  >
+  > Explore how a model can reuse conversation computation to screen for potential misuse after responding, and why this screening still needs other safeguards.
 
 ### 工程基础设施 Engineering infrastructure
 
