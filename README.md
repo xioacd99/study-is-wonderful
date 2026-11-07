@@ -803,6 +803,11 @@
   >
   > Explore how a model can reuse conversation computation to screen for potential misuse after responding, and why this screening still needs other safeguards.
 
+- [自动化研究隐蔽的涌现式失配 / Automated Subtle Emergent Misalignment Research](https://alignment.anthropic.com/2026/automated-em-search/) <img src="https://github.com/anthropics.png" alt="Anthropic" width="20">
+  > 通过受控红队实验，了解看似无害的微调数据为何可能改变模型行为，以及如何用自动化测试发现训练数据监控的盲区。
+  >
+  > Explore how seemingly harmless fine-tuning data can change model behavior in controlled red-team experiments, and how automated tests can expose gaps in training-data monitoring.
+
 ### 工程基础设施 Engineering infrastructure
 
 - [OpenAI 如何扩展 Git / Scaling Git at OpenAI](https://openai.com/index/scaling-git-at-openai/) <img src="https://github.com/openai.png" alt="OpenAI" width="20">
@@ -821,3 +826,8 @@
   > 了解 AI 如何协助机械设计、电路、固件与仿真，并认识制造公差和装配要求仍需工程人员审查的原因。
   >
   > See how AI can assist mechanical design, electronics, firmware, and simulation, and why engineers still need to review manufacturing tolerances and assembly requirements.
+
+- [用 Google Antigravity 加速抗菌肽搜索 / Accelerating the search for antimicrobial peptides with Google Antigravity](https://deepmind.google/blog/accelerating-antimicrobial-discovery/) <img src="https://github.com/google-deepmind.png" alt="Google DeepMind" width="20">
+  > 了解研究者如何与智能体合作筛选蛋白质、分析结构并整理证据，以及为什么计算选出的候选抗菌肽仍需实验验证。
+  >
+  > See how researchers work with an agent to screen proteins, analyze structures, and gather evidence, and why computationally selected antimicrobial peptide candidates still need laboratory validation.
