@@ -166,6 +166,11 @@
 
 ## 计算机科学 Computer Science
 
+- [MIT·计算机教育中缺失的一课（2026） / MIT·The Missing Semester of Your CS Education (2026)](https://www.youtube.com/playlist?list=PLyzOVJj3bHQunmnnTXrNbZnBaCA-ieK4L) <img src="youtube.svg" alt="YouTube" width="20"> · [中文配音转载 / Chinese-dubbed repost](https://www.bilibili.com/video/BV1JgACzjEo8/) <img src="bilibili.svg" alt="Bilibili" width="20"> · [课程官网 / Course website](https://missing.csail.mit.edu/2026/)
+  > 学习 Shell、开发工具、调试、Git、代码发布与质量管理，并了解智能体编程如何融入日常开发。
+  >
+  > Learn shell tools, development workflows, debugging, Git, software delivery, and code quality, including how agentic coding fits into everyday development.
+
 - [理论计算机科学中的重要思想 / Great Ideas in Theoretical Computer Science](https://www.bilibili.com/BV1Wh411y7V9) <img src="bilibili.svg" alt="Bilibili" width="20">
   > 用数学的眼光认识计算机能解决什么问题，以及解决问题需要多少资源。
   >
@@ -442,6 +447,11 @@
   > Explore the relationship between blockchains, money and finance.
 
 ## 人工智能 Artificial Intelligence
+
+- [ETH Zurich·机器人学习：从基础到基础模型（2026） / ETH Zurich·Robot Learning: From Fundamentals to Foundation Models (2026)](https://cvg.ethz.ch/lectures/Robot-Learning/) · [第一讲 / Lecture 1](https://www.youtube.com/watch?v=X0k14u6pSxw) <img src="youtube.svg" alt="YouTube" width="20"> · [B站转载 / Bilibili repost](https://www.bilibili.com/video/BV1fSjG6LES5/) <img src="bilibili.svg" alt="Bilibili" width="20">
+  > Oier Mees 从机器人控制、模仿学习和强化学习讲起，逐步介绍视觉语言动作模型与机器人基础模型，并结合仿真和真实机器人实践。
+  >
+  > Oier Mees introduces robot control, imitation learning, and reinforcement learning before exploring vision-language-action and robotics foundation models, with practice in simulation and on real robots.
 
 - [斯坦福 CS336：从零构建语言模型（第一讲） / Stanford CS336: Language Modeling from Scratch (Lecture 1)](https://www.youtube.com/watch?v=SQ3fZ1sAqXI) <img src="youtube.svg" alt="YouTube" width="20">
   > 从第一讲认识语言模型与分词，开启对大模型构建方法的学习。
