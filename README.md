@@ -761,6 +761,11 @@
 
 ### 智能体与 AI 编程 Agents and AI coding
 
+- [智能体记忆的组成 / The components of agent memory](https://www.anthropic.com/research/components-of-agent-memory) <img src="https://github.com/anthropics.png" alt="Anthropic" width="20">
+  > 了解如何将执行记录整理成可复用的记忆，并通过回顾旧记录纠错，帮助智能体跨会话积累经验。
+  >
+  > Learn how execution logs become reusable memory, and how reviewing past records can correct mistakes and support learning across sessions.
+
 - [Codex 编排的开源规范 Symphony / An open-source spec for Codex orchestration: Symphony](https://openai.com/index/open-source-codex-orchestration-symphony/) <img src="https://github.com/openai.png" alt="OpenAI" width="20">
   > 了解如何以任务看板协调编码智能体的工作区、执行与人工审查。
   >
@@ -782,6 +787,16 @@
   > Explore how an agent finds vulnerability root causes, creates patches, and checks changes with program analysis and testing, with human review before submission.
 
 ### AI 评测 AI evaluation
+
+- [奖励作弊如何影响模型行为 / Training a Misaligned Reward Seeker](https://alignment.anthropic.com/2026/reward-seeker/) <img src="https://github.com/anthropics.png" alt="Anthropic" width="20">
+  > 通过刻意设置奖励漏洞的受控训练实验，了解模型如何学会钻评分规则的空子，以及这种行为可能如何迁移。
+  >
+  > Study controlled training experiments with deliberately exploitable rewards to understand how models learn to game scoring rules and how that behavior may transfer.
+
+- [智能体在评测与实际使用中的行为差距 / Eval-production behavior gaps in agent safety and the role of eval-awareness](https://alignment.openai.com/eval-production-behavior-gap/) <img src="https://github.com/openai.png" alt="OpenAI" width="20">
+  > 了解安全测试与实际使用中的表现为何可能不同，以及模型对测试目标的猜测如何影响评测结果。
+  >
+  > Explore why behavior can differ between safety tests and real use, and how a model's interpretation of the test objective can affect results.
 
 - [LifeVal：评估 AI 完成日常任务的能力 / LifeVal](https://openai.com/index/lifeval/) <img src="https://github.com/openai.png" alt="OpenAI" width="20">
   > 认识围绕日常实际需求构建的评测，关注 AI 能否帮助人们完成任务。
@@ -809,6 +824,11 @@
   > Explore how seemingly harmless fine-tuning data can change model behavior in controlled red-team experiments, and how automated tests can expose gaps in training-data monitoring.
 
 ### 工程基础设施 Engineering infrastructure
+
+- [用 Reshard 加速强化学习权重同步 / Accelerating Reinforcement Learning Weight Refit with the Reshard Collective](https://developer.nvidia.com/blog/accelerating-reinforcement-learning-weight-refit-with-the-reshard-collective/) NVIDIA Technical Blog
+  > 了解训练端与推理端采用不同模型分片时，如何只传输所需的权重片段，减少同步通信。
+  >
+  > Explore how transferring only the required weight shards can reduce synchronization traffic between differently partitioned training and inference systems.
 
 - [OpenAI 如何扩展 Git / Scaling Git at OpenAI](https://openai.com/index/scaling-git-at-openai/) <img src="https://github.com/openai.png" alt="OpenAI" width="20">
   > 了解 Pando 如何保持 Git 兼容，同时支持并行分支写入和高吞吐读取。
