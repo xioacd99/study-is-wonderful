@@ -771,6 +771,11 @@
 
 ### 智能体与 AI 编程 Agents and AI coding
 
+- [Project EVE：让 Claude 玩大型多人在线游戏 / Project EVE: Claude plays MMORPGs](https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs) <img src="https://github.com/anthropics.png" alt="Anthropic" width="20">
+  > 通过模拟交易与实时游戏任务，了解智能体如何规划、协作，以及团队在长期任务和蓄意干扰下的局限。
+  >
+  > Explore agent planning and coordination through simulated trading and live game tasks, including limits in long-running missions and deliberate team disruption.
+
 - [智能体记忆的组成 / The components of agent memory](https://www.anthropic.com/research/components-of-agent-memory) <img src="https://github.com/anthropics.png" alt="Anthropic" width="20">
   > 了解如何将执行记录整理成可复用的记忆，并通过回顾旧记录纠错，帮助智能体跨会话积累经验。
   >
@@ -797,6 +802,11 @@
   > Explore how an agent finds vulnerability root causes, creates patches, and checks changes with program analysis and testing, with human review before submission.
 
 ### AI 评测 AI evaluation
+
+- [双盲 AI 评测试点 / Piloting the world's first double-blind AI evaluations](https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/) <img src="https://github.com/google-deepmind.png" alt="Google DeepMind" width="20">
+  > 了解机密计算如何让评测方保留测试题、模型提供方保留权重，同时在隔离环境中运行评测，减少信息泄漏。
+  >
+  > Learn how confidential computing lets evaluators retain private test questions and model providers retain weights while running evaluations in an isolated environment.
 
 - [奖励作弊如何影响模型行为 / Training a Misaligned Reward Seeker](https://alignment.anthropic.com/2026/reward-seeker/) <img src="https://github.com/anthropics.png" alt="Anthropic" width="20">
   > 通过刻意设置奖励漏洞的受控训练实验，了解模型如何学会钻评分规则的空子，以及这种行为可能如何迁移。
