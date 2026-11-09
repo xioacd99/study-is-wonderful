@@ -448,6 +448,11 @@
 
 ## 人工智能 Artificial Intelligence
 
+- [斯坦福 CS224R·深度强化学习（2025 春季） / Stanford CS224R·Deep Reinforcement Learning (Spring 2025)](https://www.bilibili.com/video/BV15E2SB7EzE/) <img src="bilibili.svg" alt="Bilibili repost" width="20"> · [官方第一讲 / Official Lecture 1](https://www.youtube.com/watch?v=EvHRQhMX7_w) <img src="youtube.svg" alt="YouTube" width="20">
+  > Chelsea Finn 介绍模仿学习、策略梯度、Actor-Critic、离线与基于模型的强化学习，并讨论这些方法在机器人和大语言模型中的应用。
+  >
+  > Chelsea Finn introduces imitation learning, policy gradients, actor-critic methods, offline and model-based reinforcement learning, with applications to robots and large language models.
+
 - [ETH Zurich·机器人学习：从基础到基础模型（2026） / ETH Zurich·Robot Learning: From Fundamentals to Foundation Models (2026)](https://cvg.ethz.ch/lectures/Robot-Learning/) · [第一讲 / Lecture 1](https://www.youtube.com/watch?v=X0k14u6pSxw) <img src="youtube.svg" alt="YouTube" width="20"> · [B站转载 / Bilibili repost](https://www.bilibili.com/video/BV1fSjG6LES5/) <img src="bilibili.svg" alt="Bilibili" width="20">
   > Oier Mees 从机器人控制、模仿学习和强化学习讲起，逐步介绍视觉语言动作模型与机器人基础模型，并结合仿真和真实机器人实践。
   >
