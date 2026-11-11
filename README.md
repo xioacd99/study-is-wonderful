@@ -166,6 +166,11 @@
 
 ## 计算机科学 Computer Science
 
+- [MIT 6.172·软件系统性能工程（2018 秋季） / MIT 6.172·Performance Engineering of Software Systems (Fall 2018)](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/)（MIT OpenCourseWare） · [官方第一讲 / Official Lecture 1](https://www.youtube.com/watch?v=o7h_sYMk_oc)（YouTube） · [转载 / Repost](https://www.bilibili.com/video/BV1wA411h7N7/)（Bilibili）
+  > 从矩阵乘法优化等实例出发，学习分析程序性能，理解算法、编程语言与计算机系统如何影响运行速度。
+  >
+  > Learn to analyze program performance through examples such as matrix multiplication, and understand how algorithms, programming languages, and computer systems affect execution speed.
+
 - [MIT·计算机教育中缺失的一课（2026） / MIT·The Missing Semester of Your CS Education (2026)](https://www.youtube.com/playlist?list=PLyzOVJj3bHQunmnnTXrNbZnBaCA-ieK4L) <img src="youtube.svg" alt="YouTube" width="20"> · [中文配音转载 / Chinese-dubbed repost](https://www.bilibili.com/video/BV1JgACzjEo8/) <img src="bilibili.svg" alt="Bilibili" width="20"> · [课程官网 / Course website](https://missing.csail.mit.edu/2026/)
   > 学习 Shell、开发工具、调试、Git、代码发布与质量管理，并了解智能体编程如何融入日常开发。
   >
