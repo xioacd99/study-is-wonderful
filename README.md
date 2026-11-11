@@ -776,6 +776,11 @@
 
 ### 智能体与 AI 编程 Agents and AI coding
 
+- [AlphaProof Code：用形式化证明验证软件 / Introducing AlphaProof Code](https://deepmind.google/blog/introducing-alphaproof-code/) Google DeepMind
+  > 了解人类如何确定安全规格，再由智能体生成 Lean 证明、交给独立检查器验证，以减少复杂软件中的验证工作。
+  >
+  > Explore how human-reviewed specifications, agent-generated Lean proofs, and independent checking work together to verify complex software.
+
 - [Project EVE：让 Claude 玩大型多人在线游戏 / Project EVE: Claude plays MMORPGs](https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs) <img src="https://github.com/anthropics.png" alt="Anthropic" width="20">
   > 通过模拟交易与实时游戏任务，了解智能体如何规划、协作，以及团队在长期任务和蓄意干扰下的局限。
   >
@@ -807,6 +812,11 @@
   > Explore how an agent finds vulnerability root causes, creates patches, and checks changes with program analysis and testing, with human review before submission.
 
 ### AI 评测 AI evaluation
+
+- [训练过程如何影响思维链可监控性 / What affects chain-of-thought monitorability across the model lifecycle?](https://alignment.openai.com/cot-monitorability-model-lifecycle/) OpenAI Alignment Research
+  > 了解预训练、强化学习和模型生成数据如何改变推理能力与思维链可控性，以及为什么可见推理文本不能完整代表模型行为。
+  >
+  > Explore how pretraining, reinforcement learning, and model-generated data affect reasoning and chain-of-thought controllability, and why visible reasoning is an incomplete view of model behavior.
 
 - [双盲 AI 评测试点 / Piloting the world's first double-blind AI evaluations](https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/) <img src="https://github.com/google-deepmind.png" alt="Google DeepMind" width="20">
   > 了解机密计算如何让评测方保留测试题、模型提供方保留权重，同时在隔离环境中运行评测，减少信息泄漏。
@@ -849,6 +859,16 @@
   > Explore how seemingly harmless fine-tuning data can change model behavior in controlled red-team experiments, and how automated tests can expose gaps in training-data monitoring.
 
 ### 工程基础设施 Engineering infrastructure
+
+- [TPU Sync：加快推理缓存与训练权重传输 / Introducing TPU Sync: Fast KV cache and weight transfer for inference and RL on TPU](https://cloud.google.com/blog/topics/ai-infrastructure/introducing-tpu-sync-fast-kv-cache-and-weight-transfer-on-tpu) Google Cloud Blog
+  > 了解如何在 TPU、主机内存与存储之间异步搬运模型状态，支持推理缓存复用，以及仍处于实验阶段的强化学习权重同步。
+  >
+  > Explore asynchronous model-state transfer across TPUs, host memory, and storage for inference-cache reuse and experimental reinforcement-learning weight synchronization.
+
+- [Agent Substrate：在 Kubernetes 上运行大规模智能体 / Agent Substrate: Advancing Kubernetes for Agents at Scale](https://developer.nvidia.com/blog/agent-substrate-advancing-kubernetes-for-agents-at-scale/) NVIDIA Technical Blog
+  > 学习如何让多个智能体会话复用预热工作节点，并保存和恢复空闲会话的状态，减少环境等待与资源闲置。
+  >
+  > Learn how agent sessions share warm workers and preserve idle-session state through checkpointing and restoration to reduce waiting and wasted resources.
 
 - [用 Reshard 加速强化学习权重同步 / Accelerating Reinforcement Learning Weight Refit with the Reshard Collective](https://developer.nvidia.com/blog/accelerating-reinforcement-learning-weight-refit-with-the-reshard-collective/) NVIDIA Technical Blog
   > 了解训练端与推理端采用不同模型分片时，如何只传输所需的权重片段，减少同步通信。
