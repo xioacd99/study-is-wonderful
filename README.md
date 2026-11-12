@@ -39,6 +39,11 @@
 
 ## 数学 Math
 
+- [MIT 18.065·数据分析、信号处理与机器学习中的矩阵方法（2018 春季） / MIT 18.065·Matrix Methods in Data Analysis, Signal Processing, and Machine Learning (Spring 2018)](https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/)（MIT OpenCourseWare） · [官方第一讲 / Official Lecture 1](https://www.youtube.com/watch?v=YiqIkSHSmyc)（YouTube）
+  > 跟随 Gilbert Strang 学习矩阵分解、概率统计与优化，理解线性代数如何支撑数据分析和深度学习。
+  >
+  > Learn matrix factorizations, probability, statistics, and optimization with Gilbert Strang, and see how linear algebra supports data analysis and deep learning.
+
 - [数学思维课 / Mathematical Thinking](https://www.bilibili.com/BV1dq4y127TF) <img src="bilibili.svg" alt="Bilibili" width="20">
   > 练习像数学家一样提问、推理，并用证明解释答案为什么成立。
   >
@@ -724,6 +729,11 @@
   > Explore how brains, bodies and environments interact to shape human behavior.
 
 ## 哲学与艺术 Philosophy and Arts
+
+- [耶鲁 ENGL 310·现代诗歌（2007 春季） / Yale ENGL 310·Modern Poetry (Spring 2007)](https://oyc.yale.edu/english/engl-310)（Open Yale Courses） · [官方第一讲 / Official Lecture 1](https://www.youtube.com/watch?v=aG9el6hOjm8)（YouTube）
+  > 跟随 Langdon Hammer 细读现代英语诗歌，认识 Frost、Yeats、Eliot 等诗人，并从历史与文学批评角度理解作品。
+  >
+  > Read modern English-language poetry closely with Langdon Hammer, exploring poets such as Frost, Yeats, and Eliot through historical context and literary criticism.
 
 - [美学 / Aesthetics](https://www.bilibili.com/BV1av411e778) <img src="bilibili.svg" alt="Bilibili" width="20">
   > 思考什么是美，以及我们为什么会对艺术产生不同感受。
