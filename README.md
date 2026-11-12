@@ -458,6 +458,11 @@
 
 ## 人工智能 Artificial Intelligence
 
+- [斯坦福 CS224R·深度强化学习 / Stanford CS224R·Deep Reinforcement Learning](https://www.bilibili.com/video/BV1U2zYBqEFB/)（Bilibili 转载 / repost）
+  > 了解智能体如何通过交互与奖励学习决策，以及深度学习如何用于强化学习。本转载的录制年份尚未核实。
+  >
+  > Explore how agents learn decisions through interaction and rewards, and how deep learning is used in reinforcement learning. The recording year of this repost has not been verified.
+
 - [斯坦福 CS224R·深度强化学习（2025 春季） / Stanford CS224R·Deep Reinforcement Learning (Spring 2025)](https://www.bilibili.com/video/BV15E2SB7EzE/) <img src="bilibili.svg" alt="Bilibili repost" width="20"> · [官方第一讲 / Official Lecture 1](https://www.youtube.com/watch?v=EvHRQhMX7_w) <img src="youtube.svg" alt="YouTube" width="20">
   > Chelsea Finn 介绍模仿学习、策略梯度、Actor-Critic、离线与基于模型的强化学习，并讨论这些方法在机器人和大语言模型中的应用。
   >
