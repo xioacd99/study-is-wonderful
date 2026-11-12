@@ -865,6 +865,16 @@
 
 ### 工程基础设施 Engineering infrastructure
 
+- [Cloud Pathways：统一调度大规模机器学习任务 / Cloud Pathways, a distributed ML runtime for massive accelerator fleets, now GA](https://cloud.google.com/blog/topics/ai-infrastructure/cloud-pathways-a-distributed-ml-runtime-is-ga) Google Cloud Blog
+  > 了解单个 JAX 控制器如何协调多个 TPU 分区，以及资源故障后重新分片、继续训练的设计。
+  >
+  > Explore how one JAX controller coordinates multiple TPU slices and how workloads can be resharded to continue training after resource failures.
+
+- [NVIDIA Snapshot：复用已初始化的 GPU 工作负载 / Start and Restore GPU Workloads in Seconds with NVIDIA Snapshot](https://developer.nvidia.com/blog/start-and-restore-gpu-workloads-in-seconds-with-nvidia-snapshot/) NVIDIA Technical Blog
+  > 了解如何保存 CPU 与 GPU 的运行状态，在兼容硬件上恢复推理服务，避免重复加载权重、编译和捕获计算图。
+  >
+  > Learn how saving CPU and GPU state can restore inference services on compatible hardware without repeating weight loading, compilation, and graph capture.
+
 - [TPU Sync：加快推理缓存与训练权重传输 / Introducing TPU Sync: Fast KV cache and weight transfer for inference and RL on TPU](https://cloud.google.com/blog/topics/ai-infrastructure/introducing-tpu-sync-fast-kv-cache-and-weight-transfer-on-tpu) Google Cloud Blog
   > 了解如何在 TPU、主机内存与存储之间异步搬运模型状态，支持推理缓存复用，以及仍处于实验阶段的强化学习权重同步。
   >
@@ -886,6 +896,11 @@
   > Explore how Pando supports concurrent branch updates and high-throughput reads while retaining Git compatibility.
 
 ### 科研与工程应用 Science and engineering applications
+
+- [让 Claude 参与电子设备设计 / Testing Claude on real-world electronics design](https://www.anthropic.com/research/claude-electronics-design) Anthropic
+  > 通过电路板、外壳与固件的原型案例，了解智能体如何反复修正设计并处理制造约束，以及人工制作和验证的作用。
+  >
+  > Follow prototype circuit boards, enclosures, and firmware to see how an agent revises designs, handles manufacturing constraints, and works with human fabrication and testing.
 
 - [用 Google Antigravity 开展智能体化学信息学 / Agentic cheminformatics with Google Antigravity](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/) <img src="https://github.com/google-deepmind.png" alt="Google DeepMind" width="20">
   > 了解智能体如何整理分子数据、调用化学计算工具并提出候选分子，以及为什么计算结果仍需实验验证。
