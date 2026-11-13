@@ -796,6 +796,11 @@
 
 ### 智能体与 AI 编程 Agents and AI coding
 
+- [lemonflow：电动车充电场景中的实时智能体 / How lemonflow built real-time agents for EV charging using Gemma and TPUs](https://cloud.google.com/blog/topics/startups/building-real-time-agents-for-ev-charging-using-gemma-and-tpus) Google Cloud Blog
+  > 通过充电客服案例，认识实时语音服务的延迟要求，以及如何用统一后端接口和任务优先级调度支持智能体。
+  >
+  > Learn about latency constraints in live voice support and how unified backend interfaces and workload priorities support agents in an EV-charging service.
+
 - [AlphaProof Code：用形式化证明验证软件 / Introducing AlphaProof Code](https://deepmind.google/blog/introducing-alphaproof-code/) Google DeepMind
   > 了解人类如何确定安全规格，再由智能体生成 Lean 证明、交给独立检查器验证，以减少复杂软件中的验证工作。
   >
@@ -880,6 +885,16 @@
 
 ### 工程基础设施 Engineering infrastructure
 
+- [Intelligent Delivery：按收益分配推理算力 / Intelligent Delivery: Making Every Unit of Compute Serve Better Ads](https://engineering.fb.com/2026/11/11/ml-applications/intelligent-delivery-serve-better-ads/) Engineering at Meta
+  > 学习如何预测不同请求增加算力后的收益，并在延迟约束下协调数据中心、硬件和模型的资源分配。
+  >
+  > Learn how predicted gains from additional compute guide resource allocation across data centers, hardware, and models under latency constraints.
+
+- [AlloyDB AI：在 SQL 中分类文本与提取结构化数据 / Introducing new AI functions for AlloyDB: ai.classify and ai.extract](https://cloud.google.com/blog/products/databases/ai-classify-and-ai-extract-functions-in-alloydb-ai) Google Cloud Blog
+  > 了解如何用 SQL 调用模型完成文本分类和 JSON 提取，以及批量处理如何减少逐行推理的开销。
+  >
+  > Explore model-backed text classification and JSON extraction through SQL, and how batching reduces the overhead of row-by-row inference.
+
 - [Cloud Pathways：统一调度大规模机器学习任务 / Cloud Pathways, a distributed ML runtime for massive accelerator fleets, now GA](https://cloud.google.com/blog/topics/ai-infrastructure/cloud-pathways-a-distributed-ml-runtime-is-ga) Google Cloud Blog
   > 了解单个 JAX 控制器如何协调多个 TPU 分区，以及资源故障后重新分片、继续训练的设计。
   >
@@ -911,6 +926,11 @@
   > Explore how Pando supports concurrent branch updates and high-throughput reads while retaining Git compatibility.
 
 ### 科研与工程应用 Science and engineering applications
+
+- [AlphaGenome 2：预测不同细胞中的 DNA 作用 / AlphaGenome 2: Deciphering how cells read DNA to better understand disease](https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/) Google DeepMind
+  > 认识结合 DNA 序列与细胞类型预测基因活动的方法，了解模型如何帮助研究者分析遗传变异的影响。
+  >
+  > Discover how DNA sequences and cell types inform predictions of gene activity, helping researchers investigate the effects of genetic variants.
 
 - [让 Claude 参与电子设备设计 / Testing Claude on real-world electronics design](https://www.anthropic.com/research/claude-electronics-design) Anthropic
   > 通过电路板、外壳与固件的原型案例，了解智能体如何反复修正设计并处理制造约束，以及人工制作和验证的作用。
