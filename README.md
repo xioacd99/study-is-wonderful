@@ -662,6 +662,11 @@
 
 ## 物理学 Physics
 
+- [MIT 8.01SC·经典力学（2016 秋季） / MIT 8.01SC·Classical Mechanics (Fall 2016)](https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/)（MIT OpenCourseWare） · [第一周导论 / Week 1 Introduction](https://www.youtube.com/watch?v=i4u7SZjoAs4)（YouTube）
+  > 从运动与受力出发，学习牛顿定律、动量、能量和旋转，练习用数学描述并解决经典力学问题。
+  >
+  > Study motion and forces through Newton’s laws, momentum, energy, and rotation, and practice using mathematics to describe and solve classical mechanics problems.
+
 - [量子力学 / Quantum Mechanics](https://www.bilibili.com/BV1w4411s7da) <img src="bilibili.svg" alt="Bilibili" width="20">
   > 探索量子力学如何描述原子等微观世界。
   >
