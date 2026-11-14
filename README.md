@@ -801,6 +801,26 @@
 
 ### 智能体与 AI 编程 Agents and AI coding
 
+- [Orchestrator：在规划与执行之间动态切换模型 / Gemini 4 Hydrogen and Orchestrator](https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity) Google Antigravity Blog
+  > 了解同一编程任务如何由不同模型负责规划和执行，并在遇到困难时重新分工，以平衡质量、延迟与成本。
+  >
+  > Explore how models share planning and execution within a coding task and hand work back when problems arise, balancing quality, latency, and cost.
+
+- [Gemini 4 Hydrogen：面向智能体工作流的执行模型 / Introducing Gemini 4 Hydrogen](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/) Google Blog
+  > 认识面向代码修改、测试与工具调用的模型设计取向，了解思考强度和多模型协作如何影响执行效率。
+  >
+  > Learn about a model geared toward code changes, testing, and tool use, and how thinking levels and multi-model collaboration affect execution efficiency.
+
+- [智能体编程时代的代码审查 / Less time on code, more time on architecture](https://www.clay.com/blog/code-reviews-agents) Clay Engineering
+  > 看 Clay 如何把人工审查重点转向需求、架构边界、安全与验证证据，而不是只逐行寻找代码错误。
+  >
+  > See how Clay shifts human review toward requirements, architectural boundaries, security, and validation evidence rather than only looking for bugs line by line.
+
+- [共享资源时，多智能体为何可能表现更差 / Worse Together: How Performance Breaks Down in Multi-User Multi-Agent Teams](https://alignment.anthropic.com/2026/worse-together/) Anthropic Alignment Science
+  > 通过共享预算、排班和订餐等模拟任务，了解多个智能体为何会协调失败，以及明确负责人和提交前读取消息如何帮助改进。
+  >
+  > Explore coordination failures in simulated shared-budget, scheduling, and ordering tasks, and how a designated leader and reading messages before committing can help.
+
 - [lemonflow：电动车充电场景中的实时智能体 / How lemonflow built real-time agents for EV charging using Gemma and TPUs](https://cloud.google.com/blog/topics/startups/building-real-time-agents-for-ev-charging-using-gemma-and-tpus) Google Cloud Blog
   > 通过充电客服案例，认识实时语音服务的延迟要求，以及如何用统一后端接口和任务优先级调度支持智能体。
   >
