@@ -662,6 +662,11 @@
 
 ## 物理学 Physics
 
+- [耶鲁 ASTR 160·天体物理学的前沿与争议（2007 春季） / Yale ASTR 160·Frontiers and Controversies in Astrophysics (Spring 2007)](https://oyc.yale.edu/astronomy/astr-160)（Open Yale Courses） · [官方第一讲 / Official Lecture 1](https://www.youtube.com/watch?v=nzmFc2gjUo4)（YouTube）
+  > 跟随 Charles Bailyn 探索系外行星、黑洞和暗能量，学习如何用观测证据分析尚无定论的科学问题。
+  >
+  > Explore exoplanets, black holes, and dark energy with Charles Bailyn, and learn how observational evidence helps assess unresolved scientific questions.
+
 - [MIT 8.01SC·经典力学（2016 秋季） / MIT 8.01SC·Classical Mechanics (Fall 2016)](https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/)（MIT OpenCourseWare） · [第一周导论 / Week 1 Introduction](https://www.youtube.com/watch?v=i4u7SZjoAs4)（YouTube）
   > 从运动与受力出发，学习牛顿定律、动量、能量和旋转，练习用数学描述并解决经典力学问题。
   >
