@@ -48,3 +48,8 @@ The project icon is generated with GPT image. README previews are real browser s
 全景按左右对称学科分支展示，点击学科聚焦主题树；学科筛选与适应画布按钮帮助探索大型树。保留全展开、搜索、缩放、列表替代及中英切换。
 
 The overview uses balanced subject branches. Select a subject to focus its topic tree, or use the subject filter and fit-to-view control. Expand-all, search, zoom, list view and both languages remain available.
+
+
+桌面采用学科侧栏、顶部搜索、主画布和浮动工具栏；手机改为紧凑筛选与双列全景，不把桌面长横图强塞到窄屏。渐变项目图标与柔和紫色设计保持一致。
+
+Desktop uses a subject sidebar, top search and floating canvas tools. Mobile has compact filtering and a two-column overview, with bilingual labels and the same course data.

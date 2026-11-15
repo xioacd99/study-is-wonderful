@@ -69,7 +69,9 @@ class MapTests(unittest.TestCase):
   self.assertIn('id="map-view"',template)
   self.assertIn('id="list-view"',template)
   self.assertIn('touch-action:pan-x pan-y',template)
-  self.assertIn('body[data-view=map] #graph svg{display:block}',template)
+  self.assertIn('body[data-view=list] svg,body[data-view=list] .root{display:none}',template)
+  self.assertIn('id="subject-nav"',template)
+  self.assertIn('class="canvas-tools"',template)
  def test_generated_html(self):
   import json
   expected=(ROOT/'resource-map/template.html').read_text().replace('/*__COURSES__*/',json.dumps(self.c,ensure_ascii=False).replace('</','<\\/'))
