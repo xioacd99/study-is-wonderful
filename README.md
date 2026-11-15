@@ -662,12 +662,12 @@
 
 ## 物理学 Physics
 
-- [耶鲁 ASTR 160·天体物理学的前沿与争议（2007 春季） / Yale ASTR 160·Frontiers and Controversies in Astrophysics (Spring 2007)](https://oyc.yale.edu/astronomy/astr-160)（Open Yale Courses） · [官方第一讲 / Official Lecture 1](https://www.youtube.com/watch?v=nzmFc2gjUo4)（YouTube）
+- [耶鲁 ASTR 160·天体物理学的前沿与争议（2007 春季） / Yale ASTR 160·Frontiers and Controversies in Astrophysics (Spring 2007)](https://oyc.yale.edu/astronomy/astr-160)（Open Yale Courses） · [官方第一讲 / Official Lecture 1](https://www.youtube.com/watch?v=nzmFc2gjUo4)（YouTube） · [课程视频 / Course videos](https://www.bilibili.com/video/BV1kroeBrEer/)（Bilibili）
   > 跟随 Charles Bailyn 探索系外行星、黑洞和暗能量，学习如何用观测证据分析尚无定论的科学问题。
   >
   > Explore exoplanets, black holes, and dark energy with Charles Bailyn, and learn how observational evidence helps assess unresolved scientific questions.
 
-- [MIT 8.01SC·经典力学（2016 秋季） / MIT 8.01SC·Classical Mechanics (Fall 2016)](https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/)（MIT OpenCourseWare） · [第一周导论 / Week 1 Introduction](https://www.youtube.com/watch?v=i4u7SZjoAs4)（YouTube）
+- [MIT 8.01SC·经典力学（2016 秋季） / MIT 8.01SC·Classical Mechanics (Fall 2016)](https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/)（MIT OpenCourseWare） · [第一周导论 / Week 1 Introduction](https://www.youtube.com/watch?v=i4u7SZjoAs4)（YouTube） · [课程视频 / Course videos](https://www.bilibili.com/video/BV1KQ4y1B7TJ/)（Bilibili）
   > 从运动与受力出发，学习牛顿定律、动量、能量和旋转，练习用数学描述并解决经典力学问题。
   >
   > Study motion and forces through Newton’s laws, momentum, energy, and rotation, and practice using mathematics to describe and solve classical mechanics problems.
@@ -720,6 +720,11 @@
   > Explore how happiness and life satisfaction can be understood and studied.
 
 ## 社会科学 Social Sciences
+
+- [耶鲁 HIST 119·美国南北战争与重建，1845–1877（2008 春季） / Yale HIST 119·The Civil War and Reconstruction Era, 1845–1877 (Spring 2008)](https://oyc.yale.edu/history/hist-119)（Open Yale Courses） · [官方第一讲 / Official Lecture 1](https://www.youtube.com/watch?v=QXXp1bHd6gI)（YouTube） · [课程视频 / Course videos](https://www.bilibili.com/video/BV1Ws411q7Lv/)（Bilibili）
+  > 跟随 David W. Blight 了解美国南北战争的起因与影响，探讨奴隶制、解放和战后重建如何改变美国社会。
+  >
+  > Explore the causes and consequences of the American Civil War with David W. Blight, and learn how slavery, emancipation, and Reconstruction reshaped American society.
 
 - [现代社会理论基础 / Foundations of Modern Social Theory](https://www.bilibili.com/BV1ux411r736) <img src="bilibili.svg" alt="Bilibili" width="20">
   > 认识社会思想家怎样解释社会、制度和人与人的关系。
