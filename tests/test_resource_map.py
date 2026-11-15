@@ -34,6 +34,13 @@ class MapTests(unittest.TestCase):
   for c in builder.courses(self.english):
    topics.setdefault((c['subject'],c['group']),[]).append(c['title'].casefold())
   for titles in topics.values(): self.assertEqual(titles,sorted(titles))
+ def test_no_redundant_course_tails(self):
+  for text in [self.text,self.english]:
+   for line in text.splitlines():
+    if line.startswith('- <a id="course-'):
+     self.assertNotIn('](#resource-map)',line)
+     urls=re.findall(r'\]\((https?://[^)]+)\)',line)
+     self.assertEqual(len(urls),len(set(urls)))
  def test_single_language_payload(self):
   for key,text in [('zh',self.text),('en',self.english)]:
    raw={c['id']:c for c in builder.courses(text)}

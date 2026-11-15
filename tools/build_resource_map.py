@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Generate the bilingual course map from the synchronized README pair."""
+"""Generate the bilingual map from course-title links and additional sources.
+
+Course titles are the primary source links; no duplicate Course/back links needed.
+"""
 import re,json,pathlib,argparse
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 def courses(text):
