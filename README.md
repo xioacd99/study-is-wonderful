@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="resource-map/icon.png" alt="Study Is Wonderful" width="72">
+<img src="resource-map/icon.png?v=gradient-2" alt="Study Is Wonderful" width="72">
 
 # Study Is Wonderful
 
