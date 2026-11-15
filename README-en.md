@@ -427,8 +427,8 @@ Within each topic, courses are sorted by English title. Different course version
 - <a id="course-ai-24"></a>[Hung-yi Lee·Deep Learning for Human Languange Processing](https://www.youtube.com/watch?v=nER51ZyJaCQ&list=PLJV_el3uVTsO07RpBYFsXg-bN5Lu0nhdG)<img src="youtube.svg" alt="YouTube" width="20">
   > Explore deep-learning methods for processing human language.
 
-- <a id="course-ai-04"></a>[Stanford CS336: Language Modeling from Scratch (Lecture 1)](https://www.youtube.com/watch?v=SQ3fZ1sAqXI)<img src="youtube.svg" alt="YouTube" width="20">
-  > Start exploring how language models are built, beginning with an overview and tokenization.
+- <a id="course-ai-04"></a>[Stanford CS336: Language Modeling from Scratch (Lecture 1)](https://www.youtube.com/watch?v=SQ3fZ1sAqXI)<img src="youtube.svg" alt="YouTube" width="20"> · [Spring 2025 course website](https://cs336.stanford.edu/spring2025/)<img src="icons/stanford.svg" alt="Stanford course website" width="72">
+  > Start exploring how language models are built, beginning with an overview and tokenization. The official course website provides the schedule and five assignments covering implementation basics, systems, scaling laws, data, and alignment and reasoning RL.
 
 - <a id="course-ai-22"></a>[Stanford·Deep Natural Language Processing](https://www.bilibili.com/BV1pt411h7aT)<img src="bilibili.svg" alt="Bilibili" width="20">
   > Explore how neural networks can help computers process language.

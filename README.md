@@ -427,8 +427,8 @@
 - <a id="course-ai-24"></a>[李宏毅·Deep Learning for Human Languange Processing](https://www.youtube.com/watch?v=nER51ZyJaCQ&list=PLJV_el3uVTsO07RpBYFsXg-bN5Lu0nhdG)<img src="youtube.svg" alt="YouTube" width="20">
   > 探索用深度学习处理人类语言的方法。
 
-- <a id="course-ai-04"></a>[斯坦福 CS336：从零构建语言模型（第一讲）](https://www.youtube.com/watch?v=SQ3fZ1sAqXI)<img src="youtube.svg" alt="YouTube" width="20">
-  > 从第一讲认识语言模型与分词，开启对大模型构建方法的学习。
+- <a id="course-ai-04"></a>[斯坦福 CS336：从零构建语言模型（第一讲）](https://www.youtube.com/watch?v=SQ3fZ1sAqXI)<img src="youtube.svg" alt="YouTube" width="20"> · [2025 春季课程官网](https://cs336.stanford.edu/spring2025/)<img src="icons/stanford.svg" alt="Stanford course website" width="72">
+  > 从第一讲认识语言模型与分词，开启对大模型构建方法的学习。 官方课程网站提供完整课表和五项作业，覆盖基础实现、系统优化、规模规律、数据处理及对齐与推理强化学习。
 
 - <a id="course-ai-22"></a>[斯坦福·深度自然语言处理](https://www.bilibili.com/BV1pt411h7aT)<img src="bilibili.svg" alt="Bilibili" width="20">
   > 了解如何用神经网络帮助计算机处理语言。
