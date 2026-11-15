@@ -1,48 +1,66 @@
+<div align="center">
+
+<img src="resource-map/mark.svg" alt="Study Is Wonderful" width="72">
+
+# 📚 Study Is Wonderful
+
+Great courses across disciplines. Follow your curiosity.
+
 [简体中文](README.md) · [English](README-en.md)
 
-<div align="center">
+[150 courses](#目录-contents) · [10 subjects](#目录-contents) · [39 articles](#技术博客-technical-blogs)
 
-# Study Is Wonderful
-
-**A multidisciplinary collection of open courses and technical blogs**
+[Suggest a resource](https://github.com/xioacd99/study-is-wonderful/issues) · [Contribute](https://github.com/xioacd99/study-is-wonderful/pulls)
 
 </div>
 
-> Discover great courses and technical articles across disciplines. Whether you are building foundations or exploring something new, come learn, share, and grow with us!
+<!-- SOURCES:START -->
+<p align="center"><sub>Resource sources · not sponsorships or endorsements</sub><br>
+<img src="bilibili.svg" alt="Bilibili" title="Bilibili" height="24"> &nbsp;
+<img src="icons/stanford.svg" alt="Stanford" title="Stanford" height="24"> &nbsp;
+<img src="ocw.svg" alt="MIT OpenCourseWare" title="MIT OpenCourseWare" height="24"> &nbsp;
+<img src="youtube.svg" alt="YouTube" title="YouTube" height="24"> &nbsp;
+<img src="icons/berkeley.svg" alt="UC Berkeley" title="UC Berkeley" height="24"> &nbsp;
+<img src="icons/stonybrook.svg" alt="Stony Brook" title="Stony Brook" height="24"> &nbsp;
+<img src="icons/cmu.svg" alt="Carnegie Mellon" title="Carnegie Mellon" height="24"> &nbsp;
+<img src="https://antigravity.google/assets/image/antigravity-logo.png" alt="Google Antigravity" title="Google Antigravity" height="24"> &nbsp;
+<img src="https://www.gstatic.com/marketing-cms/assets/images/c5/3a/200414104c669203c62270f7884f/google-wordmarks-2x.webp=n-w150-h48-fcrop64=1,00000000ffffffff-rw" alt="Google" title="Google" height="24"> &nbsp;
+<img src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6778506d788ebf16fef48551_Clay%20primary%20logo.avif" alt="Clay" title="Clay" height="24"> &nbsp;
+<img src="https://github.com/anthropics.png" alt="Anthropic" title="Anthropic" height="24"> &nbsp;
+<img src="https://www.gstatic.com/cgc/super_cloud_gradient.png" alt="Google Cloud" title="Google Cloud" height="24"> &nbsp;
+<img src="https://github.com/google-deepmind.png" alt="Google DeepMind" title="Google DeepMind" height="24"> &nbsp;
+<img src="https://github.com/openai.png" alt="OpenAI" title="OpenAI" height="24"> &nbsp;
+<img src="https://github.com/meta.png" alt="Meta Engineering" title="Meta Engineering" height="24"> &nbsp;
+<img src="https://allenai.org/icon.png?56c26b049606f4e5" alt="Ai2" title="Ai2" height="24"> &nbsp;
+<img src="https://www.nvidia.com/content/nvidiaGDC/us/en_US/about-nvidia/legal-info/logo-brand-usage/_jcr_content/root/responsivegrid/nv_container_392921705/nv_container/nv_image.coreimg.svg/1776076920288/nvidia-logo-vert.svg" alt="NVIDIA" title="NVIDIA" height="24"> &nbsp;
+<img src="https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo-monochrome.svg" alt="Hugging Face" title="Hugging Face" height="24"> &nbsp;
+</p>
+<!-- SOURCES:END -->
 
-> This project is maintained again. [Issues](https://github.com/xioacd99/study-is-wonderful/issues) and [pull requests](https://github.com/xioacd99/study-is-wonderful/pulls) are welcome for recommendations, corrections, and improvements.
-
-> For easier navigation through this long list, try the Chrome extension [Smart TOC](https://chrome.google.com/webstore/detail/smart-toc/lifgeihcfpkmmlfjbailfpfhbahhibba?utm_source=chrome-ntp-icon), which adds a navigable table of contents to the side of the page.
-
-<div align="center">
-<img src="toc.jpg" alt="Smart TOC navigation example" width="70%">
-</div>
 
 <a id="resource-map"></a>
-
 <a id="资源全景-resource-map"></a>
-
-## Resource map
-
-[Open the interactive course map](https://xioacd99.github.io/study-is-wonderful/resource-map/) · [Source and maintenance guide](resource-map/README.md)
-
-Courses are grouped by subject and topic, then sorted by English course title. Select a course title to open its source.
-
 <a id="目录-contents"></a>
 
-## Contents
-
-- [Math](#数学-math)
-- [Computer Science](#计算机科学-computer-science)
-- [Artificial Intelligence](#人工智能-artificial-intelligence)
-- [Economics](#经济学-economics)
-- [Physics](#物理学-physics)
-- [Psychology](#心理学-psychology)
-- [Social Sciences](#社会科学-social-sciences)
-- [Biology](#生物学-biology)
-- [Philosophy and Arts](#哲学与艺术-philosophy-and-arts)
-- [Others](#其他-others)
-- [Technical blogs](#技术博客-technical-blogs)
+<table>
+<tr><th align="left">🧭 Contents</th><th align="center">Interactive course map</th></tr>
+<tr><td valign="top">
+<a href="#数学-math">Math</a><br>
+<a href="#计算机科学-computer-science">Computer Science</a><br>
+<a href="#人工智能-artificial-intelligence">Artificial Intelligence</a><br>
+<a href="#经济学-economics">Economics</a><br>
+<a href="#物理学-physics">Physics</a><br>
+<a href="#心理学-psychology">Psychology</a><br>
+<a href="#社会科学-social-sciences">Social Sciences</a><br>
+<a href="#生物学-biology">Biology</a><br>
+<a href="#哲学与艺术-philosophy-and-arts">Philosophy and Arts</a><br>
+<a href="#其他-others">Others</a><br>
+<a href="#技术博客-technical-blogs">Technical blogs</a><br>
+</td><td align="center" valign="middle">
+<a href="https://xioacd99.github.io/study-is-wonderful/resource-map/"><img src="resource-map/thumbnail-en.svg" alt="Interactive course map" width="240"></a><br>
+<a href="https://xioacd99.github.io/study-is-wonderful/resource-map/">Open course map ↗</a>
+</td></tr>
+</table>
 
 <a id="数学-math"></a>
 

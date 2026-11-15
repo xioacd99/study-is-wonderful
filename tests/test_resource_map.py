@@ -34,6 +34,14 @@ class MapTests(unittest.TestCase):
   for c in builder.courses(self.english):
    topics.setdefault((c['subject'],c['group']),[]).append(c['title'].casefold())
   for titles in topics.values(): self.assertEqual(titles,sorted(titles))
+ def test_compact_header_and_thumbnail(self):
+  for lang,text in [('zh',self.text),('en',self.english)]:
+   self.assertIn('resource-map/thumbnail-'+lang+'.svg',text)
+   self.assertIn('<table>',text)
+   self.assertNotIn('toc.jpg',text)
+   self.assertNotIn('Smart TOC',text)
+   ids=set(re.findall(r'<a id="([^"]+)"',text))
+   for anchor in re.findall(r'href="#([^"]+)"',text): self.assertIn(anchor,ids)
  def test_no_redundant_course_tails(self):
   for text in [self.text,self.english]:
    for line in text.splitlines():

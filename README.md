@@ -1,48 +1,66 @@
+<div align="center">
+
+<img src="resource-map/mark.svg" alt="Study Is Wonderful" width="72">
+
+# 📚 Study Is Wonderful
+
+跨学科好课，让好奇心自由生长。
+
 [简体中文](README.md) · [English](README-en.md)
 
-<div align="center">
+[150 门课程](#目录-contents) · [10 个学科](#目录-contents) · [39 篇技术文章](#技术博客-technical-blogs)
 
-# Study Is Wonderful
-
-**跨学科公开课与技术博客精选**
+[推荐资源](https://github.com/xioacd99/study-is-wonderful/issues) · [参与共建](https://github.com/xioacd99/study-is-wonderful/pulls)
 
 </div>
 
-> 收集跨学科好课与技术文章，让学习更有趣。无论你想打好基础，还是探索新领域，都欢迎一起学习、分享与进步。
+<!-- SOURCES:START -->
+<p align="center"><sub>资源来源 · 非赞助或背书</sub><br>
+<img src="bilibili.svg" alt="Bilibili" title="Bilibili" height="24"> &nbsp;
+<img src="icons/stanford.svg" alt="Stanford" title="Stanford" height="24"> &nbsp;
+<img src="ocw.svg" alt="MIT OpenCourseWare" title="MIT OpenCourseWare" height="24"> &nbsp;
+<img src="youtube.svg" alt="YouTube" title="YouTube" height="24"> &nbsp;
+<img src="icons/berkeley.svg" alt="UC Berkeley" title="UC Berkeley" height="24"> &nbsp;
+<img src="icons/stonybrook.svg" alt="Stony Brook" title="Stony Brook" height="24"> &nbsp;
+<img src="icons/cmu.svg" alt="Carnegie Mellon" title="Carnegie Mellon" height="24"> &nbsp;
+<img src="https://antigravity.google/assets/image/antigravity-logo.png" alt="Google Antigravity" title="Google Antigravity" height="24"> &nbsp;
+<img src="https://www.gstatic.com/marketing-cms/assets/images/c5/3a/200414104c669203c62270f7884f/google-wordmarks-2x.webp=n-w150-h48-fcrop64=1,00000000ffffffff-rw" alt="Google" title="Google" height="24"> &nbsp;
+<img src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6778506d788ebf16fef48551_Clay%20primary%20logo.avif" alt="Clay" title="Clay" height="24"> &nbsp;
+<img src="https://github.com/anthropics.png" alt="Anthropic" title="Anthropic" height="24"> &nbsp;
+<img src="https://www.gstatic.com/cgc/super_cloud_gradient.png" alt="Google Cloud" title="Google Cloud" height="24"> &nbsp;
+<img src="https://github.com/google-deepmind.png" alt="Google DeepMind" title="Google DeepMind" height="24"> &nbsp;
+<img src="https://github.com/openai.png" alt="OpenAI" title="OpenAI" height="24"> &nbsp;
+<img src="https://github.com/meta.png" alt="Meta Engineering" title="Meta Engineering" height="24"> &nbsp;
+<img src="https://allenai.org/icon.png?56c26b049606f4e5" alt="Ai2" title="Ai2" height="24"> &nbsp;
+<img src="https://www.nvidia.com/content/nvidiaGDC/us/en_US/about-nvidia/legal-info/logo-brand-usage/_jcr_content/root/responsivegrid/nv_container_392921705/nv_container/nv_image.coreimg.svg/1776076920288/nvidia-logo-vert.svg" alt="NVIDIA" title="NVIDIA" height="24"> &nbsp;
+<img src="https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo-monochrome.svg" alt="Hugging Face" title="Hugging Face" height="24"> &nbsp;
+</p>
+<!-- SOURCES:END -->
 
-> 本项目已恢复维护，欢迎通过 [Issue](https://github.com/xioacd99/study-is-wonderful/issues) 推荐资源或反馈问题，也欢迎提交 [Pull Request](https://github.com/xioacd99/study-is-wonderful/pulls)。
-
-> 课程列表较长，推荐使用 Chrome 扩展 [Smart TOC](https://chrome.google.com/webstore/detail/smart-toc/lifgeihcfpkmmlfjbailfpfhbahhibba?utm_source=chrome-ntp-icon)，在页面右侧生成可跳转目录。
-
-<div align="center">
-<img src="toc.jpg" alt="Smart TOC 目录示例" width="70%">
-</div>
 
 <a id="resource-map"></a>
-
 <a id="资源全景-resource-map"></a>
-
-## 资源全景
-
-[打开交互课程图](https://xioacd99.github.io/study-is-wonderful/resource-map/) · [源码与维护说明](resource-map/README.md)
-
-课程按学科与主题分组，组内按英文课程名称排序；点击课程名打开来源。
-
 <a id="目录-contents"></a>
 
-## 目录
-
-- [数学](#数学-math)
-- [计算机科学](#计算机科学-computer-science)
-- [人工智能](#人工智能-artificial-intelligence)
-- [经济学](#经济学-economics)
-- [物理学](#物理学-physics)
-- [心理学](#心理学-psychology)
-- [社会科学](#社会科学-social-sciences)
-- [生物学](#生物学-biology)
-- [哲学与艺术](#哲学与艺术-philosophy-and-arts)
-- [其他](#其他-others)
-- [技术博客](#技术博客-technical-blogs)
+<table>
+<tr><th align="left">🧭 目录</th><th align="center">交互课程图</th></tr>
+<tr><td valign="top">
+<a href="#数学-math">数学</a><br>
+<a href="#计算机科学-computer-science">计算机科学</a><br>
+<a href="#人工智能-artificial-intelligence">人工智能</a><br>
+<a href="#经济学-economics">经济学</a><br>
+<a href="#物理学-physics">物理学</a><br>
+<a href="#心理学-psychology">心理学</a><br>
+<a href="#社会科学-social-sciences">社会科学</a><br>
+<a href="#生物学-biology">生物学</a><br>
+<a href="#哲学与艺术-philosophy-and-arts">哲学与艺术</a><br>
+<a href="#其他-others">其他</a><br>
+<a href="#技术博客-technical-blogs">技术博客</a><br>
+</td><td align="center" valign="middle">
+<a href="https://xioacd99.github.io/study-is-wonderful/resource-map/"><img src="resource-map/thumbnail-zh.svg" alt="交互课程图" width="240"></a><br>
+<a href="https://xioacd99.github.io/study-is-wonderful/resource-map/">打开课程图 ↗</a>
+</td></tr>
+</table>
 
 <a id="数学-math"></a>
 
