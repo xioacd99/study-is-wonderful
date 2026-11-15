@@ -53,3 +53,8 @@ The overview uses balanced subject branches. Select a subject to focus its topic
 桌面采用学科侧栏、顶部搜索、主画布和浮动工具栏；手机改为紧凑筛选与双列全景，不把桌面长横图强塞到窄屏。渐变项目图标与柔和紫色设计保持一致。
 
 Desktop uses a subject sidebar, top search and floating canvas tools. Mobile has compact filtering and a two-column overview, with bilingual labels and the same course data.
+
+
+最新视觉：恢复青绿与金色，采用重新生成的三片折叠丝带图标。桌面全景为上下两排学科连接中心节点，手机保留独立双列树；主题层仍可聚焦展开。
+
+Current visual: teal and gold with a newly generated three-ribbon symbol. Desktop overview places subjects above and below the central hub; mobile retains its own two-column tree. Topic focus remains available.

@@ -59,7 +59,7 @@ class MapTests(unittest.TestCase):
   self.assertIn('id="subject-filter"',template)
   self.assertIn('id="fit"',template)
   self.assertIn('function focusSubject',template)
-  self.assertIn('src="icon.png?v=gradient-2"',template)
+  self.assertIn('src="icon.png?v=teal-orbit-3"',template)
   self.assertEqual(len(self.c),150)
   for text in [self.text,self.english]:
    self.assertNotIn('# 📚',text)
