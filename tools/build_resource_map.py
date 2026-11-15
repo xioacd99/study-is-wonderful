@@ -3,22 +3,26 @@
 import re,json,pathlib,argparse
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 def courses(text):
-    result=[]; section=''; group=''
+    result=[]; section=''; group='';current=None
     for line in text.splitlines():
-        if line.startswith('## '): section=line[3:]
-        if line.startswith('### '): group=line[4:]
-        m=re.search(r'<a id="(course-[^"]+)"></a>',line)
-        if not m: continue
-        cells=line.strip().strip('|').split(' | ')
-        if len(cells)!=3: raise ValueError('Expected three course cells: '+m[1])
-        links=re.findall(r'\[([^\]]+)\]\((https?://[^\s)]+)\)',cells[0]+' '+cells[2])
-        if not links: raise ValueError(m[1])
-        title=links[0][0].replace('<br>', ' / ')
-        unique=[];seen=set()
-        for label,url in links:
-            if url not in seen: unique.append(dict(label=label.replace('<br>',' / '),url=url));seen.add(url)
-        result.append(dict(id=m[1],subject=section,group=group,title=title,links=unique,description=cells[1].replace('<br>','\n')))
-    if len({x['id'] for x in result})!=len(result) or not result: raise ValueError('Missing or duplicate course anchors')
+        if line.startswith('## '): section=line[3:];current=None
+        if line.startswith('### '): group=line[4:];current=None
+        m=re.match(r'- <a id="(course-[^"]+)"></a>',line)
+        if m:
+            links=re.findall(r'\[([^\]]+)\]\((https?://[^\s)]+)\)',line)
+            if not links: raise ValueError('Missing source for '+m[1])
+            unique=[];seen=set()
+            for label,url in links:
+                if url not in seen:
+                    unique.append(dict(label=label,url=url));seen.add(url)
+            current=dict(id=m[1],subject=section,group=group,title=links[0][0],links=unique,description='')
+            result.append(current)
+        elif current and line.startswith('  > '):
+            current['description']+=('\n' if current['description'] else '')+line[4:]
+        elif line.startswith('- '):current=None
+    if len({x['id'] for x in result})!=len(result) or not result:
+        raise ValueError('Missing or duplicate course anchors')
+    if any(not c['description'] for c in result): raise ValueError('Missing course description')
     return result
 def bilingual_courses(chinese, english):
     zh=courses(chinese);en=courses(english)
@@ -32,7 +36,9 @@ def bilingual_courses(chinese, english):
         result.append(dict(id=a['id'],subject=join(a['subject'],b['subject']),
             group=join(a['group'],b['group']),title=join(a['title'],b['title']),
             links=[dict(label=join(x['label'],y['label']),url=x['url']) for x,y in zip(a['links'],b['links'])],
-            description=join(a['description'],b['description'],'\n')))
+            description=join(a['description'],b['description'],'\n'),
+            locales={'zh':{k:v for k,v in a.items() if k!='id'},
+                     'en':{k:v for k,v in b.items() if k!='id'}}))
     return result
 
 if __name__=='__main__':

@@ -21,10 +21,24 @@ class MapTests(unittest.TestCase):
   self.assertEqual(blogs(self.text),blogs(self.english))
  def test_navigation_and_content(self):
   for c in self.c:
-   self.assertIn('](#'+c['id']+')',self.text)
+   self.assertIn('<a id="'+c['id']+'"></a>',self.text)
    self.assertTrue(c['subject'] and c['group'] and c['title'] and c['description'])
    self.assertTrue(c['links'])
    self.assertTrue(all(x['url'].startswith(('https://','http://')) for x in c['links']))
+ def test_topic_title_sort_and_no_duplicate_navigation(self):
+  for text in [self.text,self.english]:
+   self.assertNotIn('<details>',text)
+   self.assertNotIn('| <a id="course-',text)
+   self.assertIn('https://xioacd99.github.io/study-is-wonderful/resource-map/',text)
+  topics={}
+  for c in builder.courses(self.english):
+   topics.setdefault((c['subject'],c['group']),[]).append(c['title'].casefold())
+  for titles in topics.values(): self.assertEqual(titles,sorted(titles))
+ def test_single_language_payload(self):
+  for key,text in [('zh',self.text),('en',self.english)]:
+   raw={c['id']:c for c in builder.courses(text)}
+   for c in self.c:
+    self.assertEqual(c['locales'][key],{k:v for k,v in raw[c['id']].items() if k!='id'})
  def test_generated_html(self):
   import json
   expected=(ROOT/'resource-map/template.html').read_text().replace('/*__COURSES__*/',json.dumps(self.c,ensure_ascii=False).replace('</','<\\/'))
