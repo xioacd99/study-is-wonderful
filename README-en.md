@@ -43,7 +43,7 @@ Great courses across disciplines. Follow your curiosity.
 <a id="目录-contents"></a>
 
 <p align="center">
-<a href="https://xioacd99.github.io/study-is-wonderful/resource-map/"><img src="resource-map/preview-en.jpg" alt="Learning map screenshot" width="800"></a><br>
+<a href="https://xioacd99.github.io/study-is-wonderful/resource-map/"><img src="resource-map/preview-en.jpg?v=knowledge-graph-379c199" alt="Learning map screenshot" width="800"></a><br>
 <a href="https://xioacd99.github.io/study-is-wonderful/resource-map/">🧭 Explore the learning map ↗</a>
 </p>
 

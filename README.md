@@ -43,7 +43,7 @@
 <a id="目录-contents"></a>
 
 <p align="center">
-<a href="https://xioacd99.github.io/study-is-wonderful/resource-map/"><img src="resource-map/preview-zh.jpg" alt="学习星图实际界面" width="800"></a><br>
+<a href="https://xioacd99.github.io/study-is-wonderful/resource-map/"><img src="resource-map/preview-zh.jpg?v=knowledge-graph-379c199" alt="学习星图实际界面" width="800"></a><br>
 <a href="https://xioacd99.github.io/study-is-wonderful/resource-map/">🧭 打开学习星图 ↗</a>
 </p>
 
