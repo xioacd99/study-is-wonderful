@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="resource-map/mark.svg" alt="Study Is Wonderful" width="72">
+<img src="resource-map/icon.png" alt="Study Is Wonderful" width="72">
 
-# 📚 Study Is Wonderful
+# Study Is Wonderful
 
 Great courses across disciplines. Follow your curiosity.
 
@@ -43,7 +43,7 @@ Great courses across disciplines. Follow your curiosity.
 <a id="目录-contents"></a>
 
 <p align="center">
-<a href="https://xioacd99.github.io/study-is-wonderful/resource-map/"><img src="resource-map/thumbnail-en.svg" alt="Learning map" width="400"></a><br>
+<a href="https://xioacd99.github.io/study-is-wonderful/resource-map/"><img src="resource-map/preview-en.jpg" alt="Learning map screenshot" width="800"></a><br>
 <a href="https://xioacd99.github.io/study-is-wonderful/resource-map/">🧭 Explore the learning map ↗</a>
 </p>
 

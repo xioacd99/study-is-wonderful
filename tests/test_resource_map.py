@@ -36,7 +36,7 @@ class MapTests(unittest.TestCase):
   for titles in topics.values(): self.assertEqual(titles,sorted(titles))
  def test_compact_header_and_thumbnail(self):
   for lang,text in [('zh',self.text),('en',self.english)]:
-   self.assertIn('resource-map/thumbnail-'+lang+'.svg',text)
+   self.assertIn('resource-map/preview-'+lang+'.jpg',text)
    self.assertNotIn('<table>',text)
    self.assertNotIn('toc.jpg',text)
    self.assertNotIn('Smart TOC',text)
@@ -54,6 +54,16 @@ class MapTests(unittest.TestCase):
    raw={c['id']:c for c in builder.courses(text)}
    for c in self.c:
     self.assertEqual(c['locales'][key],{k:v for k,v in raw[c['id']].items() if k!='id'})
+ def test_brand_and_focus_controls(self):
+  template=(ROOT/'resource-map/template.html').read_text()
+  self.assertIn('id="subject-filter"',template)
+  self.assertIn('id="fit"',template)
+  self.assertIn('function focusSubject',template)
+  self.assertIn('src="icon.png"',template)
+  self.assertEqual(len(self.c),150)
+  for text in [self.text,self.english]:
+   self.assertNotIn('# 📚',text)
+   self.assertIn('resource-map/icon.png',text)
  def test_mobile_mind_map_mode(self):
   template=(ROOT/'resource-map/template.html').read_text()
   self.assertIn('id="map-view"',template)

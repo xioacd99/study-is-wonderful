@@ -38,3 +38,13 @@ With the owner's authorization, GitHub Pages publishes the root of `dev` publicl
 每次修改后确认 Pages 构建完成，并在真实公开页面测试代表交互；本地预览通过不等于远程部署成功。
 
 After changes, verify the Pages build and representative interactions on the live site; a passing local preview is not proof of deployment.
+
+## 视觉与预览 / Visual assets
+
+项目图标 `icon.png` 由 GPT image 生成。`preview-zh.jpg` 和 `preview-en.jpg` 为实际页面的浏览器截图，不是示意图；界面变化后重新截图并同步 README 入口。
+
+The project icon is generated with GPT image. README previews are real browser screenshots of the rendered application; recapture both languages after visual changes.
+
+全景按左右对称学科分支展示，点击学科聚焦主题树；学科筛选与适应画布按钮帮助探索大型树。保留全展开、搜索、缩放、列表替代及中英切换。
+
+The overview uses balanced subject branches. Select a subject to focus its topic tree, or use the subject filter and fit-to-view control. Expand-all, search, zoom, list view and both languages remain available.

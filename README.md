@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="resource-map/mark.svg" alt="Study Is Wonderful" width="72">
+<img src="resource-map/icon.png" alt="Study Is Wonderful" width="72">
 
-# 📚 Study Is Wonderful
+# Study Is Wonderful
 
 跨学科好课，让好奇心自由生长。
 
@@ -43,7 +43,7 @@
 <a id="目录-contents"></a>
 
 <p align="center">
-<a href="https://xioacd99.github.io/study-is-wonderful/resource-map/"><img src="resource-map/thumbnail-zh.svg" alt="学习星图" width="400"></a><br>
+<a href="https://xioacd99.github.io/study-is-wonderful/resource-map/"><img src="resource-map/preview-zh.jpg" alt="学习星图实际界面" width="800"></a><br>
 <a href="https://xioacd99.github.io/study-is-wonderful/resource-map/">🧭 打开学习星图 ↗</a>
 </p>
 
