@@ -833,32 +833,32 @@ flowchart LR
 
 ### 智能体与 AI 编程 Agents and AI coding
 
-- [Orchestrator：在规划与执行之间动态切换模型 / Gemini 4 Hydrogen and Orchestrator](https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity) Google Antigravity Blog
+- [Orchestrator：在规划与执行之间动态切换模型 / Gemini 4 Hydrogen and Orchestrator](https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity) Google Antigravity Blog <img src="https://antigravity.google/assets/image/antigravity-logo.png" alt="Google Antigravity" width="20">
   > 了解同一编程任务如何由不同模型负责规划和执行，并在遇到困难时重新分工，以平衡质量、延迟与成本。
   >
   > Explore how models share planning and execution within a coding task and hand work back when problems arise, balancing quality, latency, and cost.
 
-- [Gemini 4 Hydrogen：面向智能体工作流的执行模型 / Introducing Gemini 4 Hydrogen](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/) Google Blog
+- [Gemini 4 Hydrogen：面向智能体工作流的执行模型 / Introducing Gemini 4 Hydrogen](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/) Google Blog <img src="https://www.gstatic.com/marketing-cms/assets/images/c5/3a/200414104c669203c62270f7884f/google-wordmarks-2x.webp=n-w150-h48-fcrop64=1,00000000ffffffff-rw" alt="Google" width="50">
   > 认识面向代码修改、测试与工具调用的模型设计取向，了解思考强度和多模型协作如何影响执行效率。
   >
   > Learn about a model geared toward code changes, testing, and tool use, and how thinking levels and multi-model collaboration affect execution efficiency.
 
-- [智能体编程时代的代码审查 / Less time on code, more time on architecture](https://www.clay.com/blog/code-reviews-agents) Clay Engineering
+- [智能体编程时代的代码审查 / Less time on code, more time on architecture](https://www.clay.com/blog/code-reviews-agents) Clay Engineering <img src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6778506d788ebf16fef48551_Clay%20primary%20logo.avif" alt="Clay" width="36">
   > 看 Clay 如何把人工审查重点转向需求、架构边界、安全与验证证据，而不是只逐行寻找代码错误。
   >
   > See how Clay shifts human review toward requirements, architectural boundaries, security, and validation evidence rather than only looking for bugs line by line.
 
-- [共享资源时，多智能体为何可能表现更差 / Worse Together: How Performance Breaks Down in Multi-User Multi-Agent Teams](https://alignment.anthropic.com/2026/worse-together/) Anthropic Alignment Science
+- [共享资源时，多智能体为何可能表现更差 / Worse Together: How Performance Breaks Down in Multi-User Multi-Agent Teams](https://alignment.anthropic.com/2026/worse-together/) Anthropic Alignment Science <img src="https://github.com/anthropics.png" alt="Anthropic" width="20">
   > 通过共享预算、排班和订餐等模拟任务，了解多个智能体为何会协调失败，以及明确负责人和提交前读取消息如何帮助改进。
   >
   > Explore coordination failures in simulated shared-budget, scheduling, and ordering tasks, and how a designated leader and reading messages before committing can help.
 
-- [lemonflow：电动车充电场景中的实时智能体 / How lemonflow built real-time agents for EV charging using Gemma and TPUs](https://cloud.google.com/blog/topics/startups/building-real-time-agents-for-ev-charging-using-gemma-and-tpus) Google Cloud Blog
+- [lemonflow：电动车充电场景中的实时智能体 / How lemonflow built real-time agents for EV charging using Gemma and TPUs](https://cloud.google.com/blog/topics/startups/building-real-time-agents-for-ev-charging-using-gemma-and-tpus) Google Cloud Blog <img src="https://www.gstatic.com/cgc/super_cloud_gradient.png" alt="Google Cloud" width="20">
   > 通过充电客服案例，认识实时语音服务的延迟要求，以及如何用统一后端接口和任务优先级调度支持智能体。
   >
   > Learn about latency constraints in live voice support and how unified backend interfaces and workload priorities support agents in an EV-charging service.
 
-- [AlphaProof Code：用形式化证明验证软件 / Introducing AlphaProof Code](https://deepmind.google/blog/introducing-alphaproof-code/) Google DeepMind
+- [AlphaProof Code：用形式化证明验证软件 / Introducing AlphaProof Code](https://deepmind.google/blog/introducing-alphaproof-code/) Google DeepMind <img src="https://github.com/google-deepmind.png" alt="Google DeepMind" width="20">
   > 了解人类如何确定安全规格，再由智能体生成 Lean 证明、交给独立检查器验证，以减少复杂软件中的验证工作。
   >
   > Explore how human-reviewed specifications, agent-generated Lean proofs, and independent checking work together to verify complex software.
@@ -895,17 +895,17 @@ flowchart LR
 
 ### AI 评测 AI evaluation
 
-- [可靠安全评测的设计方法 / Building strong safety evaluations](https://www.anthropic.com/research/building-strong-safety-evaluations) Anthropic
+- [可靠安全评测的设计方法 / Building strong safety evaluations](https://www.anthropic.com/research/building-strong-safety-evaluations) Anthropic <img src="https://github.com/anthropics.png" alt="Anthropic" width="20">
   > 学习如何明确要测量的模型行为、设计测试场景与评分方法，并用可复现的设置和不确定性分析解释结果。
   >
   > Learn to define the model behavior being measured, design test scenarios and grading methods, and interpret results with reproducible setups and uncertainty analysis.
 
-- [XYBench：识别提问背后的真实目标 / XYBench: Helping with the problem behind the question](https://allenai.org/blog/xybench) Ai2
+- [XYBench：识别提问背后的真实目标 / XYBench: Helping with the problem behind the question](https://allenai.org/blog/xybench) Ai2 <img src="https://allenai.org/icon.png?56c26b049606f4e5" alt="Ai2" width="20">
   > 了解如何评测模型能否发现用户提出的方法存在误区，并帮助用户解决真正想解决的问题，而不只是照着错误前提回答。
   >
   > Explore how to evaluate whether models recognize a misguided approach and help with the user's underlying goal instead of merely answering a flawed question.
 
-- [训练过程如何影响思维链可监控性 / What affects chain-of-thought monitorability across the model lifecycle?](https://alignment.openai.com/cot-monitorability-model-lifecycle/) OpenAI Alignment Research
+- [训练过程如何影响思维链可监控性 / What affects chain-of-thought monitorability across the model lifecycle?](https://alignment.openai.com/cot-monitorability-model-lifecycle/) OpenAI Alignment Research <img src="https://github.com/openai.png" alt="OpenAI" width="20">
   > 了解预训练、强化学习和模型生成数据如何改变推理能力与思维链可控性，以及为什么可见推理文本不能完整代表模型行为。
   >
   > Explore how pretraining, reinforcement learning, and model-generated data affect reasoning and chain-of-thought controllability, and why visible reasoning is an incomplete view of model behavior.
@@ -952,12 +952,12 @@ flowchart LR
 
 ### 工程基础设施 Engineering infrastructure
 
-- [BigQuery 与 Looker 的智能体可观测性 / New AI agent observability and governance across BigQuery and Looker](https://cloud.google.com/blog/products/data-analytics/enterprise-ai-agent-observability-with-bigquery-and-looker/) Google Cloud Blog
+- [BigQuery 与 Looker 的智能体可观测性 / New AI agent observability and governance across BigQuery and Looker](https://cloud.google.com/blog/products/data-analytics/enterprise-ai-agent-observability-with-bigquery-and-looker/) Google Cloud Blog <img src="https://www.gstatic.com/cgc/super_cloud_gradient.png" alt="Google Cloud" width="20">
   > 了解如何汇集智能体的运行记录，分析执行步骤、成本和质量，并在监控过程中保护敏感数据。
   >
   > Learn how to bring agent telemetry together to inspect execution steps, cost, and quality while protecting sensitive data during monitoring.
 
-- [用 vLLM 跨两台 DGX Station 部署 GLM-5.3 / When One GPU Isn’t Enough: Serving GLM-5.3 Across Two NVIDIA DGX Stations with vLLM](https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/) NVIDIA Technical Blog
+- [用 vLLM 跨两台 DGX Station 部署 GLM-5.3 / When One GPU Isn’t Enough: Serving GLM-5.3 Across Two NVIDIA DGX Stations with vLLM](https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/) NVIDIA Technical Blog <img src="https://www.nvidia.com/content/nvidiaGDC/us/en_US/about-nvidia/legal-info/logo-brand-usage/_jcr_content/root/responsivegrid/nv_container_392921705/nv_container/nv_image.coreimg.svg/1776076920288/nvidia-logo-vert.svg" alt="NVIDIA" width="40">
   > 学习如何通过张量并行与 RDMA 将大模型分布到两台机器上，提供统一推理入口，并测量并发请求下的吞吐和延迟。
   >
   > Learn how tensor parallelism and RDMA distribute a large model across two machines behind one serving endpoint, and how to measure throughput and latency under concurrent requests.
@@ -967,37 +967,37 @@ flowchart LR
   >
   > Explore how API and ABI version boundaries, packaging, and cross-hardware testing help applications integrate local model inference more reliably.
 
-- [Intelligent Delivery：按收益分配推理算力 / Intelligent Delivery: Making Every Unit of Compute Serve Better Ads](https://engineering.fb.com/2026/11/11/ml-applications/intelligent-delivery-serve-better-ads/) Engineering at Meta
+- [Intelligent Delivery：按收益分配推理算力 / Intelligent Delivery: Making Every Unit of Compute Serve Better Ads](https://engineering.fb.com/2026/11/11/ml-applications/intelligent-delivery-serve-better-ads/) Engineering at Meta <img src="https://github.com/meta.png" alt="Meta" width="20">
   > 学习如何预测不同请求增加算力后的收益，并在延迟约束下协调数据中心、硬件和模型的资源分配。
   >
   > Learn how predicted gains from additional compute guide resource allocation across data centers, hardware, and models under latency constraints.
 
-- [AlloyDB AI：在 SQL 中分类文本与提取结构化数据 / Introducing new AI functions for AlloyDB: ai.classify and ai.extract](https://cloud.google.com/blog/products/databases/ai-classify-and-ai-extract-functions-in-alloydb-ai) Google Cloud Blog
+- [AlloyDB AI：在 SQL 中分类文本与提取结构化数据 / Introducing new AI functions for AlloyDB: ai.classify and ai.extract](https://cloud.google.com/blog/products/databases/ai-classify-and-ai-extract-functions-in-alloydb-ai) Google Cloud Blog <img src="https://www.gstatic.com/cgc/super_cloud_gradient.png" alt="Google Cloud" width="20">
   > 了解如何用 SQL 调用模型完成文本分类和 JSON 提取，以及批量处理如何减少逐行推理的开销。
   >
   > Explore model-backed text classification and JSON extraction through SQL, and how batching reduces the overhead of row-by-row inference.
 
-- [Cloud Pathways：统一调度大规模机器学习任务 / Cloud Pathways, a distributed ML runtime for massive accelerator fleets, now GA](https://cloud.google.com/blog/topics/ai-infrastructure/cloud-pathways-a-distributed-ml-runtime-is-ga) Google Cloud Blog
+- [Cloud Pathways：统一调度大规模机器学习任务 / Cloud Pathways, a distributed ML runtime for massive accelerator fleets, now GA](https://cloud.google.com/blog/topics/ai-infrastructure/cloud-pathways-a-distributed-ml-runtime-is-ga) Google Cloud Blog <img src="https://www.gstatic.com/cgc/super_cloud_gradient.png" alt="Google Cloud" width="20">
   > 了解单个 JAX 控制器如何协调多个 TPU 分区，以及资源故障后重新分片、继续训练的设计。
   >
   > Explore how one JAX controller coordinates multiple TPU slices and how workloads can be resharded to continue training after resource failures.
 
-- [NVIDIA Snapshot：复用已初始化的 GPU 工作负载 / Start and Restore GPU Workloads in Seconds with NVIDIA Snapshot](https://developer.nvidia.com/blog/start-and-restore-gpu-workloads-in-seconds-with-nvidia-snapshot/) NVIDIA Technical Blog
+- [NVIDIA Snapshot：复用已初始化的 GPU 工作负载 / Start and Restore GPU Workloads in Seconds with NVIDIA Snapshot](https://developer.nvidia.com/blog/start-and-restore-gpu-workloads-in-seconds-with-nvidia-snapshot/) NVIDIA Technical Blog <img src="https://www.nvidia.com/content/nvidiaGDC/us/en_US/about-nvidia/legal-info/logo-brand-usage/_jcr_content/root/responsivegrid/nv_container_392921705/nv_container/nv_image.coreimg.svg/1776076920288/nvidia-logo-vert.svg" alt="NVIDIA" width="40">
   > 了解如何保存 CPU 与 GPU 的运行状态，在兼容硬件上恢复推理服务，避免重复加载权重、编译和捕获计算图。
   >
   > Learn how saving CPU and GPU state can restore inference services on compatible hardware without repeating weight loading, compilation, and graph capture.
 
-- [TPU Sync：加快推理缓存与训练权重传输 / Introducing TPU Sync: Fast KV cache and weight transfer for inference and RL on TPU](https://cloud.google.com/blog/topics/ai-infrastructure/introducing-tpu-sync-fast-kv-cache-and-weight-transfer-on-tpu) Google Cloud Blog
+- [TPU Sync：加快推理缓存与训练权重传输 / Introducing TPU Sync: Fast KV cache and weight transfer for inference and RL on TPU](https://cloud.google.com/blog/topics/ai-infrastructure/introducing-tpu-sync-fast-kv-cache-and-weight-transfer-on-tpu) Google Cloud Blog <img src="https://www.gstatic.com/cgc/super_cloud_gradient.png" alt="Google Cloud" width="20">
   > 了解如何在 TPU、主机内存与存储之间异步搬运模型状态，支持推理缓存复用，以及仍处于实验阶段的强化学习权重同步。
   >
   > Explore asynchronous model-state transfer across TPUs, host memory, and storage for inference-cache reuse and experimental reinforcement-learning weight synchronization.
 
-- [Agent Substrate：在 Kubernetes 上运行大规模智能体 / Agent Substrate: Advancing Kubernetes for Agents at Scale](https://developer.nvidia.com/blog/agent-substrate-advancing-kubernetes-for-agents-at-scale/) NVIDIA Technical Blog
+- [Agent Substrate：在 Kubernetes 上运行大规模智能体 / Agent Substrate: Advancing Kubernetes for Agents at Scale](https://developer.nvidia.com/blog/agent-substrate-advancing-kubernetes-for-agents-at-scale/) NVIDIA Technical Blog <img src="https://www.nvidia.com/content/nvidiaGDC/us/en_US/about-nvidia/legal-info/logo-brand-usage/_jcr_content/root/responsivegrid/nv_container_392921705/nv_container/nv_image.coreimg.svg/1776076920288/nvidia-logo-vert.svg" alt="NVIDIA" width="40">
   > 学习如何让多个智能体会话复用预热工作节点，并保存和恢复空闲会话的状态，减少环境等待与资源闲置。
   >
   > Learn how agent sessions share warm workers and preserve idle-session state through checkpointing and restoration to reduce waiting and wasted resources.
 
-- [用 Reshard 加速强化学习权重同步 / Accelerating Reinforcement Learning Weight Refit with the Reshard Collective](https://developer.nvidia.com/blog/accelerating-reinforcement-learning-weight-refit-with-the-reshard-collective/) NVIDIA Technical Blog
+- [用 Reshard 加速强化学习权重同步 / Accelerating Reinforcement Learning Weight Refit with the Reshard Collective](https://developer.nvidia.com/blog/accelerating-reinforcement-learning-weight-refit-with-the-reshard-collective/) NVIDIA Technical Blog <img src="https://www.nvidia.com/content/nvidiaGDC/us/en_US/about-nvidia/legal-info/logo-brand-usage/_jcr_content/root/responsivegrid/nv_container_392921705/nv_container/nv_image.coreimg.svg/1776076920288/nvidia-logo-vert.svg" alt="NVIDIA" width="40">
   > 了解训练端与推理端采用不同模型分片时，如何只传输所需的权重片段，减少同步通信。
   >
   > Explore how transferring only the required weight shards can reduce synchronization traffic between differently partitioned training and inference systems.
@@ -1009,12 +1009,12 @@ flowchart LR
 
 ### 科研与工程应用 Science and engineering applications
 
-- [AlphaGenome 2：预测不同细胞中的 DNA 作用 / AlphaGenome 2: Deciphering how cells read DNA to better understand disease](https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/) Google DeepMind
+- [AlphaGenome 2：预测不同细胞中的 DNA 作用 / AlphaGenome 2: Deciphering how cells read DNA to better understand disease](https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/) Google DeepMind <img src="https://github.com/google-deepmind.png" alt="Google DeepMind" width="20">
   > 认识结合 DNA 序列与细胞类型预测基因活动的方法，了解模型如何帮助研究者分析遗传变异的影响。
   >
   > Discover how DNA sequences and cell types inform predictions of gene activity, helping researchers investigate the effects of genetic variants.
 
-- [让 Claude 参与电子设备设计 / Testing Claude on real-world electronics design](https://www.anthropic.com/research/claude-electronics-design) Anthropic
+- [让 Claude 参与电子设备设计 / Testing Claude on real-world electronics design](https://www.anthropic.com/research/claude-electronics-design) Anthropic <img src="https://github.com/anthropics.png" alt="Anthropic" width="20">
   > 通过电路板、外壳与固件的原型案例，了解智能体如何反复修正设计并处理制造约束，以及人工制作和验证的作用。
   >
   > Follow prototype circuit boards, enclosures, and firmware to see how an agent revises designs, handles manufacturing constraints, and works with human fabrication and testing.
