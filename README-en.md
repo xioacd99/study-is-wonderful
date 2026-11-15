@@ -42,25 +42,10 @@ Great courses across disciplines. Follow your curiosity.
 <a id="资源全景-resource-map"></a>
 <a id="目录-contents"></a>
 
-<table>
-<tr><th align="left">🧭 Contents</th><th align="center">Interactive course map</th></tr>
-<tr><td valign="top">
-<a href="#数学-math">Math</a><br>
-<a href="#计算机科学-computer-science">Computer Science</a><br>
-<a href="#人工智能-artificial-intelligence">Artificial Intelligence</a><br>
-<a href="#经济学-economics">Economics</a><br>
-<a href="#物理学-physics">Physics</a><br>
-<a href="#心理学-psychology">Psychology</a><br>
-<a href="#社会科学-social-sciences">Social Sciences</a><br>
-<a href="#生物学-biology">Biology</a><br>
-<a href="#哲学与艺术-philosophy-and-arts">Philosophy and Arts</a><br>
-<a href="#其他-others">Others</a><br>
-<a href="#技术博客-technical-blogs">Technical blogs</a><br>
-</td><td align="center" valign="middle">
-<a href="https://xioacd99.github.io/study-is-wonderful/resource-map/"><img src="resource-map/thumbnail-en.svg" alt="Interactive course map" width="240"></a><br>
-<a href="https://xioacd99.github.io/study-is-wonderful/resource-map/">Open course map ↗</a>
-</td></tr>
-</table>
+<p align="center">
+<a href="https://xioacd99.github.io/study-is-wonderful/resource-map/"><img src="resource-map/thumbnail-en.svg" alt="Learning map" width="400"></a><br>
+<a href="https://xioacd99.github.io/study-is-wonderful/resource-map/">🧭 Explore the learning map ↗</a>
+</p>
 
 <a id="数学-math"></a>
 

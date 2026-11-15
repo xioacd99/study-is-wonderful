@@ -37,7 +37,7 @@ class MapTests(unittest.TestCase):
  def test_compact_header_and_thumbnail(self):
   for lang,text in [('zh',self.text),('en',self.english)]:
    self.assertIn('resource-map/thumbnail-'+lang+'.svg',text)
-   self.assertIn('<table>',text)
+   self.assertNotIn('<table>',text)
    self.assertNotIn('toc.jpg',text)
    self.assertNotIn('Smart TOC',text)
    ids=set(re.findall(r'<a id="([^"]+)"',text))
@@ -54,6 +54,12 @@ class MapTests(unittest.TestCase):
    raw={c['id']:c for c in builder.courses(text)}
    for c in self.c:
     self.assertEqual(c['locales'][key],{k:v for k,v in raw[c['id']].items() if k!='id'})
+ def test_mobile_mind_map_mode(self):
+  template=(ROOT/'resource-map/template.html').read_text()
+  self.assertIn('id="map-view"',template)
+  self.assertIn('id="list-view"',template)
+  self.assertIn('touch-action:pan-x pan-y',template)
+  self.assertIn('body[data-view=map] #graph svg{display:block}',template)
  def test_generated_html(self):
   import json
   expected=(ROOT/'resource-map/template.html').read_text().replace('/*__COURSES__*/',json.dumps(self.c,ensure_ascii=False).replace('</','<\\/'))

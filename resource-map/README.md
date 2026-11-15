@@ -5,11 +5,11 @@
 `index.html` is a standalone course mind map with no external script dependencies. Download and open it in a modern browser. GitHub blob pages show source, not a running app. Published: [open the interactive course map](https://xioacd99.github.io/study-is-wonderful/resource-map/).
 
 功能 / Features:
-- 学科 → 相关主题 → 全部课程，分别展开和收起 / Expand or collapse subjects and topics.
+- 思维导图 / 分层列表双视图，手机也可切换真正连线图；学科 → 相关主题 → 全部课程分别展开和收起 / Switch between a connected mind map and a nested list, including on mobile; expand or collapse subjects and topics.
 - 课程搜索、缩放、恢复全景 / Search, zoom, and return to overview.
 - 真正中英文切换，界面、课程和简介随语言切换 / Switch the UI, course titles, descriptions, and source labels between Chinese and English.
 - 课程详情内一键返回原图位置；外部课程在新标签打开，原图保留 / Return from details to the same map position; external sources open in a new tab.
-- 键盘可访问按钮和搜索，详情支持 Escape；窄屏使用分层列表，无需横向拖动 / Keyboard controls, Escape to close details, and a nested list layout on narrow screens.
+- 键盘可访问按钮和搜索，详情支持 Escape；窄屏使用分层列表，无需横向拖动 / Keyboard controls, Escape to close details, and swipeable connected map or nested list on narrow screens.
 
 ## 更新 / Updating
 
