@@ -58,3 +58,8 @@ Desktop uses a subject sidebar, top search and floating canvas tools. Mobile has
 最新视觉：恢复青绿与金色，采用重新生成的三片折叠丝带图标。桌面全景为上下两排学科连接中心节点，手机保留独立双列树；主题层仍可聚焦展开。
 
 Current visual: teal and gold with a newly generated three-ribbon symbol. Desktop overview places subjects above and below the central hub; mobile retains its own two-column tree. Topic focus remains available.
+
+
+知识图谱视图使用确定性弹簧布局与标签碰撞消除，默认展开150课程、32主题与10学科。全部连线只表达现有目录归属，绝不推断先修或学术关联。小比例时课程化为点、保留学科标签，放大显示标题；搜索与学科筛选聚焦子图，分层列表保留。
+
+The knowledge graph uses deterministic spring layout and label collision resolution. Edges express existing catalog membership only, never inferred prerequisites. Semantic zoom keeps the overview clear; zoom in for titles, or search/filter to focus. The hierarchy list remains available.
