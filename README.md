@@ -868,6 +868,16 @@
 
 ### AI 评测 AI evaluation
 
+- [可靠安全评测的设计方法 / Building strong safety evaluations](https://www.anthropic.com/research/building-strong-safety-evaluations) Anthropic
+  > 学习如何明确要测量的模型行为、设计测试场景与评分方法，并用可复现的设置和不确定性分析解释结果。
+  >
+  > Learn to define the model behavior being measured, design test scenarios and grading methods, and interpret results with reproducible setups and uncertainty analysis.
+
+- [XYBench：识别提问背后的真实目标 / XYBench: Helping with the problem behind the question](https://allenai.org/blog/xybench) Ai2
+  > 了解如何评测模型能否发现用户提出的方法存在误区，并帮助用户解决真正想解决的问题，而不只是照着错误前提回答。
+  >
+  > Explore how to evaluate whether models recognize a misguided approach and help with the user's underlying goal instead of merely answering a flawed question.
+
 - [训练过程如何影响思维链可监控性 / What affects chain-of-thought monitorability across the model lifecycle?](https://alignment.openai.com/cot-monitorability-model-lifecycle/) OpenAI Alignment Research
   > 了解预训练、强化学习和模型生成数据如何改变推理能力与思维链可控性，以及为什么可见推理文本不能完整代表模型行为。
   >
@@ -914,6 +924,21 @@
   > Explore how seemingly harmless fine-tuning data can change model behavior in controlled red-team experiments, and how automated tests can expose gaps in training-data monitoring.
 
 ### 工程基础设施 Engineering infrastructure
+
+- [BigQuery 与 Looker 的智能体可观测性 / New AI agent observability and governance across BigQuery and Looker](https://cloud.google.com/blog/products/data-analytics/enterprise-ai-agent-observability-with-bigquery-and-looker/) Google Cloud Blog
+  > 了解如何汇集智能体的运行记录，分析执行步骤、成本和质量，并在监控过程中保护敏感数据。
+  >
+  > Learn how to bring agent telemetry together to inspect execution steps, cost, and quality while protecting sensitive data during monitoring.
+
+- [用 vLLM 跨两台 DGX Station 部署 GLM-5.3 / When One GPU Isn’t Enough: Serving GLM-5.3 Across Two NVIDIA DGX Stations with vLLM](https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/) NVIDIA Technical Blog
+  > 学习如何通过张量并行与 RDMA 将大模型分布到两台机器上，提供统一推理入口，并测量并发请求下的吞吐和延迟。
+  >
+  > Learn how tensor parallelism and RDMA distribute a large model across two machines behind one serving endpoint, and how to measure throughput and latency under concurrent requests.
+
+- [llama.cpp 1.0：构建稳定的本地 AI 基础 / llama.cpp v1.0.0: A stronger foundation for the local AI ecosystem](https://huggingface.co/blog/ggml-org/llama-cpp-v1) ggml-org / Hugging Face
+  > 了解 API 与 ABI 版本边界、软件打包和跨硬件测试如何帮助应用更稳定地集成本地模型推理。
+  >
+  > Explore how API and ABI version boundaries, packaging, and cross-hardware testing help applications integrate local model inference more reliably.
 
 - [Intelligent Delivery：按收益分配推理算力 / Intelligent Delivery: Making Every Unit of Compute Serve Better Ads](https://engineering.fb.com/2026/11/11/ml-applications/intelligent-delivery-serve-better-ads/) Engineering at Meta
   > 学习如何预测不同请求增加算力后的收益，并在延迟约束下协调数据中心、硬件和模型的资源分配。
