@@ -23,6 +23,28 @@
 <img src="toc.jpg" alt="Smart TOC 目录示例 / Smart TOC navigation example" width="70%">
 </div>
 
+## 资源全景 Resource map
+
+```mermaid
+flowchart LR
+    root["Study Is Wonderful"] --> courses["公开课 / Open courses"]
+    root --> blogs["技术博客 / Technical blogs"]
+    courses --> math["数学 / Math"]
+    courses --> cs["计算机科学 / Computer Science"]
+    courses --> ai["人工智能 / Artificial Intelligence"]
+    courses --> econ["经济学 / Economics"]
+    courses --> physics["物理学 / Physics"]
+    courses --> psych["心理学 / Psychology"]
+    courses --> social["社会科学 / Social Sciences"]
+    courses --> bio["生物学 / Biology"]
+    courses --> arts["哲学与艺术 / Philosophy and Arts"]
+    courses --> other["其他 / Others"]
+    blogs --> agents["智能体与 AI 编程 / Agents and AI coding"]
+    blogs --> eval["AI 评测 / AI evaluation"]
+    blogs --> infra["工程基础设施 / Engineering infrastructure"]
+    blogs --> science["科研与工程应用 / Science and engineering applications"]
+```
+
 ## 目录 Contents
 
 - [数学 Math](#数学-math)
@@ -940,7 +962,7 @@
   >
   > Learn how tensor parallelism and RDMA distribute a large model across two machines behind one serving endpoint, and how to measure throughput and latency under concurrent requests.
 
-- [llama.cpp 1.0：构建稳定的本地 AI 基础 / llama.cpp v1.0.0: A stronger foundation for the local AI ecosystem](https://huggingface.co/blog/ggml-org/llama-cpp-v1) ggml-org / Hugging Face
+- [llama.cpp 1.0：构建稳定的本地 AI 基础 / llama.cpp v1.0.0: A stronger foundation for the local AI ecosystem](https://huggingface.co/blog/ggml-org/llama-cpp-v1) ggml-org / Hugging Face <img src="https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo-monochrome.svg" alt="Hugging Face" width="20">
   > 了解 API 与 ABI 版本边界、软件打包和跨硬件测试如何帮助应用更稳定地集成本地模型推理。
   >
   > Explore how API and ABI version boundaries, packaging, and cross-hardware testing help applications integrate local model inference more reliably.
