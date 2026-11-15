@@ -39,6 +39,11 @@
 
 ## 数学 Math
 
+- [MIT 18.065·数据分析、信号处理与机器学习中的矩阵方法（2018 春季） / MIT 18.065·Matrix Methods in Data Analysis, Signal Processing, and Machine Learning (Spring 2018)](https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/)（MIT OpenCourseWare） · [官方第一讲 / Official Lecture 1](https://www.youtube.com/watch?v=YiqIkSHSmyc)（YouTube）
+  > 跟随 Gilbert Strang 学习矩阵分解、概率统计与优化，理解线性代数如何支撑数据分析和深度学习。
+  >
+  > Learn matrix factorizations, probability, statistics, and optimization with Gilbert Strang, and see how linear algebra supports data analysis and deep learning.
+
 - [数学思维课 / Mathematical Thinking](https://www.bilibili.com/BV1dq4y127TF) <img src="bilibili.svg" alt="Bilibili" width="20">
   > 练习像数学家一样提问、推理，并用证明解释答案为什么成立。
   >
@@ -165,6 +170,16 @@
   > Study strategies when each person’s choices affect others.
 
 ## 计算机科学 Computer Science
+
+- [MIT 6.172·软件系统性能工程（2018 秋季） / MIT 6.172·Performance Engineering of Software Systems (Fall 2018)](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/)（MIT OpenCourseWare） · [官方第一讲 / Official Lecture 1](https://www.youtube.com/watch?v=o7h_sYMk_oc)（YouTube） · [转载 / Repost](https://www.bilibili.com/video/BV1wA411h7N7/)（Bilibili）
+  > 从矩阵乘法优化等实例出发，学习分析程序性能，理解算法、编程语言与计算机系统如何影响运行速度。
+  >
+  > Learn to analyze program performance through examples such as matrix multiplication, and understand how algorithms, programming languages, and computer systems affect execution speed.
+
+- [MIT·计算机教育中缺失的一课（2026） / MIT·The Missing Semester of Your CS Education (2026)](https://www.youtube.com/playlist?list=PLyzOVJj3bHQunmnnTXrNbZnBaCA-ieK4L) <img src="youtube.svg" alt="YouTube" width="20"> · [中文配音转载 / Chinese-dubbed repost](https://www.bilibili.com/video/BV1JgACzjEo8/) <img src="bilibili.svg" alt="Bilibili" width="20"> · [课程官网 / Course website](https://missing.csail.mit.edu/2026/)
+  > 学习 Shell、开发工具、调试、Git、代码发布与质量管理，并了解智能体编程如何融入日常开发。
+  >
+  > Learn shell tools, development workflows, debugging, Git, software delivery, and code quality, including how agentic coding fits into everyday development.
 
 - [理论计算机科学中的重要思想 / Great Ideas in Theoretical Computer Science](https://www.bilibili.com/BV1Wh411y7V9) <img src="bilibili.svg" alt="Bilibili" width="20">
   > 用数学的眼光认识计算机能解决什么问题，以及解决问题需要多少资源。
@@ -443,6 +458,21 @@
 
 ## 人工智能 Artificial Intelligence
 
+- [斯坦福 CS224R·深度强化学习 / Stanford CS224R·Deep Reinforcement Learning](https://www.bilibili.com/video/BV1U2zYBqEFB/)（Bilibili 转载 / repost）
+  > 了解智能体如何通过交互与奖励学习决策，以及深度学习如何用于强化学习。本转载的录制年份尚未核实。
+  >
+  > Explore how agents learn decisions through interaction and rewards, and how deep learning is used in reinforcement learning. The recording year of this repost has not been verified.
+
+- [斯坦福 CS224R·深度强化学习（2025 春季） / Stanford CS224R·Deep Reinforcement Learning (Spring 2025)](https://www.bilibili.com/video/BV15E2SB7EzE/) <img src="bilibili.svg" alt="Bilibili repost" width="20"> · [官方第一讲 / Official Lecture 1](https://www.youtube.com/watch?v=EvHRQhMX7_w) <img src="youtube.svg" alt="YouTube" width="20">
+  > Chelsea Finn 介绍模仿学习、策略梯度、Actor-Critic、离线与基于模型的强化学习，并讨论这些方法在机器人和大语言模型中的应用。
+  >
+  > Chelsea Finn introduces imitation learning, policy gradients, actor-critic methods, offline and model-based reinforcement learning, with applications to robots and large language models.
+
+- [ETH Zurich·机器人学习：从基础到基础模型（2026） / ETH Zurich·Robot Learning: From Fundamentals to Foundation Models (2026)](https://cvg.ethz.ch/lectures/Robot-Learning/) · [第一讲 / Lecture 1](https://www.youtube.com/watch?v=X0k14u6pSxw) <img src="youtube.svg" alt="YouTube" width="20"> · [B站转载 / Bilibili repost](https://www.bilibili.com/video/BV1fSjG6LES5/) <img src="bilibili.svg" alt="Bilibili" width="20">
+  > Oier Mees 从机器人控制、模仿学习和强化学习讲起，逐步介绍视觉语言动作模型与机器人基础模型，并结合仿真和真实机器人实践。
+  >
+  > Oier Mees introduces robot control, imitation learning, and reinforcement learning before exploring vision-language-action and robotics foundation models, with practice in simulation and on real robots.
+
 - [斯坦福 CS336：从零构建语言模型（第一讲） / Stanford CS336: Language Modeling from Scratch (Lecture 1)](https://www.youtube.com/watch?v=SQ3fZ1sAqXI) <img src="youtube.svg" alt="YouTube" width="20">
   > 从第一讲认识语言模型与分词，开启对大模型构建方法的学习。
   >
@@ -632,6 +662,16 @@
 
 ## 物理学 Physics
 
+- [耶鲁 ASTR 160·天体物理学的前沿与争议（2007 春季） / Yale ASTR 160·Frontiers and Controversies in Astrophysics (Spring 2007)](https://oyc.yale.edu/astronomy/astr-160)（Open Yale Courses） · [官方第一讲 / Official Lecture 1](https://www.youtube.com/watch?v=nzmFc2gjUo4)（YouTube） · [课程视频 / Course videos](https://www.bilibili.com/video/BV1kroeBrEer/)（Bilibili）
+  > 跟随 Charles Bailyn 探索系外行星、黑洞和暗能量，学习如何用观测证据分析尚无定论的科学问题。
+  >
+  > Explore exoplanets, black holes, and dark energy with Charles Bailyn, and learn how observational evidence helps assess unresolved scientific questions.
+
+- [MIT 8.01SC·经典力学（2016 秋季） / MIT 8.01SC·Classical Mechanics (Fall 2016)](https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/)（MIT OpenCourseWare） · [第一周导论 / Week 1 Introduction](https://www.youtube.com/watch?v=i4u7SZjoAs4)（YouTube） · [课程视频 / Course videos](https://www.bilibili.com/video/BV1KQ4y1B7TJ/)（Bilibili）
+  > 从运动与受力出发，学习牛顿定律、动量、能量和旋转，练习用数学描述并解决经典力学问题。
+  >
+  > Study motion and forces through Newton’s laws, momentum, energy, and rotation, and practice using mathematics to describe and solve classical mechanics problems.
+
 - [量子力学 / Quantum Mechanics](https://www.bilibili.com/BV1w4411s7da) <img src="bilibili.svg" alt="Bilibili" width="20">
   > 探索量子力学如何描述原子等微观世界。
   >
@@ -681,6 +721,11 @@
 
 ## 社会科学 Social Sciences
 
+- [耶鲁 HIST 119·美国南北战争与重建，1845–1877（2008 春季） / Yale HIST 119·The Civil War and Reconstruction Era, 1845–1877 (Spring 2008)](https://oyc.yale.edu/history/hist-119)（Open Yale Courses） · [官方第一讲 / Official Lecture 1](https://www.youtube.com/watch?v=QXXp1bHd6gI)（YouTube） · [课程视频 / Course videos](https://www.bilibili.com/video/BV1Ws411q7Lv/)（Bilibili）
+  > 跟随 David W. Blight 了解美国南北战争的起因与影响，探讨奴隶制、解放和战后重建如何改变美国社会。
+  >
+  > Explore the causes and consequences of the American Civil War with David W. Blight, and learn how slavery, emancipation, and Reconstruction reshaped American society.
+
 - [现代社会理论基础 / Foundations of Modern Social Theory](https://www.bilibili.com/BV1ux411r736) <img src="bilibili.svg" alt="Bilibili" width="20">
   > 认识社会思想家怎样解释社会、制度和人与人的关系。
   >
@@ -704,6 +749,11 @@
   > Explore how brains, bodies and environments interact to shape human behavior.
 
 ## 哲学与艺术 Philosophy and Arts
+
+- [耶鲁 ENGL 310·现代诗歌（2007 春季） / Yale ENGL 310·Modern Poetry (Spring 2007)](https://oyc.yale.edu/english/engl-310)（Open Yale Courses） · [官方第一讲 / Official Lecture 1](https://www.youtube.com/watch?v=aG9el6hOjm8)（YouTube）
+  > 跟随 Langdon Hammer 细读现代英语诗歌，认识 Frost、Yeats、Eliot 等诗人，并从历史与文学批评角度理解作品。
+  >
+  > Read modern English-language poetry closely with Langdon Hammer, exploring poets such as Frost, Yeats, and Eliot through historical context and literary criticism.
 
 - [美学 / Aesthetics](https://www.bilibili.com/BV1av411e778) <img src="bilibili.svg" alt="Bilibili" width="20">
   > 思考什么是美，以及我们为什么会对艺术产生不同感受。
@@ -761,6 +811,46 @@
 
 ### 智能体与 AI 编程 Agents and AI coding
 
+- [Orchestrator：在规划与执行之间动态切换模型 / Gemini 4 Hydrogen and Orchestrator](https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity) Google Antigravity Blog
+  > 了解同一编程任务如何由不同模型负责规划和执行，并在遇到困难时重新分工，以平衡质量、延迟与成本。
+  >
+  > Explore how models share planning and execution within a coding task and hand work back when problems arise, balancing quality, latency, and cost.
+
+- [Gemini 4 Hydrogen：面向智能体工作流的执行模型 / Introducing Gemini 4 Hydrogen](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/) Google Blog
+  > 认识面向代码修改、测试与工具调用的模型设计取向，了解思考强度和多模型协作如何影响执行效率。
+  >
+  > Learn about a model geared toward code changes, testing, and tool use, and how thinking levels and multi-model collaboration affect execution efficiency.
+
+- [智能体编程时代的代码审查 / Less time on code, more time on architecture](https://www.clay.com/blog/code-reviews-agents) Clay Engineering
+  > 看 Clay 如何把人工审查重点转向需求、架构边界、安全与验证证据，而不是只逐行寻找代码错误。
+  >
+  > See how Clay shifts human review toward requirements, architectural boundaries, security, and validation evidence rather than only looking for bugs line by line.
+
+- [共享资源时，多智能体为何可能表现更差 / Worse Together: How Performance Breaks Down in Multi-User Multi-Agent Teams](https://alignment.anthropic.com/2026/worse-together/) Anthropic Alignment Science
+  > 通过共享预算、排班和订餐等模拟任务，了解多个智能体为何会协调失败，以及明确负责人和提交前读取消息如何帮助改进。
+  >
+  > Explore coordination failures in simulated shared-budget, scheduling, and ordering tasks, and how a designated leader and reading messages before committing can help.
+
+- [lemonflow：电动车充电场景中的实时智能体 / How lemonflow built real-time agents for EV charging using Gemma and TPUs](https://cloud.google.com/blog/topics/startups/building-real-time-agents-for-ev-charging-using-gemma-and-tpus) Google Cloud Blog
+  > 通过充电客服案例，认识实时语音服务的延迟要求，以及如何用统一后端接口和任务优先级调度支持智能体。
+  >
+  > Learn about latency constraints in live voice support and how unified backend interfaces and workload priorities support agents in an EV-charging service.
+
+- [AlphaProof Code：用形式化证明验证软件 / Introducing AlphaProof Code](https://deepmind.google/blog/introducing-alphaproof-code/) Google DeepMind
+  > 了解人类如何确定安全规格，再由智能体生成 Lean 证明、交给独立检查器验证，以减少复杂软件中的验证工作。
+  >
+  > Explore how human-reviewed specifications, agent-generated Lean proofs, and independent checking work together to verify complex software.
+
+- [Project EVE：让 Claude 玩大型多人在线游戏 / Project EVE: Claude plays MMORPGs](https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs) <img src="https://github.com/anthropics.png" alt="Anthropic" width="20">
+  > 通过模拟交易与实时游戏任务，了解智能体如何规划、协作，以及团队在长期任务和蓄意干扰下的局限。
+  >
+  > Explore agent planning and coordination through simulated trading and live game tasks, including limits in long-running missions and deliberate team disruption.
+
+- [智能体记忆的组成 / The components of agent memory](https://www.anthropic.com/research/components-of-agent-memory) <img src="https://github.com/anthropics.png" alt="Anthropic" width="20">
+  > 了解如何将执行记录整理成可复用的记忆，并通过回顾旧记录纠错，帮助智能体跨会话积累经验。
+  >
+  > Learn how execution logs become reusable memory, and how reviewing past records can correct mistakes and support learning across sessions.
+
 - [Codex 编排的开源规范 Symphony / An open-source spec for Codex orchestration: Symphony](https://openai.com/index/open-source-codex-orchestration-symphony/) <img src="https://github.com/openai.png" alt="OpenAI" width="20">
   > 了解如何以任务看板协调编码智能体的工作区、执行与人工审查。
   >
@@ -783,6 +873,36 @@
 
 ### AI 评测 AI evaluation
 
+- [可靠安全评测的设计方法 / Building strong safety evaluations](https://www.anthropic.com/research/building-strong-safety-evaluations) Anthropic
+  > 学习如何明确要测量的模型行为、设计测试场景与评分方法，并用可复现的设置和不确定性分析解释结果。
+  >
+  > Learn to define the model behavior being measured, design test scenarios and grading methods, and interpret results with reproducible setups and uncertainty analysis.
+
+- [XYBench：识别提问背后的真实目标 / XYBench: Helping with the problem behind the question](https://allenai.org/blog/xybench) Ai2
+  > 了解如何评测模型能否发现用户提出的方法存在误区，并帮助用户解决真正想解决的问题，而不只是照着错误前提回答。
+  >
+  > Explore how to evaluate whether models recognize a misguided approach and help with the user's underlying goal instead of merely answering a flawed question.
+
+- [训练过程如何影响思维链可监控性 / What affects chain-of-thought monitorability across the model lifecycle?](https://alignment.openai.com/cot-monitorability-model-lifecycle/) OpenAI Alignment Research
+  > 了解预训练、强化学习和模型生成数据如何改变推理能力与思维链可控性，以及为什么可见推理文本不能完整代表模型行为。
+  >
+  > Explore how pretraining, reinforcement learning, and model-generated data affect reasoning and chain-of-thought controllability, and why visible reasoning is an incomplete view of model behavior.
+
+- [双盲 AI 评测试点 / Piloting the world's first double-blind AI evaluations](https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/) <img src="https://github.com/google-deepmind.png" alt="Google DeepMind" width="20">
+  > 了解机密计算如何让评测方保留测试题、模型提供方保留权重，同时在隔离环境中运行评测，减少信息泄漏。
+  >
+  > Learn how confidential computing lets evaluators retain private test questions and model providers retain weights while running evaluations in an isolated environment.
+
+- [奖励作弊如何影响模型行为 / Training a Misaligned Reward Seeker](https://alignment.anthropic.com/2026/reward-seeker/) <img src="https://github.com/anthropics.png" alt="Anthropic" width="20">
+  > 通过刻意设置奖励漏洞的受控训练实验，了解模型如何学会钻评分规则的空子，以及这种行为可能如何迁移。
+  >
+  > Study controlled training experiments with deliberately exploitable rewards to understand how models learn to game scoring rules and how that behavior may transfer.
+
+- [智能体在评测与实际使用中的行为差距 / Eval-production behavior gaps in agent safety and the role of eval-awareness](https://alignment.openai.com/eval-production-behavior-gap/) <img src="https://github.com/openai.png" alt="OpenAI" width="20">
+  > 了解安全测试与实际使用中的表现为何可能不同，以及模型对测试目标的猜测如何影响评测结果。
+  >
+  > Explore why behavior can differ between safety tests and real use, and how a model's interpretation of the test objective can affect results.
+
 - [LifeVal：评估 AI 完成日常任务的能力 / LifeVal](https://openai.com/index/lifeval/) <img src="https://github.com/openai.png" alt="OpenAI" width="20">
   > 认识围绕日常实际需求构建的评测，关注 AI 能否帮助人们完成任务。
   >
@@ -803,7 +923,62 @@
   >
   > Explore how a model can reuse conversation computation to screen for potential misuse after responding, and why this screening still needs other safeguards.
 
+- [自动化研究隐蔽的涌现式失配 / Automated Subtle Emergent Misalignment Research](https://alignment.anthropic.com/2026/automated-em-search/) <img src="https://github.com/anthropics.png" alt="Anthropic" width="20">
+  > 通过受控红队实验，了解看似无害的微调数据为何可能改变模型行为，以及如何用自动化测试发现训练数据监控的盲区。
+  >
+  > Explore how seemingly harmless fine-tuning data can change model behavior in controlled red-team experiments, and how automated tests can expose gaps in training-data monitoring.
+
 ### 工程基础设施 Engineering infrastructure
+
+- [BigQuery 与 Looker 的智能体可观测性 / New AI agent observability and governance across BigQuery and Looker](https://cloud.google.com/blog/products/data-analytics/enterprise-ai-agent-observability-with-bigquery-and-looker/) Google Cloud Blog
+  > 了解如何汇集智能体的运行记录，分析执行步骤、成本和质量，并在监控过程中保护敏感数据。
+  >
+  > Learn how to bring agent telemetry together to inspect execution steps, cost, and quality while protecting sensitive data during monitoring.
+
+- [用 vLLM 跨两台 DGX Station 部署 GLM-5.3 / When One GPU Isn’t Enough: Serving GLM-5.3 Across Two NVIDIA DGX Stations with vLLM](https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/) NVIDIA Technical Blog
+  > 学习如何通过张量并行与 RDMA 将大模型分布到两台机器上，提供统一推理入口，并测量并发请求下的吞吐和延迟。
+  >
+  > Learn how tensor parallelism and RDMA distribute a large model across two machines behind one serving endpoint, and how to measure throughput and latency under concurrent requests.
+
+- [llama.cpp 1.0：构建稳定的本地 AI 基础 / llama.cpp v1.0.0: A stronger foundation for the local AI ecosystem](https://huggingface.co/blog/ggml-org/llama-cpp-v1) ggml-org / Hugging Face
+  > 了解 API 与 ABI 版本边界、软件打包和跨硬件测试如何帮助应用更稳定地集成本地模型推理。
+  >
+  > Explore how API and ABI version boundaries, packaging, and cross-hardware testing help applications integrate local model inference more reliably.
+
+- [Intelligent Delivery：按收益分配推理算力 / Intelligent Delivery: Making Every Unit of Compute Serve Better Ads](https://engineering.fb.com/2026/11/11/ml-applications/intelligent-delivery-serve-better-ads/) Engineering at Meta
+  > 学习如何预测不同请求增加算力后的收益，并在延迟约束下协调数据中心、硬件和模型的资源分配。
+  >
+  > Learn how predicted gains from additional compute guide resource allocation across data centers, hardware, and models under latency constraints.
+
+- [AlloyDB AI：在 SQL 中分类文本与提取结构化数据 / Introducing new AI functions for AlloyDB: ai.classify and ai.extract](https://cloud.google.com/blog/products/databases/ai-classify-and-ai-extract-functions-in-alloydb-ai) Google Cloud Blog
+  > 了解如何用 SQL 调用模型完成文本分类和 JSON 提取，以及批量处理如何减少逐行推理的开销。
+  >
+  > Explore model-backed text classification and JSON extraction through SQL, and how batching reduces the overhead of row-by-row inference.
+
+- [Cloud Pathways：统一调度大规模机器学习任务 / Cloud Pathways, a distributed ML runtime for massive accelerator fleets, now GA](https://cloud.google.com/blog/topics/ai-infrastructure/cloud-pathways-a-distributed-ml-runtime-is-ga) Google Cloud Blog
+  > 了解单个 JAX 控制器如何协调多个 TPU 分区，以及资源故障后重新分片、继续训练的设计。
+  >
+  > Explore how one JAX controller coordinates multiple TPU slices and how workloads can be resharded to continue training after resource failures.
+
+- [NVIDIA Snapshot：复用已初始化的 GPU 工作负载 / Start and Restore GPU Workloads in Seconds with NVIDIA Snapshot](https://developer.nvidia.com/blog/start-and-restore-gpu-workloads-in-seconds-with-nvidia-snapshot/) NVIDIA Technical Blog
+  > 了解如何保存 CPU 与 GPU 的运行状态，在兼容硬件上恢复推理服务，避免重复加载权重、编译和捕获计算图。
+  >
+  > Learn how saving CPU and GPU state can restore inference services on compatible hardware without repeating weight loading, compilation, and graph capture.
+
+- [TPU Sync：加快推理缓存与训练权重传输 / Introducing TPU Sync: Fast KV cache and weight transfer for inference and RL on TPU](https://cloud.google.com/blog/topics/ai-infrastructure/introducing-tpu-sync-fast-kv-cache-and-weight-transfer-on-tpu) Google Cloud Blog
+  > 了解如何在 TPU、主机内存与存储之间异步搬运模型状态，支持推理缓存复用，以及仍处于实验阶段的强化学习权重同步。
+  >
+  > Explore asynchronous model-state transfer across TPUs, host memory, and storage for inference-cache reuse and experimental reinforcement-learning weight synchronization.
+
+- [Agent Substrate：在 Kubernetes 上运行大规模智能体 / Agent Substrate: Advancing Kubernetes for Agents at Scale](https://developer.nvidia.com/blog/agent-substrate-advancing-kubernetes-for-agents-at-scale/) NVIDIA Technical Blog
+  > 学习如何让多个智能体会话复用预热工作节点，并保存和恢复空闲会话的状态，减少环境等待与资源闲置。
+  >
+  > Learn how agent sessions share warm workers and preserve idle-session state through checkpointing and restoration to reduce waiting and wasted resources.
+
+- [用 Reshard 加速强化学习权重同步 / Accelerating Reinforcement Learning Weight Refit with the Reshard Collective](https://developer.nvidia.com/blog/accelerating-reinforcement-learning-weight-refit-with-the-reshard-collective/) NVIDIA Technical Blog
+  > 了解训练端与推理端采用不同模型分片时，如何只传输所需的权重片段，减少同步通信。
+  >
+  > Explore how transferring only the required weight shards can reduce synchronization traffic between differently partitioned training and inference systems.
 
 - [OpenAI 如何扩展 Git / Scaling Git at OpenAI](https://openai.com/index/scaling-git-at-openai/) <img src="https://github.com/openai.png" alt="OpenAI" width="20">
   > 了解 Pando 如何保持 Git 兼容，同时支持并行分支写入和高吞吐读取。
@@ -811,6 +986,16 @@
   > Explore how Pando supports concurrent branch updates and high-throughput reads while retaining Git compatibility.
 
 ### 科研与工程应用 Science and engineering applications
+
+- [AlphaGenome 2：预测不同细胞中的 DNA 作用 / AlphaGenome 2: Deciphering how cells read DNA to better understand disease](https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/) Google DeepMind
+  > 认识结合 DNA 序列与细胞类型预测基因活动的方法，了解模型如何帮助研究者分析遗传变异的影响。
+  >
+  > Discover how DNA sequences and cell types inform predictions of gene activity, helping researchers investigate the effects of genetic variants.
+
+- [让 Claude 参与电子设备设计 / Testing Claude on real-world electronics design](https://www.anthropic.com/research/claude-electronics-design) Anthropic
+  > 通过电路板、外壳与固件的原型案例，了解智能体如何反复修正设计并处理制造约束，以及人工制作和验证的作用。
+  >
+  > Follow prototype circuit boards, enclosures, and firmware to see how an agent revises designs, handles manufacturing constraints, and works with human fabrication and testing.
 
 - [用 Google Antigravity 开展智能体化学信息学 / Agentic cheminformatics with Google Antigravity](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/) <img src="https://github.com/google-deepmind.png" alt="Google DeepMind" width="20">
   > 了解智能体如何整理分子数据、调用化学计算工具并提出候选分子，以及为什么计算结果仍需实验验证。
@@ -821,3 +1006,8 @@
   > 了解 AI 如何协助机械设计、电路、固件与仿真，并认识制造公差和装配要求仍需工程人员审查的原因。
   >
   > See how AI can assist mechanical design, electronics, firmware, and simulation, and why engineers still need to review manufacturing tolerances and assembly requirements.
+
+- [用 Google Antigravity 加速抗菌肽搜索 / Accelerating the search for antimicrobial peptides with Google Antigravity](https://deepmind.google/blog/accelerating-antimicrobial-discovery/) <img src="https://github.com/google-deepmind.png" alt="Google DeepMind" width="20">
+  > 了解研究者如何与智能体合作筛选蛋白质、分析结构并整理证据，以及为什么计算选出的候选抗菌肽仍需实验验证。
+  >
+  > See how researchers work with an agent to screen proteins, analyze structures, and gather evidence, and why computationally selected antimicrobial peptide candidates still need laboratory validation.
