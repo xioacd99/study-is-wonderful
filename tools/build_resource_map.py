@@ -52,7 +52,12 @@ def source_records(text):
     registry={r['path']:r for r in manifest['sources']}
     unknown=present-registry.keys()
     if unknown: raise ValueError('Register new source icons in icons/sources.json: '+', '.join(sorted(unknown)))
-    return sorted((registry[p] for p in present),key=lambda r:(r['order'],r['name']))
+    records=[registry[p] for p in present]
+    group_order={}
+    for r in records:
+        org=r['organization']
+        group_order[org]=min(group_order.get(org,r['order']),r['order'])
+    return sorted(records,key=lambda r:(group_order[r['organization']],r['organization'],r['order'],r['name']))
 
 def source_wall(text):
     """Self-contained SVG keeps exactly six equal columns on GitHub and mobile.
@@ -82,7 +87,7 @@ def refresh_header(text, language):
     records=courses(text);sources=source_records(text)
     label='资源来源 · 非赞助或背书' if language=='zh' else 'Resource sources · not sponsorships or endorsements'
     names=', '.join(r['name'] for r in sources)
-    wall='<p align="center"><sub>'+label+'</sub><br>\n<img src="icons/source-wall.svg" alt="'+html.escape(names,quote=True)+'" width="720">\n</p>'
+    wall='<p align="center"><strong>📚 '+label+'</strong></p>\n<p align="center">\n<img src="icons/source-wall.svg" alt="'+html.escape(names,quote=True)+'" width="720">\n</p>'
     text=re.sub(r'<!-- SOURCES:START -->.*?<!-- SOURCES:END -->','<!-- SOURCES:START -->\n'+wall+'\n<!-- SOURCES:END -->',text,flags=re.S)
     counts=[(len(records),'门课程' if language=='zh' else 'courses'),(len(set(c['subject'] for c in records)),'个学科' if language=='zh' else 'subjects'),(len(re.findall(r'^- \[',body,flags=re.M)),'篇技术文章' if language=='zh' else 'articles')]
     for count,label in counts:text=re.sub(r'\[\d+ '+label+r'\]',f'[{count} {label}]',text)

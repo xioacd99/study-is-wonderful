@@ -87,6 +87,9 @@ class MapTests(unittest.TestCase):
   import xml.etree.ElementTree as ET,json
   records=builder.source_records(self.text)
   self.assertEqual([r['id'] for r in records],[r['id'] for r in builder.source_records(self.english)])
+  for org in {r['organization'] for r in records}:
+   positions=[i for i,r in enumerate(records) if r['organization']==org]
+   self.assertEqual(positions,list(range(min(positions),max(positions)+1)))
   ids=[r['id'] for r in records]
   self.assertEqual(ids[6:11],['google','antigravity','deepmind','google-cloud','youtube'])
   for key in ['stanford','mit','berkeley','stonybrook','cmu']:
@@ -108,4 +111,5 @@ class MapTests(unittest.TestCase):
   for lang,text in [('zh',self.text),('en',self.english)]:
    self.assertEqual(builder.refresh_header(text,lang),text)
    self.assertIn('icons/source-wall.svg',text)
+   self.assertIn('<strong>📚 ',text)
 if __name__=='__main__':unittest.main()

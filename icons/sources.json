@@ -11,7 +11,8 @@
       "order": 0,
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "399175574b50356cb2b90fbbc22f4f969efd0b1bc5bb5ac2349a110abb0eef15"
+      "sha256": "399175574b50356cb2b90fbbc22f4f969efd0b1bc5bb5ac2349a110abb0eef15",
+      "organization": "stanford"
     },
     {
       "id": "mit",
@@ -22,7 +23,8 @@
       "order": 1,
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "6687ba30ed83832fe5bd9e5c25252f436c04c369712420e5a8143cf4f3f56283"
+      "sha256": "6687ba30ed83832fe5bd9e5c25252f436c04c369712420e5a8143cf4f3f56283",
+      "organization": "mit"
     },
     {
       "id": "berkeley",
@@ -33,7 +35,8 @@
       "order": 2,
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "ea2db45494acddf68943cb2c5c1517f5547da120ee2dba6eacf717548ee21b46"
+      "sha256": "ea2db45494acddf68943cb2c5c1517f5547da120ee2dba6eacf717548ee21b46",
+      "organization": "berkeley"
     },
     {
       "id": "stonybrook",
@@ -44,7 +47,8 @@
       "order": 3,
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "cccb7f9117ff2b4f292797868929caf8adeb890cd21b6e0c7a93ff1e6990e22b"
+      "sha256": "cccb7f9117ff2b4f292797868929caf8adeb890cd21b6e0c7a93ff1e6990e22b",
+      "organization": "stonybrook"
     },
     {
       "id": "cmu",
@@ -55,7 +59,8 @@
       "order": 4,
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "97cb5b0375be7564bb66c1852e293eff134bd0e02fc1f3c69180add6f19da73c"
+      "sha256": "97cb5b0375be7564bb66c1852e293eff134bd0e02fc1f3c69180add6f19da73c",
+      "organization": "cmu"
     },
     {
       "id": "bilibili",
@@ -66,7 +71,8 @@
       "order": 5,
       "header_width": 72,
       "inline_width": 36,
-      "sha256": "acee94ac91acb59ee89668ec2131f54076e12aa1f5593deaba6cec83ac7ff076"
+      "sha256": "acee94ac91acb59ee89668ec2131f54076e12aa1f5593deaba6cec83ac7ff076",
+      "organization": "bilibili"
     },
     {
       "id": "google",
@@ -79,7 +85,8 @@
       "inline_width": 36,
       "sha256": "a405cfec519ed1942be695d6787634c18077cb7a14f212be659fc6a576bbafbd",
       "upstream_sha256": "82d1ae452014543d53d6d32b6ee6587b9f96dbd051e1fdc0877c72ae383637aa",
-      "format_note": "Decoded to PNG for SVG renderer compatibility; no resizing, crop or recoloring."
+      "format_note": "Decoded to PNG for SVG renderer compatibility; no resizing, crop or recoloring.",
+      "organization": "google"
     },
     {
       "id": "antigravity",
@@ -90,7 +97,8 @@
       "order": 7,
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "193ba1805de11c23cd0c7a1df92aa0a886708e57350f6f7766100afe5befed73"
+      "sha256": "193ba1805de11c23cd0c7a1df92aa0a886708e57350f6f7766100afe5befed73",
+      "organization": "google"
     },
     {
       "id": "deepmind",
@@ -101,7 +109,8 @@
       "order": 8,
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "fe6f26ef6fb9ed99ec635b81be7b9e028b269f1fb7ae5a07a2ef73f4945eb0a2"
+      "sha256": "fe6f26ef6fb9ed99ec635b81be7b9e028b269f1fb7ae5a07a2ef73f4945eb0a2",
+      "organization": "google"
     },
     {
       "id": "google-cloud",
@@ -112,7 +121,8 @@
       "order": 9,
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "a332b54b620a2fa04413561c01c925cd40f936581c7bed52df424ecccc9c08b4"
+      "sha256": "a332b54b620a2fa04413561c01c925cd40f936581c7bed52df424ecccc9c08b4",
+      "organization": "google"
     },
     {
       "id": "youtube",
@@ -123,7 +133,8 @@
       "order": 10,
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "58ef7995f66543b84ec390bf50d2bda598f826c3375545da9fd6f15f97acd122"
+      "sha256": "58ef7995f66543b84ec390bf50d2bda598f826c3375545da9fd6f15f97acd122",
+      "organization": "google"
     },
     {
       "id": "meta",
@@ -134,7 +145,8 @@
       "order": 11,
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "739403e3e9c4863d91065b08e17bd05d5feba828b41d354944997adf1db8d34e"
+      "sha256": "739403e3e9c4863d91065b08e17bd05d5feba828b41d354944997adf1db8d34e",
+      "organization": "meta"
     },
     {
       "id": "openai",
@@ -145,7 +157,8 @@
       "order": 12,
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "a4c36896a019505b19414a21f1c2faa1cbfad20af7df81ad09769040d395a9a5"
+      "sha256": "a4c36896a019505b19414a21f1c2faa1cbfad20af7df81ad09769040d395a9a5",
+      "organization": "openai"
     },
     {
       "id": "anthropic",
@@ -156,7 +169,8 @@
       "order": 13,
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "61e53ab1d79919613c6b48ddc75268520357036719ab400df75c5553dbae639c"
+      "sha256": "61e53ab1d79919613c6b48ddc75268520357036719ab400df75c5553dbae639c",
+      "organization": "anthropic"
     },
     {
       "id": "ai2",
@@ -167,7 +181,8 @@
       "order": 14,
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "c6e6363ecc4666b2ad84cb2d811bc4963283d8c4f21ccb618f88b2281314534a"
+      "sha256": "c6e6363ecc4666b2ad84cb2d811bc4963283d8c4f21ccb618f88b2281314534a",
+      "organization": "ai2"
     },
     {
       "id": "nvidia",
@@ -178,7 +193,8 @@
       "order": 15,
       "header_width": 72,
       "inline_width": 32,
-      "sha256": "5347e5188c74204767d2d4daa17b59b5a18ccd7ad0a7281e7961a83c20c96808"
+      "sha256": "5347e5188c74204767d2d4daa17b59b5a18ccd7ad0a7281e7961a83c20c96808",
+      "organization": "nvidia"
     },
     {
       "id": "huggingface",
@@ -189,7 +205,8 @@
       "order": 16,
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "942cad1ccda905ac5a659dfd2d78b344fccfb84a8a3ac3721e08f488205638a0"
+      "sha256": "942cad1ccda905ac5a659dfd2d78b344fccfb84a8a3ac3721e08f488205638a0",
+      "organization": "huggingface"
     },
     {
       "id": "clay",
@@ -202,7 +219,8 @@
       "inline_width": 36,
       "sha256": "bb13c874ce5a5acde58f615effa2a780a18c7ff6f9ab55315e5bd468c14160cd",
       "upstream_sha256": "d3429859acc503fd2009d52c38b0ba5ddfa63f1cee1a07e15df2e2996379d90f",
-      "format_note": "Decoded to PNG for SVG renderer compatibility; no resizing, crop or recoloring."
+      "format_note": "Decoded to PNG for SVG renderer compatibility; no resizing, crop or recoloring.",
+      "organization": "clay"
     }
   ]
 }
