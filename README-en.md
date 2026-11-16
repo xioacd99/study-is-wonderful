@@ -8,7 +8,7 @@ Great courses across disciplines. Follow your curiosity.
 
 [简体中文](README.md) · [English](README-en.md)
 
-[150 courses](#目录-contents) · [10 subjects](#目录-contents) · [39 articles](#技术博客-technical-blogs)
+[151 courses](#目录-contents) · [10 subjects](#目录-contents) · [44 articles](#技术博客-technical-blogs)
 
 [Suggest a resource](https://github.com/xioacd99/study-is-wonderful/issues) · [Contribute](https://github.com/xioacd99/study-is-wonderful/pulls)
 
@@ -23,13 +23,13 @@ Great courses across disciplines. Follow your curiosity.
 <img src="icons/berkeley.svg" alt="UC Berkeley" title="UC Berkeley" height="24"> &nbsp;
 <img src="icons/stonybrook.svg" alt="Stony Brook" title="Stony Brook" height="24"> &nbsp;
 <img src="icons/cmu.svg" alt="Carnegie Mellon" title="Carnegie Mellon" height="24"> &nbsp;
+<img src="https://github.com/openai.png" alt="OpenAI" title="OpenAI" height="24"> &nbsp;
+<img src="https://github.com/anthropics.png" alt="Anthropic" title="Anthropic" height="24"> &nbsp;
 <img src="https://antigravity.google/assets/image/antigravity-logo.png" alt="Google Antigravity" title="Google Antigravity" height="24"> &nbsp;
 <img src="https://www.gstatic.com/marketing-cms/assets/images/c5/3a/200414104c669203c62270f7884f/google-wordmarks-2x.webp=n-w150-h48-fcrop64=1,00000000ffffffff-rw" alt="Google" title="Google" height="24"> &nbsp;
 <img src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6778506d788ebf16fef48551_Clay%20primary%20logo.avif" alt="Clay" title="Clay" height="24"> &nbsp;
-<img src="https://github.com/anthropics.png" alt="Anthropic" title="Anthropic" height="24"> &nbsp;
 <img src="https://www.gstatic.com/cgc/super_cloud_gradient.png" alt="Google Cloud" title="Google Cloud" height="24"> &nbsp;
 <img src="https://github.com/google-deepmind.png" alt="Google DeepMind" title="Google DeepMind" height="24"> &nbsp;
-<img src="https://github.com/openai.png" alt="OpenAI" title="OpenAI" height="24"> &nbsp;
 <img src="https://github.com/meta.png" alt="Meta Engineering" title="Meta Engineering" height="24"> &nbsp;
 <img src="https://allenai.org/icon.png?56c26b049606f4e5" alt="Ai2" title="Ai2" height="24"> &nbsp;
 <img src="https://www.nvidia.com/content/nvidiaGDC/us/en_US/about-nvidia/legal-info/logo-brand-usage/_jcr_content/root/responsivegrid/nv_container_392921705/nv_container/nv_image.coreimg.svg/1776076920288/nvidia-logo-vert.svg" alt="NVIDIA" title="NVIDIA" height="24"> &nbsp;
@@ -630,6 +630,14 @@ Within each topic, courses are sorted by English title. Different course version
 
 ## Biology
 
+<a id="分子与细胞生物学--molecular-and-cellular-biology"></a>
+
+### Molecular and cellular biology
+
+- <a id="course-biology-02"></a>[MIT 7.016·Introductory Biology (Fall 2018)](https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/) <img src="ocw.svg" alt="MIT OpenCourseWare" width="32"> · [Official lecture videos](https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/video_galleries/lecture-videos/)
+  > Explore biochemistry, genetics, and cell biology to understand how genes, proteins, and cells work together, and how these principles inform research on health and disease.
+
+
 <a id="行为生物学--behavioral-biology"></a>
 
 ### Behavioral biology
@@ -706,6 +714,12 @@ Within each topic, courses are sorted by English title. Different course version
 <a id="智能体与-ai-编程-agents-and-ai-coding"></a>
 
 ### Agents and AI coding
+
+- [Securing persistent agents like OpenClaw at OpenAI](https://developers.openai.com/blog/securing-persistent-agents-like-openclaw-at-openai) <img src="https://github.com/openai.png" alt="OpenAI" width="20">
+  > Learn how trusted control services are separated from agent execution, with sandboxing, credential brokering, and action review establishing boundaries for persistent agents.
+
+- [How we built Claude Code auto mode: a safer way to skip permissions](https://www.anthropic.com/research/claude-code-auto-mode) <img src="https://github.com/anthropics.png" alt="Anthropic" width="20">
+  > Explore how prompt-injection checks and action classifiers work together to reduce manual approvals while identifying risky actions that diverge from user intent.
 
 - [Gemini 4 Hydrogen and Orchestrator](https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity) Google Antigravity Blog <img src="https://antigravity.google/assets/image/antigravity-logo.png" alt="Google Antigravity" width="20">
   > Explore how models share planning and execution within a coding task and hand work back when problems arise, balancing quality, latency, and cost.
@@ -784,6 +798,12 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Engineering infrastructure
 
+- [Encoder Disaggregation in vLLM: Scaling Multimodal Serving with EPD](https://vllm.ai/blog/2026-11-11-encoder-disaggregation-epd) vLLM Blog
+  > Learn how separating multimodal encoding, prefill, and decoding enables independent resource allocation through remote embedding transfer and cache reuse.
+
+- [Zero Mismatch, Simple Async RL: REINFORCE Zero, DeepSeek-V4.1 and Kimi K3.1](https://vllm.ai/blog/2026-11-06-zero-mismatch-async-rl) vLLM Blog
+  > Distinguish weight lag from numerical kernel mismatch in asynchronous reinforcement learning, and see how importance sampling corrects older-policy samples after rollout and training computations are aligned.
+
 - [New AI agent observability and governance across BigQuery and Looker](https://cloud.google.com/blog/products/data-analytics/enterprise-ai-agent-observability-with-bigquery-and-looker/) Google Cloud Blog <img src="https://www.gstatic.com/cgc/super_cloud_gradient.png" alt="Google Cloud" width="20">
   > Learn how to bring agent telemetry together to inspect execution steps, cost, and quality while protecting sensitive data during monitoring.
 
@@ -820,6 +840,9 @@ Within each topic, courses are sorted by English title. Different course version
 <a id="科研与工程应用-science-and-engineering-applications"></a>
 
 ### Science and engineering applications
+
+- [Opening the datasets behind our AI weather models](https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/) <img src="https://github.com/google-deepmind.png" alt="Google DeepMind" width="20">
+  > Explore how heterogeneous satellite observations become global imagery and how sparse radar supervision supports precipitation estimates for weather, hydrology, and climate research.
 
 - [AlphaGenome 2: Deciphering how cells read DNA to better understand disease](https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/) Google DeepMind <img src="https://github.com/google-deepmind.png" alt="Google DeepMind" width="20">
   > Discover how DNA sequences and cell types inform predictions of gene activity, helping researchers investigate the effects of genetic variants.

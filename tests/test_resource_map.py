@@ -60,7 +60,7 @@ class MapTests(unittest.TestCase):
   self.assertIn('id="fit"',template)
   self.assertIn('function focusSubject',template)
   self.assertIn('src="icon.png?v=teal-orbit-3"',template)
-  self.assertEqual(len(self.c),150)
+  self.assertEqual(len(self.c),151)
   for text in [self.text,self.english]:
    self.assertNotIn('# 📚',text)
    self.assertIn('resource-map/icon.png',text)
