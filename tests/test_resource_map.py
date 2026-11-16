@@ -83,4 +83,29 @@ class MapTests(unittest.TestCase):
   import json
   expected=(ROOT/'resource-map/template.html').read_text().replace('/*__COURSES__*/',json.dumps(self.c,ensure_ascii=False).replace('</','<\\/'))
   self.assertEqual(expected,(ROOT/'resource-map/index.html').read_text())
+ def test_source_wall_grid_and_families(self):
+  import xml.etree.ElementTree as ET,json
+  records=builder.source_records(self.text)
+  self.assertEqual([r['id'] for r in records],[r['id'] for r in builder.source_records(self.english)])
+  ids=[r['id'] for r in records]
+  self.assertEqual(ids[6:11],['google','antigravity','deepmind','google-cloud','youtube'])
+  for key in ['stanford','mit','berkeley','stonybrook','cmu']:
+   r=next(r for r in records if r['id']==key)
+   self.assertTrue(r['path'].endswith('-seal.svg'))
+  wall=builder.source_wall(self.text)
+  self.assertEqual(wall,(ROOT/'icons/source-wall.svg').read_text())
+  doc=ET.fromstring(wall);ns={'s':'http://www.w3.org/2000/svg'}
+  images=doc.findall('.//s:image',ns)
+  self.assertEqual(len(images),len(records))
+  rows={}
+  for image in images:
+   rows.setdefault(image.attrib['y'],[]).append(image)
+   self.assertEqual(image.attrib['preserveAspectRatio'],'xMidYMid meet')
+   self.assertTrue(image.attrib['{http://www.w3.org/1999/xlink}href'].startswith('data:image/'))
+  self.assertTrue(all(len(row)==6 for row in list(rows.values())[:-1]))
+  self.assertLessEqual(len(list(rows.values())[-1]),6)
+ def test_source_wall_is_idempotent(self):
+  for lang,text in [('zh',self.text),('en',self.english)]:
+   self.assertEqual(builder.refresh_header(text,lang),text)
+   self.assertIn('icons/source-wall.svg',text)
 if __name__=='__main__':unittest.main()

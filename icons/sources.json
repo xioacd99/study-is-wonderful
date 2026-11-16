@@ -1,0 +1,208 @@
+{
+  "columns": 6,
+  "authorization": "The maintainer confirmed permission to use the source marks on 2026-11-16. Marks identify resource sources, not sponsorship or endorsement.",
+  "sources": [
+    {
+      "id": "stanford",
+      "name": "Stanford",
+      "path": "icons/stanford-seal.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Seal_of_Leland_Stanford_Junior_University.svg",
+      "previous_src": "icons/stanford.svg",
+      "order": 0,
+      "header_width": 48,
+      "inline_width": 24,
+      "sha256": "399175574b50356cb2b90fbbc22f4f969efd0b1bc5bb5ac2349a110abb0eef15"
+    },
+    {
+      "id": "mit",
+      "name": "MIT OpenCourseWare",
+      "path": "icons/mit-seal.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/en/4/44/MIT_Seal.svg",
+      "previous_src": "ocw.svg",
+      "order": 1,
+      "header_width": 48,
+      "inline_width": 24,
+      "sha256": "6687ba30ed83832fe5bd9e5c25252f436c04c369712420e5a8143cf4f3f56283"
+    },
+    {
+      "id": "berkeley",
+      "name": "UC Berkeley",
+      "path": "icons/berkeley-seal.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Seal_of_University_of_California%2C_Berkeley.svg",
+      "previous_src": "icons/berkeley.svg",
+      "order": 2,
+      "header_width": 48,
+      "inline_width": 24,
+      "sha256": "ea2db45494acddf68943cb2c5c1517f5547da120ee2dba6eacf717548ee21b46"
+    },
+    {
+      "id": "stonybrook",
+      "name": "Stony Brook",
+      "path": "icons/stonybrook-seal.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/en/1/1d/Stony_Brook_University_seal.svg",
+      "previous_src": "icons/stonybrook.svg",
+      "order": 3,
+      "header_width": 48,
+      "inline_width": 24,
+      "sha256": "cccb7f9117ff2b4f292797868929caf8adeb890cd21b6e0c7a93ff1e6990e22b"
+    },
+    {
+      "id": "cmu",
+      "name": "Carnegie Mellon",
+      "path": "icons/cmu-seal.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/en/b/bb/Carnegie_Mellon_University_seal.svg",
+      "previous_src": "icons/cmu.svg",
+      "order": 4,
+      "header_width": 48,
+      "inline_width": 24,
+      "sha256": "97cb5b0375be7564bb66c1852e293eff134bd0e02fc1f3c69180add6f19da73c"
+    },
+    {
+      "id": "bilibili",
+      "name": "Bilibili",
+      "path": "bilibili.svg",
+      "source": "https://github.com/xioacd99/study-is-wonderful/blob/0c7f758bd7d57202754fc4dc7b436bd199be9bbb/bilibili.svg",
+      "previous_src": "bilibili.svg",
+      "order": 5,
+      "header_width": 72,
+      "inline_width": 36,
+      "sha256": "acee94ac91acb59ee89668ec2131f54076e12aa1f5593deaba6cec83ac7ff076"
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "path": "icons/google.png",
+      "source": "https://www.gstatic.com/marketing-cms/assets/images/c5/3a/200414104c669203c62270f7884f/google-wordmarks-2x.webp=n-w150-h48-fcrop64=1,00000000ffffffff-rw",
+      "previous_src": "https://www.gstatic.com/marketing-cms/assets/images/c5/3a/200414104c669203c62270f7884f/google-wordmarks-2x.webp=n-w150-h48-fcrop64=1,00000000ffffffff-rw",
+      "order": 6,
+      "header_width": 72,
+      "inline_width": 36,
+      "sha256": "a405cfec519ed1942be695d6787634c18077cb7a14f212be659fc6a576bbafbd",
+      "upstream_sha256": "82d1ae452014543d53d6d32b6ee6587b9f96dbd051e1fdc0877c72ae383637aa",
+      "format_note": "Decoded to PNG for SVG renderer compatibility; no resizing, crop or recoloring."
+    },
+    {
+      "id": "antigravity",
+      "name": "Google Antigravity",
+      "path": "icons/antigravity.png",
+      "source": "https://antigravity.google/assets/image/antigravity-logo.png",
+      "previous_src": "https://antigravity.google/assets/image/antigravity-logo.png",
+      "order": 7,
+      "header_width": 48,
+      "inline_width": 24,
+      "sha256": "193ba1805de11c23cd0c7a1df92aa0a886708e57350f6f7766100afe5befed73"
+    },
+    {
+      "id": "deepmind",
+      "name": "Google DeepMind",
+      "path": "icons/deepmind.png",
+      "source": "https://github.com/google-deepmind.png",
+      "previous_src": "https://github.com/google-deepmind.png",
+      "order": 8,
+      "header_width": 48,
+      "inline_width": 24,
+      "sha256": "fe6f26ef6fb9ed99ec635b81be7b9e028b269f1fb7ae5a07a2ef73f4945eb0a2"
+    },
+    {
+      "id": "google-cloud",
+      "name": "Google Cloud",
+      "path": "icons/google-cloud.png",
+      "source": "https://www.gstatic.com/cgc/super_cloud_gradient.png",
+      "previous_src": "https://www.gstatic.com/cgc/super_cloud_gradient.png",
+      "order": 9,
+      "header_width": 48,
+      "inline_width": 24,
+      "sha256": "a332b54b620a2fa04413561c01c925cd40f936581c7bed52df424ecccc9c08b4"
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "path": "youtube.svg",
+      "source": "https://github.com/xioacd99/study-is-wonderful/blob/0c7f758bd7d57202754fc4dc7b436bd199be9bbb/youtube.svg",
+      "previous_src": "youtube.svg",
+      "order": 10,
+      "header_width": 48,
+      "inline_width": 24,
+      "sha256": "58ef7995f66543b84ec390bf50d2bda598f826c3375545da9fd6f15f97acd122"
+    },
+    {
+      "id": "meta",
+      "name": "Meta",
+      "path": "icons/meta.png",
+      "source": "https://github.com/meta.png",
+      "previous_src": "https://github.com/meta.png",
+      "order": 11,
+      "header_width": 48,
+      "inline_width": 24,
+      "sha256": "739403e3e9c4863d91065b08e17bd05d5feba828b41d354944997adf1db8d34e"
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "path": "icons/openai.png",
+      "source": "https://github.com/openai.png",
+      "previous_src": "https://github.com/openai.png",
+      "order": 12,
+      "header_width": 48,
+      "inline_width": 24,
+      "sha256": "a4c36896a019505b19414a21f1c2faa1cbfad20af7df81ad09769040d395a9a5"
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "path": "icons/anthropic.png",
+      "source": "https://github.com/anthropics.png",
+      "previous_src": "https://github.com/anthropics.png",
+      "order": 13,
+      "header_width": 48,
+      "inline_width": 24,
+      "sha256": "61e53ab1d79919613c6b48ddc75268520357036719ab400df75c5553dbae639c"
+    },
+    {
+      "id": "ai2",
+      "name": "Ai2",
+      "path": "icons/ai2.png",
+      "source": "https://allenai.org/icon.png?56c26b049606f4e5",
+      "previous_src": "https://allenai.org/icon.png?56c26b049606f4e5",
+      "order": 14,
+      "header_width": 48,
+      "inline_width": 24,
+      "sha256": "c6e6363ecc4666b2ad84cb2d811bc4963283d8c4f21ccb618f88b2281314534a"
+    },
+    {
+      "id": "nvidia",
+      "name": "NVIDIA",
+      "path": "icons/nvidia.svg",
+      "source": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/about-nvidia/legal-info/logo-brand-usage/_jcr_content/root/responsivegrid/nv_container_392921705/nv_container/nv_image.coreimg.svg/1776076920288/nvidia-logo-vert.svg",
+      "previous_src": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/about-nvidia/legal-info/logo-brand-usage/_jcr_content/root/responsivegrid/nv_container_392921705/nv_container/nv_image.coreimg.svg/1776076920288/nvidia-logo-vert.svg",
+      "order": 15,
+      "header_width": 72,
+      "inline_width": 32,
+      "sha256": "5347e5188c74204767d2d4daa17b59b5a18ccd7ad0a7281e7961a83c20c96808"
+    },
+    {
+      "id": "huggingface",
+      "name": "Hugging Face",
+      "path": "icons/huggingface.svg",
+      "source": "https://huggingface.co/datasets/huggingface/brand-assets/resolve/c691ef6492ab9abe9f9b00139949fc3364d56139/hf-logo.svg",
+      "previous_src": "https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo-monochrome.svg",
+      "order": 16,
+      "header_width": 48,
+      "inline_width": 24,
+      "sha256": "942cad1ccda905ac5a659dfd2d78b344fccfb84a8a3ac3721e08f488205638a0"
+    },
+    {
+      "id": "clay",
+      "name": "Clay",
+      "path": "icons/clay.png",
+      "source": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6778506d788ebf16fef48551_Clay%20primary%20logo.avif",
+      "previous_src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6778506d788ebf16fef48551_Clay%20primary%20logo.avif",
+      "order": 17,
+      "header_width": 72,
+      "inline_width": 36,
+      "sha256": "bb13c874ce5a5acde58f615effa2a780a18c7ff6f9ab55315e5bd468c14160cd",
+      "upstream_sha256": "d3429859acc503fd2009d52c38b0ba5ddfa63f1cee1a07e15df2e2996379d90f",
+      "format_note": "Decoded to PNG for SVG renderer compatibility; no resizing, crop or recoloring."
+    }
+  ]
+}
