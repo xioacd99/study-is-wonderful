@@ -17,7 +17,7 @@ Great courses across disciplines. Follow your curiosity.
 <!-- SOURCES:START -->
 <p align="center"><strong>📚 Resource sources · not sponsorships or endorsements</strong></p>
 <p align="center">
-<img src="icons/source-wall.svg" alt="Stanford, MIT OpenCourseWare, UC Berkeley, Stony Brook, Carnegie Mellon, Bilibili, Google, Google Antigravity, Google DeepMind, Google Cloud, YouTube, Meta, OpenAI, Anthropic, Ai2, NVIDIA, Hugging Face, Clay" width="720">
+<img src="icons/source-wall.svg" alt="Ai2, Anthropic, Bilibili, Carnegie Mellon, Clay, Google, Google Antigravity, Google Cloud, Google DeepMind, YouTube, Hugging Face, Meta, MIT OpenCourseWare, NVIDIA, OpenAI, Stanford, Stony Brook, UC Berkeley" width="720">
 </p>
 <!-- SOURCES:END -->
 

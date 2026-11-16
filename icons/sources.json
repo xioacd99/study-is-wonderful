@@ -222,5 +222,21 @@
       "format_note": "Decoded to PNG for SVG renderer compatibility; no resizing, crop or recoloring.",
       "organization": "clay"
     }
-  ]
+  ],
+  "organization_names": {
+    "stanford": "Stanford",
+    "mit": "MIT",
+    "berkeley": "UC Berkeley",
+    "stonybrook": "Stony Brook",
+    "cmu": "Carnegie Mellon",
+    "bilibili": "Bilibili",
+    "google": "Google",
+    "meta": "Meta",
+    "openai": "OpenAI",
+    "anthropic": "Anthropic",
+    "ai2": "Ai2",
+    "nvidia": "NVIDIA",
+    "huggingface": "Hugging Face",
+    "clay": "Clay"
+  }
 }

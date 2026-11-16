@@ -91,7 +91,11 @@ class MapTests(unittest.TestCase):
    positions=[i for i,r in enumerate(records) if r['organization']==org]
    self.assertEqual(positions,list(range(min(positions),max(positions)+1)))
   ids=[r['id'] for r in records]
-  self.assertEqual(ids[6:11],['google','antigravity','deepmind','google-cloud','youtube'])
+  google=[r['id'] for r in records if r['organization']=='google']
+  self.assertEqual(google,['google','antigravity','google-cloud','deepmind','youtube'])
+  manifest=json.loads((ROOT/'icons/sources.json').read_text())
+  keys=[(manifest['organization_names'][r['organization']].casefold(),r['name'].casefold(),r['id']) for r in records]
+  self.assertEqual(keys,sorted(keys))
   for key in ['stanford','mit','berkeley','stonybrook','cmu']:
    r=next(r for r in records if r['id']==key)
    self.assertTrue(r['path'].endswith('-seal.svg'))

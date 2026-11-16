@@ -53,11 +53,8 @@ def source_records(text):
     unknown=present-registry.keys()
     if unknown: raise ValueError('Register new source icons in icons/sources.json: '+', '.join(sorted(unknown)))
     records=[registry[p] for p in present]
-    group_order={}
-    for r in records:
-        org=r['organization']
-        group_order[org]=min(group_order.get(org,r['order']),r['order'])
-    return sorted(records,key=lambda r:(group_order[r['organization']],r['organization'],r['order'],r['name']))
+    organization_names=manifest['organization_names']
+    return sorted(records,key=lambda r:(organization_names[r['organization']].casefold(),r['name'].casefold(),r['id']))
 
 def source_wall(text):
     """Self-contained SVG keeps exactly six equal columns on GitHub and mobile.
