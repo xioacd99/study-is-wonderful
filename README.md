@@ -715,10 +715,10 @@
 
 ### 智能体与 AI 编程
 
-- [Securing persistent agents like OpenClaw at OpenAI](https://developers.openai.com/blog/securing-persistent-agents-like-openclaw-at-openai) <img src="https://github.com/openai.png" alt="OpenAI" width="20">
+- [为 OpenClaw 等常驻智能体建立安全边界](https://developers.openai.com/blog/securing-persistent-agents-like-openclaw-at-openai) <img src="https://github.com/openai.png" alt="OpenAI" width="20">
   > 了解如何把可信控制服务与智能体执行环境分离，并结合沙箱、凭据代理和操作审核，为长期运行的智能体建立安全边界。
 
-- [How we built Claude Code auto mode: a safer way to skip permissions](https://www.anthropic.com/research/claude-code-auto-mode) <img src="https://github.com/anthropics.png" alt="Anthropic" width="20">
+- [Claude Code 自动模式：更安全地减少权限确认](https://www.anthropic.com/research/claude-code-auto-mode) <img src="https://github.com/anthropics.png" alt="Anthropic" width="20">
   > 了解工具输出中的提示注入检查与操作审批分类器如何协作，在减少人工确认的同时识别偏离用户意图的高风险动作。
 
 - [Orchestrator：在规划与执行之间动态切换模型](https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity) Google Antigravity Blog <img src="https://antigravity.google/assets/image/antigravity-logo.png" alt="Google Antigravity" width="20">
@@ -798,10 +798,10 @@
 
 ### 工程基础设施
 
-- [Encoder Disaggregation in vLLM: Scaling Multimodal Serving with EPD](https://vllm.ai/blog/2026-11-11-encoder-disaggregation-epd) vLLM Blog
+- [vLLM 编码器分离：用 EPD 扩展多模态推理服务](https://vllm.ai/blog/2026-11-11-encoder-disaggregation-epd) vLLM Blog
   > 了解如何拆分多模态编码、预填充和解码阶段，通过远程嵌入传输与缓存复用，独立调整各阶段的计算资源。
 
-- [Zero Mismatch, Simple Async RL: REINFORCE Zero, DeepSeek-V4.1 and Kimi K3.1](https://vllm.ai/blog/2026-11-06-zero-mismatch-async-rl) vLLM Blog
+- [零数值偏差的异步强化学习：REINFORCE Zero](https://vllm.ai/blog/2026-11-06-zero-mismatch-async-rl) vLLM Blog
   > 区分异步强化学习中的权重滞后与计算内核数值偏差，理解对齐推理和训练计算后，重要性采样如何修正旧策略生成的样本。
 
 - [BigQuery 与 Looker 的智能体可观测性](https://cloud.google.com/blog/products/data-analytics/enterprise-ai-agent-observability-with-bigquery-and-looker/) Google Cloud Blog <img src="https://www.gstatic.com/cgc/super_cloud_gradient.png" alt="Google Cloud" width="20">
@@ -841,7 +841,7 @@
 
 ### 科研与工程应用
 
-- [Opening the datasets behind our AI weather models](https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/) <img src="https://github.com/google-deepmind.png" alt="Google DeepMind" width="20">
+- [开放 AI 天气模型背后的数据集](https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/) <img src="https://github.com/google-deepmind.png" alt="Google DeepMind" width="20">
   > 了解如何把不同卫星观测整合为全球影像，并利用稀疏雷达监督学习降水估计，为天气、水文和气候研究构建可复用数据。
 
 - [AlphaGenome 2：预测不同细胞中的 DNA 作用](https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/) Google DeepMind <img src="https://github.com/google-deepmind.png" alt="Google DeepMind" width="20">
