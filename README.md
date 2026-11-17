@@ -8,7 +8,7 @@
 
 [简体中文](README.md) · [English](README-en.md)
 
-[151 门课程](#目录-contents) · [10 个学科](#目录-contents) · [44 篇技术文章](#技术博客-technical-blogs)
+[152 门课程](#目录-contents) · [10 个学科](#目录-contents) · [49 篇技术文章](#技术博客-technical-blogs)
 
 [推荐资源](https://github.com/xioacd99/study-is-wonderful/issues) · [参与共建](https://github.com/xioacd99/study-is-wonderful/pulls)
 
@@ -634,6 +634,14 @@
 
 ## 哲学与艺术
 
+<a id="形而上学与生命哲学--metaphysics-and-philosophy-of-life"></a>
+
+### 形而上学与生命哲学
+
+- <a id="course-arts-03"></a>[耶鲁 PHIL 176·死亡（2007 春季）](https://oyc.yale.edu/death/phil-176)（Open Yale Courses）
+  > 从人格同一性、心灵与身体等问题出发，讨论死亡、永生与生命价值，学习比较论证并检视自己的哲学立场。
+
+
 <a id="诗歌与美学--poetry-and-aesthetics"></a>
 
 ### 诗歌与美学
@@ -745,6 +753,15 @@
 
 ### AI 评测
 
+- [稀释有毒微调数据为何反而可能增强其影响](https://alignment.anthropic.com/2026/homeopathic-learning/) <img src="icons/anthropic.png" alt="Anthropic" width="24">
+  > 通过受控微调实验，了解为什么加入干净数据有时会强化隐藏触发行为，以及仅单独审核各数据源的局限。
+
+- [自动研究智能体能否缓解已知的对齐失败](https://alignment.anthropic.com/2026/automated-alignment-researchers/) <img src="icons/anthropic.png" alt="Anthropic" width="24">
+  > 了解自动研究智能体如何提出后训练方法，并通过留出测试、行为审计和跨模型验证，检查对齐改进是否具有泛化能力。
+
+- [AI 组织可能更高效，却比单个智能体更难对齐](https://alignment.anthropic.com/2026/ai-organizations/) <img src="icons/anthropic.png" alt="Anthropic" width="24">
+  > 通过模拟咨询与软件团队，考察多智能体协作中的业务目标与伦理约束冲突，以及局部分工如何影响整体行为。
+
 - [可靠安全评测的设计方法](https://www.anthropic.com/research/building-strong-safety-evaluations) Anthropic <img src="icons/anthropic.png" alt="Anthropic" width="24">
   > 学习如何明确要测量的模型行为、设计测试场景与评分方法，并用可复现的设置和不确定性分析解释结果。
 
@@ -824,6 +841,12 @@
 <a id="科研与工程应用-science-and-engineering-applications"></a>
 
 ### 科研与工程应用
+
+- [在格点上定义标准模型的新探索](https://openai.com/index/step-toward-defining-the-standard-model/) <img src="icons/openai.png" alt="OpenAI" width="24">
+  > 通过格点场论研究案例，了解专家与模型如何共同构造数学论证，以及候选理论定义在实际模拟与进一步验证上的限制。
+
+- [让 Claude 持续开展科学计算任务](https://www.anthropic.com/research/long-running-claude) <img src="icons/anthropic.png" alt="Anthropic" width="24">
+  > 了解如何用明确目标、持久进度记录和参考实现驱动跨多日编程任务，通过科学计算求解器案例检查结果并定位误差。
 
 - [开放 AI 天气模型背后的数据集](https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/) <img src="icons/deepmind.png" alt="Google DeepMind" width="24">
   > 了解如何把不同卫星观测整合为全球影像，并利用稀疏雷达监督学习降水估计，为天气、水文和气候研究构建可复用数据。

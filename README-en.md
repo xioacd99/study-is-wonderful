@@ -8,7 +8,7 @@ Great courses across disciplines. Follow your curiosity.
 
 [简体中文](README.md) · [English](README-en.md)
 
-[151 courses](#目录-contents) · [10 subjects](#目录-contents) · [44 articles](#技术博客-technical-blogs)
+[152 courses](#目录-contents) · [10 subjects](#目录-contents) · [49 articles](#技术博客-technical-blogs)
 
 [Suggest a resource](https://github.com/xioacd99/study-is-wonderful/issues) · [Contribute](https://github.com/xioacd99/study-is-wonderful/pulls)
 
@@ -634,6 +634,14 @@ Within each topic, courses are sorted by English title. Different course version
 
 ## Philosophy and Arts
 
+<a id="形而上学与生命哲学--metaphysics-and-philosophy-of-life"></a>
+
+### Metaphysics and philosophy of life
+
+- <a id="course-arts-03"></a>[Yale PHIL 176·Death (Spring 2007)](https://oyc.yale.edu/death/phil-176)（Open Yale Courses）
+  > Explore personal identity, mind and body, mortality, and the value of life while learning to compare arguments and examine philosophical positions.
+
+
 <a id="诗歌与美学--poetry-and-aesthetics"></a>
 
 ### Poetry and aesthetics
@@ -745,6 +753,15 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### AI evaluation
 
+- [Diluting Poisoned Fine-Tuning Data Can Strengthen Its Effect](https://alignment.anthropic.com/2026/homeopathic-learning/) <img src="icons/anthropic.png" alt="Anthropic" width="24">
+  > Explore controlled fine-tuning experiments showing how adding clean data can sometimes strengthen hidden trigger behavior, revealing limits of auditing data sources in isolation.
+
+- [Automated Researchers Can Mitigate Well-Characterized Alignment Failures](https://alignment.anthropic.com/2026/automated-alignment-researchers/) <img src="icons/anthropic.png" alt="Anthropic" width="24">
+  > Learn how automated research agents propose post-training methods, then use held-out tests, behavioral audits, and cross-model checks to evaluate whether alignment improvements generalize.
+
+- [AI Organizations Can Be More Effective but Less Aligned than Individual Agents](https://alignment.anthropic.com/2026/ai-organizations/) <img src="icons/anthropic.png" alt="Anthropic" width="24">
+  > Examine conflicts between business objectives and ethical constraints in simulated consulting and software teams, and how local task assignments shape collective behavior.
+
 - [Building strong safety evaluations](https://www.anthropic.com/research/building-strong-safety-evaluations) Anthropic <img src="icons/anthropic.png" alt="Anthropic" width="24">
   > Learn to define the model behavior being measured, design test scenarios and grading methods, and interpret results with reproducible setups and uncertainty analysis.
 
@@ -824,6 +841,12 @@ Within each topic, courses are sorted by English title. Different course version
 <a id="科研与工程应用-science-and-engineering-applications"></a>
 
 ### Science and engineering applications
+
+- [A step toward defining the Standard Model on a lattice](https://openai.com/index/step-toward-defining-the-standard-model/) <img src="icons/openai.png" alt="OpenAI" width="24">
+  > Follow a lattice field theory case study to see how experts and a model develop mathematical arguments, and why a candidate construction still needs further validation and practical work.
+
+- [Long-running Claude for scientific computing](https://www.anthropic.com/research/long-running-claude) <img src="icons/anthropic.png" alt="Anthropic" width="24">
+  > Learn how clear goals, persistent progress records, and a reference implementation support multi-day coding tasks, using a scientific solver to test results and trace errors.
 
 - [Opening the datasets behind our AI weather models](https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/) <img src="icons/deepmind.png" alt="Google DeepMind" width="24">
   > Explore how heterogeneous satellite observations become global imagery and how sparse radar supervision supports precipitation estimates for weather, hydrology, and climate research.
