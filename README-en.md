@@ -8,7 +8,7 @@ Great courses across disciplines. Follow your curiosity.
 
 [简体中文](README.md) · [English](README-en.md)
 
-[152 courses](#目录-contents) · [10 subjects](#目录-contents) · [49 articles](#技术博客-technical-blogs)
+[152 courses](#目录-contents) · [10 subjects](#目录-contents) · [54 articles](#技术博客-technical-blogs)
 
 [Suggest a resource](https://github.com/xioacd99/study-is-wonderful/issues) · [Contribute](https://github.com/xioacd99/study-is-wonderful/pulls)
 
@@ -753,6 +753,9 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### AI evaluation
 
+- [Evaluating Computer-Use Agents in Healthcare Workflows](https://openai.com/index/advancing-computer-use-for-healthcare-teams/) <img src="icons/openai.png" alt="OpenAI" width="24">
+  > Explore cross-application healthcare workflows and learn how usefulness, safety, and cost can be evaluated separately while retaining human review for consequential steps.
+
 - [Diluting Poisoned Fine-Tuning Data Can Strengthen Its Effect](https://alignment.anthropic.com/2026/homeopathic-learning/) <img src="icons/anthropic.png" alt="Anthropic" width="24">
   > Explore controlled fine-tuning experiments showing how adding clean data can sometimes strengthen hidden trigger behavior, revealing limits of auditing data sources in isolation.
 
@@ -799,6 +802,15 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Engineering infrastructure
 
+- [MLPerf Endpoints: Measuring Multi-Turn Agent Inference](https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-leads-agentic-inference-performance-on-mlperf-endpoints-v1-0/) NVIDIA Technical Blog <img src="icons/nvidia.svg" alt="NVIDIA" width="24">
+  > Explore how responsiveness, throughput, and power are compared for multi-turn agents, and how prefix caching and state reuse help; some hardware results remain provisional.
+
+- [MLPerf Training: Comparing Pretraining and RL System Performance](https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-achieves-up-to-2x-blackwell-ultra-performance-in-mlperf-training-v6-1/) NVIDIA Technical Blog <img src="icons/nvidia.svg" alt="NVIDIA" width="24">
+  > Learn how fixed models, device counts, and training targets support performance comparisons, and how communication and scaling efficiency affect pretraining and GRPO workloads.
+
+- [Tunix: Bitwise-Identical Training and Inference for RL](https://developers.googleblog.com/en/unlocking-stable-on-policy-rl-on-tpu-with-bitwise-zero-traininference-mismatch/) Google Developers Blog <img src="icons/google.png" alt="Google" width="36">
+  > Learn why floating-point accumulation can change the probabilities computed by the same model, and how aligning decode, prefill, and training paths helps test numerical consistency in reinforcement learning.
+
 - [Encoder Disaggregation in vLLM: Scaling Multimodal Serving with EPD](https://vllm.ai/blog/2026-11-11-encoder-disaggregation-epd) vLLM Blog
   > Learn how separating multimodal encoding, prefill, and decoding enables independent resource allocation through remote embedding transfer and cache reuse.
 
@@ -841,6 +853,9 @@ Within each topic, courses are sorted by English title. Different course version
 <a id="科研与工程应用-science-and-engineering-applications"></a>
 
 ### Science and engineering applications
+
+- [Post-Training Nemotron with Verifiable Rewards for Scientific Tasks](https://developer.nvidia.com/blog/post-training-nvidia-nemotron-to-increase-accuracy-in-your-scientific-domain/) NVIDIA Technical Blog <img src="icons/nvidia.svg" alt="NVIDIA" width="24">
+  > Follow a drug-metabolism example to turn experimental data into a reinforcement-learning environment, train with molecular-similarity rewards, and evaluate the resulting model.
 
 - [A step toward defining the Standard Model on a lattice](https://openai.com/index/step-toward-defining-the-standard-model/) <img src="icons/openai.png" alt="OpenAI" width="24">
   > Follow a lattice field theory case study to see how experts and a model develop mathematical arguments, and why a candidate construction still needs further validation and practical work.

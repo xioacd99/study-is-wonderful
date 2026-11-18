@@ -8,7 +8,7 @@
 
 [简体中文](README.md) · [English](README-en.md)
 
-[152 门课程](#目录-contents) · [10 个学科](#目录-contents) · [49 篇技术文章](#技术博客-technical-blogs)
+[152 门课程](#目录-contents) · [10 个学科](#目录-contents) · [54 篇技术文章](#技术博客-technical-blogs)
 
 [推荐资源](https://github.com/xioacd99/study-is-wonderful/issues) · [参与共建](https://github.com/xioacd99/study-is-wonderful/pulls)
 
@@ -753,6 +753,9 @@
 
 ### AI 评测
 
+- [医疗工作流中的计算机操作智能体评测](https://openai.com/index/advancing-computer-use-for-healthcare-teams/) <img src="icons/openai.png" alt="OpenAI" width="24">
+  > 通过跨医疗软件的操作案例，了解如何分别评价智能体的有用性、安全性和成本，并在关键步骤保留人工审核。
+
 - [稀释有毒微调数据为何反而可能增强其影响](https://alignment.anthropic.com/2026/homeopathic-learning/) <img src="icons/anthropic.png" alt="Anthropic" width="24">
   > 通过受控微调实验，了解为什么加入干净数据有时会强化隐藏触发行为，以及仅单独审核各数据源的局限。
 
@@ -799,6 +802,15 @@
 
 ### 工程基础设施
 
+- [MLPerf Endpoints：衡量多轮智能体的推理性能](https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-leads-agentic-inference-performance-on-mlperf-endpoints-v1-0/) NVIDIA Technical Blog <img src="icons/nvidia.svg" alt="NVIDIA" width="24">
+  > 了解如何一起比较多轮智能体的响应速度、吞吐与功耗，以及前缀缓存和状态复用的作用；文中的部分硬件结果仍待基准组织最终核验。
+
+- [MLPerf Training：比较预训练与强化学习系统性能](https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-achieves-up-to-2x-blackwell-ultra-performance-in-mlperf-training-v6-1/) NVIDIA Technical Blog <img src="icons/nvidia.svg" alt="NVIDIA" width="24">
+  > 认识固定模型、设备数量与训练目标的性能比较方法，了解大规模通信和扩展效率如何影响预训练与 GRPO 工作负载。
+
+- [Tunix：让强化学习训练与推理逐位一致](https://developers.googleblog.com/en/unlocking-stable-on-policy-rl-on-tpu-with-bitwise-zero-traininference-mismatch/) Google Developers Blog <img src="icons/google.png" alt="Google" width="36">
+  > 了解浮点累加顺序为何会让同一模型算出不同概率，以及如何对齐解码、预填充和训练路径，检查强化学习中的数值一致性。
+
 - [vLLM 编码器分离：用 EPD 扩展多模态推理服务](https://vllm.ai/blog/2026-11-11-encoder-disaggregation-epd) vLLM Blog
   > 了解如何拆分多模态编码、预填充和解码阶段，通过远程嵌入传输与缓存复用，独立调整各阶段的计算资源。
 
@@ -841,6 +853,9 @@
 <a id="科研与工程应用-science-and-engineering-applications"></a>
 
 ### 科研与工程应用
+
+- [用可验证奖励为科学任务后训练 Nemotron](https://developer.nvidia.com/blog/post-training-nvidia-nemotron-to-increase-accuracy-in-your-scientific-domain/) NVIDIA Technical Blog <img src="icons/nvidia.svg" alt="NVIDIA" width="24">
+  > 通过药物代谢预测实例，学习把实验数据构造成强化学习环境，使用分子相似度奖励训练模型，并独立检查训练后的效果。
 
 - [在格点上定义标准模型的新探索](https://openai.com/index/step-toward-defining-the-standard-model/) <img src="icons/openai.png" alt="OpenAI" width="24">
   > 通过格点场论研究案例，了解专家与模型如何共同构造数学论证，以及候选理论定义在实际模拟与进一步验证上的限制。
