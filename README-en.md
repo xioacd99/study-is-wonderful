@@ -8,7 +8,7 @@ Great courses across disciplines. Follow your curiosity.
 
 [简体中文](README.md) · [English](README-en.md)
 
-[152 courses](#目录-contents) · [10 subjects](#目录-contents) · [54 articles](#技术博客-technical-blogs)
+[153 courses](#目录-contents) · [10 subjects](#目录-contents) · [56 articles](#技术博客-technical-blogs)
 
 [Suggest a resource](https://github.com/xioacd99/study-is-wonderful/issues) · [Contribute](https://github.com/xioacd99/study-is-wonderful/pulls)
 
@@ -653,6 +653,14 @@ Within each topic, courses are sorted by English title. Different course version
   > Read modern English-language poetry closely with Langdon Hammer, exploring poets such as Frost, Yeats, and Eliot through historical context and literary criticism.
 
 
+<a id="建筑与城市历史--architecture-and-urban-history"></a>
+
+### Architecture and urban history
+
+- <a id="course-arts-04"></a>[Yale HSAR 252·Roman Architecture (Spring 2009)](https://oyc.yale.edu/history-of-art/hsar-252)（Open Yale Courses） · [Course videos](https://www.bilibili.com/video/BV1ht411s7zq/)<img src="bilibili.svg" alt="Bilibili" width="36">
+  > Explore Roman buildings, urban planning, and decoration with Diana E. E. Kleiner, learning how temples, baths, theaters, and homes reveal life in ancient cities.
+
+
 <a id="其他-others"></a>
 
 ## Others
@@ -753,6 +761,9 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### AI evaluation
 
+- [AgentReplay: Regression Testing on Real Agent Failures](https://deploymentsafety.openai.com/gpt-6-2-astra-sol/agentreplay) <img src="icons/openai.png" alt="OpenAI" width="24">
+  > Learn how restarting agents at decision points from past tasks reveals recurring mistakes without estimating the real-world incident rate.
+
 - [Evaluating Computer-Use Agents in Healthcare Workflows](https://openai.com/index/advancing-computer-use-for-healthcare-teams/) <img src="icons/openai.png" alt="OpenAI" width="24">
   > Explore cross-application healthcare workflows and learn how usefulness, safety, and cost can be evaluated separately while retaining human review for consequential steps.
 
@@ -801,6 +812,9 @@ Within each topic, courses are sorted by English title. Different course version
 <a id="工程基础设施-engineering-infrastructure"></a>
 
 ### Engineering infrastructure
+
+- [Sparse Attention Co-Design for Long-Context Inference](https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference/) <img src="icons/nvidia.svg" alt="NVIDIA" width="24">
+  > See how sparse attention shifts work to indexing and candidate selection, and how GPU memory traffic shapes token- and block-level designs.
 
 - [MLPerf Endpoints: Measuring Multi-Turn Agent Inference](https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-leads-agentic-inference-performance-on-mlperf-endpoints-v1-0/) NVIDIA Technical Blog <img src="icons/nvidia.svg" alt="NVIDIA" width="24">
   > Explore how responsiveness, throughput, and power are compared for multi-turn agents, and how prefix caching and state reuse help; some hardware results remain provisional.

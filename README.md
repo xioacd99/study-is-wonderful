@@ -8,7 +8,7 @@
 
 [简体中文](README.md) · [English](README-en.md)
 
-[152 门课程](#目录-contents) · [10 个学科](#目录-contents) · [54 篇技术文章](#技术博客-technical-blogs)
+[153 门课程](#目录-contents) · [10 个学科](#目录-contents) · [56 篇技术文章](#技术博客-technical-blogs)
 
 [推荐资源](https://github.com/xioacd99/study-is-wonderful/issues) · [参与共建](https://github.com/xioacd99/study-is-wonderful/pulls)
 
@@ -653,6 +653,14 @@
   > 跟随 Langdon Hammer 细读现代英语诗歌，认识 Frost、Yeats、Eliot 等诗人，并从历史与文学批评角度理解作品。
 
 
+<a id="建筑与城市历史--architecture-and-urban-history"></a>
+
+### 建筑与城市历史
+
+- <a id="course-arts-04"></a>[耶鲁 HSAR 252·罗马建筑（2009 春季）](https://oyc.yale.edu/history-of-art/hsar-252)（Open Yale Courses） · [课程视频](https://www.bilibili.com/video/BV1ht411s7zq/)<img src="bilibili.svg" alt="Bilibili" width="36">
+  > 跟随 Diana E. E. Kleiner 认识罗马及其帝国的建筑、城市规划与装饰，学习从神庙、浴场、剧场和住宅理解古代城市生活。
+
+
 <a id="其他-others"></a>
 
 ## 其他
@@ -753,6 +761,9 @@
 
 ### AI 评测
 
+- [AgentReplay：用真实失败轨迹做回归评测](https://deploymentsafety.openai.com/gpt-6-2-astra-sol/agentreplay) <img src="icons/openai.png" alt="OpenAI" width="24">
+  > 了解如何从历史任务的关键决策点重新运行智能体，判断新版本是否重蹈覆辙，以及为何这类结果不能代表实际事故率。
+
 - [医疗工作流中的计算机操作智能体评测](https://openai.com/index/advancing-computer-use-for-healthcare-teams/) <img src="icons/openai.png" alt="OpenAI" width="24">
   > 通过跨医疗软件的操作案例，了解如何分别评价智能体的有用性、安全性和成本，并在关键步骤保留人工审核。
 
@@ -801,6 +812,9 @@
 <a id="工程基础设施-engineering-infrastructure"></a>
 
 ### 工程基础设施
+
+- [稀疏注意力：长上下文推理的模型与 GPU 协同设计](https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference/) <img src="icons/nvidia.svg" alt="NVIDIA" width="24">
+  > 了解稀疏注意力如何把部分开销转移到索引和候选筛选，以及 GPU 访存如何影响逐词元与分块方案的性能。
 
 - [MLPerf Endpoints：衡量多轮智能体的推理性能](https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-leads-agentic-inference-performance-on-mlperf-endpoints-v1-0/) NVIDIA Technical Blog <img src="icons/nvidia.svg" alt="NVIDIA" width="24">
   > 了解如何一起比较多轮智能体的响应速度、吞吐与功耗，以及前缀缓存和状态复用的作用；文中的部分硬件结果仍待基准组织最终核验。
