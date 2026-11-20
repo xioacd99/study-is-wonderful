@@ -8,7 +8,7 @@
 
 [简体中文](README.md) · [English](README-en.md)
 
-[153 门课程](#目录-contents) · [10 个学科](#目录-contents) · [56 篇技术文章](#技术博客-technical-blogs)
+[153 门课程](#目录-contents) · [10 个学科](#目录-contents) · [60 篇技术文章](#技术博客-technical-blogs)
 
 [推荐资源](https://github.com/xioacd99/study-is-wonderful/issues) · [参与共建](https://github.com/xioacd99/study-is-wonderful/pulls)
 
@@ -715,6 +715,12 @@
 
 ### 智能体与 AI 编程
 
+- [科研加速：智能体擅长什么、又卡在哪里](https://openai.com/index/research-acceleration-jagged-frontier/) <img src="icons/openai.png" alt="OpenAI" width="24">
+  > 通过内部任务和使用数据，比较智能体在监控训练、启动实验和编写推理代码上的表现，了解不同环节为什么提速不一。
+
+- [用 AI 智能体把改进迁移到不同广告排序模型](https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models/) <img src="icons/meta.png" alt="Meta Engineering" width="24">
+  > 了解 Meta 如何把一种排序模型中验证过的改进适配到其他模型，再通过标准化实验筛选值得继续训练的方案。
+
 - [为 OpenClaw 等常驻智能体建立安全边界](https://developers.openai.com/blog/securing-persistent-agents-like-openclaw-at-openai) <img src="icons/openai.png" alt="OpenAI" width="24">
   > 了解如何把可信控制服务与智能体执行环境分离，并结合沙箱、凭据代理和操作审核，为长期运行的智能体建立安全边界。
 
@@ -760,6 +766,9 @@
 <a id="ai-评测-ai-evaluation"></a>
 
 ### AI 评测
+
+- [从训练到部署：如何管理前沿 AI 风险](https://openai.com/index/managing-frontier-ai-risk/) <img src="icons/openai.png" alt="OpenAI" width="24">
+  > 了解如何在研究、内部使用和公开发布阶段搭配沙箱、行为监控与安全评审，以及这些阶段各自要解决什么风险。
 
 - [AgentReplay：用真实失败轨迹做回归评测](https://deploymentsafety.openai.com/gpt-6-2-astra-sol/agentreplay) <img src="icons/openai.png" alt="OpenAI" width="24">
   > 了解如何从历史任务的关键决策点重新运行智能体，判断新版本是否重蹈覆辙，以及为何这类结果不能代表实际事故率。
@@ -867,6 +876,9 @@
 <a id="科研与工程应用-science-and-engineering-applications"></a>
 
 ### 科研与工程应用
+
+- [用 AI 模型改进芯片设计](https://openai.com/index/advancing-chip-design-with-our-models/) <img src="icons/openai.png" alt="OpenAI" width="24">
+  > 从定制推理芯片和 RISC-V 核心的案例出发，看模型如何提出电路改写，并用芯片设计工具验证功能与衡量功耗、性能和面积。
 
 - [用可验证奖励为科学任务后训练 Nemotron](https://developer.nvidia.com/blog/post-training-nvidia-nemotron-to-increase-accuracy-in-your-scientific-domain/) NVIDIA Technical Blog <img src="icons/nvidia.svg" alt="NVIDIA" width="24">
   > 通过药物代谢预测实例，学习把实验数据构造成强化学习环境，使用分子相似度奖励训练模型，并独立检查训练后的效果。

@@ -8,7 +8,7 @@ Great courses across disciplines. Follow your curiosity.
 
 [简体中文](README.md) · [English](README-en.md)
 
-[153 courses](#目录-contents) · [10 subjects](#目录-contents) · [56 articles](#技术博客-technical-blogs)
+[153 courses](#目录-contents) · [10 subjects](#目录-contents) · [60 articles](#技术博客-technical-blogs)
 
 [Suggest a resource](https://github.com/xioacd99/study-is-wonderful/issues) · [Contribute](https://github.com/xioacd99/study-is-wonderful/pulls)
 
@@ -715,6 +715,12 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Agents and AI coding
 
+- [Research acceleration: The jagged frontier](https://openai.com/index/research-acceleration-jagged-frontier/) <img src="icons/openai.png" alt="OpenAI" width="24">
+  > Compare how agents handle training monitoring, experiment launches, and inference coding in OpenAI’s internal studies, and see why speedups vary by task.
+
+- [How Meta Uses AI Agents to Scale ML Innovations Across Ads Ranking Models](https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models/) <img src="icons/meta.png" alt="Meta Engineering" width="24">
+  > See how Meta adapts proven ranking techniques to other models and uses standardized experiments to decide which transfers merit further training.
+
 - [Securing persistent agents like OpenClaw at OpenAI](https://developers.openai.com/blog/securing-persistent-agents-like-openclaw-at-openai) <img src="icons/openai.png" alt="OpenAI" width="24">
   > Learn how trusted control services are separated from agent execution, with sandboxing, credential brokering, and action review establishing boundaries for persistent agents.
 
@@ -760,6 +766,9 @@ Within each topic, courses are sorted by English title. Different course version
 <a id="ai-评测-ai-evaluation"></a>
 
 ### AI evaluation
+
+- [Managing frontier AI risk: From training to deployment](https://openai.com/index/managing-frontier-ai-risk/) <img src="icons/openai.png" alt="OpenAI" width="24">
+  > Learn how sandboxing, behavior monitoring, and safety reviews address different risks during research, internal use, and public deployment.
 
 - [AgentReplay: Regression Testing on Real Agent Failures](https://deploymentsafety.openai.com/gpt-6-2-astra-sol/agentreplay) <img src="icons/openai.png" alt="OpenAI" width="24">
   > Learn how restarting agents at decision points from past tasks reveals recurring mistakes without estimating the real-world incident rate.
@@ -867,6 +876,9 @@ Within each topic, courses are sorted by English title. Different course version
 <a id="科研与工程应用-science-and-engineering-applications"></a>
 
 ### Science and engineering applications
+
+- [Advancing chip design with OpenAI models](https://openai.com/index/advancing-chip-design-with-our-models/) <img src="icons/openai.png" alt="OpenAI" width="24">
+  > Follow examples from a custom inference chip and RISC-V cores to see how models propose circuit changes and design tools verify behavior and measure power, performance, and area.
 
 - [Post-Training Nemotron with Verifiable Rewards for Scientific Tasks](https://developer.nvidia.com/blog/post-training-nvidia-nemotron-to-increase-accuracy-in-your-scientific-domain/) NVIDIA Technical Blog <img src="icons/nvidia.svg" alt="NVIDIA" width="24">
   > Follow a drug-metabolism example to turn experimental data into a reinforcement-learning environment, train with molecular-similarity rewards, and evaluate the resulting model.
