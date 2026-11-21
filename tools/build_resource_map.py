@@ -111,6 +111,78 @@ def bilingual_courses(chinese, english):
     return result
 
 
+def blogs(text):
+    host_names = host_source_names()
+    result = []
+    in_blogs = False
+    group = ''
+    current = None
+    for line in catalog_body(text).splitlines():
+        if line.startswith('## '):
+            in_blogs = line[3:] in ('技术博客', 'Technical blogs')
+            group = ''
+            current = None
+        elif in_blogs and line.startswith('### '):
+            group = line[4:]
+            current = None
+        elif in_blogs and line.startswith('- ['):
+            m = re.match(r'^- \[([^\]]+)\]\((https?://[^\s)]+)\)(.*)$', line)
+            if not m:
+                raise ValueError('Invalid blog row: ' + line)
+            title, url, tail = m.group(1), m.group(2), m.group(3)
+            pub = re.sub(r'<img[^>]+>', '', tail).replace('·', ' ').strip()
+            host = urlsplit(url).hostname or ''
+            source = pub or host_names.get(host, host)
+            idx = len(result) + 1
+            current = dict(
+                id=f'blog-{idx:02d}',
+                group=group,
+                title=title,
+                links=[dict(label=title, url=url, source=source)],
+                description='',
+            )
+            result.append(current)
+        elif current and line.startswith('  > '):
+            current['description'] += ('\n' if current['description'] else '') + line[4:]
+        elif line.startswith('- '):
+            current = None
+    if not result:
+        raise ValueError('Missing technical blogs')
+    if any(not b['description'] or not b['group'] for b in result):
+        raise ValueError('Missing technical blog group or description')
+    return result
+
+
+def bilingual_blogs(chinese, english):
+    zh = blogs(chinese)
+    en = blogs(english)
+    if len(zh) != len(en) or [x['links'][0]['url'] for x in zh] != [x['links'][0]['url'] for x in en]:
+        raise ValueError('README language versions differ in blog coverage or order')
+    result = []
+
+    def join(a, b, separator=' / '):
+        return a if a == b else a + separator + b
+
+    for a, b in zip(zh, en):
+        result.append(
+            dict(
+                id=a['id'],
+                subject='技术博客 / Technical blogs',
+                group=join(a['group'], b['group']),
+                title=join(a['title'], b['title']),
+                links=[
+                    dict(label=join(a['title'], b['title']), url=a['links'][0]['url'], source=a['links'][0]['source'])
+                ],
+                description=join(a['description'], b['description'], '\n'),
+                locales={
+                    'zh': dict(subject='技术博客', **{k: v for k, v in a.items() if k != 'id'}),
+                    'en': dict(subject='Technical blogs', **{k: v for k, v in b.items() if k != 'id'}),
+                },
+            )
+        )
+    return result
+
+
 def resource_sources(text):
     """Classify every catalog link; require explicit review of new source hosts."""
     body = catalog_body(text)
@@ -347,12 +419,16 @@ if __name__ == '__main__':
             else:
                 wall_path.write_text(wall)
     data = bilingual_courses((ROOT / 'README.md').read_text(), (ROOT / 'README-en.md').read_text())
-    out = (ROOT / 'resource-map/template.html').read_text().replace(
-        '/*__COURSES__*/', json.dumps(data, ensure_ascii=False).replace('</', '<\\/')
+    blog_data = bilingual_blogs((ROOT / 'README.md').read_text(), (ROOT / 'README-en.md').read_text())
+    out = (
+        (ROOT / 'resource-map/template.html')
+        .read_text()
+        .replace('/*__COURSES__*/', json.dumps(data, ensure_ascii=False).replace('</', '<\\/'))
+        .replace('/*__BLOGS__*/', json.dumps(blog_data, ensure_ascii=False).replace('</', '<\\/'))
     )
     target = ROOT / 'resource-map/index.html'
     if args.check:
         assert target.read_text() == out, 'Run python tools/build_resource_map.py to synchronize the map'
     else:
         target.write_text(out)
-    print(f'Validated {len(data)} courses in {len(set(x["subject"] for x in data))} subjects')
+    print(f'Validated {len(data)} courses in {len(set(x["subject"] for x in data))} subjects and {len(blog_data)} blogs')

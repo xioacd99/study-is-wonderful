@@ -3,7 +3,7 @@ ROOT=pathlib.Path(__file__).resolve().parents[1]
 spec=importlib.util.spec_from_file_location('builder',ROOT/'tools/build_resource_map.py');builder=importlib.util.module_from_spec(spec);spec.loader.exec_module(builder)
 class MapTests(unittest.TestCase):
  def setUp(self):
-  self.text=(ROOT/'README.md').read_text();self.english=(ROOT/'README-en.md').read_text();self.c=builder.bilingual_courses(self.text,self.english)
+  self.text=(ROOT/'README.md').read_text();self.english=(ROOT/'README-en.md').read_text();self.c=builder.bilingual_courses(self.text,self.english);self.b=builder.bilingual_blogs(self.text,self.english)
  def test_complete_unique_coverage(self):
   anchors=re.findall(r'<a id="(course-[^"]+)"',self.text)
   self.assertEqual(len(anchors),len(set(anchors)))
@@ -71,6 +71,9 @@ class MapTests(unittest.TestCase):
   template=(ROOT/'resource-map/template.html').read_text()
   self.assertIn('id="map-view"',template)
   self.assertIn('id="list-view"',template)
+  self.assertIn('id="mode-blogs"',template)
+  self.assertIn('id="cross-hint"',template)
+  self.assertIn("window.innerWidth<=760?'list':'map'",template)
   self.assertIn('touch-action:pan-x pan-y',template)
   self.assertIn('body[data-view=list] svg,body[data-view=list] .root{display:none}',template)
   self.assertIn('id="subject-nav"',template)
@@ -87,8 +90,25 @@ class MapTests(unittest.TestCase):
   self.assertIn('setZoom(zoom*1.4)',template)
  def test_generated_html(self):
   import json
-  expected=(ROOT/'resource-map/template.html').read_text().replace('/*__COURSES__*/',json.dumps(self.c,ensure_ascii=False).replace('</','<\\/'))
+  expected=(
+   (ROOT/'resource-map/template.html').read_text()
+   .replace('/*__COURSES__*/',json.dumps(self.c,ensure_ascii=False).replace('</','<\\/'))
+   .replace('/*__BLOGS__*/',json.dumps(self.b,ensure_ascii=False).replace('</','<\\/'))
+  )
   self.assertEqual(expected,(ROOT/'resource-map/index.html').read_text())
+ def test_catalog_hygiene_and_blog_coverage(self):
+  self.assertEqual(len(self.b),64)
+  for lang,text in [('zh',self.text),('en',self.english)]:
+   self.assertNotIn(')<img',text)
+   self.assertNotIn('Languange',text)
+   self.assertNotIn('start_radio',text)
+   self.assertNotIn('//~cs188',text)
+   titles=[c['title'] for c in builder.courses(text)]
+   self.assertEqual(len(titles),len(set(titles)),f'Duplicate course titles in {lang}')
+   for line in text.splitlines():
+    if line.startswith('- <a id="course-') or (line.startswith('- [') and '](' in line and '](#' not in line):
+     self.assertNotRegex(line,r'width="(?:24|36)"')
+     self.assertIn('height="16"',line)
  def test_source_wall_grid_and_families(self):
   import base64,json,xml.etree.ElementTree as ET
   cards=builder.source_card_records(self.text)

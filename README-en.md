@@ -16,7 +16,7 @@ Great courses across disciplines. Follow your curiosity.
 <a id="资源全景-resource-map"></a>
 
 <p align="center">
-<a href="https://xioacd99.github.io/study-is-wonderful/resource-map/"><img src="resource-map/preview-en.jpg?v=phase2" alt="Learning map screenshot" width="800"></a>
+<a href="https://xioacd99.github.io/study-is-wonderful/resource-map/"><img src="resource-map/preview-en.jpg?v=phase3" alt="Learning map screenshot" width="800"></a>
 </p>
 
 <a id="目录-contents"></a>
@@ -37,53 +37,53 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Algebra and matrix methods
 
-- <a id="course-math-14"></a>[Abstract Algebra](https://www.bilibili.com/BV1Ds41167HE) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-math-14"></a>[Harvard · Abstract Algebra](https://www.bilibili.com/BV1Ds41167HE) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Study abstract structures such as groups and rings and the rules of their operations.
 
-- <a id="course-math-19"></a>[Linear Algebra](https://www.bilibili.com/BV1zx411g7gq) <img src="bilibili.svg" alt="Bilibili" height="16">
-  > Use vectors and matrices to solve linear equations and understand directions in space.
+- <a id="course-math-19"></a>[MIT 18.06 · Linear Algebra](https://www.bilibili.com/BV1zx411g7gq) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > Follow Gilbert Strang's classic 35-lecture course covering vector spaces, matrix factorizations, eigenvalues, and linear transformations.
 
-- <a id="course-math-20"></a>[Linear Algebra](https://www.bilibili.com/BV1fi4y1x7AH) <img src="bilibili.svg" alt="Bilibili" height="16">
-  > Explore how vectors, matrices and linear transformations describe data and space.
-
-- <a id="course-math-05"></a>[Matrix Theory and Applications](https://www.bilibili.com/BV17h411W7bk) <img src="bilibili.svg" alt="Bilibili" height="16">
-  > Use vectors and matrices to organize data and equations and explore their applications.
-
-- <a id="course-math-01"></a>[MIT 18.065 · Matrix Methods in Data Analysis, Signal Processing, and Machine Learning (Spring 2018)](https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" width="24">（MIT OpenCourseWare） · [Official Lecture 1](https://www.youtube.com/watch?v=YiqIkSHSmyc) <img src="youtube.svg" alt="YouTube" height="16">
+- <a id="course-math-01"></a>[MIT 18.065 · Matrix Methods in Data Analysis, Signal Processing, and Machine Learning (Spring 2018)](https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16"> · [Official Lecture 1](https://www.youtube.com/watch?v=YiqIkSHSmyc) <img src="youtube.svg" alt="YouTube" height="16">
   > Learn matrix factorizations, probability, statistics, and optimization with Gilbert Strang, and see how linear algebra supports data analysis and deep learning.
+
+- <a id="course-math-20"></a>[MIT · Linear Algebra (2020 Highlights)](https://www.bilibili.com/BV1fi4y1x7AH) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > Six updated highlight lectures by Gilbert Strang from 2020 revisiting core linear algebra through matrix multiplication and SVD.
+
+- <a id="course-math-05"></a>[Stanford · Matrix Theory and Applications](https://www.bilibili.com/BV17h411W7bk) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > Use vectors and matrices to organize data and equations and explore their applications.
 
 
 <a id="数学思维与博弈--mathematical-thinking-and-games"></a>
 
 ### Mathematical thinking and games
 
-- <a id="course-math-26"></a>[Game Theory](https://www.bilibili.com/BV1Kt411h7Ep) <img src="bilibili.svg" alt="Bilibili" height="16"> · [Official Yale course](https://oyc.yale.edu/economics/econ-159) <img src="icons/yale-mark.png" alt="Open Yale Courses" height="16">
-  > Study strategies when each person’s choices affect others.
-
-- <a id="course-math-02"></a>[Mathematical Thinking](https://www.bilibili.com/BV1dq4y127TF) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-math-02"></a>[Stanford · Mathematical Thinking](https://www.bilibili.com/BV1dq4y127TF) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Practice asking questions, reasoning and explaining why an answer is true with a proof.
+
+- <a id="course-math-26"></a>[Yale · Game Theory](https://www.bilibili.com/BV1Kt411h7Ep) <img src="bilibili.svg" alt="Bilibili" height="16"> · [Official Yale course](https://oyc.yale.edu/economics/econ-159) <img src="icons/yale-mark.png" alt="Open Yale Courses" height="16">
+  > Study strategies when each person’s choices affect others.
 
 
 <a id="优化与数值计算--optimization-and-numerical-computing"></a>
 
 ### Optimization and numerical computing
 
-- <a id="course-math-07"></a>[Advanced Optimization and Stochastic Methods](https://www.bilibili.com/BV1J64y1F7nW) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-math-07"></a>[CMU · Advanced Optimization and Stochastic Methods](https://www.bilibili.com/BV1J64y1F7nW) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore optimization methods and how to handle randomness.
 
-- <a id="course-math-03"></a>[Convex Optimization](https://www.bilibili.com/BV1Pg4y187Ed) <img src="bilibili.svg" alt="Bilibili" height="16">
-  > Explore how convexity can help find an optimal solution, like finding the bottom of a bowl.
+- <a id="course-math-06"></a>[CMU · Convex Optimization](https://www.bilibili.com/BV12x411z7ot) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > Explore convex optimization from theoretical and algorithmic perspectives to find global optima under constraints.
 
-- <a id="course-math-06"></a>[Convex Optimization](https://www.bilibili.com/BV12x411z7ot) <img src="bilibili.svg" alt="Bilibili" height="16">
-  > Learn how convex optimization finds the best result among constrained choices.
-
-- <a id="course-math-10"></a>[Numerical Analysis](https://www.bilibili.com/BV1gv411j7rd) <img src="bilibili.svg" alt="Bilibili" height="16">
-  > Study how computers find approximate answers and how to analyze error.
-
-- <a id="course-math-12"></a>[Numerical Methods](https://www.bilibili.com/BV1sT4y1S7Aa) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-math-12"></a>[Oxford · Numerical Methods](https://www.bilibili.com/BV1sT4y1S7Aa) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Learn numerical ways to approximate solutions to hard mathematical problems.
 
-- <a id="course-math-09"></a>[Optimization Methods](https://www.bilibili.com/BV19y4y1W7X1) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-math-03"></a>[Stanford · Convex Optimization](https://www.bilibili.com/BV1Pg4y187Ed) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > Learn convex sets, convex functions, and duality with Stephen Boyd to solve constrained optimization problems.
+
+- <a id="course-math-10"></a>[UC Berkeley · Numerical Analysis](https://www.bilibili.com/BV1gv411j7rd) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > Study how computers find approximate answers and how to analyze error.
+
+- <a id="course-math-09"></a>[UC Berkeley · Optimization Methods](https://www.bilibili.com/BV19y4y1W7X1) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how to find the best feasible solution among possible choices.
 
 
@@ -91,16 +91,16 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Analysis and differential equations
 
-- <a id="course-math-22"></a>[Complex Analysis](https://www.bilibili.com/BV1EJ41147q3) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-math-22"></a>[MIT · Complex Analysis](https://www.bilibili.com/BV1EJ41147q3) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore complex numbers and functions and how they help solve mathematical problems.
 
-- <a id="course-math-23"></a>[Differential Equations](https://www.bilibili.com/BV1eM4y1g7De) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-math-23"></a>[MIT · Differential Equations](https://www.bilibili.com/BV1eM4y1g7De) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Use equations to describe change, such as how an object’s position changes over time.
 
-- <a id="course-math-18"></a>[Fourier Analysis](https://www.bilibili.com/BV1Qz4y167rb) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-math-18"></a>[MIT · Fourier Analysis](https://www.bilibili.com/BV1Qz4y167rb) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Study functions and signals through frequencies, like breaking sound into tones.
 
-- <a id="course-math-04"></a>[The Fourier Transform and Its Applications](https://www.bilibili.com/BV1Qx411J7ER) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-math-04"></a>[Stanford · The Fourier Transform and Its Applications](https://www.bilibili.com/BV1Qx411J7ER) <img src="bilibili.svg" alt="Bilibili" height="16">
   > See how the Fourier transform breaks a complex signal into frequencies.
 
 
@@ -108,16 +108,16 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Geometry and discrete mathematics
 
-- <a id="course-math-08"></a>[Discrete Differential Geometry](https://www.bilibili.com/BV1RQ4y1Z7HL) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-math-08"></a>[CMU · Discrete Differential Geometry](https://www.bilibili.com/BV1RQ4y1Z7HL) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Study curves, surfaces and geometric shapes using discrete points and meshes.
 
-- <a id="course-math-21"></a>[Discrete Mathematics](https://www.bilibili.com/BV1zh41167Uy) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-math-21"></a>[MIT · Discrete Mathematics](https://www.bilibili.com/BV1zh41167Uy) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Study discrete objects such as logical statements, sets and graphs of points and links.
 
-- <a id="course-math-24"></a>[Graph Theory and Additive Combinatorics](https://www.bilibili.com/BV1Ei4y1x73V) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-math-24"></a>[MIT · Graph Theory and Additive Combinatorics](https://www.bilibili.com/BV1Ei4y1x73V) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Study graphs of points and links and patterns formed by adding sets of numbers.
 
-- <a id="course-math-25"></a>[Riemannian Geometry](https://www.bilibili.com/BV19T4y1M7W5) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-math-25"></a>[MIT · Riemannian Geometry](https://www.bilibili.com/BV19T4y1M7W5) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Study distance and curvature in curved spaces, such as the surface of Earth.
 
 
@@ -125,19 +125,19 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Probability, statistics and stochastic processes
 
-- <a id="course-math-16"></a>[Applied Statistics](https://www.bilibili.com/BV14t411N7uw) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-math-13"></a>[Harvard STAT 110 · Probability](https://www.bilibili.com/BV1kE41157pa) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > Build probabilistic intuition through scenarios covering conditioning, random variables, and limit theorems.
+
+- <a id="course-math-16"></a>[MIT · Applied Statistics](https://www.bilibili.com/BV14t411N7uw) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Learn to estimate, compare and make informed judgments from data.
 
-- <a id="course-math-17"></a>[Discrete Stochastic Processes](https://www.bilibili.com/BV1Qs41167VS) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-math-17"></a>[MIT · Discrete Stochastic Processes](https://www.bilibili.com/BV1Qs41167VS) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Study how random events evolve across times or states.
 
-- <a id="course-math-13"></a>[Probability](https://www.bilibili.com/BV1kE41157pa) <img src="bilibili.svg" alt="Bilibili" height="16">
-  > Use probability to describe uncertainty, such as how likely an event is.
+- <a id="course-math-15"></a>[MIT · Probability](https://www.bilibili.com/BV19s41167TE) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > Study probability axioms, random variables, Bayesian inference, and laws of large numbers to model uncertainty.
 
-- <a id="course-math-15"></a>[Probability](https://www.bilibili.com/BV19s41167TE) <img src="bilibili.svg" alt="Bilibili" height="16">
-  > Learn to describe uncertain outcomes using probability and random variables.
-
-- <a id="course-math-11"></a>[Stochastic Processes](https://www.bilibili.com/BV1qB4y1A7t3) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-math-11"></a>[UC Berkeley · Stochastic Processes](https://www.bilibili.com/BV1qB4y1A7t3) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Study processes that change over time with uncertain outcomes.
 
 
@@ -149,19 +149,19 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Parallelism, distributed systems and performance
 
-- <a id="course-cs-35"></a>[CMU · Parallel Computer Architecture and Programming](https://www.bilibili.com/BV16k4y1z7z9)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-cs-35"></a>[CMU · Parallel Computer Architecture and Programming](https://www.bilibili.com/BV16k4y1z7z9) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how multiple processors work together and how to program them.
 
-- <a id="course-cs-20"></a>[Distributed Systems](https://www.bilibili.com/BV1CU4y1P7PE) <img src="bilibili.svg" alt="Bilibili" height="16">
-  > Explore distributed systems and how multiple computers work together on tasks.
-
-- <a id="course-cs-01"></a>[MIT 6.172 · Performance Engineering of Software Systems (Fall 2018)](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" width="24">（MIT OpenCourseWare） · [Official Lecture 1](https://www.youtube.com/watch?v=o7h_sYMk_oc) <img src="youtube.svg" alt="YouTube" height="16"> · [Repost](https://www.bilibili.com/video/BV1wA411h7N7/) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-cs-01"></a>[MIT 6.172 · Performance Engineering of Software Systems (Fall 2018)](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16"> · [Official Lecture 1](https://www.youtube.com/watch?v=o7h_sYMk_oc) <img src="youtube.svg" alt="YouTube" height="16"> · [Repost](https://www.bilibili.com/video/BV1wA411h7N7/) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Learn to analyze program performance through examples such as matrix multiplication, and understand how algorithms, programming languages, and computer systems affect execution speed.
 
-- <a id="course-cs-36"></a>[UC Berkeley · Applications of Parallel Computing](https://www.bilibili.com/BV1qV411q7RS)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-cs-20"></a>[MIT · Distributed Systems](https://www.bilibili.com/BV1CU4y1P7PE) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > Explore distributed systems and how multiple computers work together on tasks.
+
+- <a id="course-cs-36"></a>[UC Berkeley · Applications of Parallel Computing](https://www.bilibili.com/BV1qV411q7RS) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how parallel computing can help solve computational problems faster.
 
-- <a id="course-cs-37"></a>[UC Berkeley · Introduction to Parallel Programming](https://www.bilibili.com/BV1QQ4y1o7rn)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-cs-37"></a>[UC Berkeley · Introduction to Parallel Programming](https://www.bilibili.com/BV1QQ4y1o7rn) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore programming ideas for dividing work among processors that run together.
 
 
@@ -169,118 +169,118 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Programming foundations and developer tools
 
-- <a id="course-cs-07"></a>[CS101](https://web.stanford.edu/class/cs101/) <img src="icons/stanford-seal.png" alt="Stanford course website" height="16">
-  > Meet computer hardware, software, and data, along with programming ideas such as variables and loops.
-
-- <a id="course-cs-15"></a>[CS106B Programming Abstractions](https://web.stanford.edu/class/cs106b/) <img src="icons/stanford-seal.png" alt="Stanford course website" height="16">
-  > Use programming abstractions to manage complexity and learn tools such as recursion and data structures.
-
-- <a id="course-cs-05"></a>[CS50X Introduction to Computer Science](https://www.bilibili.com/BV1ER4y157uA) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-cs-05"></a>[Harvard · CS50X Introduction to Computer Science](https://www.bilibili.com/BV1ER4y157uA) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Start learning computer science and programming by breaking problems into steps a computer can follow.
 
-- <a id="course-cs-08"></a>[Introduction to Computer Science and Programming in Python](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16">
+- <a id="course-cs-08"></a>[MIT · Introduction to Computer Science and Programming in Python](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16">
   > Learn programming basics in Python and practice solving problems with small programs.
 
-- <a id="course-cs-56"></a>[MIT · Python Programming](https://www.bilibili.com/BV1mq4y1u7NB)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-cs-56"></a>[MIT · Python Programming](https://www.bilibili.com/BV1mq4y1u7NB) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how to express ideas and write programs in Python.
 
-- <a id="course-cs-52"></a>[MIT · Structure and Interpretation of Computer Programs](https://www.bilibili.com/BV1AA411t7Wk)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-cs-52"></a>[MIT · Structure and Interpretation of Computer Programs](https://www.bilibili.com/BV1AA411t7Wk) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore foundational computer science ideas by constructing and understanding programs.
 
-- <a id="course-cs-02"></a>[MIT · The Missing Semester of Your CS Education (2026)](https://www.youtube.com/playlist?list=PLyzOVJj3bHQunmnnTXrNbZnBaCA-ieK4L)<img src="youtube.svg" alt="YouTube" width="24"> · [Chinese-dubbed repost](https://www.bilibili.com/video/BV1JgACzjEo8/) <img src="bilibili.svg" alt="Bilibili" height="16"> · [Course website](https://missing.csail.mit.edu/2026/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16">
+- <a id="course-cs-04"></a>[MIT · The Missing Semester of Your CS Education (2020)](https://www.bilibili.com/BV1x7411H7wa) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > 2020 edition covering shell tools, command-line workflows, debugging, Git, and developer productivity.
+
+- <a id="course-cs-02"></a>[MIT · The Missing Semester of Your CS Education (2026)](https://www.youtube.com/playlist?list=PLyzOVJj3bHQunmnnTXrNbZnBaCA-ieK4L) <img src="youtube.svg" alt="YouTube" height="16"> · [Chinese-dubbed repost](https://www.bilibili.com/video/BV1JgACzjEo8/) <img src="bilibili.svg" alt="Bilibili" height="16"> · [Course website](https://missing.csail.mit.edu/2026/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16">
   > Learn shell tools, development workflows, debugging, Git, software delivery, and code quality, including how agentic coding fits into everyday development.
 
-- <a id="course-cs-06"></a>[Programming Methodology](https://www.bilibili.com/BV1zs411h7t8) <img src="bilibili.svg" alt="Bilibili" height="16">
-  > Learn programming methods and practice breaking big problems into manageable steps.
+- <a id="course-cs-07"></a>[Stanford · CS101 Introduction to Computing Principles](https://web.stanford.edu/class/cs101/) <img src="icons/stanford-seal.png" alt="Stanford" height="16">
+  > Meet computer hardware, software, and data, along with programming ideas such as variables and loops.
 
-- <a id="course-cs-51"></a>[Stanford · Programming Abstractions in C++](https://www.bilibili.com/BV1G7411k7jG)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-cs-15"></a>[Stanford · CS106B Programming Abstractions](https://web.stanford.edu/class/cs106b/) <img src="icons/stanford-seal.png" alt="Stanford" height="16">
+  > Use programming abstractions to manage complexity and learn tools such as recursion and data structures.
+
+- <a id="course-cs-51"></a>[Stanford · Programming Abstractions in C++](https://www.bilibili.com/BV1G7411k7jG) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how abstractions in C++ help organize and solve programming problems.
 
-- <a id="course-cs-04"></a>[The Missing Semester of Your CS Education](https://www.bilibili.com/BV1x7411H7wa) <img src="bilibili.svg" alt="Bilibili" height="16">
-  > Meet tools programmers use, such as the command line, debuggers, and version control.
+- <a id="course-cs-06"></a>[Stanford · Programming Methodology](https://www.bilibili.com/BV1zs411h7t8) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > Learn programming methods and practice breaking big problems into manageable steps.
 
 
 <a id="算法数据结构与理论--algorithms-data-structures-and-theory"></a>
 
 ### Algorithms, data structures and theory
 
-- <a id="course-cs-12"></a>[Advanced Algorithms](https://www.bilibili.com/BV11E411u73m) <img src="bilibili.svg" alt="Bilibili" height="16">
-  > Explore advanced algorithms and more sophisticated ways to solve computational problems.
-
-- <a id="course-cs-11"></a>[Advanced Data Structures](https://www.bilibili.com/BV1iE411n7yJ) <img src="bilibili.svg" alt="Bilibili" height="16">
-  > Explore advanced data structures, or more sophisticated ways to organize and use data.
-
-- <a id="course-cs-09"></a>[Classical Algorithms](https://www.bilibili.com/BV1kf4y1w7Kn) <img src="bilibili.svg" alt="Bilibili" height="16">
-  > Explore classic algorithms, or step-by-step methods computers can use to solve problems.
-
-- <a id="course-cs-14"></a>[CS 61B](https://inst.eecs.berkeley.edu/~cs61b/sp20/index.html) <img src="icons/berkeley-seal.png" alt="UC Berkeley course website" height="16">
-  > Learn data structures, the ways programs store, find, and work with data.
-
-- <a id="course-cs-16"></a>[CSE 373 "The Algorithm Design Manual"](https://www3.cs.stonybrook.edu/~skiena/373/videos/) <img src="icons/stonybrook-seal.svg" alt="Stony Brook course website" height="16">
-  > Analyze algorithms by comparing the time and space needed for searching, sorting, graph algorithms, and more.
-
-- <a id="course-cs-13"></a>[Data Structures and Algorithm Design](https://www.bilibili.com/BV1sf4y1H7vb) <img src="bilibili.svg" alt="Bilibili" height="16">
-  > Learn how to organize data and design algorithms that help programs solve problems systematically.
-
-- <a id="course-cs-03"></a>[Great Ideas in Theoretical Computer Science](https://www.bilibili.com/BV1Wh411y7V9) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-cs-03"></a>[CMU · Great Ideas in Theoretical Computer Science](https://www.bilibili.com/BV1Wh411y7V9) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore what computers can solve and how much work solutions require, using mathematical ideas.
 
-- <a id="course-cs-10"></a>[Introduction to Algorithms](https://www.bilibili.com/BV1fu41127MN) <img src="bilibili.svg" alt="Bilibili" height="16">
-  > Get started with algorithms by thinking about steps for solving problems and how efficiently they work.
+- <a id="course-cs-10"></a>[MIT 6.006 · Introduction to Algorithms (Spring 2020)](https://www.bilibili.com/BV1fu41127MN) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > Learn fundamental algorithm design and complexity analysis across sorting, search, graph algorithms, and dynamic programming.
+
+- <a id="course-cs-12"></a>[MIT · Advanced Algorithms](https://www.bilibili.com/BV11E411u73m) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > Explore advanced algorithms and more sophisticated ways to solve computational problems.
+
+- <a id="course-cs-11"></a>[MIT · Advanced Data Structures](https://www.bilibili.com/BV1iE411n7yJ) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > Explore advanced data structures, or more sophisticated ways to organize and use data.
+
+- <a id="course-cs-09"></a>[MIT · Classical Algorithms](https://www.bilibili.com/BV1kf4y1w7Kn) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > Explore classic algorithms, or step-by-step methods computers can use to solve problems.
+
+- <a id="course-cs-13"></a>[MIT · Data Structures and Algorithm Design](https://www.bilibili.com/BV1sf4y1H7vb) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > Learn how to organize data and design algorithms that help programs solve problems systematically.
+
+- <a id="course-cs-16"></a>[Stony Brook · CSE 373 "The Algorithm Design Manual"](https://www3.cs.stonybrook.edu/~skiena/373/videos/) <img src="icons/stonybrook-seal.svg" alt="Stony Brook" height="16">
+  > Analyze algorithms by comparing the time and space needed for searching, sorting, graph algorithms, and more.
+
+- <a id="course-cs-14"></a>[UC Berkeley · CS 61B](https://inst.eecs.berkeley.edu/~cs61b/sp20/index.html) <img src="icons/berkeley-seal.png" alt="UC Berkeley" height="16">
+  > Learn data structures, the ways programs store, find, and work with data.
 
 
 <a id="计算机系统与操作系统--computer-systems-and-operating-systems"></a>
 
 ### Computer systems and operating systems
 
-- <a id="course-cs-23"></a>[15-213](https://www.bilibili.com/video/BV1iW411d7hd) <img src="bilibili.svg" alt="Bilibili" height="16"> · [Link 2](http://www.cs.cmu.edu/~213/) <img src="icons/cmu-seal.png" alt="Carnegie Mellon course website" height="16">
+- <a id="course-cs-23"></a>[CMU · 15-213 Introduction to Computer Systems](https://www.bilibili.com/video/BV1iW411d7hd) <img src="bilibili.svg" alt="Bilibili" height="16"> · [Link 2](http://www.cs.cmu.edu/~213/) <img src="icons/cmu-seal.png" alt="Carnegie Mellon" height="16">
   > See computer systems from a programmer’s perspective, including machine code, memory, and networking.
 
-- <a id="course-cs-24"></a>[CS 107](http://web.stanford.edu/class/cs107/) <img src="icons/stanford-seal.png" alt="Stanford course website" height="16">
-  > Look inside computer systems and learn how C, memory, and machine code shape program execution.
+- <a id="course-cs-17"></a>[CMU · 15-213 Introduction to Computer Systems (Fall 2015)](https://www.bilibili.com/BV1uK4y1e7ep) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > Fall 2015 lecture series introducing computer systems from a programmer's perspective and how hardware and software collaborate.
 
-- <a id="course-cs-22"></a>[CS 61C](https://inst.eecs.berkeley.edu/~cs61c/fa20/) <img src="icons/berkeley-seal.png" alt="UC Berkeley course website" height="16">
-  > Study computer science through Berkeley’s CS 61C course.
+- <a id="course-cs-19"></a>[MIT 6.S081 · Operating Systems](https://www.bilibili.com/BV1QA411F7ij) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > Study process scheduling, virtual memory, file systems, and concurrency through hands-on operating system engineering.
 
-- <a id="course-cs-17"></a>[Introduction to Computer Systems](https://www.bilibili.com/BV1uK4y1e7ep) <img src="bilibili.svg" alt="Bilibili" height="16">
-  > Explore computer systems and how software and hardware work together to run programs.
-
-- <a id="course-cs-55"></a>[MIT · Computation Structures](https://www.bilibili.com/BV197411s736)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-cs-55"></a>[MIT · Computation Structures](https://www.bilibili.com/BV197411s736) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how computers are built from circuits and basic components.
 
-- <a id="course-cs-18"></a>[Operating System and Systems Programming](https://www.bilibili.com/BV1ix411676b) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-cs-25"></a>[Nanjing University · Operating Systems](https://space.bilibili.com/202224425/channel/collectiondetail?sid=192498) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > Learn operating system concepts and design principles from Nanjing University, covering processes, concurrency, and resource management.
+
+- <a id="course-cs-24"></a>[Stanford · CS 107 Computer Organization & Systems](http://web.stanford.edu/class/cs107/) <img src="icons/stanford-seal.png" alt="Stanford" height="16">
+  > Look inside computer systems and learn how C, memory, and machine code shape program execution.
+
+- <a id="course-cs-22"></a>[UC Berkeley · CS 61C Great Ideas in Computer Architecture](https://inst.eecs.berkeley.edu/~cs61c/fa20/) <img src="icons/berkeley-seal.png" alt="UC Berkeley" height="16">
+  > Explore machine structures from C and assembly to processor pipelining, caching, and parallelism.
+
+- <a id="course-cs-18"></a>[UC Berkeley · Operating System and Systems Programming](https://www.bilibili.com/BV1ix411676b) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how operating systems provide an environment for programs and learn about systems programming.
-
-- <a id="course-cs-19"></a>[Operating Systems](https://www.bilibili.com/BV1QA411F7ij) <img src="bilibili.svg" alt="Bilibili" height="16">
-  > Learn the basic ideas behind operating systems, the software that manages computer resources.
-
-- <a id="course-cs-25"></a>[Operating Systems](https://space.bilibili.com/202224425/channel/collectiondetail?sid=192498) <img src="bilibili.svg" alt="Bilibili" height="16">
-  > Learn the basic ideas behind operating systems, the software that manages computer resources.
 
 
 <a id="网络安全与密码学--networks-security-and-cryptography"></a>
 
 ### Networks, security and cryptography
 
-- <a id="course-cs-42"></a>[CMU · Computer Networks](https://www.bilibili.com/BV1wT4y1A7cd)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-cs-42"></a>[CMU · Computer Networks](https://www.bilibili.com/BV1wT4y1A7cd) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how computer networks connect devices and carry information.
 
-- <a id="course-cs-21"></a>[Computer Systems Security](https://www.bilibili.com/BV1jt411F7Wh) <img src="bilibili.svg" alt="Bilibili" height="16">
-  > Explore computer systems security and the basic challenges of protecting systems and information.
-
-- <a id="course-cs-57"></a>[MIT · Blockchain and Money](https://www.bilibili.com/BV1pK4y1r7Jf)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-cs-57"></a>[MIT · Blockchain and Money](https://www.bilibili.com/BV1pK4y1r7Jf) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore the relationship between blockchains, money and finance.
 
-- <a id="course-cs-49"></a>[Princeton · Bitcoin and Cryptocurrency Technologies](https://www.bilibili.com/BV1FL411K7vK)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-cs-21"></a>[MIT · Computer Systems Security](https://www.bilibili.com/BV1jt411F7Wh) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > Explore computer systems security and the basic challenges of protecting systems and information.
+
+- <a id="course-cs-49"></a>[Princeton · Bitcoin and Cryptocurrency Technologies](https://www.bilibili.com/BV1FL411K7vK) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore Bitcoin and the cryptographic technologies behind it.
 
-- <a id="course-cs-43"></a>[Stanford · Computer Networks](https://www.bilibili.com/BV137411Z7LR)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-cs-43"></a>[Stanford · Computer Networks](https://www.bilibili.com/BV137411Z7LR) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how data travels between computers over networks.
 
-- <a id="course-cs-50"></a>[Stanford · Cryptography](https://www.bilibili.com/BV1Ht411w7Re)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-cs-50"></a>[Stanford · Cryptography](https://www.bilibili.com/BV1Ht411w7Re) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore cryptography, which uses mathematics to help protect information.
 
-- <a id="course-cs-44"></a>[Stanford · Network Security](https://www.bilibili.com/BV1yA411s7Tp)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-cs-44"></a>[Stanford · Network Security](https://www.bilibili.com/BV1yA411s7Tp) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore basic challenges in protecting networks and communications.
 
 
@@ -288,31 +288,31 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Data science and databases
 
-- <a id="course-cs-28"></a>[Caltech · Data-Driven Algorithm Design](https://www.bilibili.com/BV1ip4y1X7uY)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-cs-28"></a>[Caltech · Data-Driven Algorithm Design](https://www.bilibili.com/BV1ip4y1X7uY) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how data can help guide the design of algorithms.
 
-- <a id="course-cs-26"></a>[CMU · Applied Data Science](https://www.bilibili.com/BV1Pa411F7VP)<img src="bilibili.svg" alt="Bilibili" width="36">
-  > Explore how data and computational methods can help solve practical problems.
-
-- <a id="course-cs-33"></a>[CMU · Database Systems](https://www.bilibili.com/BV1rN411f7Ef)<img src="bilibili.svg" alt="Bilibili" width="36">
-  > Explore how database systems organize, access and manage data.
-
-- <a id="course-cs-32"></a>[CMU · Introduction to Database Systems](https://www.bilibili.com/BV1Cp4y1C7dv)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-cs-32"></a>[CMU · 15-445 Intro to Database Systems (Fall 2019)](https://www.bilibili.com/BV1Cp4y1C7dv) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how databases store data and support efficient queries.
 
-- <a id="course-cs-30"></a>[Harvard · Big Data Algorithms](https://www.bilibili.com/BV1v54y1x7dQ)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-cs-26"></a>[CMU · Applied Data Science](https://www.bilibili.com/BV1Pa411F7VP) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > Explore how data and computational methods can help solve practical problems.
+
+- <a id="course-cs-33"></a>[CMU · Database Systems](https://www.bilibili.com/BV1rN411f7Ef) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > Explore how database systems organize, access and manage data.
+
+- <a id="course-cs-30"></a>[Harvard · Big Data Algorithms](https://www.bilibili.com/BV1v54y1x7dQ) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore algorithms for working with large amounts of data.
 
-- <a id="course-cs-31"></a>[Stanford · CS 246](http://web.stanford.edu/class/cs246/)<img src="icons/stanford-seal.png" alt="Stanford course website" width="24">
+- <a id="course-cs-31"></a>[Stanford · CS 246](http://web.stanford.edu/class/cs246/) <img src="icons/stanford-seal.png" alt="Stanford" height="16">
   > Explore methods for finding useful patterns in massive datasets.
 
-- <a id="course-cs-29"></a>[Stanford · Introduction to Big Data](https://www.bilibili.com/BV1SC4y187x1)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-cs-29"></a>[Stanford · Introduction to Big Data](https://www.bilibili.com/BV1SC4y187x1) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how to process and mine large datasets.
 
-- <a id="course-cs-34"></a>[UC Berkeley · Introduction to Databases](https://www.bilibili.com/BV1yb4y1n7rb)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-cs-34"></a>[UC Berkeley · Introduction to Databases](https://www.bilibili.com/BV1yb4y1n7rb) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how databases handle queries and concurrent transactions.
 
-- <a id="course-cs-27"></a>[UC Berkeley · Principles and Techniques of Data Science](https://www.bilibili.com/BV19741117jR)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-cs-27"></a>[UC Berkeley · Principles and Techniques of Data Science](https://www.bilibili.com/BV19741117jR) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how to clean, analyze and visualize data, and use it to make predictions.
 
 
@@ -320,16 +320,16 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Software engineering and compilers
 
-- <a id="course-cs-39"></a>[CMU · Software Engineering for Intelligent Systems](https://www.bilibili.com/BV1qA411n7X5)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-cs-39"></a>[CMU · Software Engineering for Intelligent Systems](https://www.bilibili.com/BV1qA411n7X5) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how to design and maintain software with AI components.
 
-- <a id="course-cs-41"></a>[Cornell · Advanced Compilers](https://www.bilibili.com/BV1hZ4y1L7X4)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-cs-41"></a>[Cornell · Advanced Compilers](https://www.bilibili.com/BV1hZ4y1L7X4) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore advanced compiler techniques for translating programs.
 
-- <a id="course-cs-38"></a>[Cornell · Software Engineering](https://www.bilibili.com/BV1aW411E7yr)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-cs-38"></a>[Cornell · Software Engineering](https://www.bilibili.com/BV1aW411E7yr) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how teams plan, design, build and test software.
 
-- <a id="course-cs-40"></a>[Stanford · Compilers](https://www.bilibili.com/BV1NW41177q4)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-cs-40"></a>[Stanford · Compilers](https://www.bilibili.com/BV1NW41177q4) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how compilers translate programs; the current link points to Stanford Statistical Learning, and the Compilers video source awaits verification.
 
 
@@ -337,16 +337,16 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Graphics and human-computer interaction
 
-- <a id="course-cs-45"></a>[CMU · Computer Graphics](https://www.bilibili.com/BV1QZ4y1K7ga)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-cs-45"></a>[CMU · Computer Graphics](https://www.bilibili.com/BV1QZ4y1K7ga) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how computers use mathematics and programs to create images.
 
-- <a id="course-cs-48"></a>[CMU · Human-Computer Interaction Lecture Series](https://www.bilibili.com/BV1Bb411v7YH)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-cs-48"></a>[CMU · Human-Computer Interaction Lecture Series](https://www.bilibili.com/BV1Bb411v7YH) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how people interact with computer systems.
 
-- <a id="course-cs-46"></a>[Lingqi Yan · Introduction to Modern Computer Graphics](https://www.bilibili.com/BV1X7411F744)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-cs-46"></a>[GAMES · Lingqi Yan · Introduction to Modern Computer Graphics](https://www.bilibili.com/BV1X7411F744) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how computers create images using methods such as rasterization and ray tracing.
 
-- <a id="course-cs-47"></a>[MIT · Computer Graphics](https://www.bilibili.com/BV167411g7iK)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-cs-47"></a>[MIT · Computer Graphics](https://www.bilibili.com/BV167411g7iK) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore basic ideas for creating and representing images with computers.
 
 
@@ -354,11 +354,11 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Signals and systems
 
-- <a id="course-cs-53"></a>[MIT · Signals and Systems](https://www.bilibili.com/BV1L4411H7w3)<img src="bilibili.svg" alt="Bilibili" width="36">
-  > Explore how to describe and analyze signals and systems that change over time.
-
-- <a id="course-cs-54"></a>[Oppenheim · MIT · Signals and Systems](https://www.bilibili.com/BV1CZ4y1j7hs)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-cs-54"></a>[MIT · Oppenheim · Signals and Systems](https://www.bilibili.com/BV1CZ4y1j7hs) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how systems transform signals and how mathematics can describe those changes.
+
+- <a id="course-cs-53"></a>[MIT · Signals and Systems](https://www.bilibili.com/BV1L4411H7w3) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > Explore how to describe and analyze signals and systems that change over time.
 
 
 <a id="人工智能-artificial-intelligence"></a>
@@ -369,28 +369,28 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Reinforcement learning and robotics
 
-- <a id="course-ai-03"></a>[ETH Zurich · Robot Learning: From Fundamentals to Foundation Models (2026)](https://cvg.ethz.ch/lectures/Robot-Learning/) · [Lecture 1](https://www.youtube.com/watch?v=X0k14u6pSxw) <img src="youtube.svg" alt="YouTube" height="16"> · [Bilibili repost](https://www.bilibili.com/video/BV1fSjG6LES5/) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-ai-03"></a>[ETH Zurich · Robot Learning: From Fundamentals to Foundation Models (2026)](https://cvg.ethz.ch/lectures/Robot-Learning/) <img src="icons/eth-zurich-mark.png" alt="ETH Zürich" height="16"> · [Lecture 1](https://www.youtube.com/watch?v=X0k14u6pSxw) <img src="youtube.svg" alt="YouTube" height="16"> · [Bilibili repost](https://www.bilibili.com/video/BV1fSjG6LES5/) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Oier Mees introduces robot control, imitation learning, and reinforcement learning before exploring vision-language-action and robotics foundation models, with practice in simulation and on real robots.
 
-- <a id="course-ai-25"></a>[Hung-yi Lee · Deep Reinforcement Learning](https://www.youtube.com/watch?v=z95ZYgPgXOY&list=PLJV_el3uVTsODxQFgzMzPLa16h6B8kWM_)<img src="youtube.svg" alt="YouTube" width="24">
+- <a id="course-ai-25"></a>[Hung-yi Lee · Deep Reinforcement Learning](https://www.youtube.com/watch?v=z95ZYgPgXOY&list=PLJV_el3uVTsODxQFgzMzPLa16h6B8kWM_) <img src="youtube.svg" alt="YouTube" height="16">
   > Explore how an agent can learn actions from trials and feedback using deep learning.
 
-- <a id="course-ai-27"></a>[MIT · Identification, Estimation, and Learning](https://www.bilibili.com/BV1KL4y1e7F7)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-ai-27"></a>[MIT · Identification, Estimation, and Learning](https://www.bilibili.com/BV1KL4y1e7F7) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore identification, estimation and learning from observations.
 
-- <a id="course-ai-01"></a>[Stanford CS224R · Deep Reinforcement Learning](https://www.bilibili.com/video/BV1U2zYBqEFB/)(Bilibili repost)
+- <a id="course-ai-01"></a>[Stanford CS224R · Deep Reinforcement Learning](https://www.bilibili.com/video/BV1U2zYBqEFB/) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how agents learn decisions through interaction and rewards, and how deep learning is used in reinforcement learning. The recording year of this repost has not been verified.
 
-- <a id="course-ai-02"></a>[Stanford CS224R · Deep Reinforcement Learning (Spring 2025)](https://www.bilibili.com/video/BV15E2SB7EzE/)<img src="bilibili.svg" alt="Bilibili repost" width="36"> · [Official Lecture 1](https://www.youtube.com/watch?v=EvHRQhMX7_w) <img src="youtube.svg" alt="YouTube" height="16">
+- <a id="course-ai-02"></a>[Stanford CS224R · Deep Reinforcement Learning (Spring 2025)](https://www.bilibili.com/video/BV15E2SB7EzE/) <img src="bilibili.svg" alt="Bilibili" height="16"> · [Official Lecture 1](https://www.youtube.com/watch?v=EvHRQhMX7_w) <img src="youtube.svg" alt="YouTube" height="16">
   > Chelsea Finn introduces imitation learning, policy gradients, actor-critic methods, offline and model-based reinforcement learning, with applications to robots and large language models.
 
-- <a id="course-ai-26"></a>[Stanford · Reinforcement Learning](https://www.bilibili.com/BV1sb411s7eQ)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-ai-26"></a>[Stanford · Reinforcement Learning](https://www.bilibili.com/BV1sb411s7eQ) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how an agent improves its decisions using feedback from its actions.
 
-- <a id="course-ai-35"></a>[Stanford · Robotics](https://www.bilibili.com/BV16s411q7o7)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-ai-35"></a>[Stanford · Robotics](https://www.bilibili.com/BV16s411q7o7) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore robotics and the challenge of making robots perceive and act.
 
-- <a id="course-ai-28"></a>[UC Berkeley · Deep Reinforcement Learning](https://www.bilibili.com/BV1fx411S7S8)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-ai-28"></a>[UC Berkeley · Deep Reinforcement Learning](https://www.bilibili.com/BV1fx411S7S8) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore deep reinforcement learning, which combines neural networks with learning from feedback.
 
 
@@ -398,22 +398,22 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Language models and natural language processing
 
-- <a id="course-ai-23"></a>[CMU · Advanced Natural Language Processing](https://www.bilibili.com/BV1H3411k7GA)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-ai-23"></a>[CMU · Advanced Natural Language Processing](https://www.bilibili.com/BV1H3411k7GA) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore advanced methods for computers to analyze human language.
 
-- <a id="course-ai-21"></a>[CMU · Natural Language Processing](https://www.bilibili.com/BV1dC4y1h788)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-ai-21"></a>[CMU · Natural Language Processing](https://www.bilibili.com/BV1dC4y1h788) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how computers process and analyze human language.
 
-- <a id="course-ai-24"></a>[Hung-yi Lee · Deep Learning for Human Language Processing](https://www.youtube.com/watch?v=nER51ZyJaCQ&list=PLJV_el3uVTsO07RpBYFsXg-bN5Lu0nhdG)<img src="youtube.svg" alt="YouTube" width="24">
+- <a id="course-ai-24"></a>[NTU · Hung-yi Lee · Deep Learning for Human Language Processing](https://www.youtube.com/watch?v=nER51ZyJaCQ&list=PLJV_el3uVTsO07RpBYFsXg-bN5Lu0nhdG) <img src="youtube.svg" alt="YouTube" height="16">
   > Explore deep-learning methods for processing human language.
 
-- <a id="course-ai-04"></a>[Stanford CS336: Language Modeling from Scratch (Lecture 1)](https://www.youtube.com/watch?v=SQ3fZ1sAqXI) <img src="youtube.svg" alt="YouTube" height="16"> · [Spring 2025 course website](https://cs336.stanford.edu/spring2025/) <img src="icons/stanford-seal.png" alt="Stanford course website" height="16">
+- <a id="course-ai-04"></a>[Stanford CS336 · Language Modeling from Scratch (Lecture 1)](https://www.youtube.com/watch?v=SQ3fZ1sAqXI) <img src="youtube.svg" alt="YouTube" height="16"> · [Spring 2025 course website](https://cs336.stanford.edu/spring2025/) <img src="icons/stanford-seal.png" alt="Stanford" height="16">
   > Start exploring how language models are built, beginning with an overview and tokenization. The official course website provides the schedule and five assignments covering implementation basics, systems, scaling laws, data, and alignment and reasoning RL.
 
-- <a id="course-ai-22"></a>[Stanford · Deep Natural Language Processing](https://www.bilibili.com/BV1pt411h7aT)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-ai-22"></a>[Stanford · Deep Natural Language Processing](https://www.bilibili.com/BV1pt411h7aT) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how neural networks can help computers process language.
 
-- <a id="course-ai-05"></a>[Zhejiang University: Principles and Techniques of Large Models](https://www.bilibili.com/video/BV1PB6XYFET2/) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-ai-05"></a>[Zhejiang University · Principles and Techniques of Large Models](https://www.bilibili.com/video/BV1PB6XYFET2/) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Learn about language model foundations, architectures, fine-tuning, and retrieval-augmented generation.
 
 
@@ -421,54 +421,54 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Machine learning and AI foundations
 
-- <a id="course-ai-17"></a>[Berkeley · CS 188](https://inst.eecs.berkeley.edu/~cs188/fa19/)<img src="icons/berkeley-seal.png" alt="UC Berkeley course website" width="24">
-  > Explore AI foundations through ideas such as search, reasoning and learning.
-
-- <a id="course-ai-18"></a>[Berkeley · CS 189](https://www.eecs189.org/)<img src="icons/berkeley-seal.png" alt="UC Berkeley course website" width="24">
-  > Explore how models learn from data and how their performance can be assessed.
-
-- <a id="course-ai-06"></a>[CMU · Artificial Intelligence (Graduate)](https://www.bilibili.com/BV1pC4y1t7px)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-ai-06"></a>[CMU · Artificial Intelligence (Graduate)](https://www.bilibili.com/BV1pC4y1t7px) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore basic ideas for making computers behave intelligently.
 
-- <a id="course-ai-10"></a>[Hung-yi Lee · Machine Learning-v1](https://www.youtube.com/watch?v=CXgbekl66jc&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49)<img src="youtube.svg" alt="YouTube" width="24">
-  > Learn about machine learning, where computers find patterns in data.
+- <a id="course-ai-13"></a>[Hung-yi Lee · Machine Learning TA Supplement](https://www.youtube.com/watch?v=eybCCtNKwzA&list=PLJV_el3uVTsM8QoIIe9JrSDjB0e1UkbEC) <img src="youtube.svg" alt="YouTube" height="16">
+  > Teaching-assistant supplement sessions covering specialized topics such as Graph Neural Networks.
 
-- <a id="course-ai-12"></a>[Hung-yi Lee · Machine Learning-v1](https://www.youtube.com/watch?v=7XZR0-4uS5s&list=PLJV_el3uVTsPM2mM-OQzJXziCGJa8nJL8)<img src="youtube.svg" alt="YouTube" width="24">
-  > Learn about machine learning, where computers find patterns in data.
-
-- <a id="course-ai-11"></a>[Hung-yi Lee · Machine Learning-v2](https://www.youtube.com/watch?v=Ye018rCVvOo&list=PLJV_el3uVTsMhtt7_Y6sgTHGHp1Vb2P2J)<img src="youtube.svg" alt="YouTube" width="24">
-  > Learn about machine learning, where computers find patterns in data.
-
-- <a id="course-ai-13"></a>[Hung-yi Lee · Machine Learning: TA Supplement](https://www.youtube.com/watch?v=eybCCtNKwzA&list=PLJV_el3uVTsM8QoIIe9JrSDjB0e1UkbEC)<img src="youtube.svg" alt="YouTube" width="24">
-  > Learn about machine learning, where computers find patterns in data.
-
-- <a id="course-ai-15"></a>[MIT · Machine Learning](https://www.bilibili.com/BV1a7411M7wH)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-ai-15"></a>[MIT · Machine Learning](https://www.bilibili.com/BV1a7411M7wH) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how computers learn patterns from data and use them to make predictions.
 
-- <a id="course-ai-16"></a>[Stanford · Principles and Techniques of Artificial Intelligence](https://www.bilibili.com/BV1Ht4y1U75j)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-ai-11"></a>[NTU · Hung-yi Lee · Machine Learning (2021)](https://www.youtube.com/watch?v=Ye018rCVvOo&list=PLJV_el3uVTsMhtt7_Y6sgTHGHp1Vb2P2J) <img src="youtube.svg" alt="YouTube" height="16">
+  > 2021 edition of Hung-yi Lee's Machine Learning course introducing neural networks and deep learning from practical prediction tasks.
+
+- <a id="course-ai-12"></a>[NTU · Hung-yi Lee · Machine Learning (2022)](https://www.youtube.com/watch?v=7XZR0-4uS5s&list=PLJV_el3uVTsPM2mM-OQzJXziCGJa8nJL8) <img src="youtube.svg" alt="YouTube" height="16">
+  > Spring 2022 edition of Hung-yi Lee's Machine Learning lectures covering modern deep learning methods.
+
+- <a id="course-ai-10"></a>[NTU · Hung-yi Lee · Machine Learning (Classic)](https://www.youtube.com/watch?v=CXgbekl66jc&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49) <img src="youtube.svg" alt="YouTube" height="16">
+  > Systematic introduction to regression, classification, gradient descent, and neural network fundamentals.
+
+- <a id="course-ai-16"></a>[Stanford · Principles and Techniques of Artificial Intelligence](https://www.bilibili.com/BV1Ht4y1U75j) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore principles for building AI systems that search, reason and learn.
+
+- <a id="course-ai-17"></a>[UC Berkeley · CS 188](https://inst.eecs.berkeley.edu/~cs188/fa19/) <img src="icons/berkeley-seal.png" alt="UC Berkeley" height="16">
+  > Explore AI foundations through ideas such as search, reasoning and learning.
+
+- <a id="course-ai-18"></a>[UC Berkeley · CS 189](https://www.eecs189.org/) <img src="icons/berkeley-seal.png" alt="UC Berkeley" height="16">
+  > Explore how models learn from data and how their performance can be assessed.
 
 
 <a id="深度学习与生成模型--deep-learning-and-generative-models"></a>
 
 ### Deep learning and generative models
 
-- <a id="course-ai-09"></a>[Hung-yi Lee · Advanced Topics in Deep Learning](https://www.youtube.com/watch?v=IzHoNwlCGnE&list=PLJV_el3uVTsPMxPbjeX7PicgWbY7F8wW9)<img src="youtube.svg" alt="YouTube" width="24">
+- <a id="course-ai-09"></a>[Hung-yi Lee · Advanced Topics in Deep Learning](https://www.youtube.com/watch?v=IzHoNwlCGnE&list=PLJV_el3uVTsPMxPbjeX7PicgWbY7F8wW9) <img src="youtube.svg" alt="YouTube" height="16">
   > Explore advanced research topics in deep learning.
 
-- <a id="course-ai-07"></a>[Hung-yi Lee · Deep Learning Theory](https://www.youtube.com/watch?v=KKT2VkTdFyc)<img src="youtube.svg" alt="YouTube" width="24">
+- <a id="course-ai-07"></a>[Hung-yi Lee · Deep Learning Theory](https://www.youtube.com/watch?v=KKT2VkTdFyc) <img src="youtube.svg" alt="YouTube" height="16">
   > Explore theoretical ideas about why deep neural networks can work.
 
-- <a id="course-ai-20"></a>[Hung-yi Lee · GAN-2017](https://www.youtube.com/watch?v=G0dZc-8yIjE&list=PLJV_el3uVTsMd2G9ZjcpJn1YfnM9wVOBf)<img src="youtube.svg" alt="YouTube" width="24">
-  > Explore generative adversarial networks, where two models compete to help generate new data.
+- <a id="course-ai-20"></a>[Hung-yi Lee · Generative Adversarial Networks (2017)](https://www.youtube.com/watch?v=G0dZc-8yIjE&list=PLJV_el3uVTsMd2G9ZjcpJn1YfnM9wVOBf) <img src="youtube.svg" alt="YouTube" height="16">
+  > 2017 GAN lecture series introducing adversarial training between generator and discriminator networks.
 
-- <a id="course-ai-19"></a>[Hung-yi Lee · GAN-2018](https://www.youtube.com/watch?v=DQNNMiAP5lw&list=PLJV_el3uVTsMq6JEFPW35BCiOQTsoqwNw)<img src="youtube.svg" alt="YouTube" width="24">
-  > Explore generative adversarial networks, where two models compete to help generate new data.
+- <a id="course-ai-19"></a>[Hung-yi Lee · Generative Adversarial Networks (2018)](https://www.youtube.com/watch?v=DQNNMiAP5lw&list=PLJV_el3uVTsMq6JEFPW35BCiOQTsoqwNw) <img src="youtube.svg" alt="YouTube" height="16">
+  > 2018 updated GAN series exploring training improvements, conditional generation, and distribution alignment.
 
-- <a id="course-ai-08"></a>[Hung-yi Lee · Next Step of Machine Learning](https://www.youtube.com/watch?v=XnyM3-xtxHs&list=PLJV_el3uVTsOK_ZK5L0Iv_EQoL1JefRL4)<img src="youtube.svg" alt="YouTube" width="24">
+- <a id="course-ai-08"></a>[Hung-yi Lee · Next Step of Machine Learning](https://www.youtube.com/watch?v=XnyM3-xtxHs&list=PLJV_el3uVTsOK_ZK5L0Iv_EQoL1JefRL4) <img src="youtube.svg" alt="YouTube" height="16">
   > Consider possible next steps in machine learning.
 
-- <a id="course-ai-14"></a>[MIT · Deep Learning](https://www.bilibili.com/BV1qt411c7Na)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-ai-14"></a>[MIT · Deep Learning](https://www.bilibili.com/BV1qt411c7Na) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore deep learning, which uses multilayer neural networks to learn from data.
 
 
@@ -476,25 +476,25 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Statistical learning, structured learning and applications
 
-- <a id="course-ai-32"></a>[Caltech · Foundations of Machine Learning and Statistical Inference](https://www.bilibili.com/BV1uA411n7oV)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-ai-32"></a>[Caltech · Foundations of Machine Learning and Statistical Inference](https://www.bilibili.com/BV1uA411n7oV) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore foundations of learning and statistical inference from data.
 
-- <a id="course-ai-31"></a>[CMU · Machine Learning for Structured Data](https://www.bilibili.com/BV1MK4y1a7PS)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-ai-31"></a>[CMU · Machine Learning for Structured Data](https://www.bilibili.com/BV1MK4y1a7PS) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore machine learning for data with internal structure or relationships.
 
-- <a id="course-ai-33"></a>[Hung-yi Lee · Structured Learning](https://www.youtube.com/watch?v=5OYu0vxXEv8&list=PLJV_el3uVTsNHQKxv49vpq7NSn-zim18V)<img src="youtube.svg" alt="YouTube" width="24">
+- <a id="course-ai-33"></a>[Hung-yi Lee · Structured Learning](https://www.youtube.com/watch?v=5OYu0vxXEv8&list=PLJV_el3uVTsNHQKxv49vpq7NSn-zim18V) <img src="youtube.svg" alt="YouTube" height="16">
   > Explore how models can learn outputs that have relationships or structure.
 
-- <a id="course-ai-36"></a>[MIT · Machine Learning for Healthcare](https://www.bilibili.com/BV1oa411c7eD)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-ai-36"></a>[MIT · Machine Learning for Healthcare](https://www.bilibili.com/BV1oa411c7eD) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how machine learning can help analyze healthcare data.
 
-- <a id="course-ai-34"></a>[Stanford · Machine Learning with Graphs](https://www.bilibili.com/BV1Vg4y1z7Nf)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-ai-34"></a>[Stanford · Machine Learning with Graphs](https://www.bilibili.com/BV1Vg4y1z7Nf) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore machine learning on graphs made of nodes and connections.
 
-- <a id="course-ai-30"></a>[Stanford · Statistical Learning](https://www.bilibili.com/BV1NW41177q4)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-ai-30"></a>[Stanford · Statistical Learning](https://www.bilibili.com/BV1NW41177q4) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore statistical methods for modeling data and making predictions.
 
-- <a id="course-ai-29"></a>[UC Berkeley · Statistical Machine Learning](https://www.bilibili.com/BV1KA41157yn)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-ai-29"></a>[UC Berkeley · Statistical Machine Learning](https://www.bilibili.com/BV1KA41157yn) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how machines learn from data through a statistical lens.
 
 
@@ -506,21 +506,21 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Financial markets and theory
 
-- <a id="course-economics-01"></a>[Financial Markets](https://www.bilibili.com/BV1ab411b7jq) <img src="bilibili.svg" alt="Bilibili" height="16">
-  > Explore how financial markets connect investment, funding and risk.
-
-- <a id="course-economics-03"></a>[Financial Theory](https://www.bilibili.com/BV1Ft4112796) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-economics-03"></a>[MIT · Financial Theory](https://www.bilibili.com/BV1Ft4112796) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Use financial theory to understand asset values, investment and risk.
+
+- <a id="course-economics-01"></a>[Yale · Financial Markets](https://www.bilibili.com/BV1ab411b7jq) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > Explore how financial markets connect investment, funding and risk.
 
 
 <a id="微观与行为经济学--microeconomics-and-behavioral-economics"></a>
 
 ### Microeconomics and behavioral economics
 
-- <a id="course-economics-04"></a>[Behavioral Economics](https://www.bilibili.com/BV11U4y1g78u) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-economics-04"></a>[MIT · Behavioral Economics](https://www.bilibili.com/BV11U4y1g78u) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how psychology influences people’s economic choices.
 
-- <a id="course-economics-02"></a>[Microeconomics](https://www.bilibili.com/BV1MV411U75D) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-economics-02"></a>[MIT · Microeconomics](https://www.bilibili.com/BV1MV411U75D) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Study choices by people and firms and how supply and demand affect prices.
 
 
@@ -532,13 +532,13 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Astrophysics and fundamental theory
 
-- <a id="course-physics-04"></a>[General Relativity](https://www.bilibili.com/BV1tE411R75K) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-physics-04"></a>[Stanford · General Relativity](https://www.bilibili.com/BV1tE411R75K) <img src="bilibili.svg" alt="Bilibili" height="16">
   > See how general relativity explains gravity through curved spacetime.
 
-- <a id="course-physics-05"></a>[String Theory and M Theory](https://www.bilibili.com/BV1CE411Q7Cc) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-physics-05"></a>[Stanford · String Theory and M Theory](https://www.bilibili.com/BV1CE411Q7Cc) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore ideas in string theory and M-theory for describing fundamental physics.
 
-- <a id="course-physics-01"></a>[Yale ASTR 160 · Frontiers and Controversies in Astrophysics (Spring 2007)](https://oyc.yale.edu/astronomy/astr-160)（Open Yale Courses） · [Official Lecture 1](https://www.youtube.com/watch?v=nzmFc2gjUo4) <img src="youtube.svg" alt="YouTube" height="16"> · [Course videos](https://www.bilibili.com/video/BV1kroeBrEer/) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-physics-01"></a>[Yale ASTR 160 · Frontiers and Controversies in Astrophysics (Spring 2007)](https://oyc.yale.edu/astronomy/astr-160) <img src="icons/yale-mark.png" alt="Open Yale Courses" height="16"> · [Official Lecture 1](https://www.youtube.com/watch?v=nzmFc2gjUo4) <img src="youtube.svg" alt="YouTube" height="16"> · [Course videos](https://www.bilibili.com/video/BV1kroeBrEer/) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore exoplanets, black holes, and dark energy with Charles Bailyn, and learn how observational evidence helps assess unresolved scientific questions.
 
 
@@ -546,10 +546,10 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Mechanics and quantum physics
 
-- <a id="course-physics-02"></a>[MIT 8.01SC · Classical Mechanics (Fall 2016)](https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" width="24">（MIT OpenCourseWare） · [Week 1 Introduction](https://www.youtube.com/watch?v=i4u7SZjoAs4) <img src="youtube.svg" alt="YouTube" height="16"> · [Course videos](https://www.bilibili.com/video/BV1KQ4y1B7TJ/) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-physics-02"></a>[MIT 8.01SC · Classical Mechanics (Fall 2016)](https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16"> · [Week 1 Introduction](https://www.youtube.com/watch?v=i4u7SZjoAs4) <img src="youtube.svg" alt="YouTube" height="16"> · [Course videos](https://www.bilibili.com/video/BV1KQ4y1B7TJ/) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Study motion and forces through Newton’s laws, momentum, energy, and rotation, and practice using mathematics to describe and solve classical mechanics problems.
 
-- <a id="course-physics-03"></a>[Quantum Mechanics](https://www.bilibili.com/BV1w4411s7da) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-physics-03"></a>[Stanford · Quantum Mechanics](https://www.bilibili.com/BV1w4411s7da) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how quantum mechanics describes the microscopic world of atoms and particles.
 
 
@@ -561,27 +561,27 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Psychology foundations and research methods
 
-- <a id="course-psychology-03"></a>[Introduction to Psychology](https://www.bilibili.com/BV1Ps411Z7h1) <img src="bilibili.svg" alt="Bilibili" height="16">
-  > Discover how psychology studies thought, emotion and behavior.
+- <a id="course-psychology-05"></a>[Harvard · Introduction to Psychology (2021)](https://www.bilibili.com/BV1hZ4y1w7kd) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > 2021 lectures by Steven Pinker examining cognition, language, evolution, and human decision-making.
 
-- <a id="course-psychology-05"></a>[Introduction to Psychology](https://www.bilibili.com/BV1hZ4y1w7kd) <img src="bilibili.svg" alt="Bilibili" height="16">
-  > Learn how psychology investigates thoughts, feelings and behavior.
-
-- <a id="course-psychology-01"></a>[Psychological Statistics](https://www.bilibili.com/BV1UJ411c7d8) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-psychology-01"></a>[UC Berkeley · Psychological Statistics](https://www.bilibili.com/BV1UJ411c7d8) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Learn statistical methods for analyzing data from psychology research.
 
-- <a id="course-psychology-02"></a>[Social and Cognitive Psychology](https://www.bilibili.com/BV1Hx411u7SK) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-psychology-02"></a>[UC Berkeley · Social and Cognitive Psychology](https://www.bilibili.com/BV1Hx411u7SK) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how we understand others and how social settings shape thought.
+
+- <a id="course-psychology-03"></a>[Yale · Introduction to Psychology](https://www.bilibili.com/BV1Ps411Z7h1) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > Explore perception, memory, emotion, development, and social behavior in Yale's introductory psychology course.
 
 
 <a id="积极心理与幸福--positive-psychology-and-happiness"></a>
 
 ### Positive psychology and happiness
 
-- <a id="course-psychology-06"></a>[Happiness Course](https://www.bilibili.com/BV1px411d7xr) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-psychology-06"></a>[Harvard · Happiness Course](https://www.bilibili.com/BV1px411d7xr) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how happiness and life satisfaction can be understood and studied.
 
-- <a id="course-psychology-04"></a>[Positive Psychology](https://www.bilibili.com/BV1ga41127Zt) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-psychology-04"></a>[Harvard · Positive Psychology](https://www.bilibili.com/BV1ga41127Zt) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how psychology studies strengths, well-being and positive relationships.
 
 
@@ -593,17 +593,17 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### History, society and politics
 
-- <a id="course-social-03"></a>[Capitalism](https://www.bilibili.com/BV1x5411g7R5) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-social-01"></a>[Yale HIST 119 · The Civil War and Reconstruction Era, 1845–1877 (Spring 2008)](https://oyc.yale.edu/history/hist-119) <img src="icons/yale-mark.png" alt="Open Yale Courses" height="16"> · [Official Lecture 1](https://www.youtube.com/watch?v=QXXp1bHd6gI) <img src="youtube.svg" alt="YouTube" height="16"> · [Course videos](https://www.bilibili.com/video/BV1Ws411q7Lv/) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > Explore the causes and consequences of the American Civil War with David W. Blight, and learn how slavery, emancipation, and Reconstruction reshaped American society.
+
+- <a id="course-social-03"></a>[Yale · Capitalism](https://www.bilibili.com/BV1x5411g7R5) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore relationships among businesses, markets and society under capitalism.
 
-- <a id="course-social-02"></a>[Foundations of Modern Social Theory](https://www.bilibili.com/BV1ux411r736) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-social-02"></a>[Yale · Foundations of Modern Social Theory](https://www.bilibili.com/BV1ux411r736) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Discover how social thinkers explain society, institutions and human relationships.
 
-- <a id="course-social-04"></a>[Introduction to Political Philosophy](https://www.bilibili.com/BV1wx411y7uW) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-social-04"></a>[Yale · Introduction to Political Philosophy](https://www.bilibili.com/BV1wx411y7uW) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Think about government, freedom and justice through the questions of political thinkers.
-
-- <a id="course-social-01"></a>[Yale HIST 119 · The Civil War and Reconstruction Era, 1845–1877 (Spring 2008)](https://oyc.yale.edu/history/hist-119)（Open Yale Courses） · [Official Lecture 1](https://www.youtube.com/watch?v=QXXp1bHd6gI) <img src="youtube.svg" alt="YouTube" height="16"> · [Course videos](https://www.bilibili.com/video/BV1Ws411q7Lv/) <img src="bilibili.svg" alt="Bilibili" height="16">
-  > Explore the causes and consequences of the American Civil War with David W. Blight, and learn how slavery, emancipation, and Reconstruction reshaped American society.
 
 
 <a id="生物学-biology"></a>
@@ -614,7 +614,7 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Molecular and cellular biology
 
-- <a id="course-biology-02"></a>[MIT 7.016 · Introductory Biology (Fall 2018)](https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" width="24"> · [Official lecture videos](https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/video_galleries/lecture-videos/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16">
+- <a id="course-biology-02"></a>[MIT 7.016 · Introductory Biology (Fall 2018)](https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16"> · [Official lecture videos](https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/video_galleries/lecture-videos/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16">
   > Explore biochemistry, genetics, and cell biology to understand how genes, proteins, and cells work together, and how these principles inform research on health and disease.
 
 
@@ -622,7 +622,7 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Behavioral biology
 
-- <a id="course-biology-01"></a>[Human Behavioral Biology](https://www.bilibili.com/BV1FF411Y72Y) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-biology-01"></a>[Stanford · Human Behavioral Biology](https://www.bilibili.com/BV1FF411Y72Y) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how brains, bodies and environments interact to shape human behavior.
 
 
@@ -634,7 +634,7 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Metaphysics and philosophy of life
 
-- <a id="course-arts-03"></a>[Yale PHIL 176 · Death (Spring 2007)](https://oyc.yale.edu/death/phil-176)（Open Yale Courses）
+- <a id="course-arts-03"></a>[Yale PHIL 176 · Death (Spring 2007)](https://oyc.yale.edu/death/phil-176) <img src="icons/yale-mark.png" alt="Open Yale Courses" height="16">
   > Explore personal identity, mind and body, mortality, and the value of life while learning to compare arguments and examine philosophical positions.
 
 
@@ -642,7 +642,7 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Ethics and political philosophy
 
-- <a id="course-arts-05"></a>[Yale PHIL 181 · Philosophy and the Science of Human Nature (Spring 2011)](https://oyc.yale.edu/philosophy/phil-181)（Open Yale Courses） · [Official videos, audio, and transcripts](https://openmedia.yale.edu/projects/iphone/departments/phil/phil181.html) <img src="icons/yale-mark.png" alt="Open Yale Courses" height="16">
+- <a id="course-arts-05"></a>[Yale PHIL 181 · Philosophy and the Science of Human Nature (Spring 2011)](https://oyc.yale.edu/philosophy/phil-181) <img src="icons/yale-mark.png" alt="Open Yale Courses" height="16"> · [Official videos, audio, and transcripts](https://openmedia.yale.edu/projects/iphone/departments/phil/phil181.html) <img src="icons/yale-mark.png" alt="Open Yale Courses" height="16">
   > Join Tamar Gendler in comparing classic philosophy with cognitive science to ask what makes life go well, what counts as fair, and why people cooperate.
 
 
@@ -650,10 +650,10 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Poetry and aesthetics
 
-- <a id="course-arts-02"></a>[Aesthetics](https://www.bilibili.com/BV1av411e778) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-arts-02"></a>[Cambridge · Aesthetics](https://www.bilibili.com/BV1av411e778) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Consider what beauty is and why people respond differently to art.
 
-- <a id="course-arts-01"></a>[Yale ENGL 310 · Modern Poetry (Spring 2007)](https://oyc.yale.edu/english/engl-310)（Open Yale Courses） · [Official Lecture 1](https://www.youtube.com/watch?v=aG9el6hOjm8) <img src="youtube.svg" alt="YouTube" height="16">
+- <a id="course-arts-01"></a>[Yale ENGL 310 · Modern Poetry (Spring 2007)](https://oyc.yale.edu/english/engl-310) <img src="icons/yale-mark.png" alt="Open Yale Courses" height="16"> · [Official Lecture 1](https://www.youtube.com/watch?v=aG9el6hOjm8) <img src="youtube.svg" alt="YouTube" height="16">
   > Read modern English-language poetry closely with Langdon Hammer, exploring poets such as Frost, Yeats, and Eliot through historical context and literary criticism.
 
 
@@ -661,7 +661,7 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Architecture and urban history
 
-- <a id="course-arts-04"></a>[Yale HSAR 252 · Roman Architecture (Spring 2009)](https://oyc.yale.edu/history-of-art/hsar-252)（Open Yale Courses） · [Course videos](https://www.bilibili.com/video/BV1ht411s7zq/) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-arts-04"></a>[Yale HSAR 252 · Roman Architecture (Spring 2009)](https://oyc.yale.edu/history-of-art/hsar-252) <img src="icons/yale-mark.png" alt="Open Yale Courses" height="16"> · [Course videos](https://www.bilibili.com/video/BV1ht411s7zq/) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore Roman buildings, urban planning, and decoration with Diana E. E. Kleiner, learning how temples, baths, theaters, and homes reveal life in ancient cities.
 
 
@@ -673,10 +673,10 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Interdisciplinary methods and research writing
 
-- <a id="course-other-01"></a>[Geometric Folding Algorithms](https://www.bilibili.com/BV14q4y1R7Ra) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-other-01"></a>[MIT · Geometric Folding Algorithms](https://www.bilibili.com/BV14q4y1R7Ra) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Use algorithms to study how paper, linkages and polyhedra can fold.
 
-- <a id="course-other-03"></a>[Scientific Paper Writing](https://www.bilibili.com/BV1zv41177JQ) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-other-03"></a>[Stanford · Scientific Paper Writing](https://www.bilibili.com/BV1zv41177JQ) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Learn to write and explain scientific research more clearly.
 
 
@@ -684,13 +684,13 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Entrepreneurship, communication and personal development
 
-- <a id="course-other-02"></a>[How to Start a Startup](https://www.bilibili.com/BV1KK4y1s7mY) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-other-02"></a>[Stanford · How to Start a Startup](https://www.bilibili.com/BV1KK4y1s7mY) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how an idea can grow into a startup.
 
-- <a id="course-other-09"></a>[Introduction to Negotiation](https://www.bilibili.com/BV13T4y1L7AT) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-other-09"></a>[Yale · Introduction to Negotiation](https://www.bilibili.com/BV13T4y1L7AT) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Learn to analyze each side’s goals and seek outcomes they can accept.
 
-- <a id="course-other-08"></a>[Managing Emotions](https://www.bilibili.com/BV1KK4y1P7Df) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-other-08"></a>[Yale · Managing Emotions](https://www.bilibili.com/BV1KK4y1P7Df) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore ways to recognize emotions and respond to stress.
 
 
@@ -698,17 +698,17 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Literature, music and humanities
 
-- <a id="course-other-07"></a>[Introduction to Literary Theory](https://www.bilibili.com/BV15s411x7LU) <img src="bilibili.svg" alt="Bilibili" height="16">
-  > Explore how literary theory helps us ask questions and interpret writing.
-
-- <a id="course-other-06"></a>[Listening to Music](https://www.bilibili.com/BV1sW411a7nM) <img src="bilibili.svg" alt="Bilibili" height="16">
-  > Learn to listen more closely to rhythm, melody and musical structure.
-
 - <a id="course-other-05"></a>[Luo Xiang on Criminal Law](https://www.bilibili.com/BV1dj411f7vb) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore criminal law and its basic questions through Luo Xiang’s explanations.
 
-- <a id="course-other-04"></a>[Ou Lijuan on Dream of the Red Chamber](https://www.bilibili.com/BV1hp4y1t7zq) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-other-04"></a>[NTU · Ou Lijuan on Dream of the Red Chamber](https://www.bilibili.com/BV1hp4y1t7zq) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore characters and culture in Dream of the Red Chamber with Ou Lijuan.
+
+- <a id="course-other-07"></a>[Yale · Introduction to Literary Theory](https://www.bilibili.com/BV15s411x7LU) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > Explore how literary theory helps us ask questions and interpret writing.
+
+- <a id="course-other-06"></a>[Yale · Listening to Music](https://www.bilibili.com/BV1sW411a7nM) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > Learn to listen more closely to rhythm, melody and musical structure.
 
 
 <a id="技术博客-technical-blogs"></a>

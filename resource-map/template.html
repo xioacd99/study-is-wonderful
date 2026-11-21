@@ -11,22 +11,25 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 button{border:1px solid #dde6da;background:#fff;border-radius:10px;padding:9px 12px;font-size:12px;transition:background .15s,box-shadow .15s,opacity .15s}
 button:hover{background:#eef5ea;box-shadow:0 3px 10px #2d6a5412}
 a{color:#2d6a54;text-decoration:none}
-.shell{display:grid;grid-template-columns:236px minmax(0,1fr);max-width:1800px;margin:auto;height:calc(100vh - 36px);min-height:640px;border:1px solid #dfe7dd;border-radius:24px;overflow:hidden;background:#fff;box-shadow:0 16px 65px #22443309}
-.sidebar{padding:24px 18px;background:#fbfcf9;border-right:1px solid #e6ece3;display:flex;flex-direction:column;overflow-y:auto}
+.shell{display:grid;grid-template-columns:244px minmax(0,1fr);max-width:1800px;margin:auto;height:calc(100vh - 36px);min-height:640px;border:1px solid #dfe7dd;border-radius:24px;overflow:hidden;background:#fff;box-shadow:0 16px 65px #22443309}
+.sidebar{padding:22px 18px;background:#fbfcf9;border-right:1px solid #e6ece3;display:flex;flex-direction:column;overflow-y:auto}
 .brand{display:flex;align-items:center;gap:10px;font-size:10px;letter-spacing:1.1px;font-weight:650;color:#62786c}
 .brand img{width:38px;height:38px;object-fit:contain}
 .eyebrow{display:none}
-h1{font-size:28px;letter-spacing:-.8px;line-height:1.15;margin:28px 0 10px;font-weight:650}
-.sidebar p{font-size:12px;line-height:1.65;color:#738578;margin:0 0 24px}
-.nav-label{font-size:10px;color:#8fa093;letter-spacing:1.4px;text-transform:uppercase;margin:6px 10px 10px}
+h1{font-size:27px;letter-spacing:-.8px;line-height:1.15;margin:22px 0 8px;font-weight:650}
+.sidebar p{font-size:12px;line-height:1.65;color:#738578;margin:0 0 16px}
+#mode-switch{display:grid;grid-template-columns:1fr 1fr;gap:3px;padding:3px;background:#eef3eb;border-radius:11px;margin-bottom:14px}
+#mode-switch button{border:0;background:none;padding:8px 6px;font-size:11.5px;font-weight:550;color:#63776a;border-radius:8px;white-space:nowrap}
+#mode-switch button[aria-selected=true]{background:#fff;color:#225a46;font-weight:650;box-shadow:0 2px 6px #2d553e12}
+.nav-label{font-size:10px;color:#8fa093;letter-spacing:1.4px;text-transform:uppercase;margin:4px 10px 8px}
 #subject-nav{display:grid;gap:3px}
-#subject-nav button{display:flex;justify-content:space-between;align-items:center;border:0;background:none;text-align:left;padding:10px 12px;font-size:12px;color:#687a6d;border-radius:10px}
+#subject-nav button{display:flex;justify-content:space-between;align-items:center;border:0;background:none;text-align:left;padding:9px 12px;font-size:12px;color:#687a6d;border-radius:10px;gap:6px}
 #subject-nav button[aria-pressed=true]{background:#e8f1e6;color:#275d48;font-weight:650}
-#subject-nav button span:last-child{font-size:10px;color:#889b8d}
+#subject-nav button span:last-child{font-size:10px;color:#889b8d;flex-shrink:0}
 #subject-filter{display:none}
 .workspace{min-width:0;min-height:0;display:flex;flex-direction:column}
-.topbar{height:76px;flex-shrink:0;display:flex;align-items:center;gap:16px;padding:14px 26px;border-bottom:1px solid #e7ede4}
-#search{border:1px solid transparent;background:#f1f5ee;padding:11px 16px;border-radius:12px;min-width:0;flex:1;max-width:460px;font-size:13px;transition:border-color .15s,background .15s}
+.topbar{height:74px;flex-shrink:0;display:flex;align-items:center;gap:16px;padding:14px 26px;border-bottom:1px solid #e7ede4}
+#search{border:1px solid transparent;background:#f1f5ee;padding:11px 16px;border-radius:12px;min-width:0;flex:1;max-width:480px;font-size:13px;transition:border-color .15s,background .15s}
 #search:focus{background:#fff;border-color:#b8cab9}
 #search::placeholder{color:#8fa090}
 #language{margin-left:auto;display:flex;gap:3px;padding:3px;background:#f1f5ee;border-radius:10px}
@@ -38,7 +41,10 @@ h1{font-size:28px;letter-spacing:-.8px;line-height:1.15;margin:28px 0 10px;font-
 .crumb-btn{border:0;background:none;padding:0;font-size:15px;font-weight:500;color:#2d6a54}
 .crumb-btn:hover{background:none;box-shadow:none;text-decoration:underline}
 .crumb-sep{color:#9ab09e;font-weight:400}
+.status-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 #status{font-size:11px;color:#7e9182}
+#cross-hint{border:1px solid #d5e2d3;background:#f2f7ef;color:#275d48;padding:3px 9px;border-radius:999px;font-size:11px;font-weight:550}
+#cross-hint:hover{background:#e6f0e1}
 #views{display:flex;gap:2px;padding:3px;background:#f1f5ee;border-radius:10px;flex-shrink:0}
 #views button{border:0;background:none;font-size:11px;padding:7px 12px}
 #views button[aria-pressed=true]{background:#fff;color:#2d6a54;box-shadow:0 2px 6px #304a3110}
@@ -55,7 +61,7 @@ circle.orbit{fill:none;stroke:#c8d6c7;stroke-width:1;stroke-dasharray:4 6;opacit
 .node{position:absolute;text-align:left;white-space:normal;overflow:hidden;box-shadow:0 4px 16px #2a473208;border-radius:14px;transition:opacity .15s,box-shadow .15s,transform .15s}
 .node.dimmed{opacity:.18!important}
 .root{width:190px;height:86px;border:0!important;background:linear-gradient(125deg,#1f5644,#3a745c)!important;color:#fff;box-shadow:0 10px 26px #2d6a542b}
-.subject{width:210px;min-height:70px;border:1px solid #dde6d8;border-top:3px solid var(--accent);background:#fff;padding:12px 16px}
+.subject{width:214px;min-height:70px;border:1px solid #dde6d8;border-top:3px solid var(--accent);background:#fff;padding:12px 16px}
 .group{width:236px;min-height:68px;background:#f3f7ee;border:1px solid #d8e4ce;padding:12px 16px}
 .course{width:228px;min-height:60px;background:#fff;padding:10px 14px}
 .node .title{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:12.5px;line-height:1.4;font-weight:560}
@@ -66,7 +72,7 @@ circle.orbit{fill:none;stroke:#c8d6c7;stroke-width:1;stroke-dasharray:4 6;opacit
 .canvas-tools button{border:0;background:none;padding:8px 11px;font-size:11px}
 .canvas-tools button:hover{background:#edf4e6}
 .tool-separator{height:18px;width:1px;background:#e1e8d9;margin:0 3px}
-#tooltip{position:absolute;z-index:5;pointer-events:none;background:#1e352d;color:#f6faf4;padding:8px 12px;border-radius:10px;font-size:12px;line-height:1.45;max-width:290px;box-shadow:0 10px 28px #12261e38}
+#tooltip{position:absolute;z-index:5;pointer-events:none;background:#1e352d;color:#f6faf4;padding:8px 12px;border-radius:10px;font-size:12px;line-height:1.45;max-width:300px;box-shadow:0 10px 28px #12261e38}
 #tooltip strong{display:block;font-weight:600}
 #tooltip span{display:block;font-size:10.5px;color:#bed2c4;margin-top:2px}
 footer{display:flex;justify-content:space-between;gap:12px;padding:0 26px 18px;font-size:10.5px;color:#7d9180}
@@ -97,6 +103,7 @@ body[data-view=list] .node{position:static!important;width:auto!important;height
 body[data-view=list] .subject{margin-top:16px}
 body[data-view=list] .group{margin-left:18px}
 body[data-view=list] .course{margin-left:36px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+body[data-view=list][data-mode=blogs] .course{margin-left:18px}
 body[data-view=list] .course .course-src{margin-top:0;flex-shrink:0}
 body[data-view=list] .title{display:block}
 body[data-view=list] .canvas-tools{position:static;transform:none;align-self:center;margin:10px auto 12px;box-shadow:0 2px 12px #28462c0d}
@@ -139,9 +146,10 @@ body.lod-topics[data-view=map] .course:before{content:'';display:block;width:22p
   .brand{font-size:9px;letter-spacing:1px}
   .brand img{width:28px;height:28px}
   .sidebar h1{margin:12px 0 4px;font-size:24px}
-  .sidebar p{margin:0;font-size:11px}
+  .sidebar p{margin:0 0 12px;font-size:11px}
+  #mode-switch{margin-bottom:10px}
   .nav-label,#subject-nav{display:none}
-  #subject-filter{display:block;border:1px solid #dce5da;background:#fff;border-radius:10px;padding:9px 10px;font-size:12px;width:100%;margin-top:12px}
+  #subject-filter{display:block;border:1px solid #dce5da;background:#fff;border-radius:10px;padding:9px 10px;font-size:12px;width:100%;margin-top:0}
   .topbar{height:auto;padding:10px 16px;border:0;gap:8px}
   #search{font-size:12px;padding:10px 12px}
   #language{flex-shrink:0}
@@ -151,8 +159,8 @@ body.lod-topics[data-view=map] .course:before{content:'';display:block;width:22p
   #status{font-size:10px}
   #views button{font-size:10px;padding:7px 9px}
   .canvas-wrap{margin:0 10px 10px;border-radius:16px}
-  #viewport{height:calc(100dvh - 300px);min-height:340px;flex:none}
-  body[data-view=list] #viewport{height:auto;min-height:320px;padding:4px 10px 12px}
+  #viewport{height:calc(100dvh - 320px);min-height:330px;flex:none}
+  body[data-view=list] #viewport{height:auto;min-height:300px;padding:4px 10px 12px}
   #graph{width:var(--graph-width)!important;height:var(--graph-height)!important;transform:scale(var(--zoom))!important}
   #space{width:var(--space-width)!important;height:var(--space-height)!important}
   .canvas-tools{bottom:10px;gap:0;padding:4px;max-width:calc(100% - 16px)}
@@ -164,33 +172,40 @@ body.lod-topics[data-view=map] .course:before{content:'';display:block;width:22p
   dialog h2 .title{font-size:19px}
   body[data-view=list] .group{margin-left:10px}
   body[data-view=list] .course{margin-left:20px;flex-direction:column;align-items:flex-start;gap:4px}
+  body[data-view=list][data-mode=blogs] .course{margin-left:10px}
 }
 </style></head><body>
-<div class="shell"><aside class="sidebar"><div class="brand"><img src="icon.png?v=teal-orbit-3" alt="" width="38" height="38"><span>STUDY IS WONDERFUL</span></div><div class="eyebrow" id="eyebrow"></div><h1 id="app-title"></h1><p id="tagline"></p><div class="nav-label" id="nav-label"></div><div id="subject-nav"></div><select id="subject-filter"></select></aside><section class="workspace"><header class="topbar"><input id="search" type="search"><nav id="language" aria-label="Language"><button id="zh" lang="zh-CN">中文</button><button id="en" lang="en">English</button></nav></header><div class="canvas-head"><div class="canvas-copy"><span class="canvas-title" id="canvas-title"></span><span id="status" aria-live="polite"></span></div><div id="views"><button id="map-view"></button><button id="list-view"></button></div></div><div class="canvas-wrap"><main id="viewport" tabindex="0"><div id="space"><div id="graph"></div></div></main><div id="tooltip" role="tooltip" hidden></div><div class="canvas-tools"><button id="expand"></button><button id="collapse"></button><span class="tool-separator"></span><button id="minus">−</button><button id="plus">＋</button><button id="fit"></button><button id="home"></button></div></div><footer><span id="hint"></span><a id="readme" target="_blank" rel="noopener"></a></footer></section></div>
+<div class="shell"><aside class="sidebar"><div class="brand"><img src="icon.png?v=teal-orbit-3" alt="" width="38" height="38"><span>STUDY IS WONDERFUL</span></div><div class="eyebrow" id="eyebrow"></div><h1 id="app-title"></h1><p id="tagline"></p><div id="mode-switch" role="tablist"><button id="mode-courses" type="button" role="tab"></button><button id="mode-blogs" type="button" role="tab"></button></div><div class="nav-label" id="nav-label"></div><div id="subject-nav"></div><select id="subject-filter"></select></aside><section class="workspace"><header class="topbar"><input id="search" type="search"><nav id="language" aria-label="Language"><button id="zh" lang="zh-CN">中文</button><button id="en" lang="en">English</button></nav></header><div class="canvas-head"><div class="canvas-copy"><span class="canvas-title" id="canvas-title"></span><div class="status-row"><span id="status" aria-live="polite"></span><button id="cross-hint" type="button" hidden></button></div></div><div id="views"><button id="map-view"></button><button id="list-view"></button></div></div><div class="canvas-wrap"><main id="viewport" tabindex="0"><div id="space"><div id="graph"></div></div></main><div id="tooltip" role="tooltip" hidden></div><div class="canvas-tools"><button id="expand"></button><button id="collapse"></button><span class="tool-separator"></span><button id="minus">−</button><button id="plus">＋</button><button id="fit"></button><button id="home"></button></div></div><footer><span id="hint"></span><a id="readme" target="_blank" rel="noopener"></a></footer></section></div>
 <dialog id="detail"><button id="return"></button><div class="drawer-crumb" id="drawer-crumb"></div><h2 id="detail-title"></h2><p id="description"></p><div class="sources" id="sources"></div><div class="siblings-head" id="siblings-head"></div><div class="siblings" id="siblings"></div></dialog>
 <script>
 const COURSES=/*__COURSES__*/;
-const graph=document.querySelector('#graph'),viewport=document.querySelector('#viewport'),space=document.querySelector('#space'),dialog=document.querySelector('#detail'),tooltip=document.querySelector('#tooltip');
+const BLOGS=/*__BLOGS__*/;
+const graph=document.querySelector('#graph'),viewport=document.querySelector('#viewport'),space=document.querySelector('#space'),dialog=document.querySelector('#detail'),tooltip=document.querySelector('#tooltip'),crossHint=document.querySelector('#cross-hint');
 let lang='zh';try{lang=localStorage.getItem('study-language')==='en'?'en':'zh'}catch{}
 const UI={
-  zh:{title:'学习星图',eyebrow:'让好奇心，连接下一程',tagline:'循着兴趣展开，找到下一门好课。',search:'搜索课程、学校、平台或主题…',expand:'全部展开',collapse:'全部收起',home:'返回全景',back:'← 返回星图',hint:'点击主题展开，点击课程查看介绍与学习入口。',readme:'在目录中定位',empty:'没有找到课程，试试其他关键词。',root:'学习资源',course:'门课程',subject:'学科',visible:'门已展开',minus:'缩小',plus:'放大',fit:'适应画布',all:'全部学科',filter:'选择学科',map:'知识图谱',list:'分层列表',gesture:'滚轮缩放 · 拖动探索 · 悬停查看简介 · 连线仅表示学科归属（不代表先修）',open:'打开课程入口',siblings:'同主题其他课程'},
-  en:{title:'Learning, connected.',eyebrow:'STUDY IS WONDERFUL',tagline:'Follow your curiosity. Find your next course.',search:'Search courses, schools, platforms or topics…',expand:'Expand all',collapse:'Collapse all',home:'Overview',back:'← Back to map',hint:'Expand a topic. Select a course for details and learning links.',readme:'Locate in catalog',empty:'No courses found. Try another keyword.',root:'Learning resources',course:'courses',subject:'subjects',visible:'visible',minus:'Zoom out',plus:'Zoom in',fit:'Fit view',all:'All subjects',filter:'Choose subject',map:'Knowledge graph',list:'List',gesture:'Scroll to zoom · Drag to pan · Hover for preview · Edges show catalog membership (not prerequisites)',open:'Open course',siblings:'More in this topic'}
+  zh:{title:'学习星图',eyebrow:'让好奇心，连接下一程',tagline:'循着兴趣展开，找到下一门好课。',search:'搜索课程、文章、机构或主题…',expand:'全部展开',collapse:'全部收起',home:'返回全景',back:'← 返回星图',hint:'点击主题展开，点击条目查看介绍与入口。',readme:'在目录中定位',empty:'没有找到匹配内容，试试其他关键词。',root:'学习资源',blogRoot:'技术博客',course:'门课程',blog:'篇文章',subject:'学科',topic:'专题',visible:'项已展开',minus:'缩小',plus:'放大',fit:'适应画布',all:'全部学科',allTopics:'全部专题',filter:'选择分类',map:'知识图谱',list:'分层列表',gesture:'滚轮缩放 · 拖动探索 · 悬停查看简介 · 连线仅表示目录归属（不代表先修）',open:'打开课程入口',readBlog:'阅读原文',siblings:'同主题其他课程',siblingBlogs:'同专题其他文章',tabCourses:'课程',tabBlogs:'技术博客',exploreSubjects:'探索学科',exploreBlogs:'技术专题',overviewTitle:'知识的每一条路径',blogsTitle:'前沿工程与研究阅读',alsoBlogs:n=>`技术博客中也有 ${n} 篇匹配 →`,alsoCourses:n=>`课程中也有 ${n} 门匹配 →`},
+  en:{title:'Learning, connected.',eyebrow:'STUDY IS WONDERFUL',tagline:'Follow your curiosity. Find your next course.',search:'Search courses, articles, schools or topics…',expand:'Expand all',collapse:'Collapse all',home:'Overview',back:'← Back to map',hint:'Expand a topic. Select an item for details and links.',readme:'Locate in catalog',empty:'No matching items found. Try another keyword.',root:'Learning resources',blogRoot:'Tech blogs',course:'courses',blog:'articles',subject:'subjects',topic:'topics',visible:'visible',minus:'Zoom out',plus:'Zoom in',fit:'Fit view',all:'All subjects',allTopics:'All topics',filter:'Choose category',map:'Knowledge graph',list:'List',gesture:'Scroll to zoom · Drag to pan · Hover for preview · Edges show catalog membership (not prerequisites)',open:'Open course',readBlog:'Read article',siblings:'More in this topic',siblingBlogs:'More in this topic',tabCourses:'Courses',tabBlogs:'Tech Blogs',exploreSubjects:'EXPLORE SUBJECTS',exploreBlogs:'BLOG TOPICS',overviewTitle:'Every path starts with curiosity',blogsTitle:'Engineering & research reading',alsoBlogs:n=>`${n} matches in Tech Blogs →`,alsoCourses:n=>`${n} matches in Courses →`}
 };
-const local=c=>c.locales[lang];
-const label=(s,kind)=>local(COURSES.find(c=>c[kind]===s))[kind];
-const subjects=[...new Set(COURSES.map(c=>c.subject))];
-const expanded=new Set();
-const graphFolded=new Set();
+const local=item=>item.locales[lang];
 const palette=['#2d7a64','#c48a3a','#3b6fa0','#c4654a','#7b5fa3','#2c8c8c','#6c8c3e','#b04f62','#a88435','#4e5d94'];
-let zoom=1,lastNode=null,query='',view=window.innerWidth<=760?'list':'map',selected='',graphCollapsed=false,userCollapsed=false,graphWidth=1000,graphHeight=590;
-let currentNodes=[],currentEdges=[];
+let mode='courses',zoom=1,lastNode=null,query='',view=window.innerWidth<=760?'list':'map',selected='',graphCollapsed=false,userCollapsed=false,graphWidth=1000,graphHeight=590;
+const expanded=new Set(),graphFolded=new Set();
+let currentNodes=[];
+
+const activeData=()=>mode==='blogs'?BLOGS:COURSES;
+const catField=()=>mode==='blogs'?'group':'subject';
+const categories=()=>[...new Set(activeData().map(x=>x[catField()]))];
+const label=(val,kind)=>local(activeData().find(x=>x[kind]===val))[kind];
+const matchesQuery=(item,q)=>!q||(item.title+' '+item.description+' '+item.subject+' '+item.group+' '+item.links.map(l=>(l.source||'')+' '+l.url).join(' ')).toLocaleLowerCase().includes(q);
 
 function applyLanguage(){
   const t=UI[lang];
   document.documentElement.lang=lang==='zh'?'zh-CN':'en';
   document.title=t.title+' · Study Is Wonderful';
-  for(const [id,k] of Object.entries({'app-title':'title',eyebrow:'eyebrow',tagline:'tagline',expand:'expand',collapse:'collapse',home:'home',fit:'fit',return:'back','map-view':'map','list-view':'list','siblings-head':'siblings'}))
+  for(const [id,k] of Object.entries({'app-title':'title',eyebrow:'eyebrow',tagline:'tagline',expand:'expand',collapse:'collapse',home:'home',fit:'fit',return:'back','map-view':'map','list-view':'list'}))
     document.getElementById(id).textContent=t[k];
+  document.querySelector('#mode-courses').textContent=`${t.tabCourses} (${COURSES.length})`;
+  document.querySelector('#mode-blogs').textContent=`${t.tabBlogs} (${BLOGS.length})`;
   const input=document.querySelector('#search');
   input.placeholder=t.search;input.setAttribute('aria-label',t.search);
   document.querySelector('#minus').setAttribute('aria-label',t.minus);
@@ -198,19 +213,19 @@ function applyLanguage(){
   viewport.setAttribute('aria-label',t.title);
   document.querySelector('#readme').href='https://github.com/xioacd99/study-is-wonderful/blob/dev/'+(lang==='zh'?'README.md':'README-en.md')+'#resource-map';
   document.querySelector('#readme').textContent=lang==='zh'?'阅读完整目录 ↗':'Browse full catalog ↗';
-  const select=document.querySelector('#subject-filter');
-  select.setAttribute('aria-label',t.filter);select.replaceChildren();
-  for(const value of ['',...subjects]){
-    const option=document.createElement('option');
-    option.value=value;option.textContent=value?label(value,'subject'):t.all;
-    select.append(option);
-  }
-  select.value=selected;
   for(const l of ['zh','en'])document.getElementById(l).setAttribute('aria-pressed',String(lang===l));
   render();
   if(view==='map')fit();
 }
 for(const l of ['zh','en'])document.getElementById(l).onclick=()=>{lang=l;try{localStorage.setItem('study-language',l)}catch{}applyLanguage()};
+
+function setMode(next){
+  if(mode===next)return;
+  mode=next;selected='';graphCollapsed=false;userCollapsed=false;expanded.clear();graphFolded.clear();
+  render();if(view==='map')fit();else viewport.scrollTo(0,0);
+}
+document.querySelector('#mode-courses').onclick=()=>setMode('courses');
+document.querySelector('#mode-blogs').onclick=()=>setMode('blogs');
 
 function titleEl(el,text){const a=document.createElement('span');a.className='title';a.textContent=text;el.append(a)}
 function node(cls,x,y,text,fn){
@@ -280,7 +295,8 @@ function fit(){
 function focusSubject(s){
   graphCollapsed=false;userCollapsed=false;selected=s;
   expanded.clear();expanded.add(s);
-  if(view==='list')COURSES.filter(c=>c.subject===s).forEach(c=>expanded.add(c.subject+'|'+c.group));
+  const field=catField();
+  if(view==='list'&&mode==='courses')activeData().filter(c=>c[field]===s).forEach(c=>expanded.add(c.subject+'|'+c.group));
   document.querySelector('#subject-filter').value=s;
   render();if(view==='map')fit();else viewport.scrollTo(0,0);
 }
@@ -298,85 +314,124 @@ function drawEdges(edges,width,height){
 }
 
 function renderTitle(){
-  const box=document.querySelector('#canvas-title');
+  const t=UI[lang],box=document.querySelector('#canvas-title');
   box.replaceChildren();
+  const baseAll=mode==='blogs'?t.allTopics:t.all;
   if(!selected){
-    box.textContent=lang==='zh'?'知识的每一条路径':'Every path starts with curiosity';
+    box.textContent=mode==='blogs'?t.blogsTitle:t.overviewTitle;
     return;
   }
   const allBtn=document.createElement('button');
-  allBtn.type='button';allBtn.className='crumb-btn';allBtn.textContent=UI[lang].all;
+  allBtn.type='button';allBtn.className='crumb-btn';allBtn.textContent=baseAll;
   allBtn.onclick=home;
   const sep=document.createElement('span');sep.className='crumb-sep';sep.textContent='/';
-  const cur=document.createElement('span');cur.textContent=label(selected,'subject');
+  const cur=document.createElement('span');cur.textContent=label(selected,catField());
   box.append(allBtn,sep,cur);
 }
 
 function render(){
   hideTooltip();
-  document.querySelector('#nav-label').textContent=lang==='zh'?'探索学科':'EXPLORE SUBJECTS';
+  const t=UI[lang],items=activeData(),cats=categories(),field=catField();
+  document.body.dataset.mode=mode;
+  document.body.dataset.view=view;
+  document.querySelector('#mode-courses').setAttribute('aria-selected',String(mode==='courses'));
+  document.querySelector('#mode-blogs').setAttribute('aria-selected',String(mode==='blogs'));
+  document.querySelector('#nav-label').textContent=mode==='blogs'?t.exploreBlogs:t.exploreSubjects;
   renderTitle();
+
+  const select=document.querySelector('#subject-filter');
+  select.setAttribute('aria-label',t.filter);select.replaceChildren();
+  for(const value of ['',...cats]){
+    const option=document.createElement('option');
+    option.value=value;option.textContent=value?label(value,field):(mode==='blogs'?t.allTopics:t.all);
+    select.append(option);
+  }
+  select.value=selected;
+
   const nav=document.querySelector('#subject-nav');nav.replaceChildren();
-  for(const s of ['',...subjects]){
+  for(const s of ['',...cats]){
     const b=document.createElement('button');b.setAttribute('aria-pressed',String(s===selected));
-    const name=document.createElement('span');name.textContent=s?label(s,'subject'):UI[lang].all;
-    const count=document.createElement('span');count.textContent=s?COURSES.filter(c=>c.subject===s).length:COURSES.length;
+    const name=document.createElement('span');name.textContent=s?label(s,field):(mode==='blogs'?t.allTopics:t.all);
+    const count=document.createElement('span');count.textContent=s?items.filter(c=>c[field]===s).length:items.length;
     b.append(name,count);b.onclick=()=>s?focusSubject(s):home();nav.append(b);
   }
-  document.body.dataset.view=view;
+
   document.querySelector('#map-view').setAttribute('aria-pressed',String(view==='map'));
   document.querySelector('#list-view').setAttribute('aria-pressed',String(view==='list'));
-  document.querySelector('#hint').textContent=UI[lang][view==='map'?'gesture':'hint'];
+  document.querySelector('#hint').textContent=t[view==='map'?'gesture':'hint'];
   graph.replaceChildren();
   const q=query.trim().toLocaleLowerCase();
-  const shown=subjects.filter(s=>!selected||s===selected).map(s=>({
+  const shown=cats.filter(s=>!selected||s===selected).map(s=>({
     s,
-    c:COURSES.filter(c=>c.subject===s&&(!q||(c.title+' '+c.description+' '+c.subject+' '+c.group+' '+c.links.map(l=>(l.source||'')+' '+l.url).join(' ')).toLocaleLowerCase().includes(q)))
+    c:items.filter(c=>c[field]===s&&matchesQuery(c,q))
   })).filter(x=>x.c.length);
+
+  // Cross-tab search hint
+  if(q){
+    const other=mode==='courses'?BLOGS:COURSES;
+    const otherHits=other.filter(x=>matchesQuery(x,q)).length;
+    if(otherHits>0){
+      crossHint.hidden=false;
+      crossHint.textContent=mode==='courses'?t.alsoBlogs(otherHits):t.alsoCourses(otherHits);
+      crossHint.onclick=()=>setMode(mode==='courses'?'blogs':'courses');
+    }else crossHint.hidden=true;
+  }else crossHint.hidden=true;
 
   if(view==='map'){renderKnowledge(shown);return}
 
   if(!q&&!userCollapsed&&expanded.size===0){
     if(selected){
       expanded.add(selected);
-      COURSES.filter(c=>c.subject===selected).forEach(c=>expanded.add(c.subject+'|'+c.group));
+      if(mode==='courses')items.filter(c=>c.subject===selected).forEach(c=>expanded.add(c.subject+'|'+c.group));
     }else{
-      subjects.forEach(s=>expanded.add(s));
+      cats.forEach(s=>expanded.add(s));
     }
   }
+  const unit=mode==='blogs'?t.blog:t.course,catUnit=mode==='blogs'?t.topic:t.subject;
   const edges=[];let y=24,n=0;
   for(const {s,c} of shown){
     const open=expanded.has(s)||!!q,start=y,groupPositions=[];
     if(open){
-      for(const g of [...new Set(c.map(x=>x.group))]){
-        const gc=c.filter(x=>x.group===g),key=s+'|'+g,go=expanded.has(key)||!!q,gh=go?gc.length*96:98,gy=y+gh/2-34;
-        const gb=node('group',570,gy,label(g,'group'),()=>{expanded.has(key)?expanded.delete(key):expanded.add(key);userCollapsed=expanded.size===0;render()});
-        gb.setAttribute('aria-expanded',String(go));gb.dataset.group=key;gb.style.setProperty('--order',String(subjects.indexOf(s)*1000+c.indexOf(gc[0])*2+1));
-        const ct=document.createElement('span');ct.className='count';ct.textContent=(go?'− ':'＋ ')+gc.length+' '+UI[lang].course;gb.append(ct);
-        groupPositions.push(gy+34);
-        if(go)gc.forEach((course,i)=>{
-          const cy=y+i*96,b=node('course',900,cy,local(course).title,()=>show(course,b));
-          b.dataset.course=course.id;b.style.setProperty('--order',String(subjects.indexOf(s)*1000+c.indexOf(course)*2+2));
-          const src=document.createElement('span');src.className='course-src';src.textContent=[...new Set(course.links.map(l=>l.source).filter(Boolean))].join(' · ');
+      if(mode==='blogs'){
+        c.forEach((item,i)=>{
+          const cy=y+i*94,b=node('course',570,cy,local(item).title,()=>show(item,b));
+          b.dataset.course=item.id;b.style.setProperty('--order',String(cats.indexOf(s)*1000+i+1));
+          const src=document.createElement('span');src.className='course-src';src.textContent=item.links[0]?.source||'';
           if(src.textContent)b.append(src);
-          edges.push([820,gy+34,900,cy+34]);n++;
+          groupPositions.push(cy+34);n++;
         });
-        y+=gh+20;
+        y+=c.length*94+20;
+      }else{
+        for(const g of [...new Set(c.map(x=>x.group))]){
+          const gc=c.filter(x=>x.group===g),key=s+'|'+g,go=expanded.has(key)||!!q,gh=go?gc.length*96:98,gy=y+gh/2-34;
+          const gb=node('group',570,gy,label(g,'group'),()=>{expanded.has(key)?expanded.delete(key):expanded.add(key);userCollapsed=expanded.size===0;render()});
+          gb.setAttribute('aria-expanded',String(go));gb.dataset.group=key;gb.style.setProperty('--order',String(cats.indexOf(s)*1000+c.indexOf(gc[0])*2+1));
+          const ct=document.createElement('span');ct.className='count';ct.textContent=(go?'− ':'＋ ')+gc.length+' '+unit;gb.append(ct);
+          groupPositions.push(gy+34);
+          if(go)gc.forEach((course,i)=>{
+            const cy=y+i*96,b=node('course',900,cy,local(course).title,()=>show(course,b));
+            b.dataset.course=course.id;b.style.setProperty('--order',String(cats.indexOf(s)*1000+c.indexOf(course)*2+2));
+            const src=document.createElement('span');src.className='course-src';src.textContent=[...new Set(course.links.map(l=>l.source).filter(Boolean))].join(' · ');
+            if(src.textContent)b.append(src);
+            edges.push([820,gy+34,900,cy+34]);n++;
+          });
+          y+=gh+20;
+        }
       }
     }else y+=112;
     const sy=start+(y-start-20)/2-34;
-    const b=node('subject',280,sy,label(s,'subject'),()=>{expanded.has(s)?expanded.delete(s):expanded.add(s);userCollapsed=expanded.size===0;render()});
-    b.style.setProperty('--accent',palette[subjects.indexOf(s)%palette.length]);
-    b.setAttribute('aria-expanded',String(open));b.dataset.subject=s;b.style.setProperty('--order',String(subjects.indexOf(s)*1000));
-    const count=document.createElement('span');count.className='count';count.textContent=(open?'− ':'＋ ')+c.length+' '+UI[lang].course;b.append(count);
+    const b=node('subject',280,sy,label(s,field),()=>{expanded.has(s)?expanded.delete(s):expanded.add(s);userCollapsed=expanded.size===0;render()});
+    b.style.setProperty('--accent',palette[cats.indexOf(s)%palette.length]);
+    b.setAttribute('aria-expanded',String(open));b.dataset.subject=s;b.style.setProperty('--order',String(cats.indexOf(s)*1000));
+    const count=document.createElement('span');count.className='count';count.textContent=(open?'− ':'＋ ')+c.length+' '+unit;b.append(count);
     edges.push([235,null,280,sy+34]);for(const gy of groupPositions)edges.push([510,sy+34,570,gy]);
   }
   const height=Math.max(440,y),width=1280,rootY=height/2;
-  node('root',30,rootY-43,UI[lang].root,()=>home());
+  node('root',30,rootY-43,mode==='blogs'?t.blogRoot:t.root,()=>home());
   edges.forEach(e=>{if(e[1]===null)e[1]=rootY});
   drawEdges(edges,width,height);sizeGraph(width,height);
-  document.querySelector('#status').textContent=`${COURSES.length} ${UI[lang].course} · ${shown.length} ${UI[lang].subject}`+(n?` · ${n} ${UI[lang].visible}`:'');
-  if(!shown.length){const empty=document.createElement('p');empty.id='empty';empty.textContent=UI[lang].empty;graph.append(empty)}
+  document.querySelector('#status').textContent=`${items.length} ${unit} · ${shown.length} ${catUnit}`+(n?` · ${n} ${t.visible}`:'');
+  if(!shown.length){const empty=document.createElement('p');empty.id='empty';empty.textContent=t.empty;graph.append(empty)}
 }
 
 function hideTooltip(){tooltip.hidden=true;document.querySelectorAll('.dimmed').forEach(el=>el.classList.remove('dimmed'));document.querySelectorAll('.highlighted').forEach(el=>el.classList.remove('highlighted'))}
@@ -405,12 +460,13 @@ function showSpotlight(nodeObj,el){
   tooltip.replaceChildren();
   const strong=document.createElement('strong');strong.textContent=nodeObj.text;tooltip.append(strong);
   const sub=document.createElement('span');
+  const unit=mode==='blogs'?UI[lang].blog:UI[lang].course;
   if(nodeObj.course){
     const d=local(nodeObj.course);
     const srcs=[...new Set(d.links.map(l=>l.source).filter(Boolean))].join(' · ');
-    sub.textContent=d.subject+' › '+d.group+(srcs?' · '+srcs:'');
+    sub.textContent=(mode==='blogs'?d.group:d.subject+' › '+d.group)+(srcs?' · '+srcs:'');
   }else if(nodeObj.count){
-    sub.textContent=nodeObj.count+' '+UI[lang].course;
+    sub.textContent=nodeObj.count+' '+unit;
   }
   if(sub.textContent)tooltip.append(sub);
   tooltip.hidden=false;
@@ -422,55 +478,74 @@ function showSpotlight(nodeObj,el){
 }
 
 function renderKnowledge(shown){
+  const t=UI[lang],items=activeData(),cats=categories(),field=catField(),unit=mode==='blogs'?t.blog:t.course,catUnit=mode==='blogs'?t.topic:t.subject;
   const nodes=[],links=[];
   const singleHub=Boolean(selected&&shown.length===1);
   let hub;
   if(singleHub){
     const {s,c}=shown[0];
-    const color=palette[subjects.indexOf(s)%palette.length];
-    hub={id:s,cls:'subject',text:label(s,'subject'),x:0,y:0,w:200,h:68,fn:home,color,count:c.length};
+    const color=palette[cats.indexOf(s)%palette.length];
+    hub={id:s,cls:'subject',text:label(s,field),x:0,y:0,w:204,h:68,fn:home,color,count:c.length};
     nodes.push(hub);
   }else{
-    hub={id:'root',cls:'root',text:UI[lang].root,x:0,y:0,w:148,h:74,fn:home};
+    hub={id:'root',cls:'root',text:mode==='blogs'?t.blogRoot:t.root,x:0,y:0,w:148,h:74,fn:home};
     nodes.push(hub);
   }
   const add=(id,cls,text,x,y,w,h,parent,fn,color)=>{const n={id,cls,text,x,y,w,h,parent,fn,color};nodes.push(n);links.push([parent,n]);return n};
 
   if(singleHub){
     const {s,c}=shown[0];
-    const groups=[...new Set(c.map(x=>x.group))];
-    const groupRadius=Math.max(250,Math.min(340,210+groups.length*14));
-    groups.forEach((g,gi)=>{
-      const ga=-Math.PI/2+gi*Math.PI*2/Math.max(1,groups.length);
-      const gc=c.filter(x=>x.group===g),key=s+'|'+g;
-      const group=add(key,'group',label(g,'group'),Math.cos(ga)*groupRadius,Math.sin(ga)*groupRadius,196,60,hub,()=>{graphFolded.has(key)?graphFolded.delete(key):graphFolded.add(key);render();fit()},hub.color);
-      group.count=gc.length;
-      if(graphFolded.has(key)&&!query)return;
-      gc.forEach((course,ci)=>{
-        const ca=ga+(ci-(gc.length-1)/2)*.36;
-        const dist=165+(ci%2)*55;
-        const cn=add(course.id,'course',local(course).title,group.x+Math.cos(ca)*dist,group.y+Math.sin(ca)*dist,212,58,group,null,hub.color);
-        cn.course=course;
+    if(mode==='blogs'){
+      const ringRadius=Math.max(250,Math.min(360,210+c.length*9));
+      c.forEach((item,ci)=>{
+        const angle=-Math.PI/2+ci*Math.PI*2/Math.max(1,c.length);
+        const cn=add(item.id,'course',local(item).title,Math.cos(angle)*(ringRadius+(ci%2)*60),Math.sin(angle)*(ringRadius+(ci%2)*60),218,58,hub,null,hub.color);
+        cn.course=item;
       });
-    });
-  }else{
-    shown.forEach(({s,c},si)=>{
-      const angle=-Math.PI/2+si*Math.PI*2/Math.max(1,shown.length),radius=640;
-      const sub=add(s,'subject',label(s,'subject'),Math.cos(angle)*radius,Math.sin(angle)*radius,190,64,hub,()=>focusSubject(s),palette[subjects.indexOf(s)%palette.length]);
-      sub.count=c.length;
-      if(graphCollapsed&&!query)return;
+    }else{
       const groups=[...new Set(c.map(x=>x.group))];
+      const groupRadius=Math.max(250,Math.min(340,210+groups.length*14));
       groups.forEach((g,gi)=>{
-        const ga=angle+(gi-(groups.length-1)/2)*.68,gc=c.filter(x=>x.group===g),key=s+'|'+g;
-        const group=add(key,'group',label(g,'group'),sub.x+Math.cos(ga)*270,sub.y+Math.sin(ga)*270,188,58,sub,()=>{graphFolded.has(key)?graphFolded.delete(key):graphFolded.add(key);render()},sub.color);
+        const ga=-Math.PI/2+gi*Math.PI*2/Math.max(1,groups.length);
+        const gc=c.filter(x=>x.group===g),key=s+'|'+g;
+        const group=add(key,'group',label(g,'group'),Math.cos(ga)*groupRadius,Math.sin(ga)*groupRadius,196,60,hub,()=>{graphFolded.has(key)?graphFolded.delete(key):graphFolded.add(key);render();fit()},hub.color);
         group.count=gc.length;
         if(graphFolded.has(key)&&!query)return;
         gc.forEach((course,ci)=>{
-          const ca=ga+(ci-(gc.length-1)/2)*.46;
-          const n=add(course.id,'course',local(course).title,group.x+Math.cos(ca)*(185+ci%2*60),group.y+Math.sin(ca)*(185+ci%2*60),210,56,group,null,sub.color);
-          n.course=course;
+          const ca=ga+(ci-(gc.length-1)/2)*.36;
+          const dist=165+(ci%2)*55;
+          const cn=add(course.id,'course',local(course).title,group.x+Math.cos(ca)*dist,group.y+Math.sin(ca)*dist,212,58,group,null,hub.color);
+          cn.course=course;
         });
       });
+    }
+  }else{
+    shown.forEach(({s,c},si)=>{
+      const angle=-Math.PI/2+si*Math.PI*2/Math.max(1,shown.length),radius=mode==='blogs'?420:640;
+      const sub=add(s,'subject',label(s,field),Math.cos(angle)*radius,Math.sin(angle)*radius,196,64,hub,()=>focusSubject(s),palette[cats.indexOf(s)%palette.length]);
+      sub.count=c.length;
+      if(graphCollapsed&&!query)return;
+      if(mode==='blogs'){
+        c.forEach((item,ci)=>{
+          const ca=angle+(ci-(c.length-1)/2)*.26;
+          const dist=230+(ci%3)*65;
+          const n=add(item.id,'course',local(item).title,sub.x+Math.cos(ca)*dist,sub.y+Math.sin(ca)*dist,214,56,sub,null,sub.color);
+          n.course=item;
+        });
+      }else{
+        const groups=[...new Set(c.map(x=>x.group))];
+        groups.forEach((g,gi)=>{
+          const ga=angle+(gi-(groups.length-1)/2)*.68,gc=c.filter(x=>x.group===g),key=s+'|'+g;
+          const group=add(key,'group',label(g,'group'),sub.x+Math.cos(ga)*270,sub.y+Math.sin(ga)*270,188,58,sub,()=>{graphFolded.has(key)?graphFolded.delete(key):graphFolded.add(key);render()},sub.color);
+          group.count=gc.length;
+          if(graphFolded.has(key)&&!query)return;
+          gc.forEach((course,ci)=>{
+            const ca=ga+(ci-(gc.length-1)/2)*.46;
+            const n=add(course.id,'course',local(course).title,group.x+Math.cos(ca)*(185+ci%2*60),group.y+Math.sin(ca)*(185+ci%2*60),210,56,group,null,sub.color);
+            n.course=course;
+          });
+        });
+      }
     });
   }
 
@@ -492,7 +567,7 @@ function renderKnowledge(shown){
     }
     for(const [a,b]of links){
       const bi=nodes.indexOf(b),ai=nodes.indexOf(a),dx=b.x-a.x,dy=b.y-a.y,d=Math.max(1,Math.hypot(dx,dy));
-      const target=b.cls==='subject'?640:b.cls==='group'?(singleHub?290:240):(singleHub?175:170);
+      const target=b.cls==='subject'?(mode==='blogs'?420:640):b.cls==='group'?(singleHub?290:240):(mode==='blogs'?(singleHub?270:220):(singleHub?175:170));
       const k=(d-target)*.026;
       force[bi].x-=dx/d*k;force[bi].y-=dy/d*k;force[ai].x+=dx/d*k;force[ai].y+=dy/d*k;
     }
@@ -513,7 +588,7 @@ function renderKnowledge(shown){
   const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');
   svg.setAttribute('width',width);svg.setAttribute('height',height);
   const cx=hub.x-minX,cy=hub.y-minY;
-  for(const r of (singleHub?[280,460]:[560,840,1120])){
+  for(const r of (singleHub?[280,460]:mode==='blogs'?[380,680]:[560,840,1120])){
     const ring=document.createElementNS(svg.namespaceURI,'circle');
     ring.setAttribute('class','orbit');ring.setAttribute('cx',cx);ring.setAttribute('cy',cy);ring.setAttribute('r',r);
     svg.append(ring);
@@ -528,7 +603,7 @@ function renderKnowledge(shown){
   }
   graph.append(svg);
 
-  currentNodes=nodes;currentEdges=links;
+  currentNodes=nodes;
   for(const n of nodes){
     const el=node(n.cls,n.x-n.w/2-minX,n.y-n.h/2-minY,n.text,()=>n.course?show(n.course,el):n.fn());
     el.style.width=n.w+'px';el.style.height=n.h+'px';el.style.minHeight=n.h+'px';
@@ -538,7 +613,7 @@ function renderKnowledge(shown){
       const srcs=[...new Set(local(n.course).links.map(l=>l.source).filter(Boolean))];
       if(srcs.length){const s=document.createElement('span');s.className='course-src';s.textContent=srcs[0];el.append(s)}
     }else if(n.id!=='root'){
-      const count=document.createElement('span');count.className='count';count.textContent=n.count+' '+UI[lang].course;el.append(count);
+      const count=document.createElement('span');count.className='count';count.textContent=n.count+' '+unit;el.append(count);
     }
     el.dataset.graphNode=n.id;
     if(n.parent)el.dataset.parent=n.parent.id;
@@ -550,13 +625,13 @@ function renderKnowledge(shown){
     if(n.cls==='group')el.addEventListener('dblclick',e=>{e.stopPropagation();const r=el.getBoundingClientRect();applyZoom(.9,r.left+r.width/2,r.top+r.height/2)});
   }
   sizeGraph(width,height);
-  document.querySelector('#status').textContent=`${nodes.filter(n=>n.course).length} / ${COURSES.length} ${UI[lang].course} · ${shown.length} ${UI[lang].subject}`;
-  if(!shown.length){const empty=document.createElement('p');empty.id='empty';empty.textContent=UI[lang].empty;graph.append(empty)}
+  document.querySelector('#status').textContent=`${nodes.filter(n=>n.course).length} / ${items.length} ${unit} · ${shown.length} ${catUnit}`;
+  if(!shown.length){const empty=document.createElement('p');empty.id='empty';empty.textContent=t.empty;graph.append(empty)}
 }
 
 function show(c,b){
   if(b)lastNode=b;
-  const d=local(c);
+  const t=UI[lang],d=local(c),isBlog=mode==='blogs';
   document.querySelector('#drawer-crumb').textContent=d.subject+' › '+d.group;
   const heading=document.querySelector('#detail-title');heading.replaceChildren();titleEl(heading,d.title);
   document.querySelector('#description').textContent=d.description;
@@ -564,21 +639,23 @@ function show(c,b){
   for(const link of d.links){
     const a=document.createElement('a');
     const src=link.source||'';
-    const labelText=src?(link.label===d.title?src+' · '+UI[lang].open:src+' · '+link.label):link.label;
+    const actionLabel=isBlog?t.readBlog:t.open;
+    const labelText=src?(link.label===d.title?src+' · '+actionLabel:src+' · '+link.label):link.label;
     const tSpan=document.createElement('span');tSpan.textContent=labelText;
     const arrow=document.createElement('span');arrow.textContent='↗';
     a.append(tSpan,arrow);
     a.href=link.url;a.target='_blank';a.rel='noopener noreferrer';sources.append(a);
   }
   const readme=document.createElement('a');
-  const rSpan=document.createElement('span');rSpan.textContent=UI[lang].readme;
+  const rSpan=document.createElement('span');rSpan.textContent=t.readme;
   const rArrow=document.createElement('span');rArrow.textContent='↗';
   readme.append(rSpan,rArrow);
-  readme.href='https://github.com/xioacd99/study-is-wonderful/blob/dev/'+(lang==='zh'?'README.md':'README-en.md')+'#'+c.id;
+  readme.href='https://github.com/xioacd99/study-is-wonderful/blob/dev/'+(lang==='zh'?'README.md':'README-en.md')+'#'+(isBlog?'技术博客-technical-blogs':c.id);
   readme.target='_blank';readme.rel='noopener';sources.append(readme);
 
-  const siblings=COURSES.filter(x=>x.subject===c.subject&&x.group===c.group&&x.id!==c.id);
+  const siblings=activeData().filter(x=>x.subject===c.subject&&x.group===c.group&&x.id!==c.id);
   const sibHead=document.querySelector('#siblings-head'),sibList=document.querySelector('#siblings');
+  sibHead.textContent=isBlog?t.siblingBlogs:t.siblings;
   sibList.replaceChildren();
   sibHead.hidden=siblings.length===0;
   for(const s of siblings){
@@ -600,7 +677,7 @@ dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoun
 
 function home(){graphCollapsed=false;userCollapsed=false;graphFolded.clear();selected='';document.querySelector('#subject-filter').value='';query='';document.querySelector('#search').value='';expanded.clear();render();if(view==='map')fit();else viewport.scrollTo(0,0)}
 document.querySelector('#home').onclick=home;
-document.querySelector('#expand').onclick=()=>{graphCollapsed=false;userCollapsed=false;graphFolded.clear();COURSES.forEach(c=>{expanded.add(c.subject);expanded.add(c.subject+'|'+c.group)});render();if(view==='map')fit()};
+document.querySelector('#expand').onclick=()=>{graphCollapsed=false;userCollapsed=false;graphFolded.clear();activeData().forEach(c=>{expanded.add(c[catField()]);expanded.add(c.subject+'|'+c.group)});render();if(view==='map')fit()};
 document.querySelector('#collapse').onclick=()=>{graphCollapsed=true;userCollapsed=true;expanded.clear();query='';document.querySelector('#search').value='';render();if(view==='map')fit()};
 
 let searchTimer=null;
