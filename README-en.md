@@ -8,7 +8,7 @@ Great courses across disciplines. Follow your curiosity.
 
 [简体中文](README.md) · [English](README-en.md)
 
-[153 courses](#目录-contents) · [10 subjects](#目录-contents) · [60 articles](#技术博客-technical-blogs)
+[153 courses](#目录-contents) · [10 subjects](#目录-contents) · [64 articles](#技术博客-technical-blogs)
 
 [Suggest a resource](https://github.com/xioacd99/study-is-wonderful/issues) · [Contribute](https://github.com/xioacd99/study-is-wonderful/pulls)
 
@@ -61,7 +61,7 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Mathematical thinking and games
 
-- <a id="course-math-26"></a>[Game Theory](https://www.bilibili.com/BV1Kt411h7Ep)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-math-26"></a>[Game Theory](https://www.bilibili.com/BV1Kt411h7Ep)<img src="bilibili.svg" alt="Bilibili" width="36"> · [Official Yale course](https://oyc.yale.edu/economics/econ-159)（Open Yale Courses）
   > Study strategies when each person’s choices affect others.
 
 - <a id="course-math-02"></a>[Mathematical Thinking](https://www.bilibili.com/BV1dq4y127TF)<img src="bilibili.svg" alt="Bilibili" width="36">
@@ -715,6 +715,9 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Agents and AI coding
 
+- [Build Tool-Calling Parsers in Rust with AI Agents](https://developer.nvidia.com/blog/build-tool-calling-parsers-in-rust-with-ai-agents/) NVIDIA Technical Blog <img src="icons/nvidia.svg" alt="NVIDIA" width="24">
+  > See how shared cross-model tests check parsers against split tool calls, incomplete JSON, and malformed input.
+
 - [Research acceleration: The jagged frontier](https://openai.com/index/research-acceleration-jagged-frontier/) <img src="icons/openai.png" alt="OpenAI" width="24">
   > Compare how agents handle training monitoring, experiment launches, and inference coding in OpenAI’s internal studies, and see why speedups vary by task.
 
@@ -821,6 +824,15 @@ Within each topic, courses are sorted by English title. Different course version
 <a id="工程基础设施-engineering-infrastructure"></a>
 
 ### Engineering infrastructure
+
+- [Reducing Rollout Bottlenecks in Reinforcement Learning with NVIDIA Dynamo](https://developer.nvidia.com/blog/reducing-rollout-bottlenecks-in-reinforcement-learning-with-nvidia-dynamo/) NVIDIA Technical Blog <img src="icons/nvidia.svg" alt="NVIDIA" width="24">
+  > See how Dynamo balances cache reuse with worker load during distributed rollouts and delivers fresh weights to inference workers.
+
+- [Introducing object enrichments: Transform unstructured data into agent-ready context](https://cloud.google.com/blog/products/storage-data-transfer/cost-effective-ai-context-extraction-from-unstructured-gcs-data) Google Cloud Blog <img src="icons/google-cloud.png" alt="Google Cloud" width="24">
+  > See how image labeling and PDF classification can make files in object storage easier for search and agents to find.
+
+- [Keeping Agents Fast: High-Interactivity Decode with FlyDSL MonoKernels in vLLM](https://vllm.ai/blog/2026-11-18-flydsl-monokernels) vLLM Blog
+  > Learn how fused kernels reduce dispatch and synchronization overhead during decoding on AMD GPUs, and which interactive workloads benefit.
 
 - [Sparse Attention Co-Design for Long-Context Inference](https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference/) <img src="icons/nvidia.svg" alt="NVIDIA" width="24">
   > See how sparse attention shifts work to indexing and candidate selection, and how GPU memory traffic shapes token- and block-level designs.

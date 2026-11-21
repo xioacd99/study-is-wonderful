@@ -8,7 +8,7 @@
 
 [简体中文](README.md) · [English](README-en.md)
 
-[153 门课程](#目录-contents) · [10 个学科](#目录-contents) · [60 篇技术文章](#技术博客-technical-blogs)
+[153 门课程](#目录-contents) · [10 个学科](#目录-contents) · [64 篇技术文章](#技术博客-technical-blogs)
 
 [推荐资源](https://github.com/xioacd99/study-is-wonderful/issues) · [参与共建](https://github.com/xioacd99/study-is-wonderful/pulls)
 
@@ -61,7 +61,7 @@
 
 ### 数学思维与博弈
 
-- <a id="course-math-26"></a>[博弈论](https://www.bilibili.com/BV1Kt411h7Ep)<img src="bilibili.svg" alt="Bilibili" width="36">
+- <a id="course-math-26"></a>[博弈论](https://www.bilibili.com/BV1Kt411h7Ep)<img src="bilibili.svg" alt="Bilibili" width="36"> · [耶鲁大学官方课程](https://oyc.yale.edu/economics/econ-159)（Open Yale Courses）
   > 研究当每个人的选择都会影响别人时，如何分析策略。
 
 - <a id="course-math-02"></a>[数学思维课](https://www.bilibili.com/BV1dq4y127TF)<img src="bilibili.svg" alt="Bilibili" width="36">
@@ -715,6 +715,9 @@
 
 ### 智能体与 AI 编程
 
+- [用 Rust 编写模型工具调用解析器](https://developer.nvidia.com/blog/build-tool-calling-parsers-in-rust-with-ai-agents/) NVIDIA Technical Blog <img src="icons/nvidia.svg" alt="NVIDIA" width="24">
+  > 了解如何用跨模型测试检查工具调用解析器是否能处理分块输出、不完整的 JSON 和异常输入。
+
 - [科研加速：智能体擅长什么、又卡在哪里](https://openai.com/index/research-acceleration-jagged-frontier/) <img src="icons/openai.png" alt="OpenAI" width="24">
   > 通过内部任务和使用数据，比较智能体在监控训练、启动实验和编写推理代码上的表现，了解不同环节为什么提速不一。
 
@@ -821,6 +824,15 @@
 <a id="工程基础设施-engineering-infrastructure"></a>
 
 ### 工程基础设施
+
+- [用 NVIDIA Dynamo 缓解强化学习采样瓶颈](https://developer.nvidia.com/blog/reducing-rollout-bottlenecks-in-reinforcement-learning-with-nvidia-dynamo/) NVIDIA Technical Blog <img src="icons/nvidia.svg" alt="NVIDIA" width="24">
+  > 看 Dynamo 如何在分布式采样中兼顾缓存复用与工作进程负载，并把更新后的权重送到推理工作进程。
+
+- [从 Cloud Storage 的图片和 PDF 提取智能体上下文](https://cloud.google.com/blog/products/storage-data-transfer/cost-effective-ai-context-extraction-from-unstructured-gcs-data) Google Cloud Blog <img src="icons/google-cloud.png" alt="Google Cloud" width="24">
+  > 了解如何给对象存储里的图片打标签、给 PDF 分类，让搜索系统和智能体更容易找到相关材料。
+
+- [用 FlyDSL 融合内核降低 vLLM 解码延迟](https://vllm.ai/blog/2026-11-18-flydsl-monokernels) vLLM Blog
+  > 了解 AMD GPU 上的融合内核怎样减少解码时的小内核调度与同步开销，以及这一做法适合哪些交互式请求。
 
 - [稀疏注意力：长上下文推理的模型与 GPU 协同设计](https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference/) <img src="icons/nvidia.svg" alt="NVIDIA" width="24">
   > 了解稀疏注意力如何把部分开销转移到索引和候选筛选，以及 GPU 访存如何影响逐词元与分块方案的性能。
