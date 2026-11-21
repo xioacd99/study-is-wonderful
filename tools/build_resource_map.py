@@ -119,24 +119,17 @@ def source_wall(text):
         x=(n%cols)*cell_w;y=(n//cols)*cell_h
         name=html.escape(r['name'])
         out.append(f'<g data-source="{r["id"]}"><title>{name}</title>')
-        if 'path' in r:
-            path=ROOT/r['path'];raw=path.read_bytes()
-            if hashlib.sha256(raw).hexdigest()!=r['sha256']:raise ValueError('Source icon changed; verify provenance: '+r['path'])
-            w=r['header_width'];data=base64.b64encode(raw).decode('ascii')
-            out.append(f'<image x="{x+(cell_w-w)/2:g}" y="{y+8}" width="{w}" height="42" preserveAspectRatio="xMidYMid meet" xlink:href="data:{mime[path.suffix]};base64,{data}"/>')
-        else:
-            # Mark the same grid slot with the actual source name rather than a logo.
-            out.append(f'<rect x="{x+10}" y="{y+12}" width="100" height="34" rx="8" fill="#e2e8f0"/>')
-            words=r['name'].split()
-            name_rows=['']
-            for word in words:
-                if name_rows[-1] and len(name_rows[-1])+len(word)>16:
-                    name_rows.append(word)
-                else:
-                    name_rows[-1]=(' '.join([name_rows[-1],word])).strip()
-            for nline,row in enumerate(name_rows):
-                baseline=y+31-6*(len(name_rows)-1)+12*nline
-                out.append(f'<text x="{x+cell_w/2:g}" y="{baseline}" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#334155">{html.escape(row)}</text>')
+        if not r.get('path') or not r.get('sha256'):
+            raise ValueError('Register a verified source-wall logo for '+r['id'])
+        path=ROOT/r['path'];raw=path.read_bytes()
+        if hashlib.sha256(raw).hexdigest()!=r['sha256']:
+            raise ValueError('Source icon changed; verify provenance: '+r['path'])
+        w=r['header_width'];data=base64.b64encode(raw).decode('ascii')
+        if r.get('light_backdrop'):
+            # Keep a dark mark legible on GitHub dark mode without recoloring the artwork.
+            left=x+(cell_w-w)/2-3;top=y+7
+            out.append(f'<path fill="#fff" d="M{left+4:g},{top:g}h{w-2}q4,0 4,4v36q0,4 -4,4h-{w-2}q-4,0 -4,-4v-36q0,-4 4,-4z"/>')
+        out.append(f'<image x="{x+(cell_w-w)/2:g}" y="{y+8}" width="{w}" height="42" preserveAspectRatio="xMidYMid meet" xlink:href="data:{mime[path.suffix]};base64,{data}"/>')
         out.append(f'<text x="{x+cell_w/2:g}" y="{y+67}" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#64748b">{name}</text></g>')
     return '\n'.join(out+['</svg>'])+'\n'
 

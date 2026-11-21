@@ -105,9 +105,9 @@ class MapTests(unittest.TestCase):
   images=doc.findall('.//s:image',ns)
   cells=doc.findall('./s:g',ns)
   self.assertEqual([cell.attrib['data-source'] for cell in cells],ids)
-  self.assertEqual(len(images),sum('path' in r for r in records))
-  self.assertEqual({cell.attrib['data-source'] for cell in cells if cell.find('./s:rect',ns) is not None},
-                   {r['id'] for r in records if 'path' not in r})
+  self.assertEqual(len(images),len(records))
+  self.assertTrue(all(cell.find('./s:image',ns) is not None for cell in cells))
+  self.assertFalse(any(cell.find('./s:rect',ns) is not None for cell in cells))
   rows={}
   for n,cell in enumerate(cells):
    text=cell.findall('./s:text',ns)[-1]
@@ -134,6 +134,11 @@ class MapTests(unittest.TestCase):
   self.assertEqual([r['id'] for r in builder.source_records(sample)],['bilibili','princeton'])
   with self.assertRaisesRegex(ValueError,'Review source attribution after link change'):
    builder.source_records(sample.replace('BV1FL411K7vK','BV1Different'))
+ def test_source_wall_rejects_text_placeholders(self):
+  from unittest.mock import patch
+  with patch.object(builder,'source_records',return_value=[{'id':'missing-logo','name':'Missing logo'}]):
+   with self.assertRaisesRegex(ValueError,'Register a verified source-wall logo for missing-logo'):
+    builder.source_wall(self.text)
  def test_source_wall_is_idempotent(self):
   for lang,text in [('zh',self.text),('en',self.english)]:
    self.assertEqual(builder.refresh_header(text,lang),text)
