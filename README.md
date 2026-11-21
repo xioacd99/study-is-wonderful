@@ -8,7 +8,7 @@
 
 [简体中文](README.md) · [English](README-en.md)
 
-[153 门课程](#目录-contents) · [10 个学科](#目录-contents) · [64 篇技术文章](#技术博客-technical-blogs)
+[154 门课程](#目录-contents) · [10 个学科](#目录-contents) · [64 篇技术文章](#技术博客-technical-blogs)
 
 [推荐资源](https://github.com/xioacd99/study-is-wonderful/issues) · [参与共建](https://github.com/xioacd99/study-is-wonderful/pulls)
 
@@ -640,6 +640,14 @@
 
 - <a id="course-arts-03"></a>[耶鲁 PHIL 176·死亡（2007 春季）](https://oyc.yale.edu/death/phil-176)（Open Yale Courses）
   > 从人格同一性、心灵与身体等问题出发，讨论死亡、永生与生命价值，学习比较论证并检视自己的哲学立场。
+
+
+<a id="伦理学与政治哲学--ethics-and-political-philosophy"></a>
+
+### 伦理学与政治哲学
+
+- <a id="course-arts-05"></a>[耶鲁 PHIL 181·人性的哲学与科学（2011 春季）](https://oyc.yale.edu/philosophy/phil-181)（Open Yale Courses） · [官方视频、音频与讲稿](https://openmedia.yale.edu/projects/iphone/departments/phil/phil181.html)（Open Yale Courses）
+  > 跟随 Tamar Gendler 对照经典哲学与认知科学，探讨何为幸福、怎样判断公平，以及人们为何合作。
 
 
 <a id="诗歌与美学--poetry-and-aesthetics"></a>

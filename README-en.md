@@ -8,7 +8,7 @@ Great courses across disciplines. Follow your curiosity.
 
 [简体中文](README.md) · [English](README-en.md)
 
-[153 courses](#目录-contents) · [10 subjects](#目录-contents) · [64 articles](#技术博客-technical-blogs)
+[154 courses](#目录-contents) · [10 subjects](#目录-contents) · [64 articles](#技术博客-technical-blogs)
 
 [Suggest a resource](https://github.com/xioacd99/study-is-wonderful/issues) · [Contribute](https://github.com/xioacd99/study-is-wonderful/pulls)
 
@@ -640,6 +640,14 @@ Within each topic, courses are sorted by English title. Different course version
 
 - <a id="course-arts-03"></a>[Yale PHIL 176·Death (Spring 2007)](https://oyc.yale.edu/death/phil-176)（Open Yale Courses）
   > Explore personal identity, mind and body, mortality, and the value of life while learning to compare arguments and examine philosophical positions.
+
+
+<a id="伦理学与政治哲学--ethics-and-political-philosophy"></a>
+
+### Ethics and political philosophy
+
+- <a id="course-arts-05"></a>[Yale PHIL 181·Philosophy and the Science of Human Nature (Spring 2011)](https://oyc.yale.edu/philosophy/phil-181)（Open Yale Courses） · [Official videos, audio, and transcripts](https://openmedia.yale.edu/projects/iphone/departments/phil/phil181.html)（Open Yale Courses）
+  > Join Tamar Gendler in comparing classic philosophy with cognitive science to ask what makes life go well, what counts as fair, and why people cooperate.
 
 
 <a id="诗歌与美学--poetry-and-aesthetics"></a>
