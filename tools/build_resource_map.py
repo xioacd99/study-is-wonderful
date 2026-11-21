@@ -6,7 +6,16 @@ Course titles are the primary source links; no duplicate Course/back links neede
 import re,json,pathlib,argparse,base64,html,math,hashlib
 from urllib.parse import urlsplit
 ROOT=pathlib.Path(__file__).resolve().parents[1]
+def host_source_names():
+    manifest=json.loads((ROOT/'icons/sources.json').read_text())
+    mapping={}
+    for r in manifest['sources']:
+        for host in r.get('hosts',[]):
+            mapping[host]=r['name']
+    return mapping
+
 def courses(text):
+    host_names=host_source_names()
     result=[]; section=''; group='';current=None
     for line in text.splitlines():
         if line.startswith('## '): section=line[3:];current=None
@@ -18,7 +27,8 @@ def courses(text):
             unique=[];seen=set()
             for label,url in links:
                 if url not in seen:
-                    unique.append(dict(label=label,url=url));seen.add(url)
+                    host=urlsplit(url).hostname or ''
+                    unique.append(dict(label=label,url=url,source=host_names.get(host,host)));seen.add(url)
             current=dict(id=m[1],subject=section,group=group,title=links[0][0],links=unique,description='')
             result.append(current)
         elif current and line.startswith('  > '):
@@ -39,7 +49,7 @@ def bilingual_courses(chinese, english):
             raise ValueError('README source URLs differ for '+a['id'])
         result.append(dict(id=a['id'],subject=join(a['subject'],b['subject']),
             group=join(a['group'],b['group']),title=join(a['title'],b['title']),
-            links=[dict(label=join(x['label'],y['label']),url=x['url']) for x,y in zip(a['links'],b['links'])],
+            links=[dict(label=join(x['label'],y['label']),url=x['url'],source=x['source']) for x,y in zip(a['links'],b['links'])],
             description=join(a['description'],b['description'],'\n'),
             locales={'zh':{k:v for k,v in a.items() if k!='id'},
                      'en':{k:v for k,v in b.items() if k!='id'}}))
