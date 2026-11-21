@@ -103,14 +103,37 @@ class MapTests(unittest.TestCase):
   self.assertEqual(wall,(ROOT/'icons/source-wall.svg').read_text())
   doc=ET.fromstring(wall);ns={'s':'http://www.w3.org/2000/svg'}
   images=doc.findall('.//s:image',ns)
-  self.assertEqual(len(images),len(records))
+  cells=doc.findall('./s:g',ns)
+  self.assertEqual([cell.attrib['data-source'] for cell in cells],ids)
+  self.assertEqual(len(images),sum('path' in r for r in records))
+  self.assertEqual({cell.attrib['data-source'] for cell in cells if cell.find('./s:rect',ns) is not None},
+                   {r['id'] for r in records if 'path' not in r})
   rows={}
+  for n,cell in enumerate(cells):
+   text=cell.findall('./s:text',ns)[-1]
+   rows.setdefault(text.attrib['y'],[]).append(cell)
+   self.assertEqual(float(text.attrib['x']),(n%6)*120+60)
   for image in images:
-   rows.setdefault(image.attrib['y'],[]).append(image)
    self.assertEqual(image.attrib['preserveAspectRatio'],'xMidYMid meet')
    self.assertTrue(image.attrib['{http://www.w3.org/1999/xlink}href'].startswith('data:image/'))
   self.assertTrue(all(len(row)==6 for row in list(rows.values())[:-1]))
   self.assertLessEqual(len(list(rows.values())[-1]),6)
+ def test_source_wall_covers_official_links_without_inline_logos(self):
+  for text in (self.text,self.english):
+   records={r['id']:r for r in builder.source_records(text)}
+   self.assertTrue({'yale','eth-zurich','vllm','ggml','huggingface','princeton','caltech','harvard','cornell','zhejiang','ntu'} <= set(records))
+   sample=builder.BODY_START+'\n- [Example](https://vllm.ai/blog/example)'
+   self.assertEqual([r['id'] for r in builder.source_records(sample)],['vllm'])
+   republished=builder.BODY_START+'\n- [Example](https://huggingface.co/blog/ggml-org/example)'
+   self.assertEqual([r['id'] for r in builder.source_records(republished)],['ggml','huggingface'])
+   with self.assertRaisesRegex(ValueError,'Classify new catalog source URLs'):
+    builder.source_records(sample.replace('vllm.ai','unclassified.example'))
+ def test_mirror_does_not_hide_verified_course_producer(self):
+  line=next(l for l in self.english.splitlines() if 'id="course-cs-49"' in l)
+  sample=builder.BODY_START+'\n'+line
+  self.assertEqual([r['id'] for r in builder.source_records(sample)],['bilibili','princeton'])
+  with self.assertRaisesRegex(ValueError,'Review source attribution after link change'):
+   builder.source_records(sample.replace('BV1FL411K7vK','BV1Different'))
  def test_source_wall_is_idempotent(self):
   for lang,text in [('zh',self.text),('en',self.english)]:
    self.assertEqual(builder.refresh_header(text,lang),text)

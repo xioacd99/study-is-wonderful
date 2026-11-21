@@ -4,6 +4,7 @@
 Course titles are the primary source links; no duplicate Course/back links needed.
 """
 import re,json,pathlib,argparse,base64,html,math,hashlib
+from urllib.parse import urlsplit
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 def courses(text):
     result=[]; section=''; group='';current=None
@@ -44,15 +45,61 @@ def bilingual_courses(chinese, english):
                      'en':{k:v for k,v in b.items() if k!='id'}}))
     return result
 
-def source_records(text):
-    """Use only marks present in the catalog; fixed brand-family ordering."""
-    body=text[text.index('<a id="数学-math">'):]
-    present=set(re.findall(r'<img src="([^"]+)"',body))
+BODY_START='<a id="数学-math">'
+RESOURCE_HEADING=re.compile(r'^- (?:<a id="course-[^"]+"></a>\s*)?\[')
+RESOURCE_LINK=re.compile(r'\[([^\]]+)\]\((https?://[^\s)]+)\)')
+
+def resource_sources(text):
+    """Classify every catalog link; require explicit review of new source hosts."""
+    body=text[text.index(BODY_START):]
     manifest=json.loads((ROOT/'icons/sources.json').read_text())
-    registry={r['path']:r for r in manifest['sources']}
-    unknown=present-registry.keys()
-    if unknown: raise ValueError('Register new source icons in icons/sources.json: '+', '.join(sorted(unknown)))
-    records=[registry[p] for p in present]
+    by_id={r['id']:r for r in manifest['sources']}
+    by_path={r['path']:r['id'] for r in manifest['sources'] if 'path' in r}
+    by_host={}
+    for r in manifest['sources']:
+        for host in r.get('hosts',[]):
+            if host in by_host: raise ValueError('Duplicate source host in manifest: '+host)
+            by_host[host]=r['id']
+    credits={}
+    for r in manifest['sources']:
+        for credit in r.get('course_credits',[]):
+            if urlsplit(credit['evidence']).scheme!='https':
+                raise ValueError('Missing reference for course attribution: '+credit['course'])
+            credits.setdefault(credit['course'],[]).append((r['id'],credit['resource_url']))
+    unregistered=set()
+    present=set()
+    for line in body.splitlines():
+        if not RESOURCE_HEADING.match(line): continue
+        line_sources=set()
+        urls=[url for _,url in RESOURCE_LINK.findall(line)]
+        anchor=re.match(r'^- <a id="(course-[^"]+)"></a>',line)
+        if anchor:
+            for sid,credited_url in credits.get(anchor[1],[]):
+                if credited_url not in urls:
+                    raise ValueError('Review source attribution after link change: '+anchor[1])
+                line_sources.add(sid)
+        for url in urls:
+            link=urlsplit(url)
+            if link.hostname not in by_host:
+                unregistered.add(url)
+                continue
+            line_sources.add(by_host[link.hostname])
+            for r in manifest['sources']:
+                if any(link.hostname==p['host'] and link.path.startswith(p['prefix']) for p in r.get('credited_paths',[])):
+                    line_sources.add(r['id'])
+        icons=set(re.findall(r'<img src="([^"]+)"',line))
+        unknown=icons-by_path.keys()
+        if unknown: raise ValueError('Register new source icons in icons/sources.json: '+', '.join(sorted(unknown)))
+        bad={by_path[path] for path in icons}-line_sources
+        if bad and not unregistered:
+            raise ValueError('Source icon has no matching link on its resource row: '+', '.join(sorted(bad))+' in '+line)
+        present.update(line_sources)
+    if unregistered: raise ValueError('Classify new catalog source URLs in icons/sources.json: '+', '.join(sorted(unregistered)))
+    return manifest,[by_id[sid] for sid in present]
+
+def source_records(text):
+    """Derive sources from resource links, not whether a logo is available."""
+    manifest,records=resource_sources(text)
     organization_names=manifest['organization_names']
     return sorted(records,key=lambda r:(organization_names[r['organization']].casefold(),r['name'].casefold(),r['id']))
 
@@ -69,13 +116,28 @@ def source_wall(text):
          '<desc>'+html.escape(', '.join(r['name'] for r in records))+'. Not sponsorships or endorsements.</desc>']
     mime={'.svg':'image/svg+xml','.png':'image/png','.webp':'image/webp','.avif':'image/avif','.jpg':'image/jpeg'}
     for n,r in enumerate(records):
-        path=ROOT/r['path'];raw=path.read_bytes()
-        if hashlib.sha256(raw).hexdigest()!=r['sha256']:raise ValueError('Source icon changed; verify provenance: '+r['path'])
-        x=(n%cols)*cell_w;y=(n//cols)*cell_h;w=r['header_width']
-        data=base64.b64encode(raw).decode('ascii')
-        out.extend([f'<g><title>{html.escape(r["name"])}</title>',
-            f'<image x="{x+(cell_w-w)/2:g}" y="{y+8}" width="{w}" height="42" preserveAspectRatio="xMidYMid meet" xlink:href="data:{mime[path.suffix]};base64,{data}"/>',
-            f'<text x="{x+cell_w/2:g}" y="{y+67}" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#64748b">{html.escape(r["name"])}</text></g>'])
+        x=(n%cols)*cell_w;y=(n//cols)*cell_h
+        name=html.escape(r['name'])
+        out.append(f'<g data-source="{r["id"]}"><title>{name}</title>')
+        if 'path' in r:
+            path=ROOT/r['path'];raw=path.read_bytes()
+            if hashlib.sha256(raw).hexdigest()!=r['sha256']:raise ValueError('Source icon changed; verify provenance: '+r['path'])
+            w=r['header_width'];data=base64.b64encode(raw).decode('ascii')
+            out.append(f'<image x="{x+(cell_w-w)/2:g}" y="{y+8}" width="{w}" height="42" preserveAspectRatio="xMidYMid meet" xlink:href="data:{mime[path.suffix]};base64,{data}"/>')
+        else:
+            # Mark the same grid slot with the actual source name rather than a logo.
+            out.append(f'<rect x="{x+10}" y="{y+12}" width="100" height="34" rx="8" fill="#e2e8f0"/>')
+            words=r['name'].split()
+            name_rows=['']
+            for word in words:
+                if name_rows[-1] and len(name_rows[-1])+len(word)>16:
+                    name_rows.append(word)
+                else:
+                    name_rows[-1]=(' '.join([name_rows[-1],word])).strip()
+            for nline,row in enumerate(name_rows):
+                baseline=y+31-6*(len(name_rows)-1)+12*nline
+                out.append(f'<text x="{x+cell_w/2:g}" y="{baseline}" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#334155">{html.escape(row)}</text>')
+        out.append(f'<text x="{x+cell_w/2:g}" y="{y+67}" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#64748b">{name}</text></g>')
     return '\n'.join(out+['</svg>'])+'\n'
 
 def refresh_header(text, language):
