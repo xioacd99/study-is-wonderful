@@ -16,8 +16,14 @@
 
 <!-- SOURCES:START -->
 <p align="center"><strong>📚 资源来源 · 非赞助或背书</strong></p>
-<p align="center">
-<img src="icons/source-wall.svg" alt="Ai2, Anthropic, Bilibili, Caltech, Carnegie Mellon, Clay, Cornell University, ETH Zürich, GAMES, ggml-org, Google, Google Antigravity, Google Cloud, Google DeepMind, YouTube, Harvard University, Hugging Face, Meta, MIT OpenCourseWare, Nanjing University, National Taiwan University, NVIDIA, OpenAI, Princeton University, Stanford, Stony Brook, UC Berkeley, University of Cambridge, University of Oxford, vLLM, Open Yale Courses, Zhejiang University" width="720">
+<p align="center"><strong>大学</strong><br>
+<img src="icons/source-wall-universities.svg" alt="大学: Caltech, Carnegie Mellon, Cornell University, ETH Zürich, Harvard University, MIT OpenCourseWare, Nanjing University, National Taiwan University, Princeton University, Stanford, Stony Brook, UC Berkeley, University of Cambridge, University of Oxford, Open Yale Courses, Zhejiang University" width="720">
+</p>
+<p align="center"><strong>项目与平台</strong><br>
+<img src="icons/source-wall-projects.svg" alt="项目与平台: Ai2, Bilibili, GAMES, ggml-org, YouTube, vLLM" width="720">
+</p>
+<p align="center"><strong>公司</strong><br>
+<img src="icons/source-wall-companies.svg" alt="公司: Anthropic, Clay, Google, Google Antigravity, Google Cloud, Google DeepMind, Hugging Face, Meta, NVIDIA, OpenAI" width="720">
 </p>
 <!-- SOURCES:END -->
 

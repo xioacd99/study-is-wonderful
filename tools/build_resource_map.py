@@ -103,20 +103,56 @@ def source_records(text):
     organization_names=manifest['organization_names']
     return sorted(records,key=lambda r:(organization_names[r['organization']].casefold(),r['name'].casefold(),r['id']))
 
-def source_wall(text):
-    """Self-contained SVG keeps exactly six equal columns on GitHub and mobile.
+# Order intentionally puts colleges and universities first in both languages.
+SOURCE_CARDS = {
+    'university': {
+        'file': 'source-wall-universities.svg',
+        'zh': '大学',
+        'en': 'Universities',
+        'palette': ('#f2f7ff', '#c7d6ee', '#426b9e', '#334965'),
+    },
+    'project': {
+        'file': 'source-wall-projects.svg',
+        'zh': '项目与平台',
+        'en': 'Projects & Platforms',
+        'palette': ('#f4f2fb', '#d9cdeb', '#7d5ba4', '#4f3b64'),
+    },
+    'company': {
+        'file': 'source-wall-companies.svg',
+        'zh': '公司',
+        'en': 'Companies',
+        'palette': ('#f2f8f6', '#c4ded5', '#377c6b', '#2c5148'),
+    },
+}
 
-    Original marks are embedded unchanged, with aspect-ratio-preserving contain
-    sizing. Embedded SVGs are isolated documents so CSS/classes cannot collide.
-    """
-    records=source_records(text);cols=json.loads((ROOT/'icons/sources.json').read_text())['columns']
-    cell_w,cell_h=120,76;width=cols*cell_w;height=math.ceil(len(records)/cols)*cell_h
+def source_card_records(text):
+    """Require each source to declare its card explicitly, including unused entries."""
+    manifest=json.loads((ROOT/'icons/sources.json').read_text())
+    bad=[r['id'] for r in manifest['sources'] if r.get('group') not in SOURCE_CARDS]
+    if bad:
+        raise ValueError('Assign source-wall groups in icons/sources.json: '+', '.join(sorted(bad)))
+    cards={key:[] for key in SOURCE_CARDS}
+    for r in source_records(text):
+        cards[r['group']].append(r)
+    return cards
+
+def source_wall(records, group):
+    """Render one self-contained six-column card without altering source artwork."""
+    card=SOURCE_CARDS[group]
+    background,border,accent,label_color=card['palette']
+    cols=json.loads((ROOT/'icons/sources.json').read_text())['columns']
+    cell_w,cell_h=116,72
+    pad_x,pad_y=12,12
+    width=cols*cell_w+2*pad_x
+    height=math.ceil(len(records)/cols)*cell_h+2*pad_y
     out=[f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 {width} {height}" width="{width}" height="{height}" role="img">',
-         '<title>Resource sources</title>',
-         '<desc>'+html.escape(', '.join(r['name'] for r in records))+'. Not sponsorships or endorsements.</desc>']
+         '<title>'+html.escape(card['en'])+'</title>',
+         '<desc>'+html.escape(', '.join(r['name'] for r in records))+'. Not sponsorships or endorsements.</desc>',
+         f'<rect x=".5" y=".5" width="{width-1}" height="{height-1}" rx="16" fill="{background}" stroke="{border}"/>',
+         f'<rect x="{width/2-20:g}" y="7" width="40" height="2" rx="1" fill="{accent}"/>']
     mime={'.svg':'image/svg+xml','.png':'image/png','.webp':'image/webp','.avif':'image/avif','.jpg':'image/jpeg'}
     for n,r in enumerate(records):
-        x=(n%cols)*cell_w;y=(n//cols)*cell_h
+        x=pad_x+(n%cols)*cell_w;y=pad_y+(n//cols)*cell_h
         name=html.escape(r['name'])
         out.append(f'<g data-source="{r["id"]}"><title>{name}</title>')
         if not r.get('path') or not r.get('sha256'):
@@ -126,21 +162,26 @@ def source_wall(text):
             raise ValueError('Source icon changed; verify provenance: '+r['path'])
         w=r['header_width'];data=base64.b64encode(raw).decode('ascii')
         if r.get('light_backdrop'):
-            # Keep a dark mark legible on GitHub dark mode without recoloring the artwork.
-            left=x+(cell_w-w)/2-3;top=y+7
-            out.append(f'<path fill="#fff" d="M{left+4:g},{top:g}h{w-2}q4,0 4,4v36q0,4 -4,4h-{w-2}q-4,0 -4,-4v-36q0,-4 4,-4z"/>')
-        out.append(f'<image x="{x+(cell_w-w)/2:g}" y="{y+8}" width="{w}" height="42" preserveAspectRatio="xMidYMid meet" xlink:href="data:{mime[path.suffix]};base64,{data}"/>')
-        out.append(f'<text x="{x+cell_w/2:g}" y="{y+67}" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#64748b">{name}</text></g>')
+            # Local light backing keeps dark logos legible without changing artwork.
+            out.append(f'<rect x="{x+(cell_w-w)/2-3:g}" y="{y+5}" width="{w+6}" height="44" rx="5" fill="#fff"/>')
+        out.append(f'<image x="{x+(cell_w-w)/2:g}" y="{y+6}" width="{w}" height="42" preserveAspectRatio="xMidYMid meet" xlink:href="data:{mime[path.suffix]};base64,{data}"/>')
+        out.append(f'<text x="{x+cell_w/2:g}" y="{y+62}" text-anchor="middle" font-family="Arial, sans-serif" font-size="9.5" fill="{label_color}">{name}</text></g>')
     return '\n'.join(out+['</svg>'])+'\n'
 
 def refresh_header(text, language):
-    """Keep source wall and small catalog counts derived from actual content."""
-    body=text[text.index('<a id="数学-math">'):]
-    records=courses(text);sources=source_records(text)
+    """Keep source cards and small catalog counts derived from actual content."""
+    body=text[text.index(BODY_START):]
+    records=courses(text)
     label='资源来源 · 非赞助或背书' if language=='zh' else 'Resource sources · not sponsorships or endorsements'
-    names=', '.join(r['name'] for r in sources)
-    wall='<p align="center"><strong>📚 '+label+'</strong></p>\n<p align="center">\n<img src="icons/source-wall.svg" alt="'+html.escape(names,quote=True)+'" width="720">\n</p>'
-    text=re.sub(r'<!-- SOURCES:START -->.*?<!-- SOURCES:END -->','<!-- SOURCES:START -->\n'+wall+'\n<!-- SOURCES:END -->',text,flags=re.S)
+    wall=[f'<p align="center"><strong>📚 {label}</strong></p>']
+    for group,sources in source_card_records(text).items():
+        if not sources:
+            continue
+        card=SOURCE_CARDS[group]
+        names=html.escape(', '.join(r['name'] for r in sources),quote=True)
+        title=html.escape(card[language])
+        wall.append(f'<p align="center"><strong>{title}</strong><br>\n<img src="icons/{card["file"]}" alt="{title}: {names}" width="720">\n</p>')
+    text=re.sub(r'<!-- SOURCES:START -->.*?<!-- SOURCES:END -->','<!-- SOURCES:START -->\n'+'\n'.join(wall)+'\n<!-- SOURCES:END -->',text,flags=re.S)
     counts=[(len(records),'门课程' if language=='zh' else 'courses'),(len(set(c['subject'] for c in records)),'个学科' if language=='zh' else 'subjects'),(len(re.findall(r'^- \[',body,flags=re.M)),'篇技术文章' if language=='zh' else 'articles')]
     for count,label in counts:text=re.sub(r'\[\d+ '+label+r'\]',f'[{count} {label}]',text)
     return text
@@ -151,11 +192,14 @@ if __name__=='__main__':
         path=ROOT/name;text=path.read_text();updated=refresh_header(text,lang)
         if args.check: assert text==updated,'Synchronize header: '+name
         else: path.write_text(updated)
-    wall=source_wall((ROOT/'README.md').read_text())
-    wall_path=ROOT/'icons/source-wall.svg'
-    if args.check: assert wall_path.read_text()==wall,'Synchronize source wall'
-    else: wall_path.write_text(wall)
-    assert [r['id'] for r in source_records((ROOT/'README.md').read_text())]==[r['id'] for r in source_records((ROOT/'README-en.md').read_text())],'Source wall language mismatch'
+    zh=source_card_records((ROOT/'README.md').read_text())
+    en=source_card_records((ROOT/'README-en.md').read_text())
+    assert zh==en,'Source card language mismatch'
+    for group,records in zh.items():
+        wall=source_wall(records,group)
+        wall_path=ROOT/'icons'/SOURCE_CARDS[group]['file']
+        if args.check: assert wall_path.read_text()==wall,'Synchronize source card: '+group
+        else: wall_path.write_text(wall)
     data=bilingual_courses((ROOT/'README.md').read_text(), (ROOT/'README-en.md').read_text())
     out=(ROOT/'resource-map/template.html').read_text().replace('/*__COURSES__*/',json.dumps(data,ensure_ascii=False).replace('</','<\\/'))
     target=ROOT/'resource-map/index.html'

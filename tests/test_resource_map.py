@@ -84,40 +84,49 @@ class MapTests(unittest.TestCase):
   expected=(ROOT/'resource-map/template.html').read_text().replace('/*__COURSES__*/',json.dumps(self.c,ensure_ascii=False).replace('</','<\\/'))
   self.assertEqual(expected,(ROOT/'resource-map/index.html').read_text())
  def test_source_wall_grid_and_families(self):
-  import xml.etree.ElementTree as ET,json
-  records=builder.source_records(self.text)
-  self.assertEqual([r['id'] for r in records],[r['id'] for r in builder.source_records(self.english)])
-  for org in {r['organization'] for r in records}:
-   positions=[i for i,r in enumerate(records) if r['organization']==org]
-   self.assertEqual(positions,list(range(min(positions),max(positions)+1)))
-  ids=[r['id'] for r in records]
-  google=[r['id'] for r in records if r['organization']=='google']
-  self.assertEqual(google,['google','antigravity','google-cloud','deepmind','youtube'])
+  import base64,json,xml.etree.ElementTree as ET
+  cards=builder.source_card_records(self.text)
+  self.assertEqual(cards,builder.source_card_records(self.english))
+  self.assertEqual(list(cards),['university','project','company'])
+  self.assertCountEqual(
+   [r['id'] for records in cards.values() for r in records],
+   [r['id'] for r in builder.source_records(self.text)])
+  self.assertTrue({'stanford','mit','berkeley','stonybrook','cmu','yale','eth-zurich','princeton','caltech','harvard','cornell','zhejiang','ntu','oxford','cambridge','nju'} <= {r['id'] for r in cards['university']})
+  self.assertTrue({'games','ggml','vllm','bilibili','youtube','ai2'} <= {r['id'] for r in cards['project']})
+  self.assertEqual([r['id'] for r in cards['company'] if r['organization']=='google'],['google','antigravity','google-cloud','deepmind'])
   manifest=json.loads((ROOT/'icons/sources.json').read_text())
-  keys=[(manifest['organization_names'][r['organization']].casefold(),r['name'].casefold(),r['id']) for r in records]
-  self.assertEqual(keys,sorted(keys))
-  for key in ['stanford','mit','berkeley','stonybrook','cmu']:
-   r=next(r for r in records if r['id']==key)
-   self.assertTrue(r['path'].endswith('-seal.svg'))
-  wall=builder.source_wall(self.text)
-  self.assertEqual(wall,(ROOT/'icons/source-wall.svg').read_text())
-  doc=ET.fromstring(wall);ns={'s':'http://www.w3.org/2000/svg'}
-  images=doc.findall('.//s:image',ns)
-  cells=doc.findall('./s:g',ns)
-  self.assertEqual([cell.attrib['data-source'] for cell in cells],ids)
-  self.assertEqual(len(images),len(records))
-  self.assertTrue(all(cell.find('./s:image',ns) is not None for cell in cells))
-  self.assertFalse(any(cell.find('./s:rect',ns) is not None for cell in cells))
-  rows={}
-  for n,cell in enumerate(cells):
-   text=cell.findall('./s:text',ns)[-1]
-   rows.setdefault(text.attrib['y'],[]).append(cell)
-   self.assertEqual(float(text.attrib['x']),(n%6)*120+60)
-  for image in images:
-   self.assertEqual(image.attrib['preserveAspectRatio'],'xMidYMid meet')
-   self.assertTrue(image.attrib['{http://www.w3.org/1999/xlink}href'].startswith('data:image/'))
-  self.assertTrue(all(len(row)==6 for row in list(rows.values())[:-1]))
-  self.assertLessEqual(len(list(rows.values())[-1]),6)
+  for group,records in cards.items():
+   keys=[(manifest['organization_names'][r['organization']].casefold(),r['name'].casefold(),r['id']) for r in records]
+   self.assertEqual(keys,sorted(keys))
+   for org in {r['organization'] for r in records}:
+    positions=[i for i,r in enumerate(records) if r['organization']==org]
+    self.assertEqual(positions,list(range(min(positions),max(positions)+1)))
+   wall=builder.source_wall(records,group)
+   self.assertEqual(wall,(ROOT/'icons'/builder.SOURCE_CARDS[group]['file']).read_text())
+   doc=ET.fromstring(wall);ns={'s':'http://www.w3.org/2000/svg'}
+   cells=doc.findall('./s:g',ns)
+   self.assertEqual([cell.attrib['data-source'] for cell in cells],[r['id'] for r in records])
+   rows={}
+   for n,(cell,record) in enumerate(zip(cells,records)):
+    label=cell.find('./s:text',ns)
+    rows.setdefault(label.attrib['y'],[]).append(cell)
+    self.assertEqual(float(label.attrib['x']),(n%6)*116+70)
+    image=cell.find('./s:image',ns)
+    self.assertEqual(image.attrib['preserveAspectRatio'],'xMidYMid meet')
+    href=image.attrib['{http://www.w3.org/1999/xlink}href']
+    self.assertTrue(href.startswith('data:image/'))
+    self.assertEqual(base64.b64decode(href.split(',',1)[1]),(ROOT/record['path']).read_bytes())
+   self.assertTrue(all(len(row)==6 for row in list(rows.values())[:-1]))
+   self.assertLessEqual(len(list(rows.values())[-1]),6)
+ def test_source_card_requires_group_for_future_sources(self):
+  from unittest.mock import patch
+  import json
+  original=json.loads((ROOT/'icons/sources.json').read_text())
+  for invalid in (None,'unrecognized'):
+   manifest={**original,'sources':original['sources']+[{'id':'new-source','group':invalid}]}
+   with patch.object(builder.json,'loads',return_value=manifest):
+    with self.assertRaisesRegex(ValueError,'Assign source-wall groups .*new-source'):
+     builder.source_card_records(self.text)
  def test_source_wall_covers_official_links_without_inline_logos(self):
   for text in (self.text,self.english):
    records={r['id']:r for r in builder.source_records(text)}
@@ -135,13 +144,15 @@ class MapTests(unittest.TestCase):
   with self.assertRaisesRegex(ValueError,'Review source attribution after link change'):
    builder.source_records(sample.replace('BV1FL411K7vK','BV1Different'))
  def test_source_wall_rejects_text_placeholders(self):
-  from unittest.mock import patch
-  with patch.object(builder,'source_records',return_value=[{'id':'missing-logo','name':'Missing logo'}]):
-   with self.assertRaisesRegex(ValueError,'Register a verified source-wall logo for missing-logo'):
-    builder.source_wall(self.text)
+  with self.assertRaisesRegex(ValueError,'Register a verified source-wall logo for missing-logo'):
+   builder.source_wall([{'id':'missing-logo','name':'Missing logo'}],'university')
  def test_source_wall_is_idempotent(self):
   for lang,text in [('zh',self.text),('en',self.english)]:
    self.assertEqual(builder.refresh_header(text,lang),text)
-   self.assertIn('icons/source-wall.svg',text)
+   filenames=[card['file'] for card in builder.SOURCE_CARDS.values()]
+   positions=[text.index('icons/'+name) for name in filenames]
+   self.assertEqual(positions,sorted(positions))
+   for card in builder.SOURCE_CARDS.values():
+    self.assertIn('<strong>'+builder.html.escape(card[lang])+'</strong>',text)
    self.assertIn('<strong>📚 ',text)
 if __name__=='__main__':unittest.main()
