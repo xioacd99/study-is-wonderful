@@ -6,13 +6,13 @@
       "id": "stanford",
       "group": "university",
       "name": "Stanford",
-      "path": "icons/stanford-seal.svg",
+      "path": "icons/stanford-seal.png",
       "source": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Seal_of_Leland_Stanford_Junior_University.svg",
       "previous_src": "icons/stanford.svg",
       "order": 0,
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "399175574b50356cb2b90fbbc22f4f969efd0b1bc5bb5ac2349a110abb0eef15",
+      "sha256": "567cb1d2b93144768d27e4218f523e497a15b06de684324a298b3e13dcd95c31",
       "organization": "stanford",
       "hosts": [
         "cs336.stanford.edu",
@@ -159,19 +159,21 @@
           "resource_url": "https://www.bilibili.com/video/BV15E2SB7EzE/",
           "evidence": "https://cs224r.stanford.edu/"
         }
-      ]
+      ],
+      "upstream_sha256": "399175574b50356cb2b90fbbc22f4f969efd0b1bc5bb5ac2349a110abb0eef15",
+      "format_note": "Proportionally rasterized from the verified upstream SVG at 160x160 on transparent background for lightweight wall embedding; no cropping or recoloring."
     },
     {
       "id": "mit",
       "group": "university",
       "name": "MIT OpenCourseWare",
-      "path": "icons/mit-seal.svg",
+      "path": "icons/mit-seal.png",
       "source": "https://upload.wikimedia.org/wikipedia/en/4/44/MIT_Seal.svg",
       "previous_src": "ocw.svg",
       "order": 1,
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "6687ba30ed83832fe5bd9e5c25252f436c04c369712420e5a8143cf4f3f56283",
+      "sha256": "883e988559e0541ce8cbeff36b2917a80d21261d8ee2e1074c09911bbce908e8",
       "organization": "mit",
       "hosts": [
         "missing.csail.mit.edu",
@@ -358,19 +360,21 @@
           "resource_url": "https://www.bilibili.com/BV14q4y1R7Ra",
           "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L246"
         }
-      ]
+      ],
+      "upstream_sha256": "6687ba30ed83832fe5bd9e5c25252f436c04c369712420e5a8143cf4f3f56283",
+      "format_note": "Proportionally rasterized from the verified upstream SVG at 160x160 on transparent background for lightweight wall embedding; no cropping or recoloring."
     },
     {
       "id": "berkeley",
       "group": "university",
       "name": "UC Berkeley",
-      "path": "icons/berkeley-seal.svg",
+      "path": "icons/berkeley-seal.png",
       "source": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Seal_of_University_of_California%2C_Berkeley.svg",
       "previous_src": "icons/berkeley.svg",
       "order": 2,
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "ea2db45494acddf68943cb2c5c1517f5547da120ee2dba6eacf717548ee21b46",
+      "sha256": "4de7f96b1dc6414f67ead15230d68226944a743a98a2d0c0006abcf4f49aeb75",
       "organization": "berkeley",
       "hosts": [
         "inst.eecs.berkeley.edu",
@@ -457,7 +461,9 @@
           "resource_url": "https://www.bilibili.com/BV1Hx411u7SK",
           "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L230"
         }
-      ]
+      ],
+      "upstream_sha256": "ea2db45494acddf68943cb2c5c1517f5547da120ee2dba6eacf717548ee21b46",
+      "format_note": "Proportionally rasterized from the verified upstream SVG at 160x160 on transparent background for lightweight wall embedding; no cropping or recoloring."
     },
     {
       "id": "stonybrook",
@@ -479,13 +485,13 @@
       "id": "cmu",
       "group": "university",
       "name": "Carnegie Mellon",
-      "path": "icons/cmu-seal.svg",
+      "path": "icons/cmu-seal.png",
       "source": "https://upload.wikimedia.org/wikipedia/en/b/bb/Carnegie_Mellon_University_seal.svg",
       "previous_src": "icons/cmu.svg",
       "order": 4,
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "97cb5b0375be7564bb66c1852e293eff134bd0e02fc1f3c69180add6f19da73c",
+      "sha256": "4a5004edec8e0049ce71eafdb0d45fb5eafe1265f089c75a8b7f25502e14ca44",
       "organization": "cmu",
       "hosts": [
         "www.cs.cmu.edu"
@@ -581,7 +587,9 @@
           "resource_url": "https://www.bilibili.com/BV1MK4y1a7PS",
           "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L151"
         }
-      ]
+      ],
+      "upstream_sha256": "97cb5b0375be7564bb66c1852e293eff134bd0e02fc1f3c69180add6f19da73c",
+      "format_note": "Proportionally rasterized from the verified upstream SVG at 160x160 on transparent background for lightweight wall embedding; no cropping or recoloring."
     },
     {
       "id": "bilibili",
@@ -631,11 +639,13 @@
       "order": 7,
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "193ba1805de11c23cd0c7a1df92aa0a886708e57350f6f7766100afe5befed73",
+      "sha256": "f07d87c3fd82d86bdb7ec64daa6f3028fde6e5af2b41c45aa395cd84d230d275",
       "organization": "google",
       "hosts": [
         "antigravity.google"
-      ]
+      ],
+      "upstream_sha256": "193ba1805de11c23cd0c7a1df92aa0a886708e57350f6f7766100afe5befed73",
+      "format_note": "Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring."
     },
     {
       "id": "deepmind",
@@ -647,11 +657,13 @@
       "order": 8,
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "fe6f26ef6fb9ed99ec635b81be7b9e028b269f1fb7ae5a07a2ef73f4945eb0a2",
+      "sha256": "a63ad25e41837b28863b1b2475f3aeafa9750b56f492f1bffcb197bc376348e3",
       "organization": "google",
       "hosts": [
         "deepmind.google"
-      ]
+      ],
+      "upstream_sha256": "fe6f26ef6fb9ed99ec635b81be7b9e028b269f1fb7ae5a07a2ef73f4945eb0a2",
+      "format_note": "Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring."
     },
     {
       "id": "google-cloud",
@@ -697,11 +709,13 @@
       "order": 11,
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "739403e3e9c4863d91065b08e17bd05d5feba828b41d354944997adf1db8d34e",
+      "sha256": "98d79a4e8d9f9b9e8aded810b898f4a681f08a7fda25d46f540e269f3d408850",
       "organization": "meta",
       "hosts": [
         "engineering.fb.com"
-      ]
+      ],
+      "upstream_sha256": "739403e3e9c4863d91065b08e17bd05d5feba828b41d354944997adf1db8d34e",
+      "format_note": "Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring."
     },
     {
       "id": "openai",
@@ -732,13 +746,15 @@
       "order": 13,
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "61e53ab1d79919613c6b48ddc75268520357036719ab400df75c5553dbae639c",
+      "sha256": "5c53f378c0acd6c82ed4e2af782a93116a938f5d997f101bee92c4b6d9fba58d",
       "organization": "anthropic",
       "hosts": [
         "www.anthropic.com",
         "alignment.anthropic.com",
         "safeguards.anthropic.com"
-      ]
+      ],
+      "upstream_sha256": "61e53ab1d79919613c6b48ddc75268520357036719ab400df75c5553dbae639c",
+      "format_note": "Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring."
     },
     {
       "id": "ai2",
@@ -798,9 +814,9 @@
       "order": 17,
       "header_width": 72,
       "inline_width": 36,
-      "sha256": "bb13c874ce5a5acde58f615effa2a780a18c7ff6f9ab55315e5bd468c14160cd",
+      "sha256": "64f1111e448f18fcc995413306469e2b368254450086ea6aacedc0f8cb335be5",
       "upstream_sha256": "d3429859acc503fd2009d52c38b0ba5ddfa63f1cee1a07e15df2e2996379d90f",
-      "format_note": "Decoded to PNG for SVG renderer compatibility; no resizing, crop or recoloring.",
+      "format_note": "Decoded to PNG for SVG renderer compatibility; no resizing, crop or recoloring. Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring.",
       "organization": "clay",
       "hosts": [
         "www.clay.com"
@@ -872,8 +888,8 @@
       "brand_reference": "https://ypps.yale.edu/products-services/featured-items-and-news/graphic-downloads",
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "6e1544b89f291f46dfc70d7111c46f408e64c406d181d4a7437938764043a7f1",
-      "format_note": "Historic authentic heraldic shield; not the official ceremonial seal. Rasterized proportionally from the cited SVG for reliable embedded rendering; no crop or recoloring.",
+      "sha256": "fdb15a3d445f6a6a7a8df13849540f006a45b78e07c08e39c004492c1023c56f",
+      "format_note": "Historic authentic heraldic shield; not the official ceremonial seal. Rasterized proportionally from the cited SVG for reliable embedded rendering; no crop or recoloring. Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring.",
       "asset_metadata": "https://commons.wikimedia.org/wiki/File:Yale_University_Shield_1.svg",
       "upstream_sha256": "e5ff35f9fd8f83bdf45c9fad095b2484e20707e3b374241bf9d4c008801a17e5"
     },
@@ -890,8 +906,8 @@
       "brand_reference": "https://ethz.ch/staffnet/en/service/communication/corporate-design/logo.html",
       "header_width": 88,
       "inline_width": 24,
-      "sha256": "9527ff19a127295afb38d0b83e471f63d87122e1e80b4546e1415a15f0e1a2fc",
-      "format_note": "Official standard black wordmark as hosted by Commons. Rasterized proportionally from the cited SVG for reliable embedded rendering; no crop or recoloring.",
+      "sha256": "bce6018b396bee78d1d11c802f8eee16bae5e1e437dc9646a8b2d89ba60a0ebf",
+      "format_note": "Official standard black wordmark as hosted by Commons. Rasterized proportionally from the cited SVG for reliable embedded rendering; no crop or recoloring. Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring.",
       "asset_metadata": "https://commons.wikimedia.org/wiki/File:ETH_Z%C3%BCrich_Logo_black.svg",
       "light_backdrop": true,
       "upstream_sha256": "f19a3641e9265a72a634de8057e3f69447857385231c2450709ab7c0aa9c2c2f"
@@ -909,9 +925,9 @@
       "brand_reference": "https://github.com/vllm-project/media-kit",
       "header_width": 72,
       "inline_width": 24,
-      "sha256": "03781b4c338efe1f4daf5a38fedf97600062d208d51c3b2431946088e294e744",
+      "sha256": "17aadca0b4e0f54e2181a53ed84f816e0711abf2685b701f1e9634647a4e07ec",
       "upstream_sha256": "12a0812e247cef4b31160e0d0267142ffe491491537f3e275d8bc645b61eb1a8",
-      "format_note": "Rasterized proportionally from the cited SVG for reliable embedded rendering; no crop or recoloring."
+      "format_note": "Rasterized proportionally from the cited SVG for reliable embedded rendering; no crop or recoloring. Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring."
     },
     {
       "id": "ggml",
@@ -930,7 +946,9 @@
       "brand_reference": "https://github.com/ggml-org/ggml",
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "a662f8cc015e87c1a3169c3255084c5c0836c425f841d2d62ceec7a120979c51"
+      "sha256": "c92f3d34f27cc3a39b73b9b383ee387750b2c0df6116010d17c5cac4717a7608",
+      "upstream_sha256": "a662f8cc015e87c1a3169c3255084c5c0836c425f841d2d62ceec7a120979c51",
+      "format_note": "Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring."
     },
     {
       "id": "princeton",
@@ -950,8 +968,8 @@
       "brand_reference": "https://princetoniana.princeton.edu/things-princeton/colors-shields",
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "98ee5a80818732a809bb7c8bc3907494d8439d3fc97d13581290fa52c0163ae2",
-      "format_note": "Official historic armorial shield; not the corporate circular authentication seal. Rasterized proportionally from the cited SVG for reliable embedded rendering; no crop or recoloring.",
+      "sha256": "3420553147fd31969dd4d51e54c1f2f8d85e98d8d9f29e4f347fdb429684fc2a",
+      "format_note": "Official historic armorial shield; not the corporate circular authentication seal. Rasterized proportionally from the cited SVG for reliable embedded rendering; no crop or recoloring. Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring.",
       "asset_metadata": "https://commons.wikimedia.org/wiki/File:Princeton_seal.svg",
       "upstream_sha256": "db5be7f3d4db80fae1e78a03cf4a39b592ea9d3d7782de32ebc773346cc6987b"
     },
@@ -978,9 +996,10 @@
       "brand_reference": "https://identity.caltech.edu/officiallogomarks",
       "header_width": 72,
       "inline_width": 24,
-      "sha256": "2de4dad91b708aafee282231c8d8e7ab8450ecd76f629c77668a0ed055b8241c",
-      "format_note": "Caltech orange official primary mark; the formal circular seal is explicitly reserved.",
-      "asset_metadata": "https://commons.wikimedia.org/wiki/File:Caltech_logo_2014.png"
+      "sha256": "07818a1adfbc94db39b14fc69708f3b2a5aeece1ed2e0eb0009536f4a3feb306",
+      "format_note": "Caltech orange official primary mark; the formal circular seal is explicitly reserved. Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring.",
+      "asset_metadata": "https://commons.wikimedia.org/wiki/File:Caltech_logo_2014.png",
+      "upstream_sha256": "2de4dad91b708aafee282231c8d8e7ab8450ecd76f629c77668a0ed055b8241c"
     },
     {
       "id": "harvard",
@@ -1030,8 +1049,8 @@
       "brand_reference": "https://trademark.harvard.edu/pages/policies-forms",
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "f8afd090db5c6a33f7c2b07151fee4fb53797039611ab3553f1ab191521cb57a",
-      "format_note": "Historical Harvard University seal, not an individual school shield. Rasterized proportionally from the cited SVG for reliable embedded rendering; no crop or recoloring.",
+      "sha256": "bf16b3a8ea5410b7320d0615048840a60194d70eb2d8c9f8e9b492a2508edab4",
+      "format_note": "Historical Harvard University seal, not an individual school shield. Rasterized proportionally from the cited SVG for reliable embedded rendering; no crop or recoloring. Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring.",
       "asset_metadata": "https://commons.wikimedia.org/wiki/File:Seal_of_Harvard_University.svg",
       "light_backdrop": true,
       "upstream_sha256": "2d34ba855f0eee444558aa223777eb51c6321d6b83e00b13a48a526bd007d0b5"
@@ -1059,8 +1078,8 @@
       "brand_reference": "https://brand.cornell.edu/",
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "20af856f0e421ef806b888b8376c6d8568193b877c302d72b28db1e1567d849f",
-      "format_note": "University seal artwork copied from Cornell brand guidelines. Rasterized proportionally from the cited SVG for reliable embedded rendering; no crop or recoloring.",
+      "sha256": "fda00ef243edc5d558cda64bb2da28e897ef704633c250d3347db1b6a84154bc",
+      "format_note": "University seal artwork copied from Cornell brand guidelines. Rasterized proportionally from the cited SVG for reliable embedded rendering; no crop or recoloring. Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring.",
       "asset_metadata": "https://commons.wikimedia.org/wiki/File:Cornell_University_seal.svg",
       "upstream_sha256": "63b9ed0b356b60d824afa28eb47699b72e838ab44122cb35894e69f4fe2e11d0"
     },
@@ -1082,7 +1101,9 @@
       "brand_reference": "https://www.zju.edu.cn/514/listm.htm",
       "header_width": 63,
       "inline_width": 24,
-      "sha256": "dc914cc634bdcd9b871c84686817c12287c6bafd309f083a1054040aee806fca"
+      "sha256": "e61634f47e9a4a05ea546e9a5d529599ccb715353cf4391b4515da5073d3ef37",
+      "upstream_sha256": "dc914cc634bdcd9b871c84686817c12287c6bafd309f083a1054040aee806fca",
+      "format_note": "Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring."
     },
     {
       "id": "ntu",
@@ -1122,7 +1143,9 @@
       "brand_reference": "https://www.ntu.edu.tw/english/about/CIS.html",
       "header_width": 45,
       "inline_width": 24,
-      "sha256": "6a58fe6a6894feab4d5a25f789ea6eaee6e227ec38aa5798c13668831d2750e3"
+      "sha256": "adf63733da0fc32ccb93f3927a366175805649f1d3798a150996e38935d57a97",
+      "upstream_sha256": "6a58fe6a6894feab4d5a25f789ea6eaee6e227ec38aa5798c13668831d2750e3",
+      "format_note": "Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring."
     },
     {
       "id": "oxford",
@@ -1142,8 +1165,8 @@
       "brand_reference": "https://www.ox.ac.uk/about/the-university/brand/protecting-the-university-logo",
       "header_width": 72,
       "inline_width": 24,
-      "sha256": "915b9e13a808f626760f2aac533e4205fa41cad3d528c82d6bc6d24ef77e796c",
-      "format_note": "Official University logo with heraldic belted crest; historical original, not a secondary drawing. Rasterized proportionally from the cited SVG for reliable embedded rendering; no crop or recoloring.",
+      "sha256": "d8eb86a7b4f0b1017d75811d1ae973910cff99a6d39e712217a5fb5851f4ea04",
+      "format_note": "Official University logo with heraldic belted crest; historical original, not a secondary drawing. Rasterized proportionally from the cited SVG for reliable embedded rendering; no crop or recoloring. Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring.",
       "asset_metadata": "https://commons.wikimedia.org/wiki/File:Uni_Oxford_logo.svg",
       "upstream_sha256": "1bb785bb06a3533339ad7a7e57f7c59bc9f0041f6e501b8a18bef337c8f83f5a"
     },
@@ -1165,7 +1188,9 @@
       "brand_reference": "https://www.cam.ac.uk/brand-resources/logo/download",
       "header_width": 52,
       "inline_width": 24,
-      "sha256": "e41137a72cd89eaca5a5c7c26a9fe053da9599772dcbf916fca03633021c1bc1"
+      "sha256": "fa1d819c73e02e970579fb0882dfb93128334e3cfe6796e7f3795e902824945f",
+      "upstream_sha256": "e41137a72cd89eaca5a5c7c26a9fe053da9599772dcbf916fca03633021c1bc1",
+      "format_note": "Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring."
     },
     {
       "id": "nju",
@@ -1185,7 +1210,7 @@
       "brand_reference": "https://dawww.nju.edu.cn/info/3061/69011.htm",
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "1e6703b121d80f42fdf75d21fcbf08ebf0ef4d65f74af3dd221fa6e00030e0ad",
+      "sha256": "2fc42fea0ba7ec2be8b7a9b5d6ab724fc70e3cbc06e5aa9c22fe91f416b72378",
       "upstream_sha256": "b4acd5d894fd8b4a19907bdd976a80adc4fd86704d1b6880940297ce558b23ad",
       "format_note": "Official standalone crest, proportionally downsampled for the wall without cropping or recoloring."
     },
@@ -1207,7 +1232,9 @@
       "brand_reference": "https://games-cn.org/",
       "header_width": 46,
       "inline_width": 24,
-      "sha256": "84e78abeca0042adc239148938d73019db974c96e1c43480c298460a4a3ce9da"
+      "sha256": "ae935ed2f4341e942b1dbf4096165beea69a98f11222b2e48ee3b815c93f4f82",
+      "upstream_sha256": "84e78abeca0042adc239148938d73019db974c96e1c43480c298460a4a3ce9da",
+      "format_note": "Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring."
     }
   ],
   "organization_names": {

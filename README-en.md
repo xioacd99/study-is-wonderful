@@ -6,36 +6,26 @@
 
 Great courses across disciplines. Follow your curiosity.
 
-[简体中文](README.md) · [English](README-en.md)
+[🧭 Explore the learning map ↗](https://xioacd99.github.io/study-is-wonderful/resource-map/) · [简体中文](README.md) · [English](README-en.md)
 
-[154 courses](#目录-contents) · [10 subjects](#目录-contents) · [64 articles](#技术博客-technical-blogs)
-
-[Suggest a resource](https://github.com/xioacd99/study-is-wonderful/issues) · [Contribute](https://github.com/xioacd99/study-is-wonderful/pulls)
+[154 courses](#目录-contents) · [10 subjects](#目录-contents) · [64 articles](#技术博客-technical-blogs) · [Resource sources](#资源来源-sources) · [Suggest a resource](https://github.com/xioacd99/study-is-wonderful/issues) · [Contribute](https://github.com/xioacd99/study-is-wonderful/pulls)
 
 </div>
 
-<!-- SOURCES:START -->
-<p align="center"><strong>📚 Resource sources · not sponsorships or endorsements</strong></p>
-<p align="center"><strong>Universities</strong><br>
-<img src="icons/source-wall-universities.svg" alt="Universities: Caltech, Carnegie Mellon, Cornell University, ETH Zürich, Harvard University, MIT OpenCourseWare, Nanjing University, National Taiwan University, Princeton University, Stanford, Stony Brook, UC Berkeley, University of Cambridge, University of Oxford, Open Yale Courses, Zhejiang University" width="720">
-</p>
-<p align="center"><strong>Projects &amp; Platforms</strong><br>
-<img src="icons/source-wall-projects.svg" alt="Projects &amp; Platforms: Ai2, Bilibili, GAMES, ggml-org, YouTube, vLLM" width="720">
-</p>
-<p align="center"><strong>Companies</strong><br>
-<img src="icons/source-wall-companies.svg" alt="Companies: Anthropic, Clay, Google, Google Antigravity, Google Cloud, Google DeepMind, Hugging Face, Meta, NVIDIA, OpenAI" width="720">
-</p>
-<!-- SOURCES:END -->
-
-
 <a id="resource-map"></a>
 <a id="资源全景-resource-map"></a>
-<a id="目录-contents"></a>
 
 <p align="center">
-<a href="https://xioacd99.github.io/study-is-wonderful/resource-map/"><img src="resource-map/preview-en.jpg?v=knowledge-graph-379c199" alt="Learning map screenshot" width="800"></a><br>
-<a href="https://xioacd99.github.io/study-is-wonderful/resource-map/">🧭 Explore the learning map ↗</a>
+<a href="https://xioacd99.github.io/study-is-wonderful/resource-map/"><img src="resource-map/preview-en.jpg?v=phase2" alt="Learning map screenshot" width="800"></a>
 </p>
+
+<a id="目录-contents"></a>
+<!-- TOC:START -->
+<p align="center">
+<a href="#数学-math">Math (26)</a> · <a href="#计算机科学-computer-science">Computer Science (57)</a> · <a href="#人工智能-artificial-intelligence">Artificial Intelligence (36)</a> · <a href="#经济学-economics">Economics (4)</a> · <a href="#物理学-physics">Physics (5)</a> · <a href="#心理学-psychology">Psychology (6)</a><br>
+<a href="#社会科学-social-sciences">Social Sciences (4)</a> · <a href="#生物学-biology">Biology (2)</a> · <a href="#哲学与艺术-philosophy-and-arts">Philosophy and Arts (5)</a> · <a href="#其他-others">Others (9)</a> · <a href="#技术博客-technical-blogs">Technical blogs (64)</a>
+</p>
+<!-- TOC:END -->
 
 <a id="数学-math"></a>
 
@@ -59,7 +49,7 @@ Within each topic, courses are sorted by English title. Different course version
 - <a id="course-math-05"></a>[Matrix Theory and Applications](https://www.bilibili.com/BV17h411W7bk) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Use vectors and matrices to organize data and equations and explore their applications.
 
-- <a id="course-math-01"></a>[MIT 18.065 · Matrix Methods in Data Analysis, Signal Processing, and Machine Learning (Spring 2018)](https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/) <img src="icons/mit-seal.svg" alt="MIT OpenCourseWare" width="24">（MIT OpenCourseWare） · [Official Lecture 1](https://www.youtube.com/watch?v=YiqIkSHSmyc) <img src="youtube.svg" alt="YouTube" height="16">
+- <a id="course-math-01"></a>[MIT 18.065 · Matrix Methods in Data Analysis, Signal Processing, and Machine Learning (Spring 2018)](https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" width="24">（MIT OpenCourseWare） · [Official Lecture 1](https://www.youtube.com/watch?v=YiqIkSHSmyc) <img src="youtube.svg" alt="YouTube" height="16">
   > Learn matrix factorizations, probability, statistics, and optimization with Gilbert Strang, and see how linear algebra supports data analysis and deep learning.
 
 
@@ -165,7 +155,7 @@ Within each topic, courses are sorted by English title. Different course version
 - <a id="course-cs-20"></a>[Distributed Systems](https://www.bilibili.com/BV1CU4y1P7PE) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore distributed systems and how multiple computers work together on tasks.
 
-- <a id="course-cs-01"></a>[MIT 6.172 · Performance Engineering of Software Systems (Fall 2018)](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/) <img src="icons/mit-seal.svg" alt="MIT OpenCourseWare" width="24">（MIT OpenCourseWare） · [Official Lecture 1](https://www.youtube.com/watch?v=o7h_sYMk_oc) <img src="youtube.svg" alt="YouTube" height="16"> · [Repost](https://www.bilibili.com/video/BV1wA411h7N7/) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-cs-01"></a>[MIT 6.172 · Performance Engineering of Software Systems (Fall 2018)](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" width="24">（MIT OpenCourseWare） · [Official Lecture 1](https://www.youtube.com/watch?v=o7h_sYMk_oc) <img src="youtube.svg" alt="YouTube" height="16"> · [Repost](https://www.bilibili.com/video/BV1wA411h7N7/) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Learn to analyze program performance through examples such as matrix multiplication, and understand how algorithms, programming languages, and computer systems affect execution speed.
 
 - <a id="course-cs-36"></a>[UC Berkeley · Applications of Parallel Computing](https://www.bilibili.com/BV1qV411q7RS)<img src="bilibili.svg" alt="Bilibili" width="36">
@@ -179,16 +169,16 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Programming foundations and developer tools
 
-- <a id="course-cs-07"></a>[CS101](https://web.stanford.edu/class/cs101/) <img src="icons/stanford-seal.svg" alt="Stanford course website" height="16">
+- <a id="course-cs-07"></a>[CS101](https://web.stanford.edu/class/cs101/) <img src="icons/stanford-seal.png" alt="Stanford course website" height="16">
   > Meet computer hardware, software, and data, along with programming ideas such as variables and loops.
 
-- <a id="course-cs-15"></a>[CS106B Programming Abstractions](https://web.stanford.edu/class/cs106b/) <img src="icons/stanford-seal.svg" alt="Stanford course website" height="16">
+- <a id="course-cs-15"></a>[CS106B Programming Abstractions](https://web.stanford.edu/class/cs106b/) <img src="icons/stanford-seal.png" alt="Stanford course website" height="16">
   > Use programming abstractions to manage complexity and learn tools such as recursion and data structures.
 
 - <a id="course-cs-05"></a>[CS50X Introduction to Computer Science](https://www.bilibili.com/BV1ER4y157uA) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Start learning computer science and programming by breaking problems into steps a computer can follow.
 
-- <a id="course-cs-08"></a>[Introduction to Computer Science and Programming in Python](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/) <img src="icons/mit-seal.svg" alt="MIT OpenCourseWare" height="16">
+- <a id="course-cs-08"></a>[Introduction to Computer Science and Programming in Python](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16">
   > Learn programming basics in Python and practice solving problems with small programs.
 
 - <a id="course-cs-56"></a>[MIT · Python Programming](https://www.bilibili.com/BV1mq4y1u7NB)<img src="bilibili.svg" alt="Bilibili" width="36">
@@ -197,7 +187,7 @@ Within each topic, courses are sorted by English title. Different course version
 - <a id="course-cs-52"></a>[MIT · Structure and Interpretation of Computer Programs](https://www.bilibili.com/BV1AA411t7Wk)<img src="bilibili.svg" alt="Bilibili" width="36">
   > Explore foundational computer science ideas by constructing and understanding programs.
 
-- <a id="course-cs-02"></a>[MIT · The Missing Semester of Your CS Education (2026)](https://www.youtube.com/playlist?list=PLyzOVJj3bHQunmnnTXrNbZnBaCA-ieK4L)<img src="youtube.svg" alt="YouTube" width="24"> · [Chinese-dubbed repost](https://www.bilibili.com/video/BV1JgACzjEo8/) <img src="bilibili.svg" alt="Bilibili" height="16"> · [Course website](https://missing.csail.mit.edu/2026/) <img src="icons/mit-seal.svg" alt="MIT OpenCourseWare" height="16">
+- <a id="course-cs-02"></a>[MIT · The Missing Semester of Your CS Education (2026)](https://www.youtube.com/playlist?list=PLyzOVJj3bHQunmnnTXrNbZnBaCA-ieK4L)<img src="youtube.svg" alt="YouTube" width="24"> · [Chinese-dubbed repost](https://www.bilibili.com/video/BV1JgACzjEo8/) <img src="bilibili.svg" alt="Bilibili" height="16"> · [Course website](https://missing.csail.mit.edu/2026/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16">
   > Learn shell tools, development workflows, debugging, Git, software delivery, and code quality, including how agentic coding fits into everyday development.
 
 - <a id="course-cs-06"></a>[Programming Methodology](https://www.bilibili.com/BV1zs411h7t8) <img src="bilibili.svg" alt="Bilibili" height="16">
@@ -223,7 +213,7 @@ Within each topic, courses are sorted by English title. Different course version
 - <a id="course-cs-09"></a>[Classical Algorithms](https://www.bilibili.com/BV1kf4y1w7Kn) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore classic algorithms, or step-by-step methods computers can use to solve problems.
 
-- <a id="course-cs-14"></a>[CS 61B](https://inst.eecs.berkeley.edu/~cs61b/sp20/index.html) <img src="icons/berkeley-seal.svg" alt="UC Berkeley course website" height="16">
+- <a id="course-cs-14"></a>[CS 61B](https://inst.eecs.berkeley.edu/~cs61b/sp20/index.html) <img src="icons/berkeley-seal.png" alt="UC Berkeley course website" height="16">
   > Learn data structures, the ways programs store, find, and work with data.
 
 - <a id="course-cs-16"></a>[CSE 373 "The Algorithm Design Manual"](https://www3.cs.stonybrook.edu/~skiena/373/videos/) <img src="icons/stonybrook-seal.svg" alt="Stony Brook course website" height="16">
@@ -243,13 +233,13 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Computer systems and operating systems
 
-- <a id="course-cs-23"></a>[15-213](https://www.bilibili.com/video/BV1iW411d7hd) <img src="bilibili.svg" alt="Bilibili" height="16"> · [Link 2](http://www.cs.cmu.edu/~213/) <img src="icons/cmu-seal.svg" alt="Carnegie Mellon course website" height="16">
+- <a id="course-cs-23"></a>[15-213](https://www.bilibili.com/video/BV1iW411d7hd) <img src="bilibili.svg" alt="Bilibili" height="16"> · [Link 2](http://www.cs.cmu.edu/~213/) <img src="icons/cmu-seal.png" alt="Carnegie Mellon course website" height="16">
   > See computer systems from a programmer’s perspective, including machine code, memory, and networking.
 
-- <a id="course-cs-24"></a>[CS 107](http://web.stanford.edu/class/cs107/) <img src="icons/stanford-seal.svg" alt="Stanford course website" height="16">
+- <a id="course-cs-24"></a>[CS 107](http://web.stanford.edu/class/cs107/) <img src="icons/stanford-seal.png" alt="Stanford course website" height="16">
   > Look inside computer systems and learn how C, memory, and machine code shape program execution.
 
-- <a id="course-cs-22"></a>[CS 61C](https://inst.eecs.berkeley.edu/~cs61c/fa20/) <img src="icons/berkeley-seal.svg" alt="UC Berkeley course website" height="16">
+- <a id="course-cs-22"></a>[CS 61C](https://inst.eecs.berkeley.edu/~cs61c/fa20/) <img src="icons/berkeley-seal.png" alt="UC Berkeley course website" height="16">
   > Study computer science through Berkeley’s CS 61C course.
 
 - <a id="course-cs-17"></a>[Introduction to Computer Systems](https://www.bilibili.com/BV1uK4y1e7ep) <img src="bilibili.svg" alt="Bilibili" height="16">
@@ -313,7 +303,7 @@ Within each topic, courses are sorted by English title. Different course version
 - <a id="course-cs-30"></a>[Harvard · Big Data Algorithms](https://www.bilibili.com/BV1v54y1x7dQ)<img src="bilibili.svg" alt="Bilibili" width="36">
   > Explore algorithms for working with large amounts of data.
 
-- <a id="course-cs-31"></a>[Stanford · CS 246](http://web.stanford.edu/class/cs246/)<img src="icons/stanford-seal.svg" alt="Stanford course website" width="24">
+- <a id="course-cs-31"></a>[Stanford · CS 246](http://web.stanford.edu/class/cs246/)<img src="icons/stanford-seal.png" alt="Stanford course website" width="24">
   > Explore methods for finding useful patterns in massive datasets.
 
 - <a id="course-cs-29"></a>[Stanford · Introduction to Big Data](https://www.bilibili.com/BV1SC4y187x1)<img src="bilibili.svg" alt="Bilibili" width="36">
@@ -417,7 +407,7 @@ Within each topic, courses are sorted by English title. Different course version
 - <a id="course-ai-24"></a>[Hung-yi Lee · Deep Learning for Human Language Processing](https://www.youtube.com/watch?v=nER51ZyJaCQ&list=PLJV_el3uVTsO07RpBYFsXg-bN5Lu0nhdG)<img src="youtube.svg" alt="YouTube" width="24">
   > Explore deep-learning methods for processing human language.
 
-- <a id="course-ai-04"></a>[Stanford CS336: Language Modeling from Scratch (Lecture 1)](https://www.youtube.com/watch?v=SQ3fZ1sAqXI) <img src="youtube.svg" alt="YouTube" height="16"> · [Spring 2025 course website](https://cs336.stanford.edu/spring2025/) <img src="icons/stanford-seal.svg" alt="Stanford course website" height="16">
+- <a id="course-ai-04"></a>[Stanford CS336: Language Modeling from Scratch (Lecture 1)](https://www.youtube.com/watch?v=SQ3fZ1sAqXI) <img src="youtube.svg" alt="YouTube" height="16"> · [Spring 2025 course website](https://cs336.stanford.edu/spring2025/) <img src="icons/stanford-seal.png" alt="Stanford course website" height="16">
   > Start exploring how language models are built, beginning with an overview and tokenization. The official course website provides the schedule and five assignments covering implementation basics, systems, scaling laws, data, and alignment and reasoning RL.
 
 - <a id="course-ai-22"></a>[Stanford · Deep Natural Language Processing](https://www.bilibili.com/BV1pt411h7aT)<img src="bilibili.svg" alt="Bilibili" width="36">
@@ -431,10 +421,10 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Machine learning and AI foundations
 
-- <a id="course-ai-17"></a>[Berkeley · CS 188](https://inst.eecs.berkeley.edu/~cs188/fa19/)<img src="icons/berkeley-seal.svg" alt="UC Berkeley course website" width="24">
+- <a id="course-ai-17"></a>[Berkeley · CS 188](https://inst.eecs.berkeley.edu/~cs188/fa19/)<img src="icons/berkeley-seal.png" alt="UC Berkeley course website" width="24">
   > Explore AI foundations through ideas such as search, reasoning and learning.
 
-- <a id="course-ai-18"></a>[Berkeley · CS 189](https://www.eecs189.org/)<img src="icons/berkeley-seal.svg" alt="UC Berkeley course website" width="24">
+- <a id="course-ai-18"></a>[Berkeley · CS 189](https://www.eecs189.org/)<img src="icons/berkeley-seal.png" alt="UC Berkeley course website" width="24">
   > Explore how models learn from data and how their performance can be assessed.
 
 - <a id="course-ai-06"></a>[CMU · Artificial Intelligence (Graduate)](https://www.bilibili.com/BV1pC4y1t7px)<img src="bilibili.svg" alt="Bilibili" width="36">
@@ -556,7 +546,7 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Mechanics and quantum physics
 
-- <a id="course-physics-02"></a>[MIT 8.01SC · Classical Mechanics (Fall 2016)](https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/) <img src="icons/mit-seal.svg" alt="MIT OpenCourseWare" width="24">（MIT OpenCourseWare） · [Week 1 Introduction](https://www.youtube.com/watch?v=i4u7SZjoAs4) <img src="youtube.svg" alt="YouTube" height="16"> · [Course videos](https://www.bilibili.com/video/BV1KQ4y1B7TJ/) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-physics-02"></a>[MIT 8.01SC · Classical Mechanics (Fall 2016)](https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" width="24">（MIT OpenCourseWare） · [Week 1 Introduction](https://www.youtube.com/watch?v=i4u7SZjoAs4) <img src="youtube.svg" alt="YouTube" height="16"> · [Course videos](https://www.bilibili.com/video/BV1KQ4y1B7TJ/) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Study motion and forces through Newton’s laws, momentum, energy, and rotation, and practice using mathematics to describe and solve classical mechanics problems.
 
 - <a id="course-physics-03"></a>[Quantum Mechanics](https://www.bilibili.com/BV1w4411s7da) <img src="bilibili.svg" alt="Bilibili" height="16">
@@ -624,7 +614,7 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Molecular and cellular biology
 
-- <a id="course-biology-02"></a>[MIT 7.016 · Introductory Biology (Fall 2018)](https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/) <img src="icons/mit-seal.svg" alt="MIT OpenCourseWare" width="24"> · [Official lecture videos](https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/video_galleries/lecture-videos/) <img src="icons/mit-seal.svg" alt="MIT OpenCourseWare" height="16">
+- <a id="course-biology-02"></a>[MIT 7.016 · Introductory Biology (Fall 2018)](https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" width="24"> · [Official lecture videos](https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/video_galleries/lecture-videos/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16">
   > Explore biochemistry, genetics, and cell biology to understand how genes, proteins, and cells work together, and how these principles inform research on health and disease.
 
 
@@ -933,3 +923,30 @@ Within each topic, courses are sorted by English title. Different course version
 - [Accelerating the search for antimicrobial peptides with Google Antigravity](https://deepmind.google/blog/accelerating-antimicrobial-discovery/) · <img src="icons/deepmind.png" alt="Google DeepMind" height="16"> Google DeepMind
   > See how researchers work with an agent to screen proteins, analyze structures, and gather evidence, and why computationally selected antimicrobial peptide candidates still need laboratory validation.
 
+
+
+<a id="资源来源-sources"></a>
+
+## Resource sources
+
+<!-- SOURCES:START -->
+<p align="center"><strong>📚 Resource sources · not sponsorships or endorsements</strong></p>
+<p align="center"><strong>Universities</strong><br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="icons/source-wall-universities-dark.svg">
+  <img src="icons/source-wall-universities.svg" alt="Universities: Caltech, Carnegie Mellon, Cornell University, ETH Zürich, Harvard University, MIT OpenCourseWare, Nanjing University, National Taiwan University, Princeton University, Stanford, Stony Brook, UC Berkeley, University of Cambridge, University of Oxford, Open Yale Courses, Zhejiang University" width="720">
+</picture>
+</p>
+<p align="center"><strong>Projects &amp; Platforms</strong><br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="icons/source-wall-projects-dark.svg">
+  <img src="icons/source-wall-projects.svg" alt="Projects &amp; Platforms: Ai2, Bilibili, GAMES, ggml-org, YouTube, vLLM" width="720">
+</picture>
+</p>
+<p align="center"><strong>Companies</strong><br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="icons/source-wall-companies-dark.svg">
+  <img src="icons/source-wall-companies.svg" alt="Companies: Anthropic, Clay, Google, Google Antigravity, Google Cloud, Google DeepMind, Hugging Face, Meta, NVIDIA, OpenAI" width="720">
+</picture>
+</p>
+<!-- SOURCES:END -->

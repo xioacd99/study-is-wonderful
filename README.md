@@ -6,36 +6,26 @@
 
 跨学科好课，让好奇心自由生长。
 
-[简体中文](README.md) · [English](README-en.md)
+[🧭 打开学习星图 ↗](https://xioacd99.github.io/study-is-wonderful/resource-map/) · [简体中文](README.md) · [English](README-en.md)
 
-[154 门课程](#目录-contents) · [10 个学科](#目录-contents) · [64 篇技术文章](#技术博客-technical-blogs)
-
-[推荐资源](https://github.com/xioacd99/study-is-wonderful/issues) · [参与共建](https://github.com/xioacd99/study-is-wonderful/pulls)
+[154 门课程](#目录-contents) · [10 个学科](#目录-contents) · [64 篇技术文章](#技术博客-technical-blogs) · [资源来源](#资源来源-sources) · [推荐资源](https://github.com/xioacd99/study-is-wonderful/issues) · [参与共建](https://github.com/xioacd99/study-is-wonderful/pulls)
 
 </div>
 
-<!-- SOURCES:START -->
-<p align="center"><strong>📚 资源来源 · 非赞助或背书</strong></p>
-<p align="center"><strong>大学</strong><br>
-<img src="icons/source-wall-universities.svg" alt="大学: Caltech, Carnegie Mellon, Cornell University, ETH Zürich, Harvard University, MIT OpenCourseWare, Nanjing University, National Taiwan University, Princeton University, Stanford, Stony Brook, UC Berkeley, University of Cambridge, University of Oxford, Open Yale Courses, Zhejiang University" width="720">
-</p>
-<p align="center"><strong>项目与平台</strong><br>
-<img src="icons/source-wall-projects.svg" alt="项目与平台: Ai2, Bilibili, GAMES, ggml-org, YouTube, vLLM" width="720">
-</p>
-<p align="center"><strong>公司</strong><br>
-<img src="icons/source-wall-companies.svg" alt="公司: Anthropic, Clay, Google, Google Antigravity, Google Cloud, Google DeepMind, Hugging Face, Meta, NVIDIA, OpenAI" width="720">
-</p>
-<!-- SOURCES:END -->
-
-
 <a id="resource-map"></a>
 <a id="资源全景-resource-map"></a>
-<a id="目录-contents"></a>
 
 <p align="center">
-<a href="https://xioacd99.github.io/study-is-wonderful/resource-map/"><img src="resource-map/preview-zh.jpg?v=knowledge-graph-379c199" alt="学习星图实际界面" width="800"></a><br>
-<a href="https://xioacd99.github.io/study-is-wonderful/resource-map/">🧭 打开学习星图 ↗</a>
+<a href="https://xioacd99.github.io/study-is-wonderful/resource-map/"><img src="resource-map/preview-zh.jpg?v=phase2" alt="学习星图实际界面" width="800"></a>
 </p>
+
+<a id="目录-contents"></a>
+<!-- TOC:START -->
+<p align="center">
+<a href="#数学-math">数学 (26)</a> · <a href="#计算机科学-computer-science">计算机科学 (57)</a> · <a href="#人工智能-artificial-intelligence">人工智能 (36)</a> · <a href="#经济学-economics">经济学 (4)</a> · <a href="#物理学-physics">物理学 (5)</a> · <a href="#心理学-psychology">心理学 (6)</a><br>
+<a href="#社会科学-social-sciences">社会科学 (4)</a> · <a href="#生物学-biology">生物学 (2)</a> · <a href="#哲学与艺术-philosophy-and-arts">哲学与艺术 (5)</a> · <a href="#其他-others">其他 (9)</a> · <a href="#技术博客-technical-blogs">技术博客 (64)</a>
+</p>
+<!-- TOC:END -->
 
 <a id="数学-math"></a>
 
@@ -59,7 +49,7 @@
 - <a id="course-math-05"></a>[矩阵论与应用](https://www.bilibili.com/BV17h411W7bk) <img src="bilibili.svg" alt="Bilibili" height="16">
   > 用向量和矩阵整齐地表示数据与方程，并探索它们的应用。
 
-- <a id="course-math-01"></a>[MIT 18.065 · 数据分析、信号处理与机器学习中的矩阵方法（2018 春季）](https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/) <img src="icons/mit-seal.svg" alt="MIT OpenCourseWare" width="24">（MIT OpenCourseWare） · [官方第一讲](https://www.youtube.com/watch?v=YiqIkSHSmyc) <img src="youtube.svg" alt="YouTube" height="16">
+- <a id="course-math-01"></a>[MIT 18.065 · 数据分析、信号处理与机器学习中的矩阵方法（2018 春季）](https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" width="24">（MIT OpenCourseWare） · [官方第一讲](https://www.youtube.com/watch?v=YiqIkSHSmyc) <img src="youtube.svg" alt="YouTube" height="16">
   > 跟随 Gilbert Strang 学习矩阵分解、概率统计与优化，理解线性代数如何支撑数据分析和深度学习。
 
 
@@ -165,7 +155,7 @@
 - <a id="course-cs-20"></a>[分布式系统](https://www.bilibili.com/BV1CU4y1P7PE) <img src="bilibili.svg" alt="Bilibili" height="16">
   > 认识分布式系统，探索多台计算机如何协作完成任务。
 
-- <a id="course-cs-01"></a>[MIT 6.172 · 软件系统性能工程（2018 秋季）](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/) <img src="icons/mit-seal.svg" alt="MIT OpenCourseWare" width="24">（MIT OpenCourseWare） · [官方第一讲](https://www.youtube.com/watch?v=o7h_sYMk_oc) <img src="youtube.svg" alt="YouTube" height="16"> · [转载](https://www.bilibili.com/video/BV1wA411h7N7/) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-cs-01"></a>[MIT 6.172 · 软件系统性能工程（2018 秋季）](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" width="24">（MIT OpenCourseWare） · [官方第一讲](https://www.youtube.com/watch?v=o7h_sYMk_oc) <img src="youtube.svg" alt="YouTube" height="16"> · [转载](https://www.bilibili.com/video/BV1wA411h7N7/) <img src="bilibili.svg" alt="Bilibili" height="16">
   > 从矩阵乘法优化等实例出发，学习分析程序性能，理解算法、编程语言与计算机系统如何影响运行速度。
 
 - <a id="course-cs-36"></a>[加州伯克利 · 并行计算应用](https://www.bilibili.com/BV1qV411q7RS)<img src="bilibili.svg" alt="Bilibili" width="36">
@@ -179,16 +169,16 @@
 
 ### 编程基础与开发工具
 
-- <a id="course-cs-07"></a>[CS101](https://web.stanford.edu/class/cs101/) <img src="icons/stanford-seal.svg" alt="Stanford course website" height="16">
+- <a id="course-cs-07"></a>[CS101](https://web.stanford.edu/class/cs101/) <img src="icons/stanford-seal.png" alt="Stanford course website" height="16">
   > 认识计算机的硬件、软件和数据，并接触变量与循环等编程概念。
 
-- <a id="course-cs-15"></a>[CS106B 编程抽象](https://web.stanford.edu/class/cs106b/) <img src="icons/stanford-seal.svg" alt="Stanford course website" height="16">
+- <a id="course-cs-15"></a>[CS106B 编程抽象](https://web.stanford.edu/class/cs106b/) <img src="icons/stanford-seal.png" alt="Stanford course website" height="16">
   > 用编程抽象把复杂问题拆开，学习递归和数据结构等解决问题的工具。
 
 - <a id="course-cs-05"></a>[CS50X 计算机入门](https://www.bilibili.com/BV1ER4y157uA) <img src="bilibili.svg" alt="Bilibili" height="16">
   > 从零认识计算机科学与编程，学习如何把问题拆成计算机可以执行的步骤。
 
-- <a id="course-cs-08"></a>[计算机科学与 Python 编程导论](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/) <img src="icons/mit-seal.svg" alt="MIT OpenCourseWare" height="16">
+- <a id="course-cs-08"></a>[计算机科学与 Python 编程导论](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16">
   > 用 Python 学习编程基础，练习用小程序解决问题。
 
 - <a id="course-cs-56"></a>[MIT · python 编程](https://www.bilibili.com/BV1mq4y1u7NB)<img src="bilibili.svg" alt="Bilibili" width="36">
@@ -197,7 +187,7 @@
 - <a id="course-cs-52"></a>[MIT · 计算机程序的构造与解释](https://www.bilibili.com/BV1AA411t7Wk)<img src="bilibili.svg" alt="Bilibili" width="36">
   > 通过构造和理解程序，探索计算机科学的基本思想。
 
-- <a id="course-cs-02"></a>[MIT · 计算机教育中缺失的一课（2026）](https://www.youtube.com/playlist?list=PLyzOVJj3bHQunmnnTXrNbZnBaCA-ieK4L)<img src="youtube.svg" alt="YouTube" width="24"> · [中文配音转载](https://www.bilibili.com/video/BV1JgACzjEo8/) <img src="bilibili.svg" alt="Bilibili" height="16"> · [课程官网](https://missing.csail.mit.edu/2026/) <img src="icons/mit-seal.svg" alt="MIT OpenCourseWare" height="16">
+- <a id="course-cs-02"></a>[MIT · 计算机教育中缺失的一课（2026）](https://www.youtube.com/playlist?list=PLyzOVJj3bHQunmnnTXrNbZnBaCA-ieK4L)<img src="youtube.svg" alt="YouTube" width="24"> · [中文配音转载](https://www.bilibili.com/video/BV1JgACzjEo8/) <img src="bilibili.svg" alt="Bilibili" height="16"> · [课程官网](https://missing.csail.mit.edu/2026/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16">
   > 学习 Shell、开发工具、调试、Git、代码发布与质量管理，并了解智能体编程如何融入日常开发。
 
 - <a id="course-cs-06"></a>[编程方法学](https://www.bilibili.com/BV1zs411h7t8) <img src="bilibili.svg" alt="Bilibili" height="16">
@@ -223,7 +213,7 @@
 - <a id="course-cs-09"></a>[经典算法](https://www.bilibili.com/BV1kf4y1w7Kn) <img src="bilibili.svg" alt="Bilibili" height="16">
   > 认识经典算法，了解计算机解决问题时可以采用的步骤。
 
-- <a id="course-cs-14"></a>[CS 61B](https://inst.eecs.berkeley.edu/~cs61b/sp20/index.html) <img src="icons/berkeley-seal.svg" alt="UC Berkeley course website" height="16">
+- <a id="course-cs-14"></a>[CS 61B](https://inst.eecs.berkeley.edu/~cs61b/sp20/index.html) <img src="icons/berkeley-seal.png" alt="UC Berkeley course website" height="16">
   > 学习数据结构，也就是让程序存放、查找和处理数据的方法。
 
 - <a id="course-cs-16"></a>[CSE 373《算法设计手册》](https://www3.cs.stonybrook.edu/~skiena/373/videos/) <img src="icons/stonybrook-seal.svg" alt="Stony Brook course website" height="16">
@@ -243,13 +233,13 @@
 
 ### 计算机系统与操作系统
 
-- <a id="course-cs-23"></a>[15-213](https://www.bilibili.com/video/BV1iW411d7hd) <img src="bilibili.svg" alt="Bilibili" height="16"> · [课程网页](http://www.cs.cmu.edu/~213/) <img src="icons/cmu-seal.svg" alt="Carnegie Mellon course website" height="16">
+- <a id="course-cs-23"></a>[15-213](https://www.bilibili.com/video/BV1iW411d7hd) <img src="bilibili.svg" alt="Bilibili" height="16"> · [课程网页](http://www.cs.cmu.edu/~213/) <img src="icons/cmu-seal.png" alt="Carnegie Mellon course website" height="16">
   > 从程序员的角度认识计算机系统，了解机器代码、内存和网络等概念。
 
-- <a id="course-cs-24"></a>[CS 107](http://web.stanford.edu/class/cs107/) <img src="icons/stanford-seal.svg" alt="Stanford course website" height="16">
+- <a id="course-cs-24"></a>[CS 107](http://web.stanford.edu/class/cs107/) <img src="icons/stanford-seal.png" alt="Stanford course website" height="16">
   > 走近计算机内部，学习 C 语言、内存和机器代码如何影响程序运行。
 
-- <a id="course-cs-22"></a>[CS 61C](https://inst.eecs.berkeley.edu/~cs61c/fa20/) <img src="icons/berkeley-seal.svg" alt="UC Berkeley course website" height="16">
+- <a id="course-cs-22"></a>[CS 61C](https://inst.eecs.berkeley.edu/~cs61c/fa20/) <img src="icons/berkeley-seal.png" alt="UC Berkeley course website" height="16">
   > 通过伯克利 CS 61C 课程学习计算机科学。
 
 - <a id="course-cs-17"></a>[计算机系统介绍](https://www.bilibili.com/BV1uK4y1e7ep) <img src="bilibili.svg" alt="Bilibili" height="16">
@@ -313,7 +303,7 @@
 - <a id="course-cs-30"></a>[哈佛 · 大数据算法](https://www.bilibili.com/BV1v54y1x7dQ)<img src="bilibili.svg" alt="Bilibili" width="36">
   > 探索处理大量数据时使用的算法。
 
-- <a id="course-cs-31"></a>[斯坦福 · CS 246](http://web.stanford.edu/class/cs246/)<img src="icons/stanford-seal.svg" alt="Stanford course website" width="24">
+- <a id="course-cs-31"></a>[斯坦福 · CS 246](http://web.stanford.edu/class/cs246/)<img src="icons/stanford-seal.png" alt="Stanford course website" width="24">
   > 学习从海量数据中寻找有用模式的方法。
 
 - <a id="course-cs-29"></a>[斯坦福 · 大数据概论](https://www.bilibili.com/BV1SC4y187x1)<img src="bilibili.svg" alt="Bilibili" width="36">
@@ -417,7 +407,7 @@
 - <a id="course-ai-24"></a>[李宏毅 · Deep Learning for Human Language Processing](https://www.youtube.com/watch?v=nER51ZyJaCQ&list=PLJV_el3uVTsO07RpBYFsXg-bN5Lu0nhdG)<img src="youtube.svg" alt="YouTube" width="24">
   > 探索用深度学习处理人类语言的方法。
 
-- <a id="course-ai-04"></a>[斯坦福 CS336：从零构建语言模型（第一讲）](https://www.youtube.com/watch?v=SQ3fZ1sAqXI) <img src="youtube.svg" alt="YouTube" height="16"> · [2025 春季课程官网](https://cs336.stanford.edu/spring2025/) <img src="icons/stanford-seal.svg" alt="Stanford course website" height="16">
+- <a id="course-ai-04"></a>[斯坦福 CS336：从零构建语言模型（第一讲）](https://www.youtube.com/watch?v=SQ3fZ1sAqXI) <img src="youtube.svg" alt="YouTube" height="16"> · [2025 春季课程官网](https://cs336.stanford.edu/spring2025/) <img src="icons/stanford-seal.png" alt="Stanford course website" height="16">
   > 从第一讲认识语言模型与分词，开启对大模型构建方法的学习。 官方课程网站提供完整课表和五项作业，覆盖基础实现、系统优化、规模规律、数据处理及对齐与推理强化学习。
 
 - <a id="course-ai-22"></a>[斯坦福 · 深度自然语言处理](https://www.bilibili.com/BV1pt411h7aT)<img src="bilibili.svg" alt="Bilibili" width="36">
@@ -431,10 +421,10 @@
 
 ### 机器学习与人工智能基础
 
-- <a id="course-ai-17"></a>[伯克利 · CS 188](https://inst.eecs.berkeley.edu/~cs188/fa19/)<img src="icons/berkeley-seal.svg" alt="UC Berkeley course website" width="24">
+- <a id="course-ai-17"></a>[伯克利 · CS 188](https://inst.eecs.berkeley.edu/~cs188/fa19/)<img src="icons/berkeley-seal.png" alt="UC Berkeley course website" width="24">
   > 通过搜索、推理和学习等方法，认识人工智能的基础。
 
-- <a id="course-ai-18"></a>[伯克利 · CS 189](https://www.eecs189.org/)<img src="icons/berkeley-seal.svg" alt="UC Berkeley course website" width="24">
+- <a id="course-ai-18"></a>[伯克利 · CS 189](https://www.eecs189.org/)<img src="icons/berkeley-seal.png" alt="UC Berkeley course website" width="24">
   > 了解如何用数据训练模型，以及怎样判断模型的表现。
 
 - <a id="course-ai-06"></a>[CMU · 人工智能 (研究生)](https://www.bilibili.com/BV1pC4y1t7px)<img src="bilibili.svg" alt="Bilibili" width="36">
@@ -556,7 +546,7 @@
 
 ### 力学与量子物理
 
-- <a id="course-physics-02"></a>[MIT 8.01SC · 经典力学（2016 秋季）](https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/) <img src="icons/mit-seal.svg" alt="MIT OpenCourseWare" width="24">（MIT OpenCourseWare） · [第一周导论](https://www.youtube.com/watch?v=i4u7SZjoAs4) <img src="youtube.svg" alt="YouTube" height="16"> · [课程视频](https://www.bilibili.com/video/BV1KQ4y1B7TJ/) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-physics-02"></a>[MIT 8.01SC · 经典力学（2016 秋季）](https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" width="24">（MIT OpenCourseWare） · [第一周导论](https://www.youtube.com/watch?v=i4u7SZjoAs4) <img src="youtube.svg" alt="YouTube" height="16"> · [课程视频](https://www.bilibili.com/video/BV1KQ4y1B7TJ/) <img src="bilibili.svg" alt="Bilibili" height="16">
   > 从运动与受力出发，学习牛顿定律、动量、能量和旋转，练习用数学描述并解决经典力学问题。
 
 - <a id="course-physics-03"></a>[量子力学](https://www.bilibili.com/BV1w4411s7da) <img src="bilibili.svg" alt="Bilibili" height="16">
@@ -624,7 +614,7 @@
 
 ### 分子与细胞生物学
 
-- <a id="course-biology-02"></a>[MIT 7.016 · 生物学导论（2018 秋季）](https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/) <img src="icons/mit-seal.svg" alt="MIT OpenCourseWare" width="24"> · [官方视频目录](https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/video_galleries/lecture-videos/) <img src="icons/mit-seal.svg" alt="MIT OpenCourseWare" height="16">
+- <a id="course-biology-02"></a>[MIT 7.016 · 生物学导论（2018 秋季）](https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" width="24"> · [官方视频目录](https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/video_galleries/lecture-videos/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16">
   > 从生物化学、遗传学和细胞生物学入门，理解基因、蛋白质与细胞如何协同工作，并认识这些原理在健康与疾病研究中的应用。
 
 
@@ -933,3 +923,30 @@
 - [用 Google Antigravity 加速抗菌肽搜索](https://deepmind.google/blog/accelerating-antimicrobial-discovery/) · <img src="icons/deepmind.png" alt="Google DeepMind" height="16"> Google DeepMind
   > 了解研究者如何与智能体合作筛选蛋白质、分析结构并整理证据，以及为什么计算选出的候选抗菌肽仍需实验验证。
 
+
+
+<a id="资源来源-sources"></a>
+
+## 资源来源
+
+<!-- SOURCES:START -->
+<p align="center"><strong>📚 资源来源 · 非赞助或背书</strong></p>
+<p align="center"><strong>大学</strong><br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="icons/source-wall-universities-dark.svg">
+  <img src="icons/source-wall-universities.svg" alt="大学: Caltech, Carnegie Mellon, Cornell University, ETH Zürich, Harvard University, MIT OpenCourseWare, Nanjing University, National Taiwan University, Princeton University, Stanford, Stony Brook, UC Berkeley, University of Cambridge, University of Oxford, Open Yale Courses, Zhejiang University" width="720">
+</picture>
+</p>
+<p align="center"><strong>项目与平台</strong><br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="icons/source-wall-projects-dark.svg">
+  <img src="icons/source-wall-projects.svg" alt="项目与平台: Ai2, Bilibili, GAMES, ggml-org, YouTube, vLLM" width="720">
+</picture>
+</p>
+<p align="center"><strong>公司</strong><br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="icons/source-wall-companies-dark.svg">
+  <img src="icons/source-wall-companies.svg" alt="公司: Anthropic, Clay, Google, Google Antigravity, Google Cloud, Google DeepMind, Hugging Face, Meta, NVIDIA, OpenAI" width="720">
+</picture>
+</p>
+<!-- SOURCES:END -->

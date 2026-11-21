@@ -37,6 +37,9 @@ class MapTests(unittest.TestCase):
  def test_compact_header_and_thumbnail(self):
   for lang,text in [('zh',self.text),('en',self.english)]:
    self.assertIn('resource-map/preview-'+lang+'.jpg',text)
+   self.assertIn('<!-- TOC:START -->',text)
+   self.assertIn('<!-- TOC:END -->',text)
+   self.assertIn('href="#数学-math"',text)
    self.assertNotIn('<table>',text)
    self.assertNotIn('toc.jpg',text)
    self.assertNotIn('Smart TOC',text)
@@ -78,6 +81,9 @@ class MapTests(unittest.TestCase):
   self.assertIn('el.dataset.parent=n.parent.id',template)
   self.assertIn('not prerequisites',template)
   self.assertIn('graph-overview',template)
+  self.assertIn('lod-topics',template)
+  self.assertIn('id="tooltip"',template)
+  self.assertIn("addEventListener('wheel'",template)
   self.assertIn('setZoom(zoom*1.4)',template)
  def test_generated_html(self):
   import json
@@ -101,23 +107,25 @@ class MapTests(unittest.TestCase):
    for org in {r['organization'] for r in records}:
     positions=[i for i,r in enumerate(records) if r['organization']==org]
     self.assertEqual(positions,list(range(min(positions),max(positions)+1)))
-   wall=builder.source_wall(records,group)
-   self.assertEqual(wall,(ROOT/'icons'/builder.SOURCE_CARDS[group]['file']).read_text())
-   doc=ET.fromstring(wall);ns={'s':'http://www.w3.org/2000/svg'}
-   cells=doc.findall('./s:g',ns)
-   self.assertEqual([cell.attrib['data-source'] for cell in cells],[r['id'] for r in records])
-   rows={}
-   for n,(cell,record) in enumerate(zip(cells,records)):
-    label=cell.find('./s:text',ns)
-    rows.setdefault(label.attrib['y'],[]).append(cell)
-    self.assertEqual(float(label.attrib['x']),(n%6)*116+70)
-    image=cell.find('./s:image',ns)
-    self.assertEqual(image.attrib['preserveAspectRatio'],'xMidYMid meet')
-    href=image.attrib['{http://www.w3.org/1999/xlink}href']
-    self.assertTrue(href.startswith('data:image/'))
-    self.assertEqual(base64.b64decode(href.split(',',1)[1]),(ROOT/record['path']).read_bytes())
-   self.assertTrue(all(len(row)==6 for row in list(rows.values())[:-1]))
-   self.assertLessEqual(len(list(rows.values())[-1]),6)
+   for theme,key in [('light','file'),('dark','dark_file')]:
+    wall=builder.source_wall(records,group,theme=theme)
+    self.assertEqual(wall,(ROOT/'icons'/builder.SOURCE_CARDS[group][key]).read_text())
+    doc=ET.fromstring(wall);ns={'s':'http://www.w3.org/2000/svg'}
+    cells=doc.findall('./s:g',ns)
+    self.assertEqual([cell.attrib['data-source'] for cell in cells],[r['id'] for r in records])
+    rows={}
+    for n,(cell,record) in enumerate(zip(cells,records)):
+     label=cell.find('./s:text',ns)
+     rows.setdefault(label.attrib['y'],[]).append(cell)
+     row=n//6;col=n%6;row_len=min(6,len(records)-row*6);row_x0=12+(6-row_len)*116/2
+     self.assertAlmostEqual(float(label.attrib['x']),row_x0+col*116+58)
+     image=cell.find('./s:image',ns)
+     self.assertEqual(image.attrib['preserveAspectRatio'],'xMidYMid meet')
+     href=image.attrib['{http://www.w3.org/1999/xlink}href']
+     self.assertTrue(href.startswith('data:image/'))
+     self.assertEqual(base64.b64decode(href.split(',',1)[1]),(ROOT/record['path']).read_bytes())
+    self.assertTrue(all(len(row)==6 for row in list(rows.values())[:-1]))
+    self.assertLessEqual(len(list(rows.values())[-1]),6)
  def test_source_card_requires_group_for_future_sources(self):
   from unittest.mock import patch
   import json
@@ -154,5 +162,7 @@ class MapTests(unittest.TestCase):
    self.assertEqual(positions,sorted(positions))
    for card in builder.SOURCE_CARDS.values():
     self.assertIn('<strong>'+builder.html.escape(card[lang])+'</strong>',text)
+    self.assertIn('icons/'+card['dark_file'],text)
+   self.assertIn('<picture>',text)
    self.assertIn('<strong>📚 ',text)
 if __name__=='__main__':unittest.main()
