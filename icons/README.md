@@ -1,8 +1,8 @@
 # Resource-source marks
 
-The maintainer confirmed permission to use the universities' and companies' marks on 2026-11-16. These identify the sources of the linked learning resources; they do not imply sponsorship or endorsement. Trademark ownership remains with the respective organizations. This record is not a general license for downstream trademark use.
+The maintainer confirmed permission to use the universities' and companies' marks on 2026-11-16 and confirmed permission for the fourteen added source marks on 2026-11-21. These identify the sources of the linked learning resources; they do not imply sponsorship or endorsement. Trademark ownership remains with the respective organizations. This record is not a general license for downstream trademark use.
 
-`sources.json` records the original asset URL, file hash, display name and family order. The university seals replace the previous text-only placeholder badges. Their exact SVG artwork was retrieved from the cited Wikimedia file pages and cross-checked against the institutions' identities:
+`sources.json` records the original asset URL, `upstream_sha256` (when rasterized/downsampled), active `sha256`, display name, and organization family order. All university and company marks are verified institutional seals, crests, or official brand logos:
 
 - [Stanford identity guide](https://identity.stanford.edu/visual-identity/stanford-logos/university-seal/)
 - [MIT brand guide](https://brand.mit.edu/logos-marks/mit-seal)
@@ -10,12 +10,12 @@ The maintainer confirmed permission to use the universities' and companies' mark
 - [Carnegie Mellon brand guide](https://brand.cmu.edu/visual-identity/carnegie-mellon-trademarks/university-seal)
 - [Stony Brook identity history](https://www.stonybrook.edu/commcms/libspecial/archives/logos)
 
-Company marks retain their existing official website or official GitHub organization sources. Existing Bilibili and YouTube SVG assets are retained. Google and Clay assets are decoded to PNG solely for SVG renderer compatibility, without resizing, cropping or recoloring.
+Large university SVGs (`mit`, `stanford`, `cmu`, `berkeley`) are proportionally rasterized to `160×160` transparent PNGs and oversized raster marks are proportionally downsampled to at most `160px` without cropping or recoloring, keeping the generated source walls lightweight while preserving `upstream_sha256` and provenance notes in `sources.json`.
 
 ## Maintenance
 
-Run `python tools/build_resource_map.py`, then `python tools/build_resource_map.py --check` and `python -m unittest discover -s tests -v`.
+Run `python3 tools/build_resource_map.py`, `python3 tools/build_resource_map.py --check`, and `python3 -m unittest discover -s tests -v`.
 
-The generator derives the wall from actual body icons in both READMEs. It embeds the original files into `source-wall.svg`, uses six equal-width columns, preserves each mark's aspect ratio, and places the Google family together. No external asset request is needed to render the wall. New sources must be registered with a verified asset and hash; unused sources are not displayed. The README uses an accessible descriptive alt string; SVG title/description and visible names identify individual marks.
+The generator derives the wall from primary and additional catalog links in both READMEs (strictly before `<!-- SOURCES:START -->`). Every displayed source requires an authentic, authorized mark registered in `sources.json`; unclassified hosts or unmatched inline icons fail the build.
 
-All marks must declare an `organization` in `sources.json`. The generator groups every organization contiguously, not only Google; register new marks with the same organization key as existing related brands. Organization groups sort by `organization_names` alphabetically (case-insensitive); sources within each group sort by display name alphabetically.
+For each group (`university`, `project`, `company`), the builder generates both light (`source-wall-{group}.svg`) and dark (`source-wall-{group}-dark.svg`) self-contained cards in the project's Teal + Gold palette, placing every mark inside a uniform white rounded emblem tile (`rx="10"`), arranging rows of six equal-width columns with any shorter final row centered, and emitting `<picture>` dark/light markup in both READMEs. Organization groups stay contiguous and sort alphabetically by `organization_names`, with marks sorted alphabetically within each organization.

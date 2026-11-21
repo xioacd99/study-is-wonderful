@@ -1,65 +1,27 @@
-# 交互课程图 / Interactive course map
+# 学习星图 / Learning Star Map
 
-`index.html` 是独立、无外部脚本依赖的课程思维导图。下载该文件后用现代浏览器打开即可使用；GitHub 的 blob 文件页只展示源码，不执行 HTML。已发布：[打开交互课程图](https://xioacd99.github.io/study-is-wonderful/resource-map/)。
+`index.html` 是独立、无外部脚本依赖的交互式学习星图，汇总目录中的全部跨学科课程与前沿技术博客。下载该文件后用现代浏览器打开即可使用；已发布：[打开学习星图](https://xioacd99.github.io/study-is-wonderful/resource-map/)。
 
-`index.html` is a standalone course mind map with no external script dependencies. Download and open it in a modern browser. GitHub blob pages show source, not a running app. Published: [open the interactive course map](https://xioacd99.github.io/study-is-wonderful/resource-map/).
+`index.html` is a standalone interactive Learning Star Map with no external script dependencies, covering both catalog courses and technical blogs. Published: [open the Learning Star Map](https://xioacd99.github.io/study-is-wonderful/resource-map/).
 
-功能 / Features:
-- 思维导图 / 分层列表双视图，手机也可切换真正连线图；学科 → 相关主题 → 全部课程分别展开和收起 / Switch between a connected mind map and a nested list, including on mobile; expand or collapse subjects and topics.
-- 课程搜索、缩放、恢复全景 / Search, zoom, and return to overview.
-- 真正中英文切换，界面、课程和简介随语言切换 / Switch the UI, course titles, descriptions, and source labels between Chinese and English.
-- 课程详情内一键返回原图位置；外部课程在新标签打开，原图保留 / Return from details to the same map position; external sources open in a new tab.
-- 键盘可访问按钮和搜索，详情支持 Escape；窄屏使用分层列表，无需横向拖动 / Keyboard controls, Escape to close details, and swipeable connected map or nested list on narrow screens.
+## 功能 / Features
+
+- **课程与技术博客双模式**：侧栏支持在「课程」与「技术博客」之间一键切换，并在搜索时提示另一标签页中的匹配数量 / **Courses & Tech Blogs tabs** with cross-tab search match hints.
+- **知识图谱 / 分层列表双视图**：桌面端默认知识图谱，移动端（`<=760px`）默认更易读的分层列表，均可一键切换 / **Knowledge graph & Hierarchy list**: graph by default on desktop, list by default on mobile (`<=760px`), switchable anytime.
+- **三级语义缩放与流畅手势**：布局与缩放解耦，支持鼠标滚轮以光标为中心缩放、触控双指捏合及拖拽平移；全景展示学科分布、中景/聚焦单学科时直接显示全部主题名称、近景展示条目与平台徽标 / **3-level semantic zoom (LOD)** with cursor-anchored wheel/pinch zoom and immediate topic labels on subject focus.
+- **悬停聚光灯与右侧详情抽屉**：悬停节点高亮关联分支并展示即时预览提示；点击条目打开右侧抽屉，展示面包屑、明确来源平台入口、目录定位链接以及同主题其他课程/文章推荐 / **Hover spotlight, tooltip, and right-side detail drawer** with explicit platform names and sibling navigation.
+- **完整中英文双语切换**：界面、标题、简介与分类标签随语言实时切换 / **Full bilingual switching** for UI, titles, descriptions, and categories.
 
 ## 更新 / Updating
 
-中文 `README.md` 与英文 `README-en.md` 是成对的课程数据来源。按现有稳定 `course-*` 锚点解析每个课程列表条目，一级学科取 `##` 标题、主题取 `###` 标题。请保留稳定锚点；修改课程内容、来源、分组或顺序后运行：
-
-The Chinese `README.md` and English `README-en.md` are paired course-data sources. The builder reads course list entries with stable `course-*` anchors, `##` subjects and `###` topics. Preserve anchors and regenerate after changing courses, sources, groups, or order:
+中文 `README.md` 与英文 `README-en.md` 是成对数据源。生成器解析带稳定 `course-*` 锚点的全部课程（`/*__COURSES__*/`）以及 `## 技术博客` / `## Technical blogs` 下的全部文章（`/*__BLOGS__*/`），同时自动同步 README 的快捷目录与浅/深色来源图标墙。编辑 `template.html` 或更新目录后运行：
 
 ```sh
-python tools/build_resource_map.py
-python tools/build_resource_map.py --check
-python -m unittest discover -s tests -v
+python3 tools/build_resource_map.py
+python3 tools/build_resource_map.py --check
+python3 -m unittest discover -s tests -v
 ```
 
-编辑 `template.html` 修改交互和样式，再生成 `index.html`。不要手动修改生成的数据副本。提交前测试展开/收起、搜索、课程链接、详情返回与缩放，核对全部课程覆盖。保留外链交互图入口和普通目录，不再生成原生折叠导航；每主题按英文名排序。
+## 发布与预览 / Publishing & Previews
 
-Edit `template.html` for UI changes and regenerate `index.html`; do not manually edit generated data. Test expansion, search, links, return, zoom, and complete coverage before committing. Preserve the external map entry and normal TOC without duplicate collapsible navigation. Sort each topic by English title.
-
-## 发布 / Publishing
-
-经维护者授权，GitHub Pages 已从 `dev` 分支根目录公开发布，后续 `dev` 提交自动部署，HTTPS 已启用。`index.html` 将主页引导至 `resource-map/`。这不改变 `main`，也不表示可自动合并。
-
-With the owner's authorization, GitHub Pages publishes the root of `dev` publicly and deploys subsequent `dev` commits automatically over HTTPS. The root `index.html` routes visitors to `resource-map/`. This does not change `main` or authorize automatic merges.
-
-当前在线地址 / Live URL: https://xioacd99.github.io/study-is-wonderful/resource-map/
-
-每次修改后确认 Pages 构建完成，并在真实公开页面测试代表交互；本地预览通过不等于远程部署成功。
-
-After changes, verify the Pages build and representative interactions on the live site; a passing local preview is not proof of deployment.
-
-## 视觉与预览 / Visual assets
-
-项目图标 `icon.png` 由 GPT image 生成。`preview-zh.jpg` 和 `preview-en.jpg` 为实际页面的浏览器截图，不是示意图；界面变化后重新截图并同步 README 入口。
-
-The project icon is generated with GPT image. README previews are real browser screenshots of the rendered application; recapture both languages after visual changes.
-
-全景按左右对称学科分支展示，点击学科聚焦主题树；学科筛选与适应画布按钮帮助探索大型树。保留全展开、搜索、缩放、列表替代及中英切换。
-
-The overview uses balanced subject branches. Select a subject to focus its topic tree, or use the subject filter and fit-to-view control. Expand-all, search, zoom, list view and both languages remain available.
-
-
-桌面采用学科侧栏、顶部搜索、主画布和浮动工具栏；手机改为紧凑筛选与双列全景，不把桌面长横图强塞到窄屏。渐变项目图标与柔和紫色设计保持一致。
-
-Desktop uses a subject sidebar, top search and floating canvas tools. Mobile has compact filtering and a two-column overview, with bilingual labels and the same course data.
-
-
-最新视觉：恢复青绿与金色，采用重新生成的三片折叠丝带图标。桌面全景为上下两排学科连接中心节点，手机保留独立双列树；主题层仍可聚焦展开。
-
-Current visual: teal and gold with a newly generated three-ribbon symbol. Desktop overview places subjects above and below the central hub; mobile retains its own two-column tree. Topic focus remains available.
-
-
-知识图谱视图使用确定性弹簧布局与标签碰撞消除，默认展开150课程、32主题与10学科。全部连线只表达现有目录归属，绝不推断先修或学术关联。小比例时课程化为点、保留学科标签，放大显示标题；搜索与学科筛选聚焦子图，分层列表保留。
-
-The knowledge graph uses deterministic spring layout and label collision resolution. Edges express existing catalog membership only, never inferred prerequisites. Semantic zoom keeps the overview clear; zoom in for titles, or search/filter to focus. The hierarchy list remains available.
+GitHub Pages 从 `dev` 分支根目录自动部署（`index.html` 引导至 `resource-map/`）。视觉或数据变更后，须在真实无头浏览器（光标移出界面、数量与正文完全一致）重新截取 `preview-zh.jpg` 与 `preview-en.jpg`，并在桌面端与移动端验证交互与零控制台报错。

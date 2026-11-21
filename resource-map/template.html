@@ -1,59 +1,737 @@
 <!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>学习星图 · Study Is Wonderful</title><link rel="icon" href="icon.png?v=teal-orbit-3">
 <style>
-:root{font-family:Inter,ui-sans-serif,system-ui,sans-serif;color:#263c35;background:#f6f8f5;font-synthesis:none}*{box-sizing:border-box}body{margin:0;padding:20px;min-height:100vh;background:radial-gradient(ellipse at 85% 0,#edf2e8 0,transparent 45%),#f6f8f5}button,input,select{font:inherit;color:inherit}button,select{cursor:pointer}button,a,input,select{outline-offset:4px}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #bd9b49}button{border:1px solid #e1e8db;background:white;border-radius:10px;padding:10px 13px;font-size:12px;transition:background .15s,box-shadow .15s}button:hover{background:#edf4e7;box-shadow:0 3px 10px #476c3612}a{color:#426e56;text-decoration:none}.shell{display:grid;grid-template-columns:230px minmax(0,1fr);max-width:1800px;margin:auto;min-height:calc(100vh - 40px);border:1px solid #e0e8df;border-radius:24px;overflow:hidden;background:#fff;box-shadow:0 16px 65px #26493509}.sidebar{padding:26px 20px;background:#fbfcf9;border-right:1px solid #e7ece4;display:flex;flex-direction:column}.brand{display:flex;align-items:center;gap:10px;font-size:10px;letter-spacing:1.1px;font-weight:650;color:#6d8175}.brand img{width:38px;height:38px;object-fit:contain}.eyebrow{display:none}h1{font-size:29px;letter-spacing:-1px;line-height:1.15;margin:36px 0 12px;font-weight:650}.sidebar p{font-size:12px;line-height:1.7;color:#829286;margin:0 0 30px}.nav-label{font-size:10px;color:#9ba99d;letter-spacing:1.5px;text-transform:uppercase;margin:8px 10px 12px}#subject-nav{display:grid;gap:4px}#subject-nav button{display:flex;justify-content:space-between;align-items:center;border:0;background:none;text-align:left;padding:12px;font-size:12px;color:#748477}#subject-nav button[aria-pressed=true]{background:#e9f1e6;color:#426d57;font-weight:650}#subject-nav button span:last-child{font-size:10px;color:#91a395}#subject-filter{display:none}.workspace{min-width:0;display:flex;flex-direction:column}.topbar{height:88px;display:flex;align-items:center;gap:16px;padding:20px 28px;border-bottom:1px solid #e8eee5}#search{border:0;background:#f1f5ee;padding:13px 17px;border-radius:12px;min-width:0;flex:1;max-width:440px;font-size:13px}#search::placeholder{color:#97a594}#language{margin-left:auto;display:flex;gap:3px;padding:3px;background:#f1f5ee;border-radius:10px}#language button{border:0;background:none;font-size:11px;padding:8px 10px}#language button[aria-pressed=true]{background:white;color:#426e56;box-shadow:0 2px 6px #304a3110}.canvas-head{padding:22px 28px;display:flex;justify-content:space-between;align-items:center;gap:12px}.canvas-copy{display:flex;flex-direction:column;gap:5px}.canvas-title{font-size:14px;font-weight:600}.canvas-sub{font-size:11px;color:#91a395}#views{display:flex;gap:2px;padding:3px;background:#f1f5ee;border-radius:10px}#views button{border:0;background:none;font-size:11px;padding:8px 12px}#views button[aria-pressed=true]{background:white;color:#426e56;box-shadow:0 2px 6px #304a3110}.canvas-wrap{position:relative;flex:1;min-height:0;margin:0 20px 16px;border:1px solid #e2e9dd;border-radius:18px;overflow:hidden;background:#fafcf7}#viewport{height:calc(100vh - 270px);min-height:500px;overflow:auto;position:relative;cursor:grab;background-image:radial-gradient(#d4dfcd .8px,transparent .8px);background-size:22px 22px;overscroll-behavior:contain;touch-action:pan-x pan-y}#space{position:relative;margin:auto;transform-origin:top left}#graph{position:relative;transform-origin:top left}svg{position:absolute;inset:0;pointer-events:none}path{stroke:#c3d1bd;stroke-width:1.5;fill:none}.node{position:absolute;text-align:left;white-space:normal;overflow:hidden;box-shadow:0 4px 16px #304a3105;border-radius:14px}.root{width:205px;height:104px;border:0!important;background:linear-gradient(125deg,#225a48,#427962)!important;color:white;box-shadow:0 10px 26px #3a72512b}.root .title{font-size:20px;letter-spacing:-.5px}.subject{width:230px;min-height:74px;border:1px solid #dfe7d8;border-top:3px solid var(--accent);background:white;padding:14px 18px}.group{width:250px;min-height:74px;background:#f2f6ed;border-color:#dde7d1;padding:14px 18px}.course{width:340px;height:86px;background:white;padding:14px 18px}.title{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;font-size:13px;line-height:1.5;font-weight:550}.subject .title{font-size:15px}.count{display:block;margin-top:6px;font-size:11px;color:#8a9c87;font-weight:400}.en{display:block;font-size:11px}.canvas-tools{position:absolute;left:50%;bottom:18px;transform:translateX(-50%);display:flex;gap:3px;align-items:center;padding:5px;border:1px solid #e0e8d8;border-radius:14px;background:#ffffffed;box-shadow:0 6px 25px #30492a10;z-index:2;white-space:nowrap}.canvas-tools button{border:0;background:none;padding:9px 11px;font-size:11px}.canvas-tools button:hover{background:#edf4e6}.tool-separator{height:20px;width:1px;background:#e2e9da;margin:0 3px}#status{font-size:11px;color:#85977f}footer{display:flex;justify-content:space-between;gap:12px;padding:0 28px 20px;font-size:10px;color:#8fa084}footer a{color:#608357}dialog{border:1px solid #dfe9d5;border-radius:24px;padding:30px;max-width:600px;width:calc(100% - 28px);max-height:90dvh;box-shadow:0 30px 100px #263b2330}dialog::backdrop{background:#263d2855;backdrop-filter:blur(5px)}dialog h2 .title{font-size:23px;line-height:1.4;display:block}dialog p{font-size:14px;line-height:1.8;color:#77866f;white-space:pre-line}.sources{display:grid;gap:9px;margin-top:24px}.sources a{padding:14px;border:1px solid #e0e9d6;border-radius:12px;overflow-wrap:anywhere;font-size:13px}.sources a:hover{background:#f4f8ef}#return{border:0;background:#edf4e5;color:#668950}#empty{text-align:center;padding:80px 20px;color:#999}body[data-view=list] #viewport{height:calc(100vh - 270px);cursor:default;background:none;padding:10px 24px 90px}body[data-view=list] #space,body[data-view=list] #graph{width:100%!important;height:auto!important;transform:none!important}body[data-view=list] #graph{display:flex;flex-direction:column;gap:8px;max-width:900px;margin:auto}body[data-view=list] svg,body[data-view=list] .root{display:none}body[data-view=list] .node{position:static!important;width:auto!important;height:auto!important;min-height:60px;order:var(--order)}body[data-view=list] .subject{margin-top:20px}body[data-view=list] .group{margin-left:16px}body[data-view=list] .course{margin-left:32px}body[data-view=list] .title{display:block}body[data-view=list] #minus,body[data-view=list] #plus,body[data-view=list] #fit{display:none}
-@media(max-width:760px){body[data-view=map] .subject .title{font-size:19px}body[data-view=map] .count{font-size:14px}body[data-view=map] .root .title{font-size:25px}body{padding:0;background:white}.shell{display:block;min-height:100dvh;border:0;border-radius:0}.sidebar{padding:18px 18px 0;border:0;display:block}.brand{font-size:9px;letter-spacing:1px}.brand img{width:30px;height:30px}.sidebar h1{margin:20px 0 8px;font-size:30px}.sidebar p{margin:0;font-size:11px}.nav-label,#subject-nav{display:none}#subject-filter{display:block;border:1px solid #e9e6f5;background:white;border-radius:10px;padding:10px;font-size:12px;width:100%;margin-top:18px}.topbar{height:auto;padding:16px 18px;border:0;gap:8px}#search{font-size:12px;padding:13px 12px}#language{flex-shrink:0}#language button{font-size:10px;padding:9px 7px}.canvas-head{padding:2px 18px 14px;gap:8px}.canvas-title{font-size:12px}.canvas-sub{font-size:10px}#views button{font-size:10px;padding:8px}.canvas-wrap{margin:0 10px 14px;border-radius:16px}#viewport,body[data-view=list] #viewport{height:calc(100dvh - 280px);min-height:420px}#graph{width:var(--graph-width)!important;height:var(--graph-height)!important;transform:scale(var(--zoom))!important}#space{width:var(--space-width)!important;height:var(--space-height)!important}.canvas-tools{bottom:12px;gap:0;padding:4px;max-width:calc(100% - 16px)}.canvas-tools button{padding:10px 9px;font-size:10px;min-height:40px}.tool-separator{margin:0 1px}#status{font-size:10px}footer{padding:0 18px 18px;font-size:9px;line-height:1.6;gap:8px}footer a{white-space:nowrap}dialog{padding:22px}dialog h2 .title{font-size:20px}body[data-view=list] #viewport{padding:0 12px 85px}body[data-view=list] .group{margin-left:8px}body[data-view=list] .course{margin-left:16px}}
-body[data-view=map] .node{border-radius:18px;padding:10px 14px;box-shadow:0 4px 14px #32523a0b}body[data-view=map] .root{border-radius:30px;display:flex;align-items:center;justify-content:center;text-align:center}body[data-view=map] .root .title{font-size:18px}body[data-view=map] .subject{border:2px solid var(--accent);background:#f8fcf5}body[data-view=map] .group{border:1px solid var(--accent);background:#f1f7e9}body[data-view=map] .course{border:1px solid #dbe6d3;background:#ffffffed}body[data-view=map] .title{font-size:12px!important;line-height:1.4;-webkit-line-clamp:2}body[data-view=map] .subject .title{font-size:15px!important}body[data-view=map] .count{font-size:10px!important;margin-top:3px}body[data-view=map] .root .title{font-size:18px!important}
-body.graph-overview[data-view=map] .course{background:none;border:0;box-shadow:none;overflow:visible}body.graph-overview[data-view=map] .course .title{display:none}body.graph-overview[data-view=map] .course:before{content:'';display:block;width:24px;height:24px;border:2px solid white;background:var(--accent);border-radius:50%;position:absolute;left:calc(50% - 12px);top:calc(50% - 12px);box-shadow:0 0 0 8px #7c9e7e12}body.graph-overview[data-view=map] .subject{transform:scale(2);z-index:1}body.graph-overview[data-view=map] .root{transform:scale(2.2);z-index:2}body.graph-overview[data-view=map] .group{background:none;border:0;box-shadow:none;overflow:visible}body.graph-overview[data-view=map] .group .title,body.graph-overview[data-view=map] .group .count{display:none}body.graph-overview[data-view=map] .group:before{content:'';display:block;width:40px;height:40px;border:3px solid var(--accent);background:#e3edd9;border-radius:50%;position:absolute;left:calc(50% - 20px);top:calc(50% - 20px)}
+:root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,sans-serif;color:#223831;background:#f5f8f4;font-synthesis:none}
+*{box-sizing:border-box}
+body{margin:0;padding:18px;min-height:100vh;background:radial-gradient(ellipse at 85% 0,#eaf1e5 0,transparent 48%),#f5f8f4}
+button,input,select{font:inherit;color:inherit}
+button,select{cursor:pointer}
+button,a,input,select{outline-offset:3px}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #bd9b49}
+button{border:1px solid #dde6da;background:#fff;border-radius:10px;padding:9px 12px;font-size:12px;transition:background .15s,box-shadow .15s,opacity .15s}
+button:hover{background:#eef5ea;box-shadow:0 3px 10px #2d6a5412}
+a{color:#2d6a54;text-decoration:none}
+.shell{display:grid;grid-template-columns:244px minmax(0,1fr);max-width:1800px;margin:auto;height:calc(100vh - 36px);min-height:640px;border:1px solid #dfe7dd;border-radius:24px;overflow:hidden;background:#fff;box-shadow:0 16px 65px #22443309}
+.sidebar{padding:22px 18px;background:#fbfcf9;border-right:1px solid #e6ece3;display:flex;flex-direction:column;overflow-y:auto}
+.brand{display:flex;align-items:center;gap:10px;font-size:10px;letter-spacing:1.1px;font-weight:650;color:#62786c}
+.brand img{width:38px;height:38px;object-fit:contain}
+.eyebrow{display:none}
+h1{font-size:27px;letter-spacing:-.8px;line-height:1.15;margin:22px 0 8px;font-weight:650}
+.sidebar p{font-size:12px;line-height:1.65;color:#738578;margin:0 0 16px}
+#mode-switch{display:grid;grid-template-columns:1fr 1fr;gap:3px;padding:3px;background:#eef3eb;border-radius:11px;margin-bottom:14px}
+#mode-switch button{border:0;background:none;padding:8px 6px;font-size:11.5px;font-weight:550;color:#63776a;border-radius:8px;white-space:nowrap}
+#mode-switch button[aria-selected=true]{background:#fff;color:#225a46;font-weight:650;box-shadow:0 2px 6px #2d553e12}
+.nav-label{font-size:10px;color:#8fa093;letter-spacing:1.4px;text-transform:uppercase;margin:4px 10px 8px}
+#subject-nav{display:grid;gap:3px}
+#subject-nav button{display:flex;justify-content:space-between;align-items:center;border:0;background:none;text-align:left;padding:9px 12px;font-size:12px;color:#687a6d;border-radius:10px;gap:6px}
+#subject-nav button[aria-pressed=true]{background:#e8f1e6;color:#275d48;font-weight:650}
+#subject-nav button span:last-child{font-size:10px;color:#889b8d;flex-shrink:0}
+#subject-filter{display:none}
+.workspace{min-width:0;min-height:0;display:flex;flex-direction:column}
+.topbar{height:74px;flex-shrink:0;display:flex;align-items:center;gap:16px;padding:14px 26px;border-bottom:1px solid #e7ede4}
+#search{border:1px solid transparent;background:#f1f5ee;padding:11px 16px;border-radius:12px;min-width:0;flex:1;max-width:480px;font-size:13px;transition:border-color .15s,background .15s}
+#search:focus{background:#fff;border-color:#b8cab9}
+#search::placeholder{color:#8fa090}
+#language{margin-left:auto;display:flex;gap:3px;padding:3px;background:#f1f5ee;border-radius:10px}
+#language button{border:0;background:none;font-size:11px;padding:7px 10px}
+#language button[aria-pressed=true]{background:#fff;color:#2d6a54;box-shadow:0 2px 6px #304a3110}
+.canvas-head{padding:14px 26px;flex-shrink:0;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.canvas-copy{display:flex;flex-direction:column;gap:4px}
+.canvas-title{font-size:15px;font-weight:600;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.crumb-btn{border:0;background:none;padding:0;font-size:15px;font-weight:500;color:#2d6a54}
+.crumb-btn:hover{background:none;box-shadow:none;text-decoration:underline}
+.crumb-sep{color:#9ab09e;font-weight:400}
+.status-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+#status{font-size:11px;color:#7e9182}
+#cross-hint{border:1px solid #d5e2d3;background:#f2f7ef;color:#275d48;padding:3px 9px;border-radius:999px;font-size:11px;font-weight:550}
+#cross-hint:hover{background:#e6f0e1}
+#views{display:flex;gap:2px;padding:3px;background:#f1f5ee;border-radius:10px;flex-shrink:0}
+#views button{border:0;background:none;font-size:11px;padding:7px 12px}
+#views button[aria-pressed=true]{background:#fff;color:#2d6a54;box-shadow:0 2px 6px #304a3110}
+.canvas-wrap{position:relative;flex:1;min-height:0;margin:0 20px 12px;border:1px solid #dfe8dc;border-radius:18px;overflow:hidden;background:#fafcf8;display:flex;flex-direction:column}
+#viewport{flex:1;min-height:0;overflow:auto;position:relative;cursor:grab;background-image:radial-gradient(#d3dfcc .85px,transparent .85px);background-size:22px 22px;overscroll-behavior:contain;touch-action:pan-x pan-y}
+#viewport:active{cursor:grabbing}
+#space{position:relative;margin:auto;transform-origin:top left}
+#graph{position:relative;transform-origin:top left}
+svg{position:absolute;inset:0;pointer-events:none}
+path.edge{stroke:#c3d1bd;stroke-width:1.5;fill:none;transition:opacity .15s,stroke-width .15s}
+path.edge.highlighted{opacity:.95!important;stroke-width:2.3}
+path.edge.dimmed{opacity:.14!important}
+circle.orbit{fill:none;stroke:#c8d6c7;stroke-width:1;stroke-dasharray:4 6;opacity:.48}
+.node{position:absolute;text-align:left;white-space:normal;overflow:hidden;box-shadow:0 4px 16px #2a473208;border-radius:14px;transition:opacity .15s,box-shadow .15s,transform .15s}
+.node.dimmed{opacity:.18!important}
+.root{width:190px;height:86px;border:0!important;background:linear-gradient(125deg,#1f5644,#3a745c)!important;color:#fff;box-shadow:0 10px 26px #2d6a542b}
+.subject{width:214px;min-height:70px;border:1px solid #dde6d8;border-top:3px solid var(--accent);background:#fff;padding:12px 16px}
+.group{width:236px;min-height:68px;background:#f3f7ee;border:1px solid #d8e4ce;padding:12px 16px}
+.course{width:228px;min-height:60px;background:#fff;padding:10px 14px}
+.node .title{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:12.5px;line-height:1.4;font-weight:560}
+.node.subject .title{font-size:15px}
+.node .count{display:block;margin-top:4px;font-size:10.5px;color:#788c7d;font-weight:450}
+.node .course-src{display:inline-block;margin-top:5px;font-size:10px;color:#5f7968;background:#eff4ec;padding:1px 7px;border-radius:999px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.canvas-tools{position:absolute;left:50%;bottom:16px;transform:translateX(-50%);display:flex;gap:3px;align-items:center;padding:5px;border:1px solid #dde6d6;border-radius:14px;background:#ffffffef;backdrop-filter:blur(8px);box-shadow:0 6px 24px #28462c12;z-index:3;white-space:nowrap}
+.canvas-tools button{border:0;background:none;padding:8px 11px;font-size:11px}
+.canvas-tools button:hover{background:#edf4e6}
+.tool-separator{height:18px;width:1px;background:#e1e8d9;margin:0 3px}
+#tooltip{position:absolute;z-index:5;pointer-events:none;background:#1e352d;color:#f6faf4;padding:8px 12px;border-radius:10px;font-size:12px;line-height:1.45;max-width:300px;box-shadow:0 10px 28px #12261e38}
+#tooltip strong{display:block;font-weight:600}
+#tooltip span{display:block;font-size:10.5px;color:#bed2c4;margin-top:2px}
+footer{display:flex;justify-content:space-between;gap:12px;padding:0 26px 18px;font-size:10.5px;color:#7d9180}
+footer a{color:#2d6a54}
+dialog{border:1px solid #dbe5d5;border-radius:20px 0 0 20px;border-right:0;padding:28px 26px;width:min(440px,92vw);max-width:none;height:100dvh;max-height:100dvh;margin:0 0 0 auto;overflow-y:auto;box-shadow:-16px 0 60px #1f362624;background:#fff}
+dialog::backdrop{background:#1d33264a;backdrop-filter:blur(4px)}
+.drawer-crumb{font-size:11px;color:#6c8372;margin:18px 0 8px;font-weight:500}
+dialog h2{margin:0 0 12px}
+dialog h2 .title{font-size:22px;line-height:1.38;display:block;font-weight:650;color:#1e352d}
+dialog p{font-size:14px;line-height:1.75;color:#54675b;white-space:pre-line;margin:0 0 20px}
+.sources{display:grid;gap:9px}
+.sources a{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:13px 15px;border:1px solid #dde6d6;border-radius:12px;overflow-wrap:anywhere;font-size:13px;font-weight:500;background:#fafcf9;transition:background .15s,border-color .15s}
+.sources a:hover{background:#eef5ea;border-color:#b8ccb9}
+.siblings-head{margin:26px 0 10px;font-size:11px;letter-spacing:.6px;text-transform:uppercase;color:#7c9080;font-weight:600}
+.siblings{display:grid;gap:6px}
+.siblings button{text-align:left;padding:10px 12px;font-size:12.5px;border-radius:10px;border:1px solid #e6ede2;background:#fbfcf9;display:flex;justify-content:space-between;align-items:center;gap:8px}
+.siblings button:hover{background:#edf4e7;border-color:#bfd2bf}
+.siblings button span:last-child{font-size:10px;color:#788c7d;flex-shrink:0}
+#return{border:0;background:#edf4e5;color:#356347;font-weight:550;padding:8px 13px}
+#empty{text-align:center;padding:80px 20px;color:#829485}
+
+/* List view */
+body[data-view=list] #viewport{flex:1;min-height:0;cursor:default;background:none;padding:12px 24px 24px}
+body[data-view=list] #space,body[data-view=list] #graph{width:100%!important;height:auto!important;transform:none!important}
+body[data-view=list] #graph{display:flex;flex-direction:column;gap:8px;max-width:900px;margin:auto}
+body[data-view=list] svg,body[data-view=list] .root{display:none}
+body[data-view=list] .node{position:static!important;width:auto!important;height:auto!important;min-height:54px;order:var(--order);transition:none}
+body[data-view=list] .subject{margin-top:16px}
+body[data-view=list] .group{margin-left:18px}
+body[data-view=list] .course{margin-left:36px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+body[data-view=list][data-mode=blogs] .course{margin-left:18px}
+body[data-view=list] .course .course-src{margin-top:0;flex-shrink:0}
+body[data-view=list] .title{display:block}
+body[data-view=list] .canvas-tools{position:static;transform:none;align-self:center;margin:10px auto 12px;box-shadow:0 2px 12px #28462c0d}
+body[data-view=list] #minus,body[data-view=list] #plus,body[data-view=list] #fit,body[data-view=list] .tool-separator{display:none}
+
+/* Map node base + 3-level LOD */
+body[data-view=map] .node{border-radius:16px;padding:9px 13px;box-shadow:0 4px 14px #2b4a340b}
+body[data-view=map] .root{border-radius:28px;display:flex;align-items:center;justify-content:center;text-align:center}
+body[data-view=map] .node.root .title{font-size:18px!important;line-height:1.3}
+body[data-view=map] .subject{border:2px solid var(--accent);background:#f9fcf6;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
+body[data-view=map] .group{border:1.5px solid var(--accent);background:#f2f7ec;display:flex;flex-direction:column;justify-content:center}
+body[data-view=map] .course{border:1px solid #d8e3d0;background:#ffffffef}
+body[data-view=map] .node .title{font-size:12px!important;line-height:1.35;-webkit-line-clamp:2}
+body[data-view=map] .node.subject .title{font-size:15px!important}
+body[data-view=map] .node.group .title{font-size:13px!important}
+body[data-view=map] .node .count{font-size:10px!important;margin-top:2px}
+
+/* LOD 1: Overview (zoom < 0.34) */
+body.lod-overview[data-view=map] .root{transform:scale(2.15);z-index:3}
+body.lod-overview[data-view=map] .subject{transform:scale(1.85);z-index:2;padding:8px 12px}
+body.lod-overview[data-view=map] .group{background:none;border:0;box-shadow:none;overflow:visible}
+body.lod-overview[data-view=map] .group .title,body.lod-overview[data-view=map] .group .count{display:none}
+body.lod-overview[data-view=map] .group:before{content:'';display:block;width:36px;height:36px;border:3px solid var(--accent);background:#e7efe0;border-radius:50%;position:absolute;left:calc(50% - 18px);top:calc(50% - 18px);box-shadow:0 0 0 6px #ffffffb8}
+body.lod-overview[data-view=map] .course{background:none;border:0;box-shadow:none;overflow:visible}
+body.lod-overview[data-view=map] .course .title,body.lod-overview[data-view=map] .course .course-src{display:none}
+body.lod-overview[data-view=map] .course:before{content:'';display:block;width:20px;height:20px;border:2px solid #fff;background:var(--accent);border-radius:50%;position:absolute;left:calc(50% - 10px);top:calc(50% - 10px);box-shadow:0 0 0 6px #7c9e7e16}
+
+/* LOD 2: Topics visible (0.34 <= zoom < 0.62) */
+body.lod-topics[data-view=map] .root{transform:scale(1.3);z-index:3}
+body.lod-topics[data-view=map] .subject{transform:scale(1.22);z-index:2}
+body.lod-topics[data-view=map] .group{z-index:2;box-shadow:0 6px 18px #26473014}
+body.lod-topics[data-view=map] .course{background:none;border:0;box-shadow:none;overflow:visible}
+body.lod-topics[data-view=map] .course .title,body.lod-topics[data-view=map] .course .course-src{display:none}
+body.lod-topics[data-view=map] .course:before{content:'';display:block;width:22px;height:22px;border:2px solid #fff;background:var(--accent);border-radius:50%;position:absolute;left:calc(50% - 11px);top:calc(50% - 11px);box-shadow:0 0 0 6px #6b8e7818}
+
+@media(max-width:760px){
+  body{padding:0;background:#fff}
+  .shell{display:block;height:auto;min-height:100dvh;border:0;border-radius:0}
+  .sidebar{padding:14px 16px 0;border:0;display:block;overflow:visible}
+  .brand{font-size:9px;letter-spacing:1px}
+  .brand img{width:28px;height:28px}
+  .sidebar h1{margin:12px 0 4px;font-size:24px}
+  .sidebar p{margin:0 0 12px;font-size:11px}
+  #mode-switch{margin-bottom:10px}
+  .nav-label,#subject-nav{display:none}
+  #subject-filter{display:block;border:1px solid #dce5da;background:#fff;border-radius:10px;padding:9px 10px;font-size:12px;width:100%;margin-top:0}
+  .topbar{height:auto;padding:10px 16px;border:0;gap:8px}
+  #search{font-size:12px;padding:10px 12px}
+  #language{flex-shrink:0}
+  #language button{font-size:10px;padding:7px 7px}
+  .canvas-head{padding:2px 16px 10px;gap:8px}
+  .canvas-title,.crumb-btn{font-size:13px}
+  #status{font-size:10px}
+  #views button{font-size:10px;padding:7px 9px}
+  .canvas-wrap{margin:0 10px 10px;border-radius:16px}
+  #viewport{height:calc(100dvh - 320px);min-height:330px;flex:none}
+  body[data-view=list] #viewport{height:auto;min-height:300px;padding:4px 10px 12px}
+  #graph{width:var(--graph-width)!important;height:var(--graph-height)!important;transform:scale(var(--zoom))!important}
+  #space{width:var(--space-width)!important;height:var(--space-height)!important}
+  .canvas-tools{bottom:10px;gap:0;padding:4px;max-width:calc(100% - 16px)}
+  .canvas-tools button{padding:8px 8px;font-size:10px;min-height:36px}
+  .tool-separator{margin:0 1px}
+  footer{padding:0 16px 16px;font-size:9.5px;line-height:1.5;gap:8px}
+  footer a{white-space:nowrap}
+  dialog{width:calc(100% - 20px);height:auto;max-height:88dvh;margin:auto;border-radius:20px;border-right:1px solid #dbe5d5;padding:20px}
+  dialog h2 .title{font-size:19px}
+  body[data-view=list] .group{margin-left:10px}
+  body[data-view=list] .course{margin-left:20px;flex-direction:column;align-items:flex-start;gap:4px}
+  body[data-view=list][data-mode=blogs] .course{margin-left:10px}
+}
 </style></head><body>
-<div class="shell"><aside class="sidebar"><div class="brand"><img src="icon.png?v=teal-orbit-3" alt="" width="38" height="38"><span>STUDY IS WONDERFUL</span></div><div class="eyebrow" id="eyebrow"></div><h1 id="app-title"></h1><p id="tagline"></p><div class="nav-label" id="nav-label"></div><div id="subject-nav"></div><select id="subject-filter"></select></aside><section class="workspace"><header class="topbar"><input id="search" type="search"><nav id="language" aria-label="Language"><button id="zh" lang="zh-CN">中文</button><button id="en" lang="en">English</button></nav></header><div class="canvas-head"><div class="canvas-copy"><span class="canvas-title" id="canvas-title"></span><span id="status" aria-live="polite"></span></div><div id="views"><button id="map-view"></button><button id="list-view"></button></div></div><div class="canvas-wrap"><main id="viewport" tabindex="0"><div id="space"><div id="graph"></div></div></main><div class="canvas-tools"><button id="expand"></button><button id="collapse"></button><span class="tool-separator"></span><button id="minus">−</button><button id="plus">＋</button><button id="fit"></button><button id="home"></button></div></div><footer><span id="hint"></span><a id="readme" target="_blank" rel="noopener"></a></footer></section></div>
-<dialog id="detail"><button id="return"></button><h2 id="detail-title"></h2><p id="description"></p><div class="sources" id="sources"></div></dialog>
+<div class="shell"><aside class="sidebar"><div class="brand"><img src="icon.png?v=teal-orbit-3" alt="" width="38" height="38"><span>STUDY IS WONDERFUL</span></div><div class="eyebrow" id="eyebrow"></div><h1 id="app-title"></h1><p id="tagline"></p><div id="mode-switch" role="tablist"><button id="mode-courses" type="button" role="tab"></button><button id="mode-blogs" type="button" role="tab"></button></div><div class="nav-label" id="nav-label"></div><div id="subject-nav"></div><select id="subject-filter"></select></aside><section class="workspace"><header class="topbar"><input id="search" type="search"><nav id="language" aria-label="Language"><button id="zh" lang="zh-CN">中文</button><button id="en" lang="en">English</button></nav></header><div class="canvas-head"><div class="canvas-copy"><span class="canvas-title" id="canvas-title"></span><div class="status-row"><span id="status" aria-live="polite"></span><button id="cross-hint" type="button" hidden></button></div></div><div id="views"><button id="map-view"></button><button id="list-view"></button></div></div><div class="canvas-wrap"><main id="viewport" tabindex="0"><div id="space"><div id="graph"></div></div></main><div id="tooltip" role="tooltip" hidden></div><div class="canvas-tools"><button id="expand"></button><button id="collapse"></button><span class="tool-separator"></span><button id="minus">−</button><button id="plus">＋</button><button id="fit"></button><button id="home"></button></div></div><footer><span id="hint"></span><a id="readme" target="_blank" rel="noopener"></a></footer></section></div>
+<dialog id="detail"><button id="return"></button><div class="drawer-crumb" id="drawer-crumb"></div><h2 id="detail-title"></h2><p id="description"></p><div class="sources" id="sources"></div><div class="siblings-head" id="siblings-head"></div><div class="siblings" id="siblings"></div></dialog>
 <script>
 const COURSES=/*__COURSES__*/;
-const graph=document.querySelector('#graph'),viewport=document.querySelector('#viewport'),space=document.querySelector('#space'),dialog=document.querySelector('#detail');
-let lang='zh';try{lang=localStorage.getItem('study-language')==='en'?'en':'zh'}catch{};
-const UI={zh:{title:'学习星图',eyebrow:'让好奇心，连接下一程',tagline:'循着兴趣展开，找到下一门好课。',search:'搜索课程、学校或主题…',expand:'全部展开',collapse:'全部收起',home:'返回全景',back:'← 返回资源图',hint:'点击主题展开，点击课程查看介绍与学习入口。',readme:'阅读完整目录 ↗',empty:'没有找到课程，试试其他关键词。',root:'学习资源',course:'门课程',subject:'学科',visible:'已展开',minus:'缩小',plus:'放大',fit:'适应画布',all:'全部学科',filter:'选择学科',map:'知识图谱',list:'分层列表',gesture:'连线表示学科归属，不代表先修关系 · 拖动画布，点击课程'},en:{title:'Learning, connected.',eyebrow:'STUDY IS WONDERFUL',tagline:'Follow your curiosity. Find your next course.',search:'Search courses, schools or topics…',expand:'Expand all',collapse:'Collapse all',home:'Overview',back:'← Back to map',hint:'Expand a topic. Select a course for details and learning links.',readme:'Browse the full catalog ↗',empty:'No courses found. Try another keyword.',root:'Learning resources',course:'courses',subject:'subjects',visible:'visible',minus:'Zoom out',plus:'Zoom in',fit:'Fit view',all:'All subjects',filter:'Choose subject',map:'Knowledge graph',list:'List',gesture:'Edges show catalog membership, not prerequisites · Pan and select a course'}};
-const local=c=>c.locales[lang];const label=(s,kind)=>local(COURSES.find(c=>c[kind]===s))[kind];
-function applyLanguage(){const t=UI[lang];document.documentElement.lang=lang==='zh'?'zh-CN':'en';document.title=t.title+' · Study Is Wonderful';for(const [id,k] of Object.entries({'app-title':'title',eyebrow:'eyebrow',tagline:'tagline',expand:'expand',collapse:'collapse',home:'home',fit:'fit',return:'back',hint:'hint',readme:'readme','map-view':'map','list-view':'list'}))document.getElementById(id).textContent=t[k];const input=document.querySelector('#search');input.placeholder=t.search;input.setAttribute('aria-label',t.search);document.querySelector('#minus').setAttribute('aria-label',t.minus);document.querySelector('#plus').setAttribute('aria-label',t.plus);document.querySelector('#viewport').setAttribute('aria-label',t.title);document.querySelector('#readme').href='https://github.com/xioacd99/study-is-wonderful/blob/dev/'+(lang==='zh'?'README.md':'README-en.md')+'#resource-map';const select=document.querySelector('#subject-filter');select.setAttribute('aria-label',t.filter);select.replaceChildren();for(const value of ['',...subjects]){const option=document.createElement('option');option.value=value;option.textContent=value?label(value,'subject'):t.all;select.append(option)}select.value=selected;for(const l of ['zh','en'])document.getElementById(l).setAttribute('aria-pressed',String(lang===l));render()}
-for(const l of ['zh','en'])document.getElementById(l).onclick=()=>{lang=l;try{localStorage.setItem('study-language',l)}catch{};applyLanguage()};
-const subjects=[...new Set(COURSES.map(c=>c.subject))],expanded=new Set();let zoom=window.innerWidth<=600?.65:1,lastNode=null,query='',view='map',selected='',fullTree=false,graphWidth=1000,graphHeight=590;
-let graphCollapsed=false;const graphFolded=new Set();
-const palette=['#7c9e7e','#bb9b5e','#6f9c93','#b8a77d','#8baf83','#c0a26b','#87a39a','#a3b481','#b5a37d','#779c83'];
-function title(el,text){const a=document.createElement('span');a.className='title';a.textContent=text;el.append(a)}
-function node(cls,x,y,text,fn){const b=document.createElement('button');b.type='button';b.className='node '+cls;b.style.left=x+'px';b.style.top=y+'px';title(b,text);b.onclick=fn;graph.append(b);return b}
-function drawEdges(edges,width,height){const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('width',width);svg.setAttribute('height',height);for(const [x1,y1,x2,y2,color,direction]of edges){const p=document.createElementNS(svg.namespaceURI,'path');p.setAttribute('d',direction==='vertical'?`M${x1},${y1} C${x1},${(y1+y2)/2} ${x2},${(y1+y2)/2} ${x2},${y2}`:`M${x1},${y1} C${(x1+x2)/2},${y1} ${(x1+x2)/2},${y2} ${x2},${y2}`);p.style.stroke=color||'#a4beb2';svg.append(p)}graph.prepend(svg)}
-function sizeGraph(width,height){graphWidth=width;graphHeight=height;graph.style.width=width+'px';graph.style.height=height+'px';space.style.width=width*zoom+'px';space.style.height=height*zoom+'px';graph.style.transform=`scale(${zoom})`;space.style.marginTop=view==='map'?Math.max(0,(viewport.clientHeight-height*zoom)/2-16)+'px':'0';graph.style.setProperty('--graph-width',width+'px');graph.style.setProperty('--graph-height',height+'px');graph.style.setProperty('--zoom',zoom);space.style.setProperty('--space-width',width*zoom+'px');space.style.setProperty('--space-height',height*zoom+'px')}
-function focusSubject(s){graphCollapsed=false;selected=s;fullTree=false;expanded.clear();expanded.add(s);document.querySelector('#subject-filter').value=s;render();fit()}
-function render(){document.querySelector('#nav-label').textContent=lang==='zh'?'探索学科':'EXPLORE SUBJECTS';document.querySelector('#canvas-title').textContent=selected?label(selected,'subject'):(lang==='zh'?'知识的每一条路径':'Every path starts with curiosity');const nav=document.querySelector('#subject-nav');nav.replaceChildren();for(const s of ['',...subjects]){const b=document.createElement('button');b.setAttribute('aria-pressed',String(s===selected));const name=document.createElement('span');name.textContent=s?label(s,'subject'):UI[lang].all;const count=document.createElement('span');count.textContent=s?COURSES.filter(c=>c.subject===s).length:COURSES.length;b.append(name,count);b.onclick=()=>s?focusSubject(s):home();nav.append(b)}document.body.dataset.view=view;document.querySelector('#map-view').setAttribute('aria-pressed',String(view==='map'));document.querySelector('#list-view').setAttribute('aria-pressed',String(view==='list'));document.querySelector('#hint').textContent=UI[lang][view==='map'?'gesture':'hint'];graph.replaceChildren();const edges=[],q=query.toLocaleLowerCase();let y=34,n=0;const shown=subjects.filter(s=>!selected||s===selected).map(s=>({s,c:COURSES.filter(c=>c.subject===s&&(!q||(c.title+' '+c.description+' '+c.subject+' '+c.group).toLocaleLowerCase().includes(q)))})).filter(x=>x.c.length);
-if(view==='map'){renderKnowledge(shown);return}
-for(const {s,c} of shown){const open=expanded.has(s)||!!q,start=y;const groupPositions=[];
-if(open){for(const g of [...new Set(c.map(x=>x.group))]){const gc=c.filter(x=>x.group===g),key=s+'|'+g,go=expanded.has(key)||!!q,gh=go?gc.length*102:104,gy=y+gh/2-38;const gb=node('group',570,gy,label(g,'group'),()=>{expanded.has(key)?expanded.delete(key):expanded.add(key);render()});gb.setAttribute('aria-expanded',String(go));gb.dataset.group=key;gb.style.setProperty('--order',String(subjects.indexOf(s)*1000+c.indexOf(gc[0])*2+1));const ct=document.createElement('span');ct.className='count';ct.textContent=(go?'− ':'＋ ')+gc.length+' '+UI[lang].course;gb.append(ct);groupPositions.push(gy+38);if(go)gc.forEach((course,i)=>{const cy=y+i*102,b=node('course',900,cy,local(course).title,()=>show(course,b));b.dataset.course=course.id;b.title=local(course).title;b.style.setProperty('--order',String(subjects.indexOf(s)*1000+c.indexOf(course)*2+2));edges.push([820,gy+38,900,cy+43]);n++});y+=gh+24}}
-else y+=128;const sy=start+(y-start-24)/2-38;const b=node('subject',280,sy,label(s,'subject'),()=>{expanded.has(s)?expanded.delete(s):expanded.add(s);render()});b.style.setProperty('--accent',palette[subjects.indexOf(s)]);b.setAttribute('aria-expanded',String(open));b.dataset.subject=s;b.style.setProperty('--order',String(subjects.indexOf(s)*1000));const count=document.createElement('span');count.className='count';count.textContent=(open?'− ':'＋ ')+c.length+' '+UI[lang].course;b.append(count);edges.push([235,null,280,sy+38]);for(const gy of groupPositions)edges.push([510,sy+38,570,gy]);}
-const height=Math.max(480,y),width=1280,rootY=height/2;node('root',30,rootY-52,UI[lang].root,()=>home());edges.forEach(e=>{if(e[1]===null)e[1]=rootY});drawEdges(edges,width,height);sizeGraph(width,height);document.querySelector('#status').textContent=`${COURSES.length} ${UI[lang].course} · ${shown.length} ${UI[lang].subject} · ${n} ${UI[lang].visible}`;if(!shown.length){const empty=document.createElement('p');empty.id='empty';empty.textContent=UI[lang].empty;graph.append(empty)};}
-function renderKnowledge(shown){document.body.classList.toggle('graph-overview',zoom<.45);
-const nodes=[],links=[],root={id:'root',cls:'root',text:UI[lang].root,x:0,y:0,w:130,h:76,fn:home};nodes.push(root);
-const add=(id,cls,text,x,y,w,h,parent,fn,color)=>{const n={id,cls,text,x,y,w,h,parent,fn,color};nodes.push(n);links.push([parent,n]);return n};
-shown.forEach(({s,c},si)=>{const angle=-Math.PI/2+si*Math.PI*2/Math.max(1,shown.length),radius=selected?220:650;const sub=add(s,'subject',label(s,'subject'),Math.cos(angle)*radius,Math.sin(angle)*radius,180,64,root,()=>focusSubject(s),palette[subjects.indexOf(s)]);sub.count=c.length;
-if(graphCollapsed&&!query)return;const groups=[...new Set(c.map(x=>x.group))];groups.forEach((g,gi)=>{const ga=angle+(gi-(groups.length-1)/2)*.7,gc=c.filter(x=>x.group===g),key=s+'|'+g;const group=add(key,'group',label(g,'group'),sub.x+Math.cos(ga)*280,sub.y+Math.sin(ga)*280,170,58,sub,()=>{graphFolded.has(key)?graphFolded.delete(key):graphFolded.add(key);render()},sub.color);group.count=gc.length;
-if(graphFolded.has(key)&&!query)return;gc.forEach((course,ci)=>{const ca=ga+(ci-(gc.length-1)/2)*.48;const n=add(course.id,'course',local(course).title,group.x+Math.cos(ca)*(190+ci%2*65),group.y+Math.sin(ca)*(190+ci%2*65),210,56,group,null,sub.color);n.course=course});});});
-// Deterministic spring layout: only catalog membership edges, never inferred prerequisites.
-for(let step=0;step<220;step++){const force=nodes.map(()=>({x:0,y:0}));for(let i=0;i<nodes.length;i++){const a=nodes[i];for(let j=i+1;j<nodes.length;j++){const b=nodes[j];let dx=b.x-a.x,dy=b.y-a.y;if(Math.abs(dx)+Math.abs(dy)<.01){dx=.1*(j+1);dy=.13*(i+1)}const dist=Math.hypot(dx,dy),gapX=(a.w+b.w)/2+24-Math.abs(dx),gapY=(a.h+b.h)/2+24-Math.abs(dy);let strength=6000/(dist*dist+500);if(gapX>0&&gapY>0)strength+=Math.min(gapX,gapY)*.18;force[i].x-=dx/dist*strength;force[i].y-=dy/dist*strength;force[j].x+=dx/dist*strength;force[j].y+=dy/dist*strength;}}
-for(const[a,b]of links){const bi=nodes.indexOf(b),ai=nodes.indexOf(a),dx=b.x-a.x,dy=b.y-a.y,d=Math.max(1,Math.hypot(dx,dy)),target=b.cls==='subject'?(selected?200:650):b.cls==='group'?240:170,k=(d-target)*.025;force[bi].x-=dx/d*k;force[bi].y-=dy/d*k;force[ai].x+=dx/d*k;force[ai].y+=dy/d*k;}
-nodes.forEach((n,i)=>{if(i){n.x+=Math.max(-15,Math.min(15,force[i].x));n.y+=Math.max(-15,Math.min(15,force[i].y))}});}
-// Resolve remaining label collisions without changing any graph relationship.
-for(let k=0;k<35;k++)for(let i=1;i<nodes.length;i++)for(let j=i+1;j<nodes.length;j++){const a=nodes[i],b=nodes[j],dx=b.x-a.x,dy=b.y-a.y,ox=(a.w+b.w)/2+12-Math.abs(dx),oy=(a.h+b.h)/2+12-Math.abs(dy);if(ox>0&&oy>0){if(ox<oy){const push=(ox+.2)/2*(dx>=0?1:-1);a.x-=push;b.x+=push}else{const push=(oy+.2)/2*(dy>=0?1:-1);a.y-=push;b.y+=push}}}
-const minX=Math.min(...nodes.map(n=>n.x-n.w/2))-70,minY=Math.min(...nodes.map(n=>n.y-n.h/2))-70,width=Math.max(700,Math.max(...nodes.map(n=>n.x+n.w/2))-minX+70),height=Math.max(560,Math.max(...nodes.map(n=>n.y+n.h/2))-minY+70);
-const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('width',width);svg.setAttribute('height',height);for(const[a,b]of links){const line=document.createElementNS(svg.namespaceURI,'path');line.setAttribute('d',`M${a.x-minX},${a.y-minY} Q${(a.x+b.x)/2-minX+20},${(a.y+b.y)/2-minY-20} ${b.x-minX},${b.y-minY}`);line.style.stroke=b.color||'#a5b9a0';line.style.opacity='.55';svg.append(line)}graph.append(svg);
-for(const n of nodes){const el=node(n.cls,n.x-n.w/2-minX,n.y-n.h/2-minY,n.text,()=>n.course?show(n.course,el):n.fn());el.style.width=n.w+'px';el.style.height=n.h+'px';el.style.minHeight=n.h+'px';el.style.setProperty('--accent',n.color||'#427962');if(n.course){el.dataset.course=n.id;el.title=n.text}else if(n.id!=='root'){const count=document.createElement('span');count.className='count';count.textContent=n.count+' '+UI[lang].course;el.append(count)}el.dataset.graphNode=n.id;if(n.parent)el.dataset.parent=n.parent.id;el.setAttribute('aria-label',n.text);}
-sizeGraph(width,height);document.querySelector('#status').textContent=`${nodes.filter(n=>n.course).length} / ${COURSES.length} ${UI[lang].course} · ${shown.length} ${UI[lang].subject}`;if(!shown.length){const empty=document.createElement('p');empty.id='empty';empty.textContent=UI[lang].empty;graph.append(empty)}
+const BLOGS=/*__BLOGS__*/;
+const graph=document.querySelector('#graph'),viewport=document.querySelector('#viewport'),space=document.querySelector('#space'),dialog=document.querySelector('#detail'),tooltip=document.querySelector('#tooltip'),crossHint=document.querySelector('#cross-hint');
+let lang='zh';try{lang=localStorage.getItem('study-language')==='en'?'en':'zh'}catch{}
+const UI={
+  zh:{title:'学习星图',eyebrow:'让好奇心，连接下一程',tagline:'循着兴趣展开，找到下一门好课。',search:'搜索课程、文章、机构或主题…',expand:'全部展开',collapse:'全部收起',home:'返回全景',back:'← 返回星图',hint:'点击主题展开，点击条目查看介绍与入口。',readme:'在目录中定位',empty:'没有找到匹配内容，试试其他关键词。',root:'学习资源',blogRoot:'技术博客',course:'门课程',blog:'篇文章',subject:'学科',topic:'专题',visible:'项已展开',minus:'缩小',plus:'放大',fit:'适应画布',all:'全部学科',allTopics:'全部专题',filter:'选择分类',map:'知识图谱',list:'分层列表',gesture:'滚轮缩放 · 拖动探索 · 悬停查看简介 · 连线仅表示目录归属（不代表先修）',open:'打开课程入口',readBlog:'阅读原文',siblings:'同主题其他课程',siblingBlogs:'同专题其他文章',tabCourses:'课程',tabBlogs:'技术博客',exploreSubjects:'探索学科',exploreBlogs:'技术专题',overviewTitle:'知识的每一条路径',blogsTitle:'前沿工程与研究阅读',alsoBlogs:n=>`技术博客中也有 ${n} 篇匹配 →`,alsoCourses:n=>`课程中也有 ${n} 门匹配 →`},
+  en:{title:'Learning, connected.',eyebrow:'STUDY IS WONDERFUL',tagline:'Follow your curiosity. Find your next course.',search:'Search courses, articles, schools or topics…',expand:'Expand all',collapse:'Collapse all',home:'Overview',back:'← Back to map',hint:'Expand a topic. Select an item for details and links.',readme:'Locate in catalog',empty:'No matching items found. Try another keyword.',root:'Learning resources',blogRoot:'Tech blogs',course:'courses',blog:'articles',subject:'subjects',topic:'topics',visible:'visible',minus:'Zoom out',plus:'Zoom in',fit:'Fit view',all:'All subjects',allTopics:'All topics',filter:'Choose category',map:'Knowledge graph',list:'List',gesture:'Scroll to zoom · Drag to pan · Hover for preview · Edges show catalog membership (not prerequisites)',open:'Open course',readBlog:'Read article',siblings:'More in this topic',siblingBlogs:'More in this topic',tabCourses:'Courses',tabBlogs:'Tech Blogs',exploreSubjects:'EXPLORE SUBJECTS',exploreBlogs:'BLOG TOPICS',overviewTitle:'Every path starts with curiosity',blogsTitle:'Engineering & research reading',alsoBlogs:n=>`${n} matches in Tech Blogs →`,alsoCourses:n=>`${n} matches in Courses →`}
+};
+const local=item=>item.locales[lang];
+const palette=['#2d7a64','#c48a3a','#3b6fa0','#c4654a','#7b5fa3','#2c8c8c','#6c8c3e','#b04f62','#a88435','#4e5d94'];
+let mode='courses',zoom=1,lastNode=null,query='',view=window.innerWidth<=760?'list':'map',selected='',graphCollapsed=false,userCollapsed=false,graphWidth=1000,graphHeight=590;
+const expanded=new Set(),graphFolded=new Set();
+let currentNodes=[];
+
+const activeData=()=>mode==='blogs'?BLOGS:COURSES;
+const catField=()=>mode==='blogs'?'group':'subject';
+const categories=()=>[...new Set(activeData().map(x=>x[catField()]))];
+const label=(val,kind)=>local(activeData().find(x=>x[kind]===val))[kind];
+const matchesQuery=(item,q)=>!q||(item.title+' '+item.description+' '+item.subject+' '+item.group+' '+item.links.map(l=>(l.source||'')+' '+l.url).join(' ')).toLocaleLowerCase().includes(q);
+
+function applyLanguage(){
+  const t=UI[lang];
+  document.documentElement.lang=lang==='zh'?'zh-CN':'en';
+  document.title=t.title+' · Study Is Wonderful';
+  for(const [id,k] of Object.entries({'app-title':'title',eyebrow:'eyebrow',tagline:'tagline',expand:'expand',collapse:'collapse',home:'home',fit:'fit',return:'back','map-view':'map','list-view':'list'}))
+    document.getElementById(id).textContent=t[k];
+  document.querySelector('#mode-courses').textContent=`${t.tabCourses} (${COURSES.length})`;
+  document.querySelector('#mode-blogs').textContent=`${t.tabBlogs} (${BLOGS.length})`;
+  const input=document.querySelector('#search');
+  input.placeholder=t.search;input.setAttribute('aria-label',t.search);
+  document.querySelector('#minus').setAttribute('aria-label',t.minus);
+  document.querySelector('#plus').setAttribute('aria-label',t.plus);
+  viewport.setAttribute('aria-label',t.title);
+  document.querySelector('#readme').href='https://github.com/xioacd99/study-is-wonderful/blob/dev/'+(lang==='zh'?'README.md':'README-en.md')+'#resource-map';
+  document.querySelector('#readme').textContent=lang==='zh'?'阅读完整目录 ↗':'Browse full catalog ↗';
+  for(const l of ['zh','en'])document.getElementById(l).setAttribute('aria-pressed',String(lang===l));
+  render();
+  if(view==='map')fit();
 }
-function show(c,b){lastNode=b;const d=local(c);const heading=document.querySelector('#detail-title');heading.replaceChildren();title(heading,d.title);document.querySelector('#description').textContent=d.description;const sources=document.querySelector('#sources');sources.replaceChildren();for(const link of d.links){const a=document.createElement('a');a.textContent=link.label+' ↗';a.href=link.url;a.target='_blank';a.rel='noopener noreferrer';sources.append(a)}const readme=document.createElement('a');readme.textContent=UI[lang].readme;readme.href='https://github.com/xioacd99/study-is-wonderful/blob/dev/'+(lang==='zh'?'README.md':'README-en.md')+'#'+c.id;readme.target='_blank';readme.rel='noopener';sources.append(readme);dialog.showModal()}
-document.querySelector('#return').onclick=()=>dialog.close();dialog.addEventListener('close',()=>lastNode?.focus());dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close()}});
-function home(){graphCollapsed=false;graphFolded.clear();selected='';fullTree=false;document.querySelector('#subject-filter').value='';query='';document.querySelector('#search').value='';expanded.clear();zoom=1;render();fit();viewport.scrollTo(0,0)}document.querySelector('#home').onclick=home;
-document.querySelector('#expand').onclick=()=>{graphCollapsed=false;graphFolded.clear();fullTree=true;COURSES.forEach(c=>{expanded.add(c.subject);expanded.add(c.subject+'|'+c.group)});render()};document.querySelector('#collapse').onclick=()=>{graphCollapsed=true;fullTree=false;expanded.clear();query='';document.querySelector('#search').value='';render()};document.querySelector('#search').oninput=e=>{query=e.target.value;render();fit();viewport.scrollTo(0,0)};
-function setZoom(next){const cx=(viewport.scrollLeft+viewport.clientWidth/2)/zoom,cy=(viewport.scrollTop+viewport.clientHeight/2)/zoom;zoom=Math.max(.12,Math.min(1.8,next));render();viewport.scrollTo(cx*zoom-viewport.clientWidth/2,cy*zoom-viewport.clientHeight/2)}document.querySelector('#plus').onclick=()=>setZoom(zoom*1.4);document.querySelector('#minus').onclick=()=>setZoom(zoom/1.4);for(const v of ['map','list'])document.querySelector('#'+v+'-view').onclick=()=>{view=v;render();if(v==='map')fit();else viewport.scrollTo(0,0)};
-function fit(){if(view==='list')return;zoom=Math.max(.12,Math.min(1.15,(viewport.clientWidth-28)/graphWidth,(viewport.clientHeight-28)/graphHeight));render();viewport.scrollTo(Math.max(0,(graphWidth*zoom-viewport.clientWidth)/2),0)}
-document.querySelector('#fit').onclick=fit;document.querySelector('#subject-filter').onchange=e=>{graphCollapsed=false;selected=e.target.value;expanded.clear();if(selected)expanded.add(selected);fullTree=false;render();fit()};
-let drag=null;viewport.addEventListener('pointerdown',e=>{if(e.pointerType==='mouse'&&!e.target.closest('button')){drag={x:e.clientX,y:e.clientY,left:viewport.scrollLeft,top:viewport.scrollTop};viewport.setPointerCapture(e.pointerId)}});viewport.addEventListener('pointermove',e=>{if(drag){viewport.scrollLeft=drag.left-(e.clientX-drag.x);viewport.scrollTop=drag.top-(e.clientY-drag.y)}});viewport.addEventListener('pointerup',()=>drag=null);viewport.addEventListener('pointercancel',()=>drag=null);
-applyLanguage();requestAnimationFrame(fit);
+for(const l of ['zh','en'])document.getElementById(l).onclick=()=>{lang=l;try{localStorage.setItem('study-language',l)}catch{}applyLanguage()};
+
+function setMode(next){
+  if(mode===next)return;
+  mode=next;selected='';graphCollapsed=false;userCollapsed=false;expanded.clear();graphFolded.clear();
+  render();if(view==='map')fit();else viewport.scrollTo(0,0);
+}
+document.querySelector('#mode-courses').onclick=()=>setMode('courses');
+document.querySelector('#mode-blogs').onclick=()=>setMode('blogs');
+
+function titleEl(el,text){const a=document.createElement('span');a.className='title';a.textContent=text;el.append(a)}
+function node(cls,x,y,text,fn){
+  const b=document.createElement('button');
+  b.type='button';b.className='node '+cls;b.style.left=x+'px';b.style.top=y+'px';
+  titleEl(b,text);b.onclick=fn;graph.append(b);return b;
+}
+
+function updateLOD(){
+  const isOverview=view==='map'&&zoom<.34;
+  const isTopics=view==='map'&&zoom>=.34&&zoom<.62;
+  const isDetail=view==='map'&&zoom>=.62;
+  document.body.classList.toggle('graph-overview',isOverview);
+  document.body.classList.toggle('lod-overview',isOverview);
+  document.body.classList.toggle('lod-topics',isTopics);
+  document.body.classList.toggle('lod-detail',isDetail);
+}
+
+function sizeGraph(width,height){
+  graphWidth=width;graphHeight=height;
+  graph.style.width=width+'px';graph.style.height=height+'px';
+  if(view==='map'){
+    space.style.width=width*zoom+'px';space.style.height=height*zoom+'px';
+    graph.style.transform=`scale(${zoom})`;
+    space.style.marginTop=Math.max(0,(viewport.clientHeight-height*zoom)/2-14)+'px';
+    graph.style.setProperty('--graph-width',width+'px');
+    graph.style.setProperty('--graph-height',height+'px');
+    graph.style.setProperty('--zoom',zoom);
+    space.style.setProperty('--space-width',width*zoom+'px');
+    space.style.setProperty('--space-height',height*zoom+'px');
+  }else{
+    space.style.width='100%';space.style.height='auto';space.style.marginTop='0';
+    graph.style.transform='none';
+  }
+  updateLOD();
+}
+
+function applyZoom(next,anchorClientX,anchorClientY){
+  if(view==='list')return;
+  const clamped=Math.max(.12,Math.min(2.0,next));
+  const rect=viewport.getBoundingClientRect();
+  const hasAnchor=typeof anchorClientX==='number'&&typeof anchorClientY==='number';
+  const offsetX=hasAnchor?(anchorClientX-rect.left):viewport.clientWidth/2;
+  const offsetY=hasAnchor?(anchorClientY-rect.top):viewport.clientHeight/2;
+  const prevTopMargin=parseFloat(space.style.marginTop)||0;
+  const prevLeftMargin=Math.max(0,(viewport.clientWidth-graphWidth*zoom)/2);
+  const gx=(viewport.scrollLeft+offsetX-prevLeftMargin)/zoom;
+  const gy=(viewport.scrollTop+offsetY-prevTopMargin)/zoom;
+  zoom=clamped;
+  sizeGraph(graphWidth,graphHeight);
+  const newTopMargin=parseFloat(space.style.marginTop)||0;
+  const newLeftMargin=Math.max(0,(viewport.clientWidth-graphWidth*zoom)/2);
+  viewport.scrollTo(Math.max(0,gx*zoom+newLeftMargin-offsetX),Math.max(0,gy*zoom+newTopMargin-offsetY));
+  hideTooltip();
+}
+function setZoom(next){applyZoom(next)}
+
+function fit(){
+  if(view==='list')return;
+  const padX=56,padY=92;
+  const next=Math.max(.12,Math.min(1.15,(viewport.clientWidth-padX)/graphWidth,(viewport.clientHeight-padY)/graphHeight));
+  zoom=next;
+  sizeGraph(graphWidth,graphHeight);
+  viewport.scrollTo(Math.max(0,(graphWidth*zoom-viewport.clientWidth)/2),Math.max(0,(graphHeight*zoom-viewport.clientHeight)/2));
+}
+
+function focusSubject(s){
+  graphCollapsed=false;userCollapsed=false;selected=s;
+  expanded.clear();expanded.add(s);
+  const field=catField();
+  if(view==='list'&&mode==='courses')activeData().filter(c=>c[field]===s).forEach(c=>expanded.add(c.subject+'|'+c.group));
+  document.querySelector('#subject-filter').value=s;
+  render();if(view==='map')fit();else viewport.scrollTo(0,0);
+}
+
+function drawEdges(edges,width,height){
+  const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');
+  svg.setAttribute('width',width);svg.setAttribute('height',height);
+  for(const [x1,y1,x2,y2,color]of edges){
+    const p=document.createElementNS(svg.namespaceURI,'path');
+    p.setAttribute('class','edge');
+    p.setAttribute('d',`M${x1},${y1} C${(x1+x2)/2},${y1} ${(x1+x2)/2},${y2} ${x2},${y2}`);
+    p.style.stroke=color||'#a4beb2';svg.append(p);
+  }
+  graph.prepend(svg);
+}
+
+function renderTitle(){
+  const t=UI[lang],box=document.querySelector('#canvas-title');
+  box.replaceChildren();
+  const baseAll=mode==='blogs'?t.allTopics:t.all;
+  if(!selected){
+    box.textContent=mode==='blogs'?t.blogsTitle:t.overviewTitle;
+    return;
+  }
+  const allBtn=document.createElement('button');
+  allBtn.type='button';allBtn.className='crumb-btn';allBtn.textContent=baseAll;
+  allBtn.onclick=home;
+  const sep=document.createElement('span');sep.className='crumb-sep';sep.textContent='/';
+  const cur=document.createElement('span');cur.textContent=label(selected,catField());
+  box.append(allBtn,sep,cur);
+}
+
+function render(){
+  hideTooltip();
+  const t=UI[lang],items=activeData(),cats=categories(),field=catField();
+  document.body.dataset.mode=mode;
+  document.body.dataset.view=view;
+  document.querySelector('#mode-courses').setAttribute('aria-selected',String(mode==='courses'));
+  document.querySelector('#mode-blogs').setAttribute('aria-selected',String(mode==='blogs'));
+  document.querySelector('#nav-label').textContent=mode==='blogs'?t.exploreBlogs:t.exploreSubjects;
+  renderTitle();
+
+  const select=document.querySelector('#subject-filter');
+  select.setAttribute('aria-label',t.filter);select.replaceChildren();
+  for(const value of ['',...cats]){
+    const option=document.createElement('option');
+    option.value=value;option.textContent=value?label(value,field):(mode==='blogs'?t.allTopics:t.all);
+    select.append(option);
+  }
+  select.value=selected;
+
+  const nav=document.querySelector('#subject-nav');nav.replaceChildren();
+  for(const s of ['',...cats]){
+    const b=document.createElement('button');b.setAttribute('aria-pressed',String(s===selected));
+    const name=document.createElement('span');name.textContent=s?label(s,field):(mode==='blogs'?t.allTopics:t.all);
+    const count=document.createElement('span');count.textContent=s?items.filter(c=>c[field]===s).length:items.length;
+    b.append(name,count);b.onclick=()=>s?focusSubject(s):home();nav.append(b);
+  }
+
+  document.querySelector('#map-view').setAttribute('aria-pressed',String(view==='map'));
+  document.querySelector('#list-view').setAttribute('aria-pressed',String(view==='list'));
+  document.querySelector('#hint').textContent=t[view==='map'?'gesture':'hint'];
+  graph.replaceChildren();
+  const q=query.trim().toLocaleLowerCase();
+  const shown=cats.filter(s=>!selected||s===selected).map(s=>({
+    s,
+    c:items.filter(c=>c[field]===s&&matchesQuery(c,q))
+  })).filter(x=>x.c.length);
+
+  // Cross-tab search hint
+  if(q){
+    const other=mode==='courses'?BLOGS:COURSES;
+    const otherHits=other.filter(x=>matchesQuery(x,q)).length;
+    if(otherHits>0){
+      crossHint.hidden=false;
+      crossHint.textContent=mode==='courses'?t.alsoBlogs(otherHits):t.alsoCourses(otherHits);
+      crossHint.onclick=()=>setMode(mode==='courses'?'blogs':'courses');
+    }else crossHint.hidden=true;
+  }else crossHint.hidden=true;
+
+  if(view==='map'){renderKnowledge(shown);return}
+
+  if(!q&&!userCollapsed&&expanded.size===0){
+    if(selected){
+      expanded.add(selected);
+      if(mode==='courses')items.filter(c=>c.subject===selected).forEach(c=>expanded.add(c.subject+'|'+c.group));
+    }else{
+      cats.forEach(s=>expanded.add(s));
+    }
+  }
+  const unit=mode==='blogs'?t.blog:t.course,catUnit=mode==='blogs'?t.topic:t.subject;
+  const edges=[];let y=24,n=0;
+  for(const {s,c} of shown){
+    const open=expanded.has(s)||!!q,start=y,groupPositions=[];
+    if(open){
+      if(mode==='blogs'){
+        c.forEach((item,i)=>{
+          const cy=y+i*94,b=node('course',570,cy,local(item).title,()=>show(item,b));
+          b.dataset.course=item.id;b.style.setProperty('--order',String(cats.indexOf(s)*1000+i+1));
+          const src=document.createElement('span');src.className='course-src';src.textContent=item.links[0]?.source||'';
+          if(src.textContent)b.append(src);
+          groupPositions.push(cy+34);n++;
+        });
+        y+=c.length*94+20;
+      }else{
+        for(const g of [...new Set(c.map(x=>x.group))]){
+          const gc=c.filter(x=>x.group===g),key=s+'|'+g,go=expanded.has(key)||!!q,gh=go?gc.length*96:98,gy=y+gh/2-34;
+          const gb=node('group',570,gy,label(g,'group'),()=>{expanded.has(key)?expanded.delete(key):expanded.add(key);userCollapsed=expanded.size===0;render()});
+          gb.setAttribute('aria-expanded',String(go));gb.dataset.group=key;gb.style.setProperty('--order',String(cats.indexOf(s)*1000+c.indexOf(gc[0])*2+1));
+          const ct=document.createElement('span');ct.className='count';ct.textContent=(go?'− ':'＋ ')+gc.length+' '+unit;gb.append(ct);
+          groupPositions.push(gy+34);
+          if(go)gc.forEach((course,i)=>{
+            const cy=y+i*96,b=node('course',900,cy,local(course).title,()=>show(course,b));
+            b.dataset.course=course.id;b.style.setProperty('--order',String(cats.indexOf(s)*1000+c.indexOf(course)*2+2));
+            const src=document.createElement('span');src.className='course-src';src.textContent=[...new Set(course.links.map(l=>l.source).filter(Boolean))].join(' · ');
+            if(src.textContent)b.append(src);
+            edges.push([820,gy+34,900,cy+34]);n++;
+          });
+          y+=gh+20;
+        }
+      }
+    }else y+=112;
+    const sy=start+(y-start-20)/2-34;
+    const b=node('subject',280,sy,label(s,field),()=>{expanded.has(s)?expanded.delete(s):expanded.add(s);userCollapsed=expanded.size===0;render()});
+    b.style.setProperty('--accent',palette[cats.indexOf(s)%palette.length]);
+    b.setAttribute('aria-expanded',String(open));b.dataset.subject=s;b.style.setProperty('--order',String(cats.indexOf(s)*1000));
+    const count=document.createElement('span');count.className='count';count.textContent=(open?'− ':'＋ ')+c.length+' '+unit;b.append(count);
+    edges.push([235,null,280,sy+34]);for(const gy of groupPositions)edges.push([510,sy+34,570,gy]);
+  }
+  const height=Math.max(440,y),width=1280,rootY=height/2;
+  node('root',30,rootY-43,mode==='blogs'?t.blogRoot:t.root,()=>home());
+  edges.forEach(e=>{if(e[1]===null)e[1]=rootY});
+  drawEdges(edges,width,height);sizeGraph(width,height);
+  document.querySelector('#status').textContent=`${items.length} ${unit} · ${shown.length} ${catUnit}`+(n?` · ${n} ${t.visible}`:'');
+  if(!shown.length){const empty=document.createElement('p');empty.id='empty';empty.textContent=t.empty;graph.append(empty)}
+}
+
+function hideTooltip(){tooltip.hidden=true;document.querySelectorAll('.dimmed').forEach(el=>el.classList.remove('dimmed'));document.querySelectorAll('.highlighted').forEach(el=>el.classList.remove('highlighted'))}
+
+function showSpotlight(nodeObj,el){
+  if(view!=='map')return;
+  const active=new Set([nodeObj.id]);
+  if(nodeObj.cls==='subject'){
+    currentNodes.forEach(n=>{if(n.parent?.id===nodeObj.id||(n.parent?.parent?.id===nodeObj.id))active.add(n.id)});
+  }else if(nodeObj.cls==='group'){
+    if(nodeObj.parent)active.add(nodeObj.parent.id);
+    currentNodes.forEach(n=>{if(n.parent?.id===nodeObj.id)active.add(n.id)});
+  }else if(nodeObj.cls==='course'){
+    if(nodeObj.parent){active.add(nodeObj.parent.id);if(nodeObj.parent.parent)active.add(nodeObj.parent.parent.id)}
+  }
+  if(active.size>1&&nodeObj.id!=='root'){
+    document.querySelectorAll('#graph .node').forEach(dom=>dom.classList.toggle('dimmed',!active.has(dom.dataset.graphNode)));
+    document.querySelectorAll('#graph path.edge').forEach(p=>{
+      const ok=active.has(p.dataset.from)&&active.has(p.dataset.to);
+      p.classList.toggle('highlighted',ok);
+      p.classList.toggle('dimmed',!ok);
+    });
+  }
+  const wrapRect=document.querySelector('.canvas-wrap').getBoundingClientRect();
+  const r=el.getBoundingClientRect();
+  tooltip.replaceChildren();
+  const strong=document.createElement('strong');strong.textContent=nodeObj.text;tooltip.append(strong);
+  const sub=document.createElement('span');
+  const unit=mode==='blogs'?UI[lang].blog:UI[lang].course;
+  if(nodeObj.course){
+    const d=local(nodeObj.course);
+    const srcs=[...new Set(d.links.map(l=>l.source).filter(Boolean))].join(' · ');
+    sub.textContent=(mode==='blogs'?d.group:d.subject+' › '+d.group)+(srcs?' · '+srcs:'');
+  }else if(nodeObj.count){
+    sub.textContent=nodeObj.count+' '+unit;
+  }
+  if(sub.textContent)tooltip.append(sub);
+  tooltip.hidden=false;
+  const tw=tooltip.offsetWidth||220,th=tooltip.offsetHeight||48;
+  const left=Math.max(10,Math.min(wrapRect.width-tw-10,r.left-wrapRect.left+r.width/2-tw/2));
+  let top=r.top-wrapRect.top-th-10;
+  if(top<8)top=r.bottom-wrapRect.top+10;
+  tooltip.style.left=left+'px';tooltip.style.top=top+'px';
+}
+
+function renderKnowledge(shown){
+  const t=UI[lang],items=activeData(),cats=categories(),field=catField(),unit=mode==='blogs'?t.blog:t.course,catUnit=mode==='blogs'?t.topic:t.subject;
+  const nodes=[],links=[];
+  const singleHub=Boolean(selected&&shown.length===1);
+  let hub;
+  if(singleHub){
+    const {s,c}=shown[0];
+    const color=palette[cats.indexOf(s)%palette.length];
+    hub={id:s,cls:'subject',text:label(s,field),x:0,y:0,w:204,h:68,fn:home,color,count:c.length};
+    nodes.push(hub);
+  }else{
+    hub={id:'root',cls:'root',text:mode==='blogs'?t.blogRoot:t.root,x:0,y:0,w:148,h:74,fn:home};
+    nodes.push(hub);
+  }
+  const add=(id,cls,text,x,y,w,h,parent,fn,color)=>{const n={id,cls,text,x,y,w,h,parent,fn,color};nodes.push(n);links.push([parent,n]);return n};
+
+  if(singleHub){
+    const {s,c}=shown[0];
+    if(mode==='blogs'){
+      const ringRadius=Math.max(250,Math.min(360,210+c.length*9));
+      c.forEach((item,ci)=>{
+        const angle=-Math.PI/2+ci*Math.PI*2/Math.max(1,c.length);
+        const cn=add(item.id,'course',local(item).title,Math.cos(angle)*(ringRadius+(ci%2)*60),Math.sin(angle)*(ringRadius+(ci%2)*60),218,58,hub,null,hub.color);
+        cn.course=item;
+      });
+    }else{
+      const groups=[...new Set(c.map(x=>x.group))];
+      const groupRadius=Math.max(250,Math.min(340,210+groups.length*14));
+      groups.forEach((g,gi)=>{
+        const ga=-Math.PI/2+gi*Math.PI*2/Math.max(1,groups.length);
+        const gc=c.filter(x=>x.group===g),key=s+'|'+g;
+        const group=add(key,'group',label(g,'group'),Math.cos(ga)*groupRadius,Math.sin(ga)*groupRadius,196,60,hub,()=>{graphFolded.has(key)?graphFolded.delete(key):graphFolded.add(key);render();fit()},hub.color);
+        group.count=gc.length;
+        if(graphFolded.has(key)&&!query)return;
+        gc.forEach((course,ci)=>{
+          const ca=ga+(ci-(gc.length-1)/2)*.36;
+          const dist=165+(ci%2)*55;
+          const cn=add(course.id,'course',local(course).title,group.x+Math.cos(ca)*dist,group.y+Math.sin(ca)*dist,212,58,group,null,hub.color);
+          cn.course=course;
+        });
+      });
+    }
+  }else{
+    shown.forEach(({s,c},si)=>{
+      const angle=-Math.PI/2+si*Math.PI*2/Math.max(1,shown.length),radius=mode==='blogs'?420:640;
+      const sub=add(s,'subject',label(s,field),Math.cos(angle)*radius,Math.sin(angle)*radius,196,64,hub,()=>focusSubject(s),palette[cats.indexOf(s)%palette.length]);
+      sub.count=c.length;
+      if(graphCollapsed&&!query)return;
+      if(mode==='blogs'){
+        c.forEach((item,ci)=>{
+          const ca=angle+(ci-(c.length-1)/2)*.26;
+          const dist=230+(ci%3)*65;
+          const n=add(item.id,'course',local(item).title,sub.x+Math.cos(ca)*dist,sub.y+Math.sin(ca)*dist,214,56,sub,null,sub.color);
+          n.course=item;
+        });
+      }else{
+        const groups=[...new Set(c.map(x=>x.group))];
+        groups.forEach((g,gi)=>{
+          const ga=angle+(gi-(groups.length-1)/2)*.68,gc=c.filter(x=>x.group===g),key=s+'|'+g;
+          const group=add(key,'group',label(g,'group'),sub.x+Math.cos(ga)*270,sub.y+Math.sin(ga)*270,188,58,sub,()=>{graphFolded.has(key)?graphFolded.delete(key):graphFolded.add(key);render()},sub.color);
+          group.count=gc.length;
+          if(graphFolded.has(key)&&!query)return;
+          gc.forEach((course,ci)=>{
+            const ca=ga+(ci-(gc.length-1)/2)*.46;
+            const n=add(course.id,'course',local(course).title,group.x+Math.cos(ca)*(185+ci%2*60),group.y+Math.sin(ca)*(185+ci%2*60),210,56,group,null,sub.color);
+            n.course=course;
+          });
+        });
+      }
+    });
+  }
+
+  // Deterministic spring layout: only catalog membership edges, never inferred prerequisites.
+  for(let step=0;step<210;step++){
+    const force=nodes.map(()=>({x:0,y:0}));
+    for(let i=0;i<nodes.length;i++){
+      const a=nodes[i];
+      for(let j=i+1;j<nodes.length;j++){
+        const b=nodes[j];
+        let dx=b.x-a.x,dy=b.y-a.y;
+        if(Math.abs(dx)+Math.abs(dy)<.01){dx=.1*(j+1);dy=.13*(i+1)}
+        const dist=Math.hypot(dx,dy),gapX=(a.w+b.w)/2+22-Math.abs(dx),gapY=(a.h+b.h)/2+22-Math.abs(dy);
+        let strength=5800/(dist*dist+500);
+        if(gapX>0&&gapY>0)strength+=Math.min(gapX,gapY)*.18;
+        force[i].x-=dx/dist*strength;force[i].y-=dy/dist*strength;
+        force[j].x+=dx/dist*strength;force[j].y+=dy/dist*strength;
+      }
+    }
+    for(const [a,b]of links){
+      const bi=nodes.indexOf(b),ai=nodes.indexOf(a),dx=b.x-a.x,dy=b.y-a.y,d=Math.max(1,Math.hypot(dx,dy));
+      const target=b.cls==='subject'?(mode==='blogs'?420:640):b.cls==='group'?(singleHub?290:240):(mode==='blogs'?(singleHub?270:220):(singleHub?175:170));
+      const k=(d-target)*.026;
+      force[bi].x-=dx/d*k;force[bi].y-=dy/d*k;force[ai].x+=dx/d*k;force[ai].y+=dy/d*k;
+    }
+    nodes.forEach((n,i)=>{if(i){n.x+=Math.max(-15,Math.min(15,force[i].x));n.y+=Math.max(-15,Math.min(15,force[i].y))}});
+  }
+  // Resolve remaining label collisions without changing any graph relationship.
+  for(let k=0;k<36;k++)for(let i=1;i<nodes.length;i++)for(let j=i+1;j<nodes.length;j++){
+    const a=nodes[i],b=nodes[j],dx=b.x-a.x,dy=b.y-a.y,ox=(a.w+b.w)/2+12-Math.abs(dx),oy=(a.h+b.h)/2+12-Math.abs(dy);
+    if(ox>0&&oy>0){
+      if(ox<oy){const push=(ox+.2)/2*(dx>=0?1:-1);a.x-=push;b.x+=push}
+      else{const push=(oy+.2)/2*(dy>=0?1:-1);a.y-=push;b.y+=push}
+    }
+  }
+
+  const minX=Math.min(...nodes.map(n=>n.x-n.w/2))-70,minY=Math.min(...nodes.map(n=>n.y-n.h/2))-70;
+  const width=Math.max(700,Math.max(...nodes.map(n=>n.x+n.w/2))-minX+70);
+  const height=Math.max(540,Math.max(...nodes.map(n=>n.y+n.h/2))-minY+70);
+  const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');
+  svg.setAttribute('width',width);svg.setAttribute('height',height);
+  const cx=hub.x-minX,cy=hub.y-minY;
+  for(const r of (singleHub?[280,460]:mode==='blogs'?[380,680]:[560,840,1120])){
+    const ring=document.createElementNS(svg.namespaceURI,'circle');
+    ring.setAttribute('class','orbit');ring.setAttribute('cx',cx);ring.setAttribute('cy',cy);ring.setAttribute('r',r);
+    svg.append(ring);
+  }
+  for(const [a,b]of links){
+    const line=document.createElementNS(svg.namespaceURI,'path');
+    line.setAttribute('class','edge');
+    line.dataset.from=a.id;line.dataset.to=b.id;
+    line.setAttribute('d',`M${a.x-minX},${a.y-minY} Q${(a.x+b.x)/2-minX+18},${(a.y+b.y)/2-minY-18} ${b.x-minX},${b.y-minY}`);
+    line.style.stroke=b.color||'#a5b9a0';line.style.opacity='.58';
+    svg.append(line);
+  }
+  graph.append(svg);
+
+  currentNodes=nodes;
+  for(const n of nodes){
+    const el=node(n.cls,n.x-n.w/2-minX,n.y-n.h/2-minY,n.text,()=>n.course?show(n.course,el):n.fn());
+    el.style.width=n.w+'px';el.style.height=n.h+'px';el.style.minHeight=n.h+'px';
+    el.style.setProperty('--accent',n.color||'#2d7a64');
+    if(n.course){
+      el.dataset.course=n.id;
+      const srcs=[...new Set(local(n.course).links.map(l=>l.source).filter(Boolean))];
+      if(srcs.length){const s=document.createElement('span');s.className='course-src';s.textContent=srcs[0];el.append(s)}
+    }else if(n.id!=='root'){
+      const count=document.createElement('span');count.className='count';count.textContent=n.count+' '+unit;el.append(count);
+    }
+    el.dataset.graphNode=n.id;
+    if(n.parent)el.dataset.parent=n.parent.id;
+    el.setAttribute('aria-label',n.text);
+    el.addEventListener('pointerenter',()=>showSpotlight(n,el));
+    el.addEventListener('pointerleave',hideTooltip);
+    el.addEventListener('focus',()=>showSpotlight(n,el));
+    el.addEventListener('blur',hideTooltip);
+    if(n.cls==='group')el.addEventListener('dblclick',e=>{e.stopPropagation();const r=el.getBoundingClientRect();applyZoom(.9,r.left+r.width/2,r.top+r.height/2)});
+  }
+  sizeGraph(width,height);
+  document.querySelector('#status').textContent=`${nodes.filter(n=>n.course).length} / ${items.length} ${unit} · ${shown.length} ${catUnit}`;
+  if(!shown.length){const empty=document.createElement('p');empty.id='empty';empty.textContent=t.empty;graph.append(empty)}
+}
+
+function show(c,b){
+  if(b)lastNode=b;
+  const t=UI[lang],d=local(c),isBlog=mode==='blogs';
+  document.querySelector('#drawer-crumb').textContent=d.subject+' › '+d.group;
+  const heading=document.querySelector('#detail-title');heading.replaceChildren();titleEl(heading,d.title);
+  document.querySelector('#description').textContent=d.description;
+  const sources=document.querySelector('#sources');sources.replaceChildren();
+  for(const link of d.links){
+    const a=document.createElement('a');
+    const src=link.source||'';
+    const actionLabel=isBlog?t.readBlog:t.open;
+    const labelText=src?(link.label===d.title?src+' · '+actionLabel:src+' · '+link.label):link.label;
+    const tSpan=document.createElement('span');tSpan.textContent=labelText;
+    const arrow=document.createElement('span');arrow.textContent='↗';
+    a.append(tSpan,arrow);
+    a.href=link.url;a.target='_blank';a.rel='noopener noreferrer';sources.append(a);
+  }
+  const readme=document.createElement('a');
+  const rSpan=document.createElement('span');rSpan.textContent=t.readme;
+  const rArrow=document.createElement('span');rArrow.textContent='↗';
+  readme.append(rSpan,rArrow);
+  readme.href='https://github.com/xioacd99/study-is-wonderful/blob/dev/'+(lang==='zh'?'README.md':'README-en.md')+'#'+(isBlog?'技术博客-technical-blogs':c.id);
+  readme.target='_blank';readme.rel='noopener';sources.append(readme);
+
+  const siblings=activeData().filter(x=>x.subject===c.subject&&x.group===c.group&&x.id!==c.id);
+  const sibHead=document.querySelector('#siblings-head'),sibList=document.querySelector('#siblings');
+  sibHead.textContent=isBlog?t.siblingBlogs:t.siblings;
+  sibList.replaceChildren();
+  sibHead.hidden=siblings.length===0;
+  for(const s of siblings){
+    const sd=local(s);
+    const btn=document.createElement('button');btn.type='button';
+    const st=document.createElement('span');st.textContent=sd.title;
+    const ss=document.createElement('span');ss.textContent=sd.links[0]?.source||'';
+    btn.append(st,ss);
+    btn.onclick=()=>show(s,document.querySelector(`[data-course="${s.id}"]`)||lastNode);
+    sibList.append(btn);
+  }
+  if(!dialog.open)dialog.showModal();
+  dialog.scrollTop=0;
+}
+
+document.querySelector('#return').onclick=()=>dialog.close();
+dialog.addEventListener('close',()=>lastNode?.focus());
+dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close()}});
+
+function home(){graphCollapsed=false;userCollapsed=false;graphFolded.clear();selected='';document.querySelector('#subject-filter').value='';query='';document.querySelector('#search').value='';expanded.clear();render();if(view==='map')fit();else viewport.scrollTo(0,0)}
+document.querySelector('#home').onclick=home;
+document.querySelector('#expand').onclick=()=>{graphCollapsed=false;userCollapsed=false;graphFolded.clear();activeData().forEach(c=>{expanded.add(c[catField()]);expanded.add(c.subject+'|'+c.group)});render();if(view==='map')fit()};
+document.querySelector('#collapse').onclick=()=>{graphCollapsed=true;userCollapsed=true;expanded.clear();query='';document.querySelector('#search').value='';render();if(view==='map')fit()};
+
+let searchTimer=null;
+document.querySelector('#search').oninput=e=>{
+  const val=e.target.value;
+  clearTimeout(searchTimer);
+  searchTimer=setTimeout(()=>{query=val;render();if(view==='map')fit();else viewport.scrollTo(0,0)},150);
+};
+
+document.querySelector('#plus').onclick=()=>setZoom(zoom*1.4);
+document.querySelector('#minus').onclick=()=>setZoom(zoom/1.4);
+for(const v of ['map','list'])document.querySelector('#'+v+'-view').onclick=()=>{
+  view=v;render();if(v==='map'){fit();window.scrollTo(0,0)}else viewport.scrollTo(0,0);
+};
+document.querySelector('#fit').onclick=fit;
+document.querySelector('#subject-filter').onchange=e=>{e.target.value?focusSubject(e.target.value):home()};
+
+// Wheel & pinch zoom without rebuilding DOM
+viewport.addEventListener('wheel',e=>{
+  if(view!=='map')return;
+  e.preventDefault();
+  const factor=e.deltaY<0?1.12:1/1.12;
+  applyZoom(zoom*factor,e.clientX,e.clientY);
+},{passive:false});
+
+let pinch=null;
+viewport.addEventListener('touchstart',e=>{
+  if(view==='map'&&e.touches.length===2){
+    const [a,b]=e.touches;
+    pinch={dist:Math.hypot(a.clientX-b.clientX,a.clientY-b.clientY),zoom};
+  }
+},{passive:true});
+viewport.addEventListener('touchmove',e=>{
+  if(view==='map'&&pinch&&e.touches.length===2){
+    e.preventDefault();
+    const [a,b]=e.touches;
+    const dist=Math.hypot(a.clientX-b.clientX,a.clientY-b.clientY);
+    applyZoom(pinch.zoom*(dist/Math.max(1,pinch.dist)),(a.clientX+b.clientX)/2,(a.clientY+b.clientY)/2);
+  }
+},{passive:false});
+viewport.addEventListener('touchend',e=>{if(e.touches.length<2)pinch=null});
+
+let drag=null;
+viewport.addEventListener('pointerdown',e=>{
+  if(e.pointerType==='mouse'&&!e.target.closest('button')){
+    drag={x:e.clientX,y:e.clientY,left:viewport.scrollLeft,top:viewport.scrollTop};
+    viewport.setPointerCapture(e.pointerId);
+  }
+});
+viewport.addEventListener('pointermove',e=>{
+  if(drag){viewport.scrollLeft=drag.left-(e.clientX-drag.x);viewport.scrollTop=drag.top-(e.clientY-drag.y)}
+});
+viewport.addEventListener('pointerup',()=>drag=null);
+viewport.addEventListener('pointercancel',()=>drag=null);
+
+applyLanguage();
 </script></body></html>

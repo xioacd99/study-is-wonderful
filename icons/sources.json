@@ -1,45 +1,473 @@
 {
   "columns": 6,
-  "authorization": "The maintainer confirmed permission to use the source marks on 2026-11-16. Marks identify resource sources, not sponsorship or endorsement.",
+  "authorization": "The maintainer confirmed permission to use the source marks on 2026-11-16 and the fourteen newly audited marks on 2026-11-21. They identify resource sources, not sponsorship or endorsement.",
   "sources": [
     {
       "id": "stanford",
+      "group": "university",
       "name": "Stanford",
-      "path": "icons/stanford-seal.svg",
+      "path": "icons/stanford-seal.png",
       "source": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Seal_of_Leland_Stanford_Junior_University.svg",
       "previous_src": "icons/stanford.svg",
       "order": 0,
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "399175574b50356cb2b90fbbc22f4f969efd0b1bc5bb5ac2349a110abb0eef15",
-      "organization": "stanford"
+      "sha256": "567cb1d2b93144768d27e4218f523e497a15b06de684324a298b3e13dcd95c31",
+      "organization": "stanford",
+      "hosts": [
+        "cs336.stanford.edu",
+        "web.stanford.edu"
+      ],
+      "course_credits": [
+        {
+          "course": "course-math-05",
+          "resource_url": "https://www.bilibili.com/BV17h411W7bk",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L34"
+        },
+        {
+          "course": "course-math-02",
+          "resource_url": "https://www.bilibili.com/BV1dq4y127TF",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L31"
+        },
+        {
+          "course": "course-math-03",
+          "resource_url": "https://www.bilibili.com/BV1Pg4y187Ed",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L32"
+        },
+        {
+          "course": "course-math-04",
+          "resource_url": "https://www.bilibili.com/BV1Qx411J7ER",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L33"
+        },
+        {
+          "course": "course-cs-07",
+          "resource_url": "https://web.stanford.edu/class/cs101/",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L83"
+        },
+        {
+          "course": "course-cs-15",
+          "resource_url": "https://web.stanford.edu/class/cs106b/",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L94"
+        },
+        {
+          "course": "course-cs-06",
+          "resource_url": "https://www.bilibili.com/BV1zs411h7t8",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L82"
+        },
+        {
+          "course": "course-cs-51",
+          "resource_url": "https://www.bilibili.com/BV1G7411k7jG",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L206"
+        },
+        {
+          "course": "course-cs-24",
+          "resource_url": "http://web.stanford.edu/class/cs107/",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L106"
+        },
+        {
+          "course": "course-cs-43",
+          "resource_url": "https://www.bilibili.com/BV137411Z7LR",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L192"
+        },
+        {
+          "course": "course-cs-50",
+          "resource_url": "https://www.bilibili.com/BV1Ht411w7Re",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L205"
+        },
+        {
+          "course": "course-cs-44",
+          "resource_url": "https://www.bilibili.com/BV1yA411s7Tp",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L193"
+        },
+        {
+          "course": "course-cs-31",
+          "resource_url": "http://web.stanford.edu/class/cs246/",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L165"
+        },
+        {
+          "course": "course-cs-29",
+          "resource_url": "https://www.bilibili.com/BV1SC4y187x1",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L163"
+        },
+        {
+          "course": "course-ai-26",
+          "resource_url": "https://www.bilibili.com/BV1sb411s7eQ",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L140"
+        },
+        {
+          "course": "course-ai-35",
+          "resource_url": "https://www.bilibili.com/BV16s411q7o7",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L155"
+        },
+        {
+          "course": "course-ai-22",
+          "resource_url": "https://www.bilibili.com/BV1pt411h7aT",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L133"
+        },
+        {
+          "course": "course-ai-16",
+          "resource_url": "https://www.bilibili.com/BV1Ht4y1U75j",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L120"
+        },
+        {
+          "course": "course-ai-34",
+          "resource_url": "https://www.bilibili.com/BV1Vg4y1z7Nf",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L154"
+        },
+        {
+          "course": "course-ai-30",
+          "resource_url": "https://www.bilibili.com/BV1NW41177q4",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L186"
+        },
+        {
+          "course": "course-physics-04",
+          "resource_url": "https://www.bilibili.com/BV1tE411R75K",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L224"
+        },
+        {
+          "course": "course-physics-05",
+          "resource_url": "https://www.bilibili.com/BV1CE411Q7Cc",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L225"
+        },
+        {
+          "course": "course-physics-03",
+          "resource_url": "https://www.bilibili.com/BV1w4411s7da",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L223"
+        },
+        {
+          "course": "course-biology-01",
+          "resource_url": "https://www.bilibili.com/BV1FF411Y72Y",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L241"
+        },
+        {
+          "course": "course-other-03",
+          "resource_url": "https://www.bilibili.com/BV1zv41177JQ",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L248"
+        },
+        {
+          "course": "course-other-02",
+          "resource_url": "https://www.bilibili.com/BV1KK4y1s7mY",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L247"
+        },
+        {
+          "course": "course-ai-01",
+          "resource_url": "https://www.bilibili.com/video/BV1U2zYBqEFB/",
+          "evidence": "https://cs224r.stanford.edu/"
+        },
+        {
+          "course": "course-ai-02",
+          "resource_url": "https://www.bilibili.com/video/BV15E2SB7EzE/",
+          "evidence": "https://cs224r.stanford.edu/"
+        }
+      ],
+      "upstream_sha256": "399175574b50356cb2b90fbbc22f4f969efd0b1bc5bb5ac2349a110abb0eef15",
+      "format_note": "Proportionally rasterized from the verified upstream SVG at 160x160 on transparent background for lightweight wall embedding; no cropping or recoloring."
     },
     {
       "id": "mit",
+      "group": "university",
       "name": "MIT OpenCourseWare",
-      "path": "icons/mit-seal.svg",
+      "path": "icons/mit-seal.png",
       "source": "https://upload.wikimedia.org/wikipedia/en/4/44/MIT_Seal.svg",
       "previous_src": "ocw.svg",
       "order": 1,
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "6687ba30ed83832fe5bd9e5c25252f436c04c369712420e5a8143cf4f3f56283",
-      "organization": "mit"
+      "sha256": "883e988559e0541ce8cbeff36b2917a80d21261d8ee2e1074c09911bbce908e8",
+      "organization": "mit",
+      "hosts": [
+        "missing.csail.mit.edu",
+        "ocw.mit.edu"
+      ],
+      "course_credits": [
+        {
+          "course": "course-math-19",
+          "resource_url": "https://www.bilibili.com/BV1zx411g7gq",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L63"
+        },
+        {
+          "course": "course-math-20",
+          "resource_url": "https://www.bilibili.com/BV1fi4y1x7AH",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L64"
+        },
+        {
+          "course": "course-math-22",
+          "resource_url": "https://www.bilibili.com/BV1EJ41147q3",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L66"
+        },
+        {
+          "course": "course-math-23",
+          "resource_url": "https://www.bilibili.com/BV1eM4y1g7De",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L67"
+        },
+        {
+          "course": "course-math-18",
+          "resource_url": "https://www.bilibili.com/BV1Qz4y167rb",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L62"
+        },
+        {
+          "course": "course-math-21",
+          "resource_url": "https://www.bilibili.com/BV1zh41167Uy",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L65"
+        },
+        {
+          "course": "course-math-24",
+          "resource_url": "https://www.bilibili.com/BV1Ei4y1x73V",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L68"
+        },
+        {
+          "course": "course-math-25",
+          "resource_url": "https://www.bilibili.com/BV19T4y1M7W5",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L69"
+        },
+        {
+          "course": "course-math-16",
+          "resource_url": "https://www.bilibili.com/BV14t411N7uw",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L60"
+        },
+        {
+          "course": "course-math-17",
+          "resource_url": "https://www.bilibili.com/BV1Qs41167VS",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L61"
+        },
+        {
+          "course": "course-math-15",
+          "resource_url": "https://www.bilibili.com/BV19s41167TE",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L59"
+        },
+        {
+          "course": "course-cs-20",
+          "resource_url": "https://www.bilibili.com/BV1CU4y1P7PE",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L102"
+        },
+        {
+          "course": "course-cs-08",
+          "resource_url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L84"
+        },
+        {
+          "course": "course-cs-56",
+          "resource_url": "https://www.bilibili.com/BV1mq4y1u7NB",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L211"
+        },
+        {
+          "course": "course-cs-52",
+          "resource_url": "https://www.bilibili.com/BV1AA411t7Wk",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L207"
+        },
+        {
+          "course": "course-cs-04",
+          "resource_url": "https://www.bilibili.com/BV1x7411H7wa",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L80"
+        },
+        {
+          "course": "course-cs-12",
+          "resource_url": "https://www.bilibili.com/BV11E411u73m",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L91"
+        },
+        {
+          "course": "course-cs-11",
+          "resource_url": "https://www.bilibili.com/BV1iE411n7yJ",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L90"
+        },
+        {
+          "course": "course-cs-09",
+          "resource_url": "https://www.bilibili.com/BV1kf4y1w7Kn",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L88"
+        },
+        {
+          "course": "course-cs-13",
+          "resource_url": "https://www.bilibili.com/BV1sf4y1H7vb",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L92"
+        },
+        {
+          "course": "course-cs-10",
+          "resource_url": "https://www.bilibili.com/BV1fu41127MN",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L89"
+        },
+        {
+          "course": "course-cs-55",
+          "resource_url": "https://www.bilibili.com/BV197411s736",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L210"
+        },
+        {
+          "course": "course-cs-19",
+          "resource_url": "https://www.bilibili.com/BV1QA411F7ij",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L101"
+        },
+        {
+          "course": "course-cs-21",
+          "resource_url": "https://www.bilibili.com/BV1jt411F7Wh",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L103"
+        },
+        {
+          "course": "course-cs-57",
+          "resource_url": "https://www.bilibili.com/BV1pK4y1r7Jf",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L212"
+        },
+        {
+          "course": "course-cs-47",
+          "resource_url": "https://www.bilibili.com/BV167411g7iK",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L199"
+        },
+        {
+          "course": "course-cs-53",
+          "resource_url": "https://www.bilibili.com/BV1L4411H7w3",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L208"
+        },
+        {
+          "course": "course-cs-54",
+          "resource_url": "https://www.bilibili.com/BV1CZ4y1j7hs",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L209"
+        },
+        {
+          "course": "course-ai-27",
+          "resource_url": "https://www.bilibili.com/BV1KL4y1e7F7",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L141"
+        },
+        {
+          "course": "course-ai-15",
+          "resource_url": "https://www.bilibili.com/BV1a7411M7wH",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L119"
+        },
+        {
+          "course": "course-ai-14",
+          "resource_url": "https://www.bilibili.com/BV1qt411c7Na",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L118"
+        },
+        {
+          "course": "course-ai-36",
+          "resource_url": "https://www.bilibili.com/BV1oa411c7eD",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L156"
+        },
+        {
+          "course": "course-economics-03",
+          "resource_url": "https://www.bilibili.com/BV1Ft4112796",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L218"
+        },
+        {
+          "course": "course-economics-04",
+          "resource_url": "https://www.bilibili.com/BV11U4y1g78u",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L219"
+        },
+        {
+          "course": "course-economics-02",
+          "resource_url": "https://www.bilibili.com/BV1MV411U75D",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L217"
+        },
+        {
+          "course": "course-other-01",
+          "resource_url": "https://www.bilibili.com/BV14q4y1R7Ra",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L246"
+        }
+      ],
+      "upstream_sha256": "6687ba30ed83832fe5bd9e5c25252f436c04c369712420e5a8143cf4f3f56283",
+      "format_note": "Proportionally rasterized from the verified upstream SVG at 160x160 on transparent background for lightweight wall embedding; no cropping or recoloring."
     },
     {
       "id": "berkeley",
+      "group": "university",
       "name": "UC Berkeley",
-      "path": "icons/berkeley-seal.svg",
+      "path": "icons/berkeley-seal.png",
       "source": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Seal_of_University_of_California%2C_Berkeley.svg",
       "previous_src": "icons/berkeley.svg",
       "order": 2,
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "ea2db45494acddf68943cb2c5c1517f5547da120ee2dba6eacf717548ee21b46",
-      "organization": "berkeley"
+      "sha256": "4de7f96b1dc6414f67ead15230d68226944a743a98a2d0c0006abcf4f49aeb75",
+      "organization": "berkeley",
+      "hosts": [
+        "inst.eecs.berkeley.edu",
+        "www.eecs189.org"
+      ],
+      "course_credits": [
+        {
+          "course": "course-math-10",
+          "resource_url": "https://www.bilibili.com/BV1gv411j7rd",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L45"
+        },
+        {
+          "course": "course-math-09",
+          "resource_url": "https://www.bilibili.com/BV19y4y1W7X1",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L44"
+        },
+        {
+          "course": "course-math-11",
+          "resource_url": "https://www.bilibili.com/BV1qB4y1A7t3",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L46"
+        },
+        {
+          "course": "course-cs-36",
+          "resource_url": "https://www.bilibili.com/BV1qV411q7RS",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L176"
+        },
+        {
+          "course": "course-cs-37",
+          "resource_url": "https://www.bilibili.com/BV1QQ4y1o7rn",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L177"
+        },
+        {
+          "course": "course-cs-14",
+          "resource_url": "https://inst.eecs.berkeley.edu/~cs61b/sp20/index.html",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L93"
+        },
+        {
+          "course": "course-cs-22",
+          "resource_url": "https://inst.eecs.berkeley.edu/~cs61c/fa20/",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L104"
+        },
+        {
+          "course": "course-cs-18",
+          "resource_url": "https://www.bilibili.com/BV1ix411676b",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L100"
+        },
+        {
+          "course": "course-cs-34",
+          "resource_url": "https://www.bilibili.com/BV1yb4y1n7rb",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L171"
+        },
+        {
+          "course": "course-cs-27",
+          "resource_url": "https://www.bilibili.com/BV19741117jR",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L161"
+        },
+        {
+          "course": "course-ai-28",
+          "resource_url": "https://www.bilibili.com/BV1fx411S7S8",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L142"
+        },
+        {
+          "course": "course-ai-17",
+          "resource_url": "https://inst.eecs.berkeley.edu/~cs188/fa19/",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L121"
+        },
+        {
+          "course": "course-ai-18",
+          "resource_url": "https://www.eecs189.org/",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L122"
+        },
+        {
+          "course": "course-ai-29",
+          "resource_url": "https://www.bilibili.com/BV1KA41157yn",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L146"
+        },
+        {
+          "course": "course-psychology-01",
+          "resource_url": "https://www.bilibili.com/BV1UJ411c7d8",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L229"
+        },
+        {
+          "course": "course-psychology-02",
+          "resource_url": "https://www.bilibili.com/BV1Hx411u7SK",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L230"
+        }
+      ],
+      "upstream_sha256": "ea2db45494acddf68943cb2c5c1517f5547da120ee2dba6eacf717548ee21b46",
+      "format_note": "Proportionally rasterized from the verified upstream SVG at 160x160 on transparent background for lightweight wall embedding; no cropping or recoloring."
     },
     {
       "id": "stonybrook",
+      "group": "university",
       "name": "Stony Brook",
       "path": "icons/stonybrook-seal.svg",
       "source": "https://upload.wikimedia.org/wikipedia/en/1/1d/Stony_Brook_University_seal.svg",
@@ -48,22 +476,124 @@
       "header_width": 48,
       "inline_width": 24,
       "sha256": "cccb7f9117ff2b4f292797868929caf8adeb890cd21b6e0c7a93ff1e6990e22b",
-      "organization": "stonybrook"
+      "organization": "stonybrook",
+      "hosts": [
+        "www3.cs.stonybrook.edu"
+      ]
     },
     {
       "id": "cmu",
+      "group": "university",
       "name": "Carnegie Mellon",
-      "path": "icons/cmu-seal.svg",
+      "path": "icons/cmu-seal.png",
       "source": "https://upload.wikimedia.org/wikipedia/en/b/bb/Carnegie_Mellon_University_seal.svg",
       "previous_src": "icons/cmu.svg",
       "order": 4,
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "97cb5b0375be7564bb66c1852e293eff134bd0e02fc1f3c69180add6f19da73c",
-      "organization": "cmu"
+      "sha256": "4a5004edec8e0049ce71eafdb0d45fb5eafe1265f089c75a8b7f25502e14ca44",
+      "organization": "cmu",
+      "hosts": [
+        "www.cs.cmu.edu"
+      ],
+      "course_credits": [
+        {
+          "course": "course-math-07",
+          "resource_url": "https://www.bilibili.com/BV1J64y1F7nW",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L39"
+        },
+        {
+          "course": "course-math-06",
+          "resource_url": "https://www.bilibili.com/BV12x411z7ot",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L38"
+        },
+        {
+          "course": "course-math-08",
+          "resource_url": "https://www.bilibili.com/BV1RQ4y1Z7HL",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L40"
+        },
+        {
+          "course": "course-cs-35",
+          "resource_url": "https://www.bilibili.com/BV16k4y1z7z9",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L175"
+        },
+        {
+          "course": "course-cs-03",
+          "resource_url": "https://www.bilibili.com/BV1Wh411y7V9",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L79"
+        },
+        {
+          "course": "course-cs-23",
+          "resource_url": "https://www.bilibili.com/video/BV1iW411d7hd",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L105"
+        },
+        {
+          "course": "course-cs-17",
+          "resource_url": "https://www.bilibili.com/BV1uK4y1e7ep",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L99"
+        },
+        {
+          "course": "course-cs-42",
+          "resource_url": "https://www.bilibili.com/BV1wT4y1A7cd",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L191"
+        },
+        {
+          "course": "course-cs-26",
+          "resource_url": "https://www.bilibili.com/BV1Pa411F7VP",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L160"
+        },
+        {
+          "course": "course-cs-33",
+          "resource_url": "https://www.bilibili.com/BV1rN411f7Ef",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L170"
+        },
+        {
+          "course": "course-cs-32",
+          "resource_url": "https://www.bilibili.com/BV1Cp4y1C7dv",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L169"
+        },
+        {
+          "course": "course-cs-39",
+          "resource_url": "https://www.bilibili.com/BV1qA411n7X5",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L182"
+        },
+        {
+          "course": "course-cs-45",
+          "resource_url": "https://www.bilibili.com/BV1QZ4y1K7ga",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L197"
+        },
+        {
+          "course": "course-cs-48",
+          "resource_url": "https://www.bilibili.com/BV1Bb411v7YH",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L203"
+        },
+        {
+          "course": "course-ai-23",
+          "resource_url": "https://www.bilibili.com/BV1H3411k7GA",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L134"
+        },
+        {
+          "course": "course-ai-21",
+          "resource_url": "https://www.bilibili.com/BV1dC4y1h788",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L132"
+        },
+        {
+          "course": "course-ai-06",
+          "resource_url": "https://www.bilibili.com/BV1pC4y1t7px",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L113"
+        },
+        {
+          "course": "course-ai-31",
+          "resource_url": "https://www.bilibili.com/BV1MK4y1a7PS",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L151"
+        }
+      ],
+      "upstream_sha256": "97cb5b0375be7564bb66c1852e293eff134bd0e02fc1f3c69180add6f19da73c",
+      "format_note": "Proportionally rasterized from the verified upstream SVG at 160x160 on transparent background for lightweight wall embedding; no cropping or recoloring."
     },
     {
       "id": "bilibili",
+      "group": "project",
       "name": "Bilibili",
       "path": "bilibili.svg",
       "source": "https://github.com/xioacd99/study-is-wonderful/blob/0c7f758bd7d57202754fc4dc7b436bd199be9bbb/bilibili.svg",
@@ -72,10 +602,17 @@
       "header_width": 72,
       "inline_width": 36,
       "sha256": "acee94ac91acb59ee89668ec2131f54076e12aa1f5593deaba6cec83ac7ff076",
-      "organization": "bilibili"
+      "organization": "bilibili",
+      "hosts": [
+        "www.bilibili.com",
+        "space.bilibili.com",
+        "bilibili.com",
+        "b23.tv"
+      ]
     },
     {
       "id": "google",
+      "group": "company",
       "name": "Google",
       "path": "icons/google.png",
       "source": "https://www.gstatic.com/marketing-cms/assets/images/c5/3a/200414104c669203c62270f7884f/google-wordmarks-2x.webp=n-w150-h48-fcrop64=1,00000000ffffffff-rw",
@@ -86,10 +623,15 @@
       "sha256": "a405cfec519ed1942be695d6787634c18077cb7a14f212be659fc6a576bbafbd",
       "upstream_sha256": "82d1ae452014543d53d6d32b6ee6587b9f96dbd051e1fdc0877c72ae383637aa",
       "format_note": "Decoded to PNG for SVG renderer compatibility; no resizing, crop or recoloring.",
-      "organization": "google"
+      "organization": "google",
+      "hosts": [
+        "blog.google",
+        "developers.googleblog.com"
+      ]
     },
     {
       "id": "antigravity",
+      "group": "company",
       "name": "Google Antigravity",
       "path": "icons/antigravity.png",
       "source": "https://antigravity.google/assets/image/antigravity-logo.png",
@@ -97,11 +639,17 @@
       "order": 7,
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "193ba1805de11c23cd0c7a1df92aa0a886708e57350f6f7766100afe5befed73",
-      "organization": "google"
+      "sha256": "f07d87c3fd82d86bdb7ec64daa6f3028fde6e5af2b41c45aa395cd84d230d275",
+      "organization": "google",
+      "hosts": [
+        "antigravity.google"
+      ],
+      "upstream_sha256": "193ba1805de11c23cd0c7a1df92aa0a886708e57350f6f7766100afe5befed73",
+      "format_note": "Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring."
     },
     {
       "id": "deepmind",
+      "group": "company",
       "name": "Google DeepMind",
       "path": "icons/deepmind.png",
       "source": "https://github.com/google-deepmind.png",
@@ -109,11 +657,17 @@
       "order": 8,
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "fe6f26ef6fb9ed99ec635b81be7b9e028b269f1fb7ae5a07a2ef73f4945eb0a2",
-      "organization": "google"
+      "sha256": "a63ad25e41837b28863b1b2475f3aeafa9750b56f492f1bffcb197bc376348e3",
+      "organization": "google",
+      "hosts": [
+        "deepmind.google"
+      ],
+      "upstream_sha256": "fe6f26ef6fb9ed99ec635b81be7b9e028b269f1fb7ae5a07a2ef73f4945eb0a2",
+      "format_note": "Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring."
     },
     {
       "id": "google-cloud",
+      "group": "company",
       "name": "Google Cloud",
       "path": "icons/google-cloud.png",
       "source": "https://www.gstatic.com/cgc/super_cloud_gradient.png",
@@ -122,10 +676,14 @@
       "header_width": 48,
       "inline_width": 24,
       "sha256": "a332b54b620a2fa04413561c01c925cd40f936581c7bed52df424ecccc9c08b4",
-      "organization": "google"
+      "organization": "google",
+      "hosts": [
+        "cloud.google.com"
+      ]
     },
     {
       "id": "youtube",
+      "group": "project",
       "name": "YouTube",
       "path": "youtube.svg",
       "source": "https://github.com/xioacd99/study-is-wonderful/blob/0c7f758bd7d57202754fc4dc7b436bd199be9bbb/youtube.svg",
@@ -134,10 +692,16 @@
       "header_width": 48,
       "inline_width": 24,
       "sha256": "58ef7995f66543b84ec390bf50d2bda598f826c3375545da9fd6f15f97acd122",
-      "organization": "google"
+      "organization": "google",
+      "hosts": [
+        "www.youtube.com",
+        "youtube.com",
+        "youtu.be"
+      ]
     },
     {
       "id": "meta",
+      "group": "company",
       "name": "Meta",
       "path": "icons/meta.png",
       "source": "https://github.com/meta.png",
@@ -145,11 +709,17 @@
       "order": 11,
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "739403e3e9c4863d91065b08e17bd05d5feba828b41d354944997adf1db8d34e",
-      "organization": "meta"
+      "sha256": "98d79a4e8d9f9b9e8aded810b898f4a681f08a7fda25d46f540e269f3d408850",
+      "organization": "meta",
+      "hosts": [
+        "engineering.fb.com"
+      ],
+      "upstream_sha256": "739403e3e9c4863d91065b08e17bd05d5feba828b41d354944997adf1db8d34e",
+      "format_note": "Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring."
     },
     {
       "id": "openai",
+      "group": "company",
       "name": "OpenAI",
       "path": "icons/openai.png",
       "source": "https://github.com/openai.png",
@@ -158,10 +728,17 @@
       "header_width": 48,
       "inline_width": 24,
       "sha256": "a4c36896a019505b19414a21f1c2faa1cbfad20af7df81ad09769040d395a9a5",
-      "organization": "openai"
+      "organization": "openai",
+      "hosts": [
+        "openai.com",
+        "alignment.openai.com",
+        "deploymentsafety.openai.com",
+        "developers.openai.com"
+      ]
     },
     {
       "id": "anthropic",
+      "group": "company",
       "name": "Anthropic",
       "path": "icons/anthropic.png",
       "source": "https://github.com/anthropics.png",
@@ -169,11 +746,19 @@
       "order": 13,
       "header_width": 48,
       "inline_width": 24,
-      "sha256": "61e53ab1d79919613c6b48ddc75268520357036719ab400df75c5553dbae639c",
-      "organization": "anthropic"
+      "sha256": "5c53f378c0acd6c82ed4e2af782a93116a938f5d997f101bee92c4b6d9fba58d",
+      "organization": "anthropic",
+      "hosts": [
+        "www.anthropic.com",
+        "alignment.anthropic.com",
+        "safeguards.anthropic.com"
+      ],
+      "upstream_sha256": "61e53ab1d79919613c6b48ddc75268520357036719ab400df75c5553dbae639c",
+      "format_note": "Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring."
     },
     {
       "id": "ai2",
+      "group": "project",
       "name": "Ai2",
       "path": "icons/ai2.png",
       "source": "https://allenai.org/icon.png?56c26b049606f4e5",
@@ -182,10 +767,14 @@
       "header_width": 48,
       "inline_width": 24,
       "sha256": "c6e6363ecc4666b2ad84cb2d811bc4963283d8c4f21ccb618f88b2281314534a",
-      "organization": "ai2"
+      "organization": "ai2",
+      "hosts": [
+        "allenai.org"
+      ]
     },
     {
       "id": "nvidia",
+      "group": "company",
       "name": "NVIDIA",
       "path": "icons/nvidia.svg",
       "source": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/about-nvidia/legal-info/logo-brand-usage/_jcr_content/root/responsivegrid/nv_container_392921705/nv_container/nv_image.coreimg.svg/1776076920288/nvidia-logo-vert.svg",
@@ -194,10 +783,14 @@
       "header_width": 72,
       "inline_width": 32,
       "sha256": "5347e5188c74204767d2d4daa17b59b5a18ccd7ad0a7281e7961a83c20c96808",
-      "organization": "nvidia"
+      "organization": "nvidia",
+      "hosts": [
+        "developer.nvidia.com"
+      ]
     },
     {
       "id": "huggingface",
+      "group": "company",
       "name": "Hugging Face",
       "path": "icons/huggingface.svg",
       "source": "https://huggingface.co/datasets/huggingface/brand-assets/resolve/c691ef6492ab9abe9f9b00139949fc3364d56139/hf-logo.svg",
@@ -206,10 +799,14 @@
       "header_width": 48,
       "inline_width": 24,
       "sha256": "942cad1ccda905ac5a659dfd2d78b344fccfb84a8a3ac3721e08f488205638a0",
-      "organization": "huggingface"
+      "organization": "huggingface",
+      "hosts": [
+        "huggingface.co"
+      ]
     },
     {
       "id": "clay",
+      "group": "company",
       "name": "Clay",
       "path": "icons/clay.png",
       "source": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6778506d788ebf16fef48551_Clay%20primary%20logo.avif",
@@ -217,10 +814,427 @@
       "order": 17,
       "header_width": 72,
       "inline_width": 36,
-      "sha256": "bb13c874ce5a5acde58f615effa2a780a18c7ff6f9ab55315e5bd468c14160cd",
+      "sha256": "64f1111e448f18fcc995413306469e2b368254450086ea6aacedc0f8cb335be5",
       "upstream_sha256": "d3429859acc503fd2009d52c38b0ba5ddfa63f1cee1a07e15df2e2996379d90f",
-      "format_note": "Decoded to PNG for SVG renderer compatibility; no resizing, crop or recoloring.",
-      "organization": "clay"
+      "format_note": "Decoded to PNG for SVG renderer compatibility; no resizing, crop or recoloring. Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring.",
+      "organization": "clay",
+      "hosts": [
+        "www.clay.com"
+      ]
+    },
+    {
+      "id": "yale",
+      "group": "university",
+      "name": "Open Yale Courses",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/0/07/Yale_University_Shield_1.svg",
+      "organization": "yale",
+      "hosts": [
+        "oyc.yale.edu",
+        "openmedia.yale.edu"
+      ],
+      "course_credits": [
+        {
+          "course": "course-math-26",
+          "resource_url": "https://www.bilibili.com/BV1Kt411h7Ep",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L73"
+        },
+        {
+          "course": "course-economics-01",
+          "resource_url": "https://www.bilibili.com/BV1ab411b7jq",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L216"
+        },
+        {
+          "course": "course-psychology-03",
+          "resource_url": "https://www.bilibili.com/BV1Ps411Z7h1",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L231"
+        },
+        {
+          "course": "course-social-03",
+          "resource_url": "https://www.bilibili.com/BV1x5411g7R5",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L239"
+        },
+        {
+          "course": "course-social-02",
+          "resource_url": "https://www.bilibili.com/BV1ux411r736",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L238"
+        },
+        {
+          "course": "course-social-04",
+          "resource_url": "https://www.bilibili.com/BV1wx411y7uW",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L240"
+        },
+        {
+          "course": "course-other-09",
+          "resource_url": "https://www.bilibili.com/BV13T4y1L7AT",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L254"
+        },
+        {
+          "course": "course-other-08",
+          "resource_url": "https://www.bilibili.com/BV1KK4y1P7Df",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L253"
+        },
+        {
+          "course": "course-other-07",
+          "resource_url": "https://www.bilibili.com/BV15s411x7LU",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L252"
+        },
+        {
+          "course": "course-other-06",
+          "resource_url": "https://www.bilibili.com/BV1sW411a7nM",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L251"
+        }
+      ],
+      "path": "icons/yale-mark.png",
+      "brand_reference": "https://ypps.yale.edu/products-services/featured-items-and-news/graphic-downloads",
+      "header_width": 48,
+      "inline_width": 24,
+      "sha256": "fdb15a3d445f6a6a7a8df13849540f006a45b78e07c08e39c004492c1023c56f",
+      "format_note": "Historic authentic heraldic shield; not the official ceremonial seal. Rasterized proportionally from the cited SVG for reliable embedded rendering; no crop or recoloring. Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring.",
+      "asset_metadata": "https://commons.wikimedia.org/wiki/File:Yale_University_Shield_1.svg",
+      "upstream_sha256": "e5ff35f9fd8f83bdf45c9fad095b2484e20707e3b374241bf9d4c008801a17e5"
+    },
+    {
+      "id": "eth-zurich",
+      "group": "university",
+      "name": "ETH Zürich",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/9/99/ETH_Z%C3%BCrich_Logo_black.svg",
+      "organization": "eth-zurich",
+      "hosts": [
+        "cvg.ethz.ch"
+      ],
+      "path": "icons/eth-zurich-mark.png",
+      "brand_reference": "https://ethz.ch/staffnet/en/service/communication/corporate-design/logo.html",
+      "header_width": 88,
+      "inline_width": 24,
+      "sha256": "bce6018b396bee78d1d11c802f8eee16bae5e1e437dc9646a8b2d89ba60a0ebf",
+      "format_note": "Official standard black wordmark as hosted by Commons. Rasterized proportionally from the cited SVG for reliable embedded rendering; no crop or recoloring. Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring.",
+      "asset_metadata": "https://commons.wikimedia.org/wiki/File:ETH_Z%C3%BCrich_Logo_black.svg",
+      "light_backdrop": true,
+      "upstream_sha256": "f19a3641e9265a72a634de8057e3f69447857385231c2450709ab7c0aa9c2c2f"
+    },
+    {
+      "id": "vllm",
+      "group": "project",
+      "name": "vLLM",
+      "source": "https://raw.githubusercontent.com/vllm-project/media-kit/refs/heads/main/vLLM-Logo.svg",
+      "organization": "vllm",
+      "hosts": [
+        "vllm.ai"
+      ],
+      "path": "icons/vllm-mark.png",
+      "brand_reference": "https://github.com/vllm-project/media-kit",
+      "header_width": 72,
+      "inline_width": 24,
+      "sha256": "17aadca0b4e0f54e2181a53ed84f816e0711abf2685b701f1e9634647a4e07ec",
+      "upstream_sha256": "12a0812e247cef4b31160e0d0267142ffe491491537f3e275d8bc645b61eb1a8",
+      "format_note": "Rasterized proportionally from the cited SVG for reliable embedded rendering; no crop or recoloring. Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring."
+    },
+    {
+      "id": "ggml",
+      "group": "project",
+      "name": "ggml-org",
+      "source": "https://raw.githubusercontent.com/ggml-org/media/refs/heads/master/logo/ggml-logo.jpg",
+      "organization": "ggml",
+      "hosts": [],
+      "credited_paths": [
+        {
+          "host": "huggingface.co",
+          "prefix": "/blog/ggml-org/"
+        }
+      ],
+      "path": "icons/ggml-mark.jpg",
+      "brand_reference": "https://github.com/ggml-org/ggml",
+      "header_width": 48,
+      "inline_width": 24,
+      "sha256": "c92f3d34f27cc3a39b73b9b383ee387750b2c0df6116010d17c5cac4717a7608",
+      "upstream_sha256": "a662f8cc015e87c1a3169c3255084c5c0836c425f841d2d62ceec7a120979c51",
+      "format_note": "Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring."
+    },
+    {
+      "id": "princeton",
+      "group": "university",
+      "name": "Princeton University",
+      "organization": "princeton",
+      "hosts": [],
+      "course_credits": [
+        {
+          "course": "course-cs-49",
+          "resource_url": "https://www.bilibili.com/BV1FL411K7vK",
+          "evidence": "https://www.cs.princeton.edu/news/online-course-bitcoin-and-cryptocurrency-technologies-now-open"
+        }
+      ],
+      "path": "icons/princeton-mark.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Princeton_seal.svg",
+      "brand_reference": "https://princetoniana.princeton.edu/things-princeton/colors-shields",
+      "header_width": 48,
+      "inline_width": 24,
+      "sha256": "3420553147fd31969dd4d51e54c1f2f8d85e98d8d9f29e4f347fdb429684fc2a",
+      "format_note": "Official historic armorial shield; not the corporate circular authentication seal. Rasterized proportionally from the cited SVG for reliable embedded rendering; no crop or recoloring. Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring.",
+      "asset_metadata": "https://commons.wikimedia.org/wiki/File:Princeton_seal.svg",
+      "upstream_sha256": "db5be7f3d4db80fae1e78a03cf4a39b592ea9d3d7782de32ebc773346cc6987b"
+    },
+    {
+      "id": "caltech",
+      "group": "university",
+      "name": "Caltech",
+      "organization": "caltech",
+      "hosts": [],
+      "course_credits": [
+        {
+          "course": "course-cs-28",
+          "resource_url": "https://www.bilibili.com/BV1ip4y1X7uY",
+          "evidence": "https://www.bilibili.com/video/BV1ip4y1X7uY/"
+        },
+        {
+          "course": "course-ai-32",
+          "resource_url": "https://www.bilibili.com/BV1uA411n7oV",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L152"
+        }
+      ],
+      "path": "icons/caltech-mark.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/1/18/Caltech_logo_2014.png",
+      "brand_reference": "https://identity.caltech.edu/officiallogomarks",
+      "header_width": 72,
+      "inline_width": 24,
+      "sha256": "07818a1adfbc94db39b14fc69708f3b2a5aeece1ed2e0eb0009536f4a3feb306",
+      "format_note": "Caltech orange official primary mark; the formal circular seal is explicitly reserved. Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring.",
+      "asset_metadata": "https://commons.wikimedia.org/wiki/File:Caltech_logo_2014.png",
+      "upstream_sha256": "2de4dad91b708aafee282231c8d8e7ab8450ecd76f629c77668a0ed055b8241c"
+    },
+    {
+      "id": "harvard",
+      "group": "university",
+      "name": "Harvard University",
+      "organization": "harvard",
+      "hosts": [],
+      "course_credits": [
+        {
+          "course": "course-cs-05",
+          "resource_url": "https://www.bilibili.com/BV1ER4y157uA",
+          "evidence": "https://cs50.harvard.edu/x/"
+        },
+        {
+          "course": "course-cs-30",
+          "resource_url": "https://www.bilibili.com/BV1v54y1x7dQ",
+          "evidence": "https://www.bilibili.com/video/BV1v54y1x7dQ/"
+        },
+        {
+          "course": "course-math-14",
+          "resource_url": "https://www.bilibili.com/BV1Ds41167HE",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L55"
+        },
+        {
+          "course": "course-math-13",
+          "resource_url": "https://www.bilibili.com/BV1kE41157pa",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L54"
+        },
+        {
+          "course": "course-psychology-05",
+          "resource_url": "https://www.bilibili.com/BV1hZ4y1w7kd",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L233"
+        },
+        {
+          "course": "course-psychology-06",
+          "resource_url": "https://www.bilibili.com/BV1px411d7xr",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L234"
+        },
+        {
+          "course": "course-psychology-04",
+          "resource_url": "https://www.bilibili.com/BV1ga41127Zt",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L232"
+        }
+      ],
+      "path": "icons/harvard-mark.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Seal_of_Harvard_University.svg",
+      "brand_reference": "https://trademark.harvard.edu/pages/policies-forms",
+      "header_width": 48,
+      "inline_width": 24,
+      "sha256": "bf16b3a8ea5410b7320d0615048840a60194d70eb2d8c9f8e9b492a2508edab4",
+      "format_note": "Historical Harvard University seal, not an individual school shield. Rasterized proportionally from the cited SVG for reliable embedded rendering; no crop or recoloring. Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring.",
+      "asset_metadata": "https://commons.wikimedia.org/wiki/File:Seal_of_Harvard_University.svg",
+      "light_backdrop": true,
+      "upstream_sha256": "2d34ba855f0eee444558aa223777eb51c6321d6b83e00b13a48a526bd007d0b5"
+    },
+    {
+      "id": "cornell",
+      "group": "university",
+      "name": "Cornell University",
+      "organization": "cornell",
+      "hosts": [],
+      "course_credits": [
+        {
+          "course": "course-cs-41",
+          "resource_url": "https://www.bilibili.com/BV1hZ4y1L7X4",
+          "evidence": "https://www.cs.cornell.edu/courses/cs6120/2025sp/self-guided/"
+        },
+        {
+          "course": "course-cs-38",
+          "resource_url": "https://www.bilibili.com/BV1aW411E7yr",
+          "evidence": "https://www.cs.cornell.edu/courses/cs5150/2026sp/"
+        }
+      ],
+      "path": "icons/cornell-mark.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/4/47/Cornell_University_seal.svg",
+      "brand_reference": "https://brand.cornell.edu/",
+      "header_width": 48,
+      "inline_width": 24,
+      "sha256": "fda00ef243edc5d558cda64bb2da28e897ef704633c250d3347db1b6a84154bc",
+      "format_note": "University seal artwork copied from Cornell brand guidelines. Rasterized proportionally from the cited SVG for reliable embedded rendering; no crop or recoloring. Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring.",
+      "asset_metadata": "https://commons.wikimedia.org/wiki/File:Cornell_University_seal.svg",
+      "upstream_sha256": "63b9ed0b356b60d824afa28eb47699b72e838ab44122cb35894e69f4fe2e11d0"
+    },
+    {
+      "id": "zhejiang",
+      "group": "university",
+      "name": "Zhejiang University",
+      "organization": "zhejiang",
+      "hosts": [],
+      "course_credits": [
+        {
+          "course": "course-ai-05",
+          "resource_url": "https://www.bilibili.com/video/BV1PB6XYFET2/",
+          "evidence": "https://www.bilibili.com/video/BV1PB6XYFET2/"
+        }
+      ],
+      "path": "icons/zhejiang-mark.png",
+      "source": "https://www.zju.edu.cn/_upload/article/images/c3/98/1fb1d281492eb477a098ef7a2901/05966b26-ab45-470d-94c1-99b1e02d12f4.png",
+      "brand_reference": "https://www.zju.edu.cn/514/listm.htm",
+      "header_width": 63,
+      "inline_width": 24,
+      "sha256": "e61634f47e9a4a05ea546e9a5d529599ccb715353cf4391b4515da5073d3ef37",
+      "upstream_sha256": "dc914cc634bdcd9b871c84686817c12287c6bafd309f083a1054040aee806fca",
+      "format_note": "Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring."
+    },
+    {
+      "id": "ntu",
+      "group": "university",
+      "name": "National Taiwan University",
+      "organization": "ntu",
+      "hosts": [],
+      "course_credits": [
+        {
+          "course": "course-ai-10",
+          "resource_url": "https://www.youtube.com/watch?v=CXgbekl66jc&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49",
+          "evidence": "https://web.ee.ntu.edu.tw/course_detail.php?CA_ID=7286"
+        },
+        {
+          "course": "course-ai-11",
+          "resource_url": "https://www.youtube.com/watch?v=Ye018rCVvOo&list=PLJV_el3uVTsMhtt7_Y6sgTHGHp1Vb2P2J",
+          "evidence": "https://course.ntu.edu.tw/en/courses/113-2/41735"
+        },
+        {
+          "course": "course-other-04",
+          "resource_url": "https://www.bilibili.com/BV1hp4y1t7zq",
+          "evidence": "https://ocw.aca.ntu.edu.tw/courses/101S120/"
+        },
+        {
+          "course": "course-ai-12",
+          "resource_url": "https://www.youtube.com/watch?v=7XZR0-4uS5s&list=PLJV_el3uVTsPM2mM-OQzJXziCGJa8nJL8",
+          "evidence": "https://speech.ee.ntu.edu.tw/~hylee/ml/2022-spring.php"
+        },
+        {
+          "course": "course-ai-24",
+          "resource_url": "https://www.youtube.com/watch?v=nER51ZyJaCQ&list=PLJV_el3uVTsO07RpBYFsXg-bN5Lu0nhdG",
+          "evidence": "https://speech.ee.ntu.edu.tw/~tlkagk/courses_DLHLP20.html"
+        }
+      ],
+      "path": "icons/ntu-mark.jpg",
+      "source": "https://www.ntu.edu.tw/images/resized/cis_mark-295w.jpeg",
+      "brand_reference": "https://www.ntu.edu.tw/english/about/CIS.html",
+      "header_width": 45,
+      "inline_width": 24,
+      "sha256": "adf63733da0fc32ccb93f3927a366175805649f1d3798a150996e38935d57a97",
+      "upstream_sha256": "6a58fe6a6894feab4d5a25f789ea6eaee6e227ec38aa5798c13668831d2750e3",
+      "format_note": "Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring."
+    },
+    {
+      "id": "oxford",
+      "group": "university",
+      "name": "University of Oxford",
+      "organization": "oxford",
+      "hosts": [],
+      "course_credits": [
+        {
+          "course": "course-math-12",
+          "resource_url": "https://www.bilibili.com/BV1sT4y1S7Aa",
+          "evidence": "https://www.bilibili.com/video/BV1sT4y1S7Aa/"
+        }
+      ],
+      "path": "icons/oxford-mark.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Uni_Oxford_logo.svg",
+      "brand_reference": "https://www.ox.ac.uk/about/the-university/brand/protecting-the-university-logo",
+      "header_width": 72,
+      "inline_width": 24,
+      "sha256": "d8eb86a7b4f0b1017d75811d1ae973910cff99a6d39e712217a5fb5851f4ea04",
+      "format_note": "Official University logo with heraldic belted crest; historical original, not a secondary drawing. Rasterized proportionally from the cited SVG for reliable embedded rendering; no crop or recoloring. Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring.",
+      "asset_metadata": "https://commons.wikimedia.org/wiki/File:Uni_Oxford_logo.svg",
+      "upstream_sha256": "1bb785bb06a3533339ad7a7e57f7c59bc9f0041f6e501b8a18bef337c8f83f5a"
+    },
+    {
+      "id": "cambridge",
+      "group": "university",
+      "name": "University of Cambridge",
+      "organization": "cambridge",
+      "hosts": [],
+      "course_credits": [
+        {
+          "course": "course-arts-02",
+          "resource_url": "https://www.bilibili.com/BV1av411e778",
+          "evidence": "https://github.com/xioacd99/study-is-wonderful/blob/6ceb171ca6881eddd81e8a6654726b69b591e444/README.md#L242"
+        }
+      ],
+      "path": "icons/cambridge-mark.png",
+      "source": "https://www.cam.ac.uk/sites/default/files/secondary-logo-stacked.png",
+      "brand_reference": "https://www.cam.ac.uk/brand-resources/logo/download",
+      "header_width": 52,
+      "inline_width": 24,
+      "sha256": "fa1d819c73e02e970579fb0882dfb93128334e3cfe6796e7f3795e902824945f",
+      "upstream_sha256": "e41137a72cd89eaca5a5c7c26a9fe053da9599772dcbf916fca03633021c1bc1",
+      "format_note": "Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring."
+    },
+    {
+      "id": "nju",
+      "group": "university",
+      "name": "Nanjing University",
+      "organization": "nju",
+      "hosts": [],
+      "course_credits": [
+        {
+          "course": "course-cs-25",
+          "resource_url": "https://space.bilibili.com/202224425/channel/collectiondetail?sid=192498",
+          "evidence": "https://jyywiki.cn/OS/2022/slides/21.slides.html"
+        }
+      ],
+      "path": "icons/nju-mark.png",
+      "source": "https://dawww.nju.edu.cn/__local/8/D1/36/80BA42FDEAF0EFC33128F2704AE_A8B786CF_3D81E.jpg",
+      "brand_reference": "https://dawww.nju.edu.cn/info/3061/69011.htm",
+      "header_width": 48,
+      "inline_width": 24,
+      "sha256": "2fc42fea0ba7ec2be8b7a9b5d6ab724fc70e3cbc06e5aa9c22fe91f416b72378",
+      "upstream_sha256": "b4acd5d894fd8b4a19907bdd976a80adc4fd86704d1b6880940297ce558b23ad",
+      "format_note": "Official standalone crest, proportionally downsampled for the wall without cropping or recoloring."
+    },
+    {
+      "id": "games",
+      "group": "project",
+      "name": "GAMES",
+      "organization": "games",
+      "hosts": [],
+      "course_credits": [
+        {
+          "course": "course-cs-46",
+          "resource_url": "https://www.bilibili.com/BV1X7411F744",
+          "evidence": "https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html"
+        }
+      ],
+      "path": "icons/games-mark.png",
+      "source": "https://games-cn.org/wp-content/uploads/2021/11/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20211123170725__1_-removebg-preview-300x300.png",
+      "brand_reference": "https://games-cn.org/",
+      "header_width": 46,
+      "inline_width": 24,
+      "sha256": "ae935ed2f4341e942b1dbf4096165beea69a98f11222b2e48ee3b815c93f4f82",
+      "upstream_sha256": "84e78abeca0042adc239148938d73019db974c96e1c43480c298460a4a3ce9da",
+      "format_note": "Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring."
     }
   ],
   "organization_names": {
@@ -237,6 +1251,20 @@
     "ai2": "Ai2",
     "nvidia": "NVIDIA",
     "huggingface": "Hugging Face",
-    "clay": "Clay"
+    "clay": "Clay",
+    "yale": "Yale University",
+    "eth-zurich": "ETH Zürich",
+    "vllm": "vLLM",
+    "ggml": "ggml-org",
+    "princeton": "Princeton University",
+    "caltech": "Caltech",
+    "harvard": "Harvard University",
+    "cornell": "Cornell University",
+    "zhejiang": "Zhejiang University",
+    "ntu": "National Taiwan University",
+    "oxford": "University of Oxford",
+    "cambridge": "University of Cambridge",
+    "nju": "Nanjing University",
+    "games": "GAMES"
   }
 }
