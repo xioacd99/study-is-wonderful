@@ -63,7 +63,7 @@ class MapTests(unittest.TestCase):
   self.assertIn('id="fit"',template)
   self.assertIn('function focusSubject',template)
   self.assertIn('src="icon.png?v=teal-orbit-3"',template)
-  self.assertEqual(len(self.c),154)
+  self.assertEqual(len(self.c),155)
   for text in [self.text,self.english]:
    self.assertNotIn('# 📚',text)
    self.assertIn('resource-map/icon.png',text)
@@ -97,7 +97,7 @@ class MapTests(unittest.TestCase):
   )
   self.assertEqual(expected,(ROOT/'resource-map/index.html').read_text())
  def test_catalog_hygiene_and_blog_coverage(self):
-  self.assertEqual(len(self.b),64)
+  self.assertEqual(len(self.b),68)
   for lang,text in [('zh',self.text),('en',self.english)]:
    self.assertNotIn(')<img',text)
    self.assertNotIn('Languange',text)

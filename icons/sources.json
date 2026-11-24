@@ -1060,7 +1060,9 @@
       "group": "university",
       "name": "Cornell University",
       "organization": "cornell",
-      "hosts": [],
+      "hosts": [
+        "www.cs.cornell.edu"
+      ],
       "course_credits": [
         {
           "course": "course-cs-41",

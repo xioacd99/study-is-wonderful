@@ -8,7 +8,7 @@
 
 [🧭 打开学习星图 ↗](https://xioacd99.github.io/study-is-wonderful/resource-map/) · [简体中文](README.md) · [English](README-en.md)
 
-[154 门课程](#目录-contents) · [10 个学科](#目录-contents) · [64 篇技术文章](#技术博客-technical-blogs) · [资源来源](#资源来源-sources) · [推荐资源](https://github.com/xioacd99/study-is-wonderful/issues) · [参与共建](https://github.com/xioacd99/study-is-wonderful/pulls)
+[155 门课程](#目录-contents) · [10 个学科](#目录-contents) · [68 篇技术文章](#技术博客-technical-blogs) · [资源来源](#资源来源-sources) · [推荐资源](https://github.com/xioacd99/study-is-wonderful/issues) · [参与共建](https://github.com/xioacd99/study-is-wonderful/pulls)
 
 </div>
 
@@ -22,8 +22,8 @@
 <a id="目录-contents"></a>
 <!-- TOC:START -->
 <p align="center">
-<a href="#数学-math">数学 (26)</a> · <a href="#计算机科学-computer-science">计算机科学 (57)</a> · <a href="#人工智能-artificial-intelligence">人工智能 (36)</a> · <a href="#经济学-economics">经济学 (4)</a> · <a href="#物理学-physics">物理学 (5)</a> · <a href="#心理学-psychology">心理学 (6)</a><br>
-<a href="#社会科学-social-sciences">社会科学 (4)</a> · <a href="#生物学-biology">生物学 (2)</a> · <a href="#哲学与艺术-philosophy-and-arts">哲学与艺术 (5)</a> · <a href="#其他-others">其他 (9)</a> · <a href="#技术博客-technical-blogs">技术博客 (64)</a>
+<a href="#数学-math">数学 (26)</a> · <a href="#计算机科学-computer-science">计算机科学 (57)</a> · <a href="#人工智能-artificial-intelligence">人工智能 (36)</a> · <a href="#经济学-economics">经济学 (4)</a> · <a href="#物理学-physics">物理学 (6)</a> · <a href="#心理学-psychology">心理学 (6)</a><br>
+<a href="#社会科学-social-sciences">社会科学 (4)</a> · <a href="#生物学-biology">生物学 (2)</a> · <a href="#哲学与艺术-philosophy-and-arts">哲学与艺术 (5)</a> · <a href="#其他-others">其他 (9)</a> · <a href="#技术博客-technical-blogs">技术博客 (68)</a>
 </p>
 <!-- TOC:END -->
 
@@ -323,14 +323,14 @@
 - <a id="course-cs-39"></a>[CMU·智能系统软件工程](https://www.bilibili.com/BV1qA411n7X5) <img src="bilibili.svg" alt="Bilibili" height="16">
   > 探索如何为包含人工智能组件的系统设计和维护软件。
 
-- <a id="course-cs-41"></a>[康奈尔·高级编译原理](https://www.bilibili.com/BV1hZ4y1L7X4) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-cs-41"></a>[康奈尔·高级编译原理](https://www.bilibili.com/BV1hZ4y1L7X4) <img src="bilibili.svg" alt="Bilibili" height="16"> · [自学版](https://www.cs.cornell.edu/courses/cs6120/2025fa/self-guided/) <img src="icons/cornell-mark.png" alt="Cornell University" height="16">
   > 深入探索把程序转换成计算机可执行形式的编译技术。
 
 - <a id="course-cs-38"></a>[康奈尔·软件工程](https://www.bilibili.com/BV1aW411E7yr) <img src="bilibili.svg" alt="Bilibili" height="16">
   > 了解团队如何规划、设计、构建和测试软件。
 
-- <a id="course-cs-40"></a>[斯坦福·编译原理](https://www.bilibili.com/BV1NW41177q4) <img src="bilibili.svg" alt="Bilibili" height="16">
-  > 了解编译器如何把一种程序语言转换成另一种形式；原链接实际指向斯坦福《统计学习》视频，编译原理对应视频源待补充核实。
+- <a id="course-cs-40"></a>[斯坦福·编译原理](https://web.stanford.edu/class/archive/cs/cs143/cs143.1112/materials/lectures/) <img src="icons/stanford-seal.png" alt="Stanford University" height="16">
+  > 阅读 Alex Aiken 的斯坦福编译原理讲义；对应视频来源仍待核实。
 
 
 <a id="图形学与人机交互--graphics-and-human-computer-interaction"></a>
@@ -549,6 +549,9 @@
 - <a id="course-physics-02"></a>[MIT 8.01SC·经典力学（2016 秋季）](https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16"> · [第一周导论](https://www.youtube.com/watch?v=i4u7SZjoAs4) <img src="youtube.svg" alt="YouTube" height="16"> · [课程视频](https://www.bilibili.com/video/BV1KQ4y1B7TJ/) <img src="bilibili.svg" alt="Bilibili" height="16">
   > 从运动与受力出发，学习牛顿定律、动量、能量和旋转，练习用数学描述并解决经典力学问题。
 
+- <a id="course-physics-06"></a>[MIT 8.04·量子物理 I（2013 春季，Allan Adams）](https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/resources/lecture-videos/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16">
+  > 从双缝实验和波函数入手，讲解薛定谔方程、量子测量、定态和叠加，以及一维势阱与隧穿。MIT OCW 提供 24 讲录像。
+
 - <a id="course-physics-03"></a>[斯坦福·量子力学](https://www.bilibili.com/BV1w4411s7da) <img src="bilibili.svg" alt="Bilibili" height="16">
   > 探索量子力学如何描述原子等微观世界。
 
@@ -719,6 +722,9 @@
 
 ### 智能体与 AI 编程
 
+- [个人智能体如何把握时间并异步接收反馈](https://developers.openai.com/blog/time-awareness-and-async-input-for-personal-agents) · <img src="icons/openai.png" alt="OpenAI" height="16"> OpenAI
+  > 让智能体在等待用户补充时继续做其他工作，并由应用统一控制截止时间。
+
 - [用 Rust 编写模型工具调用解析器](https://developer.nvidia.com/blog/build-tool-calling-parsers-in-rust-with-ai-agents/) · <img src="icons/nvidia.svg" alt="NVIDIA" height="16"> NVIDIA Technical Blog
   > 了解如何用跨模型测试检查工具调用解析器是否能处理分块输出、不完整的 JSON 和异常输入。
 
@@ -774,6 +780,12 @@
 
 ### AI 评测
 
+- [困惑度与智能](https://openai.com/index/perplexity-and-intelligence/) · <img src="icons/openai.png" alt="OpenAI" height="16"> OpenAI
+  > 了解为什么用留出数据上的困惑度衡量预训练进展，以及跨团队比较需要哪些共同条件。
+
+- [给数据智能体建一座风洞](https://cloud.google.com/blog/products/data-analytics/a-data-simulator-to-test-agents) · <img src="icons/google-cloud.png" alt="Google Cloud" height="16"> Google Cloud Blog
+  > 用固定蓝图和随机种子生成可复现的数据表及标准答案，再核对生成文档与事实是否一致。
+
 - [从训练到部署：如何管理前沿 AI 风险](https://openai.com/index/managing-frontier-ai-risk/) · <img src="icons/openai.png" alt="OpenAI" height="16"> OpenAI
   > 了解如何在研究、内部使用和公开发布阶段搭配沙箱、行为监控与安全评审，以及这些阶段各自要解决什么风险。
 
@@ -828,6 +840,9 @@
 <a id="工程基础设施-engineering-infrastructure"></a>
 
 ### 工程基础设施
+
+- [在 Apple Silicon 上原生运行 Android Cuttlefish](https://engineering.fb.com/2026/11/13/android/cuttlefish-on-mac/) · <img src="icons/meta.png" alt="Meta Engineering" height="16"> Meta Engineering
+  > 了解 Meta 如何修改 QEMU 和 Cuttlefish，让安卓虚拟设备在 Apple Silicon 的 macOS 主机上运行。
 
 - [用 NVIDIA Dynamo 缓解强化学习采样瓶颈](https://developer.nvidia.com/blog/reducing-rollout-bottlenecks-in-reinforcement-learning-with-nvidia-dynamo/) · <img src="icons/nvidia.svg" alt="NVIDIA" height="16"> NVIDIA Technical Blog
   > 看 Dynamo 如何在分布式采样中兼顾缓存复用与工作进程负载，并把更新后的权重送到推理工作进程。

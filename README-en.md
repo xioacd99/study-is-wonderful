@@ -8,7 +8,7 @@ Great courses across disciplines. Follow your curiosity.
 
 [🧭 Explore the learning map ↗](https://xioacd99.github.io/study-is-wonderful/resource-map/) · [简体中文](README.md) · [English](README-en.md)
 
-[154 courses](#目录-contents) · [10 subjects](#目录-contents) · [64 articles](#技术博客-technical-blogs) · [Resource sources](#资源来源-sources) · [Suggest a resource](https://github.com/xioacd99/study-is-wonderful/issues) · [Contribute](https://github.com/xioacd99/study-is-wonderful/pulls)
+[155 courses](#目录-contents) · [10 subjects](#目录-contents) · [68 articles](#技术博客-technical-blogs) · [Resource sources](#资源来源-sources) · [Suggest a resource](https://github.com/xioacd99/study-is-wonderful/issues) · [Contribute](https://github.com/xioacd99/study-is-wonderful/pulls)
 
 </div>
 
@@ -22,8 +22,8 @@ Great courses across disciplines. Follow your curiosity.
 <a id="目录-contents"></a>
 <!-- TOC:START -->
 <p align="center">
-<a href="#数学-math">Math (26)</a> · <a href="#计算机科学-computer-science">Computer Science (57)</a> · <a href="#人工智能-artificial-intelligence">Artificial Intelligence (36)</a> · <a href="#经济学-economics">Economics (4)</a> · <a href="#物理学-physics">Physics (5)</a> · <a href="#心理学-psychology">Psychology (6)</a><br>
-<a href="#社会科学-social-sciences">Social Sciences (4)</a> · <a href="#生物学-biology">Biology (2)</a> · <a href="#哲学与艺术-philosophy-and-arts">Philosophy and Arts (5)</a> · <a href="#其他-others">Others (9)</a> · <a href="#技术博客-technical-blogs">Technical blogs (64)</a>
+<a href="#数学-math">Math (26)</a> · <a href="#计算机科学-computer-science">Computer Science (57)</a> · <a href="#人工智能-artificial-intelligence">Artificial Intelligence (36)</a> · <a href="#经济学-economics">Economics (4)</a> · <a href="#物理学-physics">Physics (6)</a> · <a href="#心理学-psychology">Psychology (6)</a><br>
+<a href="#社会科学-social-sciences">Social Sciences (4)</a> · <a href="#生物学-biology">Biology (2)</a> · <a href="#哲学与艺术-philosophy-and-arts">Philosophy and Arts (5)</a> · <a href="#其他-others">Others (9)</a> · <a href="#技术博客-technical-blogs">Technical blogs (68)</a>
 </p>
 <!-- TOC:END -->
 
@@ -323,14 +323,14 @@ Within each topic, courses are sorted by English title. Different course version
 - <a id="course-cs-39"></a>[CMU · Software Engineering for Intelligent Systems](https://www.bilibili.com/BV1qA411n7X5) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how to design and maintain software with AI components.
 
-- <a id="course-cs-41"></a>[Cornell · Advanced Compilers](https://www.bilibili.com/BV1hZ4y1L7X4) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-cs-41"></a>[Cornell · Advanced Compilers](https://www.bilibili.com/BV1hZ4y1L7X4) <img src="bilibili.svg" alt="Bilibili" height="16"> · [Self-guided course](https://www.cs.cornell.edu/courses/cs6120/2025fa/self-guided/) <img src="icons/cornell-mark.png" alt="Cornell University" height="16">
   > Explore advanced compiler techniques for translating programs.
 
 - <a id="course-cs-38"></a>[Cornell · Software Engineering](https://www.bilibili.com/BV1aW411E7yr) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how teams plan, design, build and test software.
 
-- <a id="course-cs-40"></a>[Stanford · Compilers](https://www.bilibili.com/BV1NW41177q4) <img src="bilibili.svg" alt="Bilibili" height="16">
-  > Explore how compilers translate programs; the current link points to Stanford Statistical Learning, and the Compilers video source awaits verification.
+- <a id="course-cs-40"></a>[Stanford · Compilers](https://web.stanford.edu/class/archive/cs/cs143/cs143.1112/materials/lectures/) <img src="icons/stanford-seal.png" alt="Stanford University" height="16">
+  > Read Alex Aiken’s Stanford lecture notes on compilers; a matching video source is still unverified.
 
 
 <a id="图形学与人机交互--graphics-and-human-computer-interaction"></a>
@@ -549,6 +549,9 @@ Within each topic, courses are sorted by English title. Different course version
 - <a id="course-physics-02"></a>[MIT 8.01SC · Classical Mechanics (Fall 2016)](https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16"> · [Week 1 Introduction](https://www.youtube.com/watch?v=i4u7SZjoAs4) <img src="youtube.svg" alt="YouTube" height="16"> · [Course videos](https://www.bilibili.com/video/BV1KQ4y1B7TJ/) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Study motion and forces through Newton’s laws, momentum, energy, and rotation, and practice using mathematics to describe and solve classical mechanics problems.
 
+- <a id="course-physics-06"></a>[MIT 8.04 · Quantum Physics I (Spring 2013, Allan Adams)](https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/resources/lecture-videos/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16">
+  > Starts with the double-slit experiment and wavefunctions, then covers the Schrödinger equation, measurement, stationary states and superposition, and one-dimensional wells and tunneling. MIT OCW provides 24 recorded lectures.
+
 - <a id="course-physics-03"></a>[Stanford · Quantum Mechanics](https://www.bilibili.com/BV1w4411s7da) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how quantum mechanics describes the microscopic world of atoms and particles.
 
@@ -719,6 +722,9 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Agents and AI coding
 
+- [Time awareness and async input for personal agents](https://developers.openai.com/blog/time-awareness-and-async-input-for-personal-agents) · <img src="icons/openai.png" alt="OpenAI" height="16"> OpenAI
+  > Let an agent continue working while it waits for user input, with the application enforcing the overall deadline.
+
 - [Build Tool-Calling Parsers in Rust with AI Agents](https://developer.nvidia.com/blog/build-tool-calling-parsers-in-rust-with-ai-agents/) · <img src="icons/nvidia.svg" alt="NVIDIA" height="16"> NVIDIA Technical Blog
   > See how shared cross-model tests check parsers against split tool calls, incomplete JSON, and malformed input.
 
@@ -774,6 +780,12 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### AI evaluation
 
+- [Perplexity and Intelligence](https://openai.com/index/perplexity-and-intelligence/) · <img src="icons/openai.png" alt="OpenAI" height="16"> OpenAI
+  > See why OpenAI tracks held-out perplexity during pretraining and what developers would need to align to compare this metric.
+
+- [Why your data agents need a wind tunnel](https://cloud.google.com/blog/products/data-analytics/a-data-simulator-to-test-agents) · <img src="icons/google-cloud.png" alt="Google Cloud" height="16"> Google Cloud Blog
+  > Generate reproducible datasets and SQL answers from fixed blueprints and seeds, then check generated documents against those facts.
+
 - [Managing frontier AI risk: From training to deployment](https://openai.com/index/managing-frontier-ai-risk/) · <img src="icons/openai.png" alt="OpenAI" height="16"> OpenAI
   > Learn how sandboxing, behavior monitoring, and safety reviews address different risks during research, internal use, and public deployment.
 
@@ -828,6 +840,9 @@ Within each topic, courses are sorted by English title. Different course version
 <a id="工程基础设施-engineering-infrastructure"></a>
 
 ### Engineering infrastructure
+
+- [Cuttlefish on Mac: Running Android’s Virtual Device Framework Natively on Apple Silicon](https://engineering.fb.com/2026/11/13/android/cuttlefish-on-mac/) · <img src="icons/meta.png" alt="Meta Engineering" height="16"> Meta Engineering
+  > See how Meta adapted QEMU and Cuttlefish to run Android virtual devices natively on Apple Silicon Macs.
 
 - [Reducing Rollout Bottlenecks in Reinforcement Learning with NVIDIA Dynamo](https://developer.nvidia.com/blog/reducing-rollout-bottlenecks-in-reinforcement-learning-with-nvidia-dynamo/) · <img src="icons/nvidia.svg" alt="NVIDIA" height="16"> NVIDIA Technical Blog
   > See how Dynamo balances cache reuse with worker load during distributed rollouts and delivers fresh weights to inference workers.
