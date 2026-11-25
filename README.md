@@ -8,7 +8,7 @@
 
 [🧭 打开学习星图 ↗](https://xioacd99.github.io/study-is-wonderful/resource-map/) · [简体中文](README.md) · [English](README-en.md)
 
-[155 门课程](#目录-contents) · [10 个学科](#目录-contents) · [71 篇技术文章](#技术博客-technical-blogs) · [资源来源](#资源来源-sources) · [推荐资源](https://github.com/xioacd99/study-is-wonderful/issues) · [参与共建](https://github.com/xioacd99/study-is-wonderful/pulls)
+[157 门课程](#目录-contents) · [10 个学科](#目录-contents) · [71 篇技术文章](#技术博客-technical-blogs) · [资源来源](#资源来源-sources) · [推荐资源](https://github.com/xioacd99/study-is-wonderful/issues) · [参与共建](https://github.com/xioacd99/study-is-wonderful/pulls)
 
 </div>
 
@@ -22,7 +22,7 @@
 <a id="目录-contents"></a>
 <!-- TOC:START -->
 <p align="center">
-<a href="#数学-math">数学 (26)</a> · <a href="#计算机科学-computer-science">计算机科学 (57)</a> · <a href="#人工智能-artificial-intelligence">人工智能 (36)</a> · <a href="#经济学-economics">经济学 (4)</a> · <a href="#物理学-physics">物理学 (6)</a> · <a href="#心理学-psychology">心理学 (6)</a><br>
+<a href="#数学-math">数学 (26)</a> · <a href="#计算机科学-computer-science">计算机科学 (57)</a> · <a href="#人工智能-artificial-intelligence">人工智能 (36)</a> · <a href="#经济学-economics">经济学 (4)</a> · <a href="#物理学-physics">物理学 (8)</a> · <a href="#心理学-psychology">心理学 (6)</a><br>
 <a href="#社会科学-social-sciences">社会科学 (4)</a> · <a href="#生物学-biology">生物学 (2)</a> · <a href="#哲学与艺术-philosophy-and-arts">哲学与艺术 (5)</a> · <a href="#其他-others">其他 (9)</a> · <a href="#技术博客-technical-blogs">技术博客 (71)</a>
 </p>
 <!-- TOC:END -->
@@ -551,6 +551,12 @@
 
 - <a id="course-physics-06"></a>[MIT 8.04·量子物理 I（2013 春季，Allan Adams）](https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/resources/lecture-videos/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16">
   > 从双缝实验和波函数入手，讲解薛定谔方程、量子测量、定态和叠加，以及一维势阱与隧穿。MIT OCW 提供 24 讲录像。
+
+- <a id="course-physics-07"></a>[MIT 8.05·量子物理 II（2013 秋季，Barton Zwiebach）](https://ocw.mit.edu/courses/8-05-quantum-physics-ii-fall-2013/resources/lecture-videos/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16">
+  > 承接 8.04，用态矢量与算符描述量子系统，涵盖量子动力学、自旋、张量积和角动量。MIT OCW 列出 26 讲。
+
+- <a id="course-physics-08"></a>[MIT 8.06·量子物理 III（2018 春季，Barton Zwiebach）](https://ocw.mit.edu/courses/8-06-quantum-physics-iii-spring-2018/resources/lecture-videos/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16">
+  > 承接 8.05，学习微扰理论、绝热近似、散射和全同粒子。MIT OCW 按 24 个讲次组织短视频。
 
 - <a id="course-physics-03"></a>[斯坦福·量子力学](https://www.bilibili.com/BV1w4411s7da) <img src="bilibili.svg" alt="Bilibili" height="16">
   > 探索量子力学如何描述原子等微观世界。
