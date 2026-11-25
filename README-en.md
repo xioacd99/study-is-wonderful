@@ -8,7 +8,7 @@ Great courses across disciplines. Follow your curiosity.
 
 [🧭 Explore the learning map ↗](https://xioacd99.github.io/study-is-wonderful/resource-map/) · [简体中文](README.md) · [English](README-en.md)
 
-[155 courses](#目录-contents) · [10 subjects](#目录-contents) · [68 articles](#技术博客-technical-blogs) · [Resource sources](#资源来源-sources) · [Suggest a resource](https://github.com/xioacd99/study-is-wonderful/issues) · [Contribute](https://github.com/xioacd99/study-is-wonderful/pulls)
+[155 courses](#目录-contents) · [10 subjects](#目录-contents) · [71 articles](#技术博客-technical-blogs) · [Resource sources](#资源来源-sources) · [Suggest a resource](https://github.com/xioacd99/study-is-wonderful/issues) · [Contribute](https://github.com/xioacd99/study-is-wonderful/pulls)
 
 </div>
 
@@ -23,7 +23,7 @@ Great courses across disciplines. Follow your curiosity.
 <!-- TOC:START -->
 <p align="center">
 <a href="#数学-math">Math (26)</a> · <a href="#计算机科学-computer-science">Computer Science (57)</a> · <a href="#人工智能-artificial-intelligence">Artificial Intelligence (36)</a> · <a href="#经济学-economics">Economics (4)</a> · <a href="#物理学-physics">Physics (6)</a> · <a href="#心理学-psychology">Psychology (6)</a><br>
-<a href="#社会科学-social-sciences">Social Sciences (4)</a> · <a href="#生物学-biology">Biology (2)</a> · <a href="#哲学与艺术-philosophy-and-arts">Philosophy and Arts (5)</a> · <a href="#其他-others">Others (9)</a> · <a href="#技术博客-technical-blogs">Technical blogs (68)</a>
+<a href="#社会科学-social-sciences">Social Sciences (4)</a> · <a href="#生物学-biology">Biology (2)</a> · <a href="#哲学与艺术-philosophy-and-arts">Philosophy and Arts (5)</a> · <a href="#其他-others">Others (9)</a> · <a href="#技术博客-technical-blogs">Technical blogs (71)</a>
 </p>
 <!-- TOC:END -->
 
@@ -722,6 +722,9 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Agents and AI coding
 
+- [Production monitoring with Codex](https://developers.openai.com/blog/production-monitoring-with-codex) · <img src="icons/openai.png" alt="OpenAI" height="16"> OpenAI
+  > Follow an incident investigation that correlates telemetry with recent deploys and code changes before proposing a fix.
+
 - [Time awareness and async input for personal agents](https://developers.openai.com/blog/time-awareness-and-async-input-for-personal-agents) · <img src="icons/openai.png" alt="OpenAI" height="16"> OpenAI
   > Let an agent continue working while it waits for user input, with the application enforcing the overall deadline.
 
@@ -840,6 +843,12 @@ Within each topic, courses are sorted by English title. Different course version
 <a id="工程基础设施-engineering-infrastructure"></a>
 
 ### Engineering infrastructure
+
+- [vLLM Day-0 Support for ERNIE 5.5 Flash Preview: Plugin Deployment and E2E Inference Acceleration](https://vllm.ai/blog/2026-11-24-ernie-5-5-flash-preview) · <img src="icons/vllm-mark.png" alt="vLLM" height="16"> vLLM
+  > See how the ERNIE model plugs into vLLM without a fork, and which optimizations reduce work in sparse indexing and decoding.
+
+- [Announcing vLLM-GR: Efficient Inference for Generative Recommendation](https://vllm.ai/blog/2026-11-24-vllm-gr-announcement) · <img src="icons/vllm-mark.png" alt="vLLM" height="16"> vLLM
+  > See how beam search shares cached user history across candidate paths and constrains the generated IDs to items in the catalog.
 
 - [Cuttlefish on Mac: Running Android’s Virtual Device Framework Natively on Apple Silicon](https://engineering.fb.com/2026/11/13/android/cuttlefish-on-mac/) · <img src="icons/meta.png" alt="Meta Engineering" height="16"> Meta Engineering
   > See how Meta adapted QEMU and Cuttlefish to run Android virtual devices natively on Apple Silicon Macs.

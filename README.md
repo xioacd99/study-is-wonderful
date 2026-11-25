@@ -8,7 +8,7 @@
 
 [🧭 打开学习星图 ↗](https://xioacd99.github.io/study-is-wonderful/resource-map/) · [简体中文](README.md) · [English](README-en.md)
 
-[155 门课程](#目录-contents) · [10 个学科](#目录-contents) · [68 篇技术文章](#技术博客-technical-blogs) · [资源来源](#资源来源-sources) · [推荐资源](https://github.com/xioacd99/study-is-wonderful/issues) · [参与共建](https://github.com/xioacd99/study-is-wonderful/pulls)
+[155 门课程](#目录-contents) · [10 个学科](#目录-contents) · [71 篇技术文章](#技术博客-technical-blogs) · [资源来源](#资源来源-sources) · [推荐资源](https://github.com/xioacd99/study-is-wonderful/issues) · [参与共建](https://github.com/xioacd99/study-is-wonderful/pulls)
 
 </div>
 
@@ -23,7 +23,7 @@
 <!-- TOC:START -->
 <p align="center">
 <a href="#数学-math">数学 (26)</a> · <a href="#计算机科学-computer-science">计算机科学 (57)</a> · <a href="#人工智能-artificial-intelligence">人工智能 (36)</a> · <a href="#经济学-economics">经济学 (4)</a> · <a href="#物理学-physics">物理学 (6)</a> · <a href="#心理学-psychology">心理学 (6)</a><br>
-<a href="#社会科学-social-sciences">社会科学 (4)</a> · <a href="#生物学-biology">生物学 (2)</a> · <a href="#哲学与艺术-philosophy-and-arts">哲学与艺术 (5)</a> · <a href="#其他-others">其他 (9)</a> · <a href="#技术博客-technical-blogs">技术博客 (68)</a>
+<a href="#社会科学-social-sciences">社会科学 (4)</a> · <a href="#生物学-biology">生物学 (2)</a> · <a href="#哲学与艺术-philosophy-and-arts">哲学与艺术 (5)</a> · <a href="#其他-others">其他 (9)</a> · <a href="#技术博客-technical-blogs">技术博客 (71)</a>
 </p>
 <!-- TOC:END -->
 
@@ -722,6 +722,9 @@
 
 ### 智能体与 AI 编程
 
+- [用 Codex 排查生产故障](https://developers.openai.com/blog/production-monitoring-with-codex) · <img src="icons/openai.png" alt="OpenAI" height="16"> OpenAI
+  > 把告警指标、部署记录和代码改动串在一起，先核对故障假设，再决定怎么修。
+
 - [个人智能体如何把握时间并异步接收反馈](https://developers.openai.com/blog/time-awareness-and-async-input-for-personal-agents) · <img src="icons/openai.png" alt="OpenAI" height="16"> OpenAI
   > 让智能体在等待用户补充时继续做其他工作，并由应用统一控制截止时间。
 
@@ -840,6 +843,12 @@
 <a id="工程基础设施-engineering-infrastructure"></a>
 
 ### 工程基础设施
+
+- [vLLM 首日支持 ERNIE 5.5 Flash Preview：插件部署与推理优化](https://vllm.ai/blog/2026-11-24-ernie-5-5-flash-preview) · <img src="icons/vllm-mark.png" alt="vLLM" height="16"> vLLM
+  > 了解 ERNIE 如何通过插件接入 vLLM 而不用维护分叉，以及稀疏索引和解码分别在哪些环节减少计算。
+
+- [vLLM-GR：面向生成式推荐的高效推理](https://vllm.ai/blog/2026-11-24-vllm-gr-announcement) · <img src="icons/vllm-mark.png" alt="vLLM" height="16"> vLLM
+  > 看推荐服务如何让候选路径共享用户历史的 KV 缓存，并用商品目录约束生成的候选 ID。
 
 - [在 Apple Silicon 上原生运行 Android Cuttlefish](https://engineering.fb.com/2026/11/13/android/cuttlefish-on-mac/) · <img src="icons/meta.png" alt="Meta Engineering" height="16"> Meta Engineering
   > 了解 Meta 如何修改 QEMU 和 Cuttlefish，让安卓虚拟设备在 Apple Silicon 的 macOS 主机上运行。
