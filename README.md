@@ -8,7 +8,7 @@
 
 [🧭 打开学习星图 ↗](https://xioacd99.github.io/study-is-wonderful/resource-map/) · [简体中文](README.md) · [English](README-en.md)
 
-[157 门课程](#目录-contents) · [10 个学科](#目录-contents) · [71 篇技术文章](#技术博客-technical-blogs) · [资源来源](#资源来源-sources) · [推荐资源](https://github.com/xioacd99/study-is-wonderful/issues) · [参与共建](https://github.com/xioacd99/study-is-wonderful/pulls)
+[158 门课程](#目录-contents) · [10 个学科](#目录-contents) · [74 篇技术文章](#技术博客-technical-blogs) · [资源来源](#资源来源-sources) · [推荐资源](https://github.com/xioacd99/study-is-wonderful/issues) · [参与共建](https://github.com/xioacd99/study-is-wonderful/pulls)
 
 </div>
 
@@ -22,8 +22,8 @@
 <a id="目录-contents"></a>
 <!-- TOC:START -->
 <p align="center">
-<a href="#数学-math">数学 (26)</a> · <a href="#计算机科学-computer-science">计算机科学 (57)</a> · <a href="#人工智能-artificial-intelligence">人工智能 (36)</a> · <a href="#经济学-economics">经济学 (4)</a> · <a href="#物理学-physics">物理学 (8)</a> · <a href="#心理学-psychology">心理学 (6)</a><br>
-<a href="#社会科学-social-sciences">社会科学 (4)</a> · <a href="#生物学-biology">生物学 (2)</a> · <a href="#哲学与艺术-philosophy-and-arts">哲学与艺术 (5)</a> · <a href="#其他-others">其他 (9)</a> · <a href="#技术博客-technical-blogs">技术博客 (71)</a>
+<a href="#数学-math">数学 (26)</a> · <a href="#计算机科学-computer-science">计算机科学 (57)</a> · <a href="#人工智能-artificial-intelligence">人工智能 (36)</a> · <a href="#经济学-economics">经济学 (4)</a> · <a href="#物理学-physics">物理学 (9)</a> · <a href="#心理学-psychology">心理学 (6)</a><br>
+<a href="#社会科学-social-sciences">社会科学 (4)</a> · <a href="#生物学-biology">生物学 (2)</a> · <a href="#哲学与艺术-philosophy-and-arts">哲学与艺术 (5)</a> · <a href="#其他-others">其他 (9)</a> · <a href="#技术博客-technical-blogs">技术博客 (74)</a>
 </p>
 <!-- TOC:END -->
 
@@ -542,6 +542,14 @@
   > 跟随 Charles Bailyn 探索系外行星、黑洞和暗能量，学习如何用观测证据分析尚无定论的科学问题。
 
 
+<a id="振动波与光学--oscillations-waves-and-optics"></a>
+
+### 振动、波与光学
+
+- <a id="course-physics-09"></a>[MIT 8.03SC·振动与波（2016 秋季，Yen-Jie Lee）](https://ocw.mit.edu/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/resources/lecture-videos/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16">
+  > 从受迫振动和耦合振子入手，再用傅里叶方法学习机械波、电磁波与干涉衍射。
+
+
 <a id="力学与量子物理--mechanics-and-quantum-physics"></a>
 
 ### 力学与量子物理
@@ -728,6 +736,9 @@
 
 ### 智能体与 AI 编程
 
+- [MCP 服务如何向 Claude 提供技能与异步任务](https://claude.com/resources/articles/skills-over-mcp-tasks-and-more) · <img src="icons/anthropic.png" alt="Anthropic" height="16"> Anthropic
+  > 介绍 MCP 服务怎样随工具交付操作指南、委派长任务，并在必要时请求用户补充信息。
+
 - [用 Codex 排查生产故障](https://developers.openai.com/blog/production-monitoring-with-codex) · <img src="icons/openai.png" alt="OpenAI" height="16"> OpenAI
   > 把告警指标、部署记录和代码改动串在一起，先核对故障假设，再决定怎么修。
 
@@ -850,6 +861,9 @@
 
 ### 工程基础设施
 
+- [Anthropic 如何把 Messages API 迁移到 Rust](https://www.anthropic.com/research/migrating-api-to-rust) · <img src="icons/anthropic.png" alt="Anthropic" height="16"> Anthropic
+  > 用影子流量比较 Python 与 Rust 实现，检验正式切换前的接口行为是否一致。
+
 - [vLLM 首日支持 ERNIE 5.5 Flash Preview：插件部署与推理优化](https://vllm.ai/blog/2026-11-24-ernie-5-5-flash-preview) · <img src="icons/vllm-mark.png" alt="vLLM" height="16"> vLLM
   > 了解 ERNIE 如何通过插件接入 vLLM 而不用维护分叉，以及稀疏索引和解码分别在哪些环节减少计算。
 
@@ -922,6 +936,9 @@
 <a id="科研与工程应用-science-and-engineering-applications"></a>
 
 ### 科研与工程应用
+
+- [用 Google Antigravity 解读质谱](https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/) · <img src="icons/deepmind.png" alt="Google DeepMind" height="16"> Google DeepMind
+  > 介绍如何用质谱分析工具与参考数据库提出分子结构候选，并为化学家保留可复核的证据。
 
 - [用 AI 模型改进芯片设计](https://openai.com/index/advancing-chip-design-with-our-models/) · <img src="icons/openai.png" alt="OpenAI" height="16"> OpenAI
   > 从定制推理芯片和 RISC-V 核心的案例出发，看模型如何提出电路改写，并用芯片设计工具验证功能与衡量功耗、性能和面积。

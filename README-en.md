@@ -8,7 +8,7 @@ Great courses across disciplines. Follow your curiosity.
 
 [🧭 Explore the learning map ↗](https://xioacd99.github.io/study-is-wonderful/resource-map/) · [简体中文](README.md) · [English](README-en.md)
 
-[157 courses](#目录-contents) · [10 subjects](#目录-contents) · [71 articles](#技术博客-technical-blogs) · [Resource sources](#资源来源-sources) · [Suggest a resource](https://github.com/xioacd99/study-is-wonderful/issues) · [Contribute](https://github.com/xioacd99/study-is-wonderful/pulls)
+[158 courses](#目录-contents) · [10 subjects](#目录-contents) · [74 articles](#技术博客-technical-blogs) · [Resource sources](#资源来源-sources) · [Suggest a resource](https://github.com/xioacd99/study-is-wonderful/issues) · [Contribute](https://github.com/xioacd99/study-is-wonderful/pulls)
 
 </div>
 
@@ -22,8 +22,8 @@ Great courses across disciplines. Follow your curiosity.
 <a id="目录-contents"></a>
 <!-- TOC:START -->
 <p align="center">
-<a href="#数学-math">Math (26)</a> · <a href="#计算机科学-computer-science">Computer Science (57)</a> · <a href="#人工智能-artificial-intelligence">Artificial Intelligence (36)</a> · <a href="#经济学-economics">Economics (4)</a> · <a href="#物理学-physics">Physics (8)</a> · <a href="#心理学-psychology">Psychology (6)</a><br>
-<a href="#社会科学-social-sciences">Social Sciences (4)</a> · <a href="#生物学-biology">Biology (2)</a> · <a href="#哲学与艺术-philosophy-and-arts">Philosophy and Arts (5)</a> · <a href="#其他-others">Others (9)</a> · <a href="#技术博客-technical-blogs">Technical blogs (71)</a>
+<a href="#数学-math">Math (26)</a> · <a href="#计算机科学-computer-science">Computer Science (57)</a> · <a href="#人工智能-artificial-intelligence">Artificial Intelligence (36)</a> · <a href="#经济学-economics">Economics (4)</a> · <a href="#物理学-physics">Physics (9)</a> · <a href="#心理学-psychology">Psychology (6)</a><br>
+<a href="#社会科学-social-sciences">Social Sciences (4)</a> · <a href="#生物学-biology">Biology (2)</a> · <a href="#哲学与艺术-philosophy-and-arts">Philosophy and Arts (5)</a> · <a href="#其他-others">Others (9)</a> · <a href="#技术博客-technical-blogs">Technical blogs (74)</a>
 </p>
 <!-- TOC:END -->
 
@@ -542,6 +542,14 @@ Within each topic, courses are sorted by English title. Different course version
   > Explore exoplanets, black holes, and dark energy with Charles Bailyn, and learn how observational evidence helps assess unresolved scientific questions.
 
 
+<a id="振动波与光学--oscillations-waves-and-optics"></a>
+
+### Oscillations, waves and optics
+
+- <a id="course-physics-09"></a>[MIT 8.03SC · Physics III: Vibrations and Waves (Fall 2016, Yen-Jie Lee)](https://ocw.mit.edu/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/resources/lecture-videos/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16">
+  > Start with driven oscillations and coupled oscillators, then use Fourier methods to study mechanical and electromagnetic waves, interference, and diffraction.
+
+
 <a id="力学与量子物理--mechanics-and-quantum-physics"></a>
 
 ### Mechanics and quantum physics
@@ -728,6 +736,9 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Agents and AI coding
 
+- [MCP servers can now ship skills, run tasks, and more with Claude](https://claude.com/resources/articles/skills-over-mcp-tasks-and-more) · <img src="icons/anthropic.png" alt="Anthropic" height="16"> Anthropic
+  > Learn how MCP servers can ship instructions alongside tools, run delegated tasks in the background, and ask the user for input.
+
 - [Production monitoring with Codex](https://developers.openai.com/blog/production-monitoring-with-codex) · <img src="icons/openai.png" alt="OpenAI" height="16"> OpenAI
   > Follow an incident investigation that correlates telemetry with recent deploys and code changes before proposing a fix.
 
@@ -850,6 +861,9 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Engineering infrastructure
 
+- [Migrating our Messages API to Rust](https://www.anthropic.com/research/migrating-api-to-rust) · <img src="icons/anthropic.png" alt="Anthropic" height="16"> Anthropic
+  > See how shadow traffic helped check whether the Python and Rust API implementations behaved alike before switching production over.
+
 - [vLLM Day-0 Support for ERNIE 5.5 Flash Preview: Plugin Deployment and E2E Inference Acceleration](https://vllm.ai/blog/2026-11-24-ernie-5-5-flash-preview) · <img src="icons/vllm-mark.png" alt="vLLM" height="16"> vLLM
   > See how the ERNIE model plugs into vLLM without a fork, and which optimizations reduce work in sparse indexing and decoding.
 
@@ -922,6 +936,9 @@ Within each topic, courses are sorted by English title. Different course version
 <a id="科研与工程应用-science-and-engineering-applications"></a>
 
 ### Science and engineering applications
+
+- [From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity](https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/) · <img src="icons/deepmind.png" alt="Google DeepMind" height="16"> Google DeepMind
+  > See how mass spectrometry tools and reference databases suggest molecular structures while keeping the evidence available for chemists to review.
 
 - [Advancing chip design with OpenAI models](https://openai.com/index/advancing-chip-design-with-our-models/) · <img src="icons/openai.png" alt="OpenAI" height="16"> OpenAI
   > Follow examples from a custom inference chip and RISC-V cores to see how models propose circuit changes and design tools verify behavior and measure power, performance, and area.

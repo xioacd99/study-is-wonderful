@@ -751,7 +751,8 @@
       "hosts": [
         "www.anthropic.com",
         "alignment.anthropic.com",
-        "safeguards.anthropic.com"
+        "safeguards.anthropic.com",
+        "claude.com"
       ],
       "upstream_sha256": "61e53ab1d79919613c6b48ddc75268520357036719ab400df75c5553dbae639c",
       "format_note": "Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring."
