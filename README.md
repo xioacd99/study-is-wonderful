@@ -372,11 +372,11 @@
 - <a id="course-ai-03"></a>[ETH Zurich·机器人学习：从基础到基础模型（2026）](https://cvg.ethz.ch/lectures/Robot-Learning/) <img src="icons/eth-zurich-mark.png" alt="ETH Zürich" height="16"> · [第一讲](https://www.youtube.com/watch?v=X0k14u6pSxw) <img src="youtube.svg" alt="YouTube" height="16"> · [B站转载](https://www.bilibili.com/video/BV1fSjG6LES5/) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Oier Mees 从机器人控制、模仿学习和强化学习讲起，逐步介绍视觉语言动作模型与机器人基础模型，并结合仿真和真实机器人实践。
 
-- <a id="course-ai-25"></a>[李宏毅·Deep Reinforcement Learning](https://www.youtube.com/watch?v=z95ZYgPgXOY&list=PLJV_el3uVTsODxQFgzMzPLa16h6B8kWM_) <img src="youtube.svg" alt="YouTube" height="16">
-  > 了解智能体如何通过尝试和反馈学习行动，并结合深度学习。
-
 - <a id="course-ai-27"></a>[MIT·识别，估计和学习](https://www.bilibili.com/BV1KL4y1e7F7) <img src="bilibili.svg" alt="Bilibili" height="16">
   > 探索如何根据观察识别、估计和学习系统的规律。
+
+- <a id="course-ai-25"></a>[台大·李宏毅·Deep Reinforcement Learning](https://www.youtube.com/watch?v=z95ZYgPgXOY&list=PLJV_el3uVTsODxQFgzMzPLa16h6B8kWM_) <img src="youtube.svg" alt="YouTube" height="16">
+  > 了解智能体如何通过尝试和反馈学习行动，并结合深度学习。
 
 - <a id="course-ai-01"></a>[斯坦福 CS224R·深度强化学习](https://www.bilibili.com/video/BV1U2zYBqEFB/) <img src="bilibili.svg" alt="Bilibili" height="16">
   > 了解智能体如何通过交互与奖励学习决策，以及深度学习如何用于强化学习。本转载的录制年份尚未核实。
@@ -456,20 +456,20 @@
 - <a id="course-ai-09"></a>[李宏毅·Advanced Topics in Deep Learning](https://www.youtube.com/watch?v=IzHoNwlCGnE&list=PLJV_el3uVTsPMxPbjeX7PicgWbY7F8wW9) <img src="youtube.svg" alt="YouTube" height="16">
   > 探索深度学习中更深入的研究主题。
 
-- <a id="course-ai-07"></a>[李宏毅·Deep Learning Theory](https://www.youtube.com/watch?v=KKT2VkTdFyc) <img src="youtube.svg" alt="YouTube" height="16">
-  > 从理论角度理解深度神经网络为什么可能有效。
-
 - <a id="course-ai-20"></a>[李宏毅·生成对抗网络 GAN（2017）](https://www.youtube.com/watch?v=G0dZc-8yIjE&list=PLJV_el3uVTsMd2G9ZjcpJn1YfnM9wVOBf) <img src="youtube.svg" alt="YouTube" height="16">
   > 2017 年 GAN 专题课，讲解生成器与判别器的对抗训练原理及基本图像生成应用。
-
-- <a id="course-ai-19"></a>[李宏毅·生成对抗网络 GAN（2018）](https://www.youtube.com/watch?v=DQNNMiAP5lw&list=PLJV_el3uVTsMq6JEFPW35BCiOQTsoqwNw) <img src="youtube.svg" alt="YouTube" height="16">
-  > 2018 年更新版 GAN 专题，探讨训练稳定性改进、条件生成与无监督转换方法。
 
 - <a id="course-ai-08"></a>[李宏毅·Next Step of Machine Learning](https://www.youtube.com/watch?v=XnyM3-xtxHs&list=PLJV_el3uVTsOK_ZK5L0Iv_EQoL1JefRL4) <img src="youtube.svg" alt="YouTube" height="16">
   > 思考机器学习可以向哪些方向继续发展。
 
 - <a id="course-ai-14"></a>[MIT·深度学习](https://www.bilibili.com/BV1qt411c7Na) <img src="bilibili.svg" alt="Bilibili" height="16">
   > 了解使用多层神经网络从数据中学习的深度学习。
+
+- <a id="course-ai-07"></a>[台大·李宏毅·Deep Learning Theory](https://www.youtube.com/watch?v=KKT2VkTdFyc) <img src="youtube.svg" alt="YouTube" height="16">
+  > 从理论角度理解深度神经网络为什么可能有效。
+
+- <a id="course-ai-19"></a>[台大·李宏毅·生成对抗网络 GAN（2018）](https://www.youtube.com/watch?v=DQNNMiAP5lw&list=PLJV_el3uVTsMq6JEFPW35BCiOQTsoqwNw) <img src="youtube.svg" alt="YouTube" height="16">
+  > 2018 年更新版 GAN 专题，探讨训练稳定性改进、条件生成与无监督转换方法。
 
 
 <a id="统计结构化学习与应用--statistical-learning-structured-learning-and-applications"></a>

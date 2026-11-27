@@ -372,11 +372,11 @@ Within each topic, courses are sorted by English title. Different course version
 - <a id="course-ai-03"></a>[ETH Zurich · Robot Learning: From Fundamentals to Foundation Models (2026)](https://cvg.ethz.ch/lectures/Robot-Learning/) <img src="icons/eth-zurich-mark.png" alt="ETH Zürich" height="16"> · [Lecture 1](https://www.youtube.com/watch?v=X0k14u6pSxw) <img src="youtube.svg" alt="YouTube" height="16"> · [Bilibili repost](https://www.bilibili.com/video/BV1fSjG6LES5/) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Oier Mees introduces robot control, imitation learning, and reinforcement learning before exploring vision-language-action and robotics foundation models, with practice in simulation and on real robots.
 
-- <a id="course-ai-25"></a>[Hung-yi Lee · Deep Reinforcement Learning](https://www.youtube.com/watch?v=z95ZYgPgXOY&list=PLJV_el3uVTsODxQFgzMzPLa16h6B8kWM_) <img src="youtube.svg" alt="YouTube" height="16">
-  > Explore how an agent can learn actions from trials and feedback using deep learning.
-
 - <a id="course-ai-27"></a>[MIT · Identification, Estimation, and Learning](https://www.bilibili.com/BV1KL4y1e7F7) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore identification, estimation and learning from observations.
+
+- <a id="course-ai-25"></a>[NTU · Hung-yi Lee · Deep Reinforcement Learning](https://www.youtube.com/watch?v=z95ZYgPgXOY&list=PLJV_el3uVTsODxQFgzMzPLa16h6B8kWM_) <img src="youtube.svg" alt="YouTube" height="16">
+  > Explore how an agent can learn actions from trials and feedback using deep learning.
 
 - <a id="course-ai-01"></a>[Stanford CS224R · Deep Reinforcement Learning](https://www.bilibili.com/video/BV1U2zYBqEFB/) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how agents learn decisions through interaction and rewards, and how deep learning is used in reinforcement learning. The recording year of this repost has not been verified.
@@ -456,20 +456,20 @@ Within each topic, courses are sorted by English title. Different course version
 - <a id="course-ai-09"></a>[Hung-yi Lee · Advanced Topics in Deep Learning](https://www.youtube.com/watch?v=IzHoNwlCGnE&list=PLJV_el3uVTsPMxPbjeX7PicgWbY7F8wW9) <img src="youtube.svg" alt="YouTube" height="16">
   > Explore advanced research topics in deep learning.
 
-- <a id="course-ai-07"></a>[Hung-yi Lee · Deep Learning Theory](https://www.youtube.com/watch?v=KKT2VkTdFyc) <img src="youtube.svg" alt="YouTube" height="16">
-  > Explore theoretical ideas about why deep neural networks can work.
-
 - <a id="course-ai-20"></a>[Hung-yi Lee · Generative Adversarial Networks (2017)](https://www.youtube.com/watch?v=G0dZc-8yIjE&list=PLJV_el3uVTsMd2G9ZjcpJn1YfnM9wVOBf) <img src="youtube.svg" alt="YouTube" height="16">
   > 2017 GAN lecture series introducing adversarial training between generator and discriminator networks.
-
-- <a id="course-ai-19"></a>[Hung-yi Lee · Generative Adversarial Networks (2018)](https://www.youtube.com/watch?v=DQNNMiAP5lw&list=PLJV_el3uVTsMq6JEFPW35BCiOQTsoqwNw) <img src="youtube.svg" alt="YouTube" height="16">
-  > 2018 updated GAN series exploring training improvements, conditional generation, and distribution alignment.
 
 - <a id="course-ai-08"></a>[Hung-yi Lee · Next Step of Machine Learning](https://www.youtube.com/watch?v=XnyM3-xtxHs&list=PLJV_el3uVTsOK_ZK5L0Iv_EQoL1JefRL4) <img src="youtube.svg" alt="YouTube" height="16">
   > Consider possible next steps in machine learning.
 
 - <a id="course-ai-14"></a>[MIT · Deep Learning](https://www.bilibili.com/BV1qt411c7Na) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore deep learning, which uses multilayer neural networks to learn from data.
+
+- <a id="course-ai-07"></a>[NTU · Hung-yi Lee · Deep Learning Theory](https://www.youtube.com/watch?v=KKT2VkTdFyc) <img src="youtube.svg" alt="YouTube" height="16">
+  > Explore theoretical ideas about why deep neural networks can work.
+
+- <a id="course-ai-19"></a>[NTU · Hung-yi Lee · Generative Adversarial Networks (2018)](https://www.youtube.com/watch?v=DQNNMiAP5lw&list=PLJV_el3uVTsMq6JEFPW35BCiOQTsoqwNw) <img src="youtube.svg" alt="YouTube" height="16">
+  > 2018 updated GAN series exploring training improvements, conditional generation, and distribution alignment.
 
 
 <a id="统计结构化学习与应用--statistical-learning-structured-learning-and-applications"></a>

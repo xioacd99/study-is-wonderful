@@ -1139,6 +1139,21 @@
           "course": "course-ai-24",
           "resource_url": "https://www.youtube.com/watch?v=nER51ZyJaCQ&list=PLJV_el3uVTsO07RpBYFsXg-bN5Lu0nhdG",
           "evidence": "https://speech.ee.ntu.edu.tw/~tlkagk/courses_DLHLP20.html"
+        },
+        {
+          "course": "course-ai-25",
+          "resource_url": "https://www.youtube.com/watch?v=z95ZYgPgXOY&list=PLJV_el3uVTsODxQFgzMzPLa16h6B8kWM_",
+          "evidence": "https://speech.ee.ntu.edu.tw/~tlkagk/courses_MLDS18.html"
+        },
+        {
+          "course": "course-ai-07",
+          "resource_url": "https://www.youtube.com/watch?v=KKT2VkTdFyc",
+          "evidence": "https://speech.ee.ntu.edu.tw/~tlkagk/courses_MLDS18.html"
+        },
+        {
+          "course": "course-ai-19",
+          "resource_url": "https://www.youtube.com/watch?v=DQNNMiAP5lw&list=PLJV_el3uVTsMq6JEFPW35BCiOQTsoqwNw",
+          "evidence": "https://speech.ee.ntu.edu.tw/~tlkagk/courses_MLDS18.html"
         }
       ],
       "path": "icons/ntu-mark.jpg",
