@@ -329,8 +329,8 @@
 - <a id="course-cs-38"></a>[康奈尔·软件工程](https://www.bilibili.com/BV1aW411E7yr) <img src="bilibili.svg" alt="Bilibili" height="16">
   > 了解团队如何规划、设计、构建和测试软件。
 
-- <a id="course-cs-40"></a>[斯坦福·编译原理](https://web.stanford.edu/class/archive/cs/cs143/cs143.1112/materials/lectures/) <img src="icons/stanford-seal.png" alt="Stanford University" height="16">
-  > 阅读 Alex Aiken 的斯坦福编译原理讲义；对应视频来源仍待核实。
+- <a id="course-cs-40"></a>[斯坦福·编译原理](https://web.stanford.edu/class/archive/cs/cs143/cs143.1112/materials/lectures/) <img src="icons/stanford-seal.png" alt="Stanford University" height="16"> · [Coursera 录像：B 站搬运版](https://www.bilibili.com/video/BV1514y1W7Ui/) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > 阅读 Alex Aiken 的斯坦福编译原理讲义。B 站页面标注的录像来自他在 Coursera 开设的版本。
 
 
 <a id="图形学与人机交互--graphics-and-human-computer-interaction"></a>
@@ -557,7 +557,7 @@
 - <a id="course-physics-02"></a>[MIT 8.01SC·经典力学（2016 秋季）](https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16"> · [第一周导论](https://www.youtube.com/watch?v=i4u7SZjoAs4) <img src="youtube.svg" alt="YouTube" height="16"> · [课程视频](https://www.bilibili.com/video/BV1KQ4y1B7TJ/) <img src="bilibili.svg" alt="Bilibili" height="16">
   > 从运动与受力出发，学习牛顿定律、动量、能量和旋转，练习用数学描述并解决经典力学问题。
 
-- <a id="course-physics-06"></a>[MIT 8.04·量子物理 I（2013 春季，Allan Adams）](https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/resources/lecture-videos/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16">
+- <a id="course-physics-06"></a>[MIT 8.04·量子物理 I（2013 春季，Allan Adams）](https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/resources/lecture-videos/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16"> · [官方 YouTube 播放列表](https://www.youtube.com/playlist?list=PLUl4u3cNGP61-9PEhRognw5vryrSEVLPr) <img src="youtube.svg" alt="YouTube" height="16"> · [B 站搬运版](https://www.bilibili.com/video/BV13W411Y7af/) <img src="bilibili.svg" alt="Bilibili" height="16">
   > 从双缝实验和波函数入手，讲解薛定谔方程、量子测量、定态和叠加，以及一维势阱与隧穿。MIT OCW 提供 24 讲录像。
 
 - <a id="course-physics-07"></a>[MIT 8.05·量子物理 II（2013 秋季，Barton Zwiebach）](https://ocw.mit.edu/courses/8-05-quantum-physics-ii-fall-2013/resources/lecture-videos/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16">

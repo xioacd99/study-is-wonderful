@@ -329,8 +329,8 @@ Within each topic, courses are sorted by English title. Different course version
 - <a id="course-cs-38"></a>[Cornell · Software Engineering](https://www.bilibili.com/BV1aW411E7yr) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how teams plan, design, build and test software.
 
-- <a id="course-cs-40"></a>[Stanford · Compilers](https://web.stanford.edu/class/archive/cs/cs143/cs143.1112/materials/lectures/) <img src="icons/stanford-seal.png" alt="Stanford University" height="16">
-  > Read Alex Aiken’s Stanford lecture notes on compilers; a matching video source is still unverified.
+- <a id="course-cs-40"></a>[Stanford · Compilers](https://web.stanford.edu/class/archive/cs/cs143/cs143.1112/materials/lectures/) <img src="icons/stanford-seal.png" alt="Stanford University" height="16"> · [Coursera lecture mirror on Bilibili](https://www.bilibili.com/video/BV1514y1W7Ui/) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > Read Alex Aiken’s Stanford lecture notes on compilers. The Bilibili listing identifies its recordings as his Coursera offering.
 
 
 <a id="图形学与人机交互--graphics-and-human-computer-interaction"></a>
@@ -557,7 +557,7 @@ Within each topic, courses are sorted by English title. Different course version
 - <a id="course-physics-02"></a>[MIT 8.01SC · Classical Mechanics (Fall 2016)](https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16"> · [Week 1 Introduction](https://www.youtube.com/watch?v=i4u7SZjoAs4) <img src="youtube.svg" alt="YouTube" height="16"> · [Course videos](https://www.bilibili.com/video/BV1KQ4y1B7TJ/) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Study motion and forces through Newton’s laws, momentum, energy, and rotation, and practice using mathematics to describe and solve classical mechanics problems.
 
-- <a id="course-physics-06"></a>[MIT 8.04 · Quantum Physics I (Spring 2013, Allan Adams)](https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/resources/lecture-videos/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16">
+- <a id="course-physics-06"></a>[MIT 8.04 · Quantum Physics I (Spring 2013, Allan Adams)](https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/resources/lecture-videos/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16"> · [Official YouTube playlist](https://www.youtube.com/playlist?list=PLUl4u3cNGP61-9PEhRognw5vryrSEVLPr) <img src="youtube.svg" alt="YouTube" height="16"> · [Bilibili mirror](https://www.bilibili.com/video/BV13W411Y7af/) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Starts with the double-slit experiment and wavefunctions, then covers the Schrödinger equation, measurement, stationary states and superposition, and one-dimensional wells and tunneling. MIT OCW provides 24 recorded lectures.
 
 - <a id="course-physics-07"></a>[MIT 8.05 · Quantum Physics II (Fall 2013, Barton Zwiebach)](https://ocw.mit.edu/courses/8-05-quantum-physics-ii-fall-2013/resources/lecture-videos/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16">
