@@ -128,7 +128,7 @@ Within each topic, courses are sorted by English title. Different course version
 - <a id="course-math-13"></a>[Harvard STAT 110 · Probability](https://www.bilibili.com/BV1kE41157pa) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Build probabilistic intuition through scenarios covering conditioning, random variables, and limit theorems.
 
-- <a id="course-math-16"></a>[MIT · Applied Statistics](https://www.bilibili.com/BV14t411N7uw) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-math-16"></a>[MIT · Applied Statistics](https://www.bilibili.com/BV14t411N7uw) <img src="bilibili.svg" alt="Bilibili" height="16"> · [MIT 18.650 official videos (Fall 2016)](https://ocw.mit.edu/courses/18-650-statistics-for-applications-fall-2016/resources/lecture-videos/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16">
   > Learn to estimate, compare and make informed judgments from data.
 
 - <a id="course-math-17"></a>[MIT · Discrete Stochastic Processes](https://www.bilibili.com/BV1Qs41167VS) <img src="bilibili.svg" alt="Bilibili" height="16">

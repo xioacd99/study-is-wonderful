@@ -128,7 +128,7 @@
 - <a id="course-math-13"></a>[哈佛 STAT 110·概率论](https://www.bilibili.com/BV1kE41157pa) <img src="bilibili.svg" alt="Bilibili" height="16">
   > 通过直觉与经典案例讲解概率模型、条件概率、随机变量与极限定理，建立概率思维。
 
-- <a id="course-math-16"></a>[MIT·应用统计](https://www.bilibili.com/BV14t411N7uw) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-math-16"></a>[MIT·应用统计](https://www.bilibili.com/BV14t411N7uw) <img src="bilibili.svg" alt="Bilibili" height="16"> · [MIT 18.650 官方录像（2016 秋季）](https://ocw.mit.edu/courses/18-650-statistics-for-applications-fall-2016/resources/lecture-videos/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16">
   > 学习从数据中估计、比较并作出有依据的判断。
 
 - <a id="course-math-17"></a>[MIT·离散随机过程](https://www.bilibili.com/BV1Qs41167VS) <img src="bilibili.svg" alt="Bilibili" height="16">
