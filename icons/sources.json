@@ -751,7 +751,8 @@
       "hosts": [
         "www.anthropic.com",
         "alignment.anthropic.com",
-        "safeguards.anthropic.com"
+        "safeguards.anthropic.com",
+        "claude.com"
       ],
       "upstream_sha256": "61e53ab1d79919613c6b48ddc75268520357036719ab400df75c5553dbae639c",
       "format_note": "Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring."
@@ -786,6 +787,12 @@
       "organization": "nvidia",
       "hosts": [
         "developer.nvidia.com"
+      ],
+      "credited_paths": [
+        {
+          "host": "huggingface.co",
+          "prefix": "/blog/nvidia/"
+        }
       ]
     },
     {
@@ -1060,7 +1067,9 @@
       "group": "university",
       "name": "Cornell University",
       "organization": "cornell",
-      "hosts": [],
+      "hosts": [
+        "www.cs.cornell.edu"
+      ],
       "course_credits": [
         {
           "course": "course-cs-41",
@@ -1136,6 +1145,21 @@
           "course": "course-ai-24",
           "resource_url": "https://www.youtube.com/watch?v=nER51ZyJaCQ&list=PLJV_el3uVTsO07RpBYFsXg-bN5Lu0nhdG",
           "evidence": "https://speech.ee.ntu.edu.tw/~tlkagk/courses_DLHLP20.html"
+        },
+        {
+          "course": "course-ai-25",
+          "resource_url": "https://www.youtube.com/watch?v=z95ZYgPgXOY&list=PLJV_el3uVTsODxQFgzMzPLa16h6B8kWM_",
+          "evidence": "https://speech.ee.ntu.edu.tw/~tlkagk/courses_MLDS18.html"
+        },
+        {
+          "course": "course-ai-07",
+          "resource_url": "https://www.youtube.com/watch?v=KKT2VkTdFyc",
+          "evidence": "https://speech.ee.ntu.edu.tw/~tlkagk/courses_MLDS18.html"
+        },
+        {
+          "course": "course-ai-19",
+          "resource_url": "https://www.youtube.com/watch?v=DQNNMiAP5lw&list=PLJV_el3uVTsMq6JEFPW35BCiOQTsoqwNw",
+          "evidence": "https://speech.ee.ntu.edu.tw/~tlkagk/courses_MLDS18.html"
         }
       ],
       "path": "icons/ntu-mark.jpg",
@@ -1235,6 +1259,24 @@
       "sha256": "ae935ed2f4341e942b1dbf4096165beea69a98f11222b2e48ee3b815c93f4f82",
       "upstream_sha256": "84e78abeca0042adc239148938d73019db974c96e1c43480c298460a4a3ce9da",
       "format_note": "Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring."
+    },
+    {
+      "id": "santa-fe-institute",
+      "group": "project",
+      "name": "Santa Fe Institute",
+      "path": "icons/santa-fe-institute.png",
+      "source": "https://www.santafe.edu/assets/88d5a9989e46366ede61.ico",
+      "brand_reference": "https://www.santafe.edu/",
+      "header_width": 44,
+      "inline_width": 24,
+      "sha256": "8a1352c6c0c32bb88592937a5994755ceddf78aac63cd5bf87ed86a7ffa5422d",
+      "organization": "santa-fe-institute",
+      "hosts": [
+        "complexityexplorer.org",
+        "www.complexityexplorer.org"
+      ],
+      "upstream_sha256": "ec2979557522cbb346bcb36cad5b4f726f9e268faced7a9a22b9847c5a6839e1",
+      "format_note": "Selected the official 256px favicon frame and downsampled proportionally to a transparent 160 × 160 PNG without recoloring or cropping."
     }
   ],
   "organization_names": {
@@ -1265,6 +1307,7 @@
     "oxford": "University of Oxford",
     "cambridge": "University of Cambridge",
     "nju": "Nanjing University",
-    "games": "GAMES"
+    "games": "GAMES",
+    "santa-fe-institute": "Santa Fe Institute"
   }
 }

@@ -8,7 +8,7 @@
 
 [🧭 打开学习星图 ↗](https://xioacd99.github.io/study-is-wonderful/resource-map/) · [简体中文](README.md) · [English](README-en.md)
 
-[154 门课程](#目录-contents) · [10 个学科](#目录-contents) · [64 篇技术文章](#技术博客-technical-blogs) · [资源来源](#资源来源-sources) · [推荐资源](https://github.com/xioacd99/study-is-wonderful/issues) · [参与共建](https://github.com/xioacd99/study-is-wonderful/pulls)
+[159 门课程](#目录-contents) · [10 个学科](#目录-contents) · [77 篇技术文章](#技术博客-technical-blogs) · [资源来源](#资源来源-sources) · [推荐资源](https://github.com/xioacd99/study-is-wonderful/issues) · [参与共建](https://github.com/xioacd99/study-is-wonderful/pulls)
 
 </div>
 
@@ -22,8 +22,8 @@
 <a id="目录-contents"></a>
 <!-- TOC:START -->
 <p align="center">
-<a href="#数学-math">数学 (26)</a> · <a href="#计算机科学-computer-science">计算机科学 (57)</a> · <a href="#人工智能-artificial-intelligence">人工智能 (36)</a> · <a href="#经济学-economics">经济学 (4)</a> · <a href="#物理学-physics">物理学 (5)</a> · <a href="#心理学-psychology">心理学 (6)</a><br>
-<a href="#社会科学-social-sciences">社会科学 (4)</a> · <a href="#生物学-biology">生物学 (2)</a> · <a href="#哲学与艺术-philosophy-and-arts">哲学与艺术 (5)</a> · <a href="#其他-others">其他 (9)</a> · <a href="#技术博客-technical-blogs">技术博客 (64)</a>
+<a href="#数学-math">数学 (26)</a> · <a href="#计算机科学-computer-science">计算机科学 (57)</a> · <a href="#人工智能-artificial-intelligence">人工智能 (36)</a> · <a href="#经济学-economics">经济学 (4)</a> · <a href="#物理学-physics">物理学 (9)</a> · <a href="#心理学-psychology">心理学 (6)</a><br>
+<a href="#社会科学-social-sciences">社会科学 (4)</a> · <a href="#生物学-biology">生物学 (2)</a> · <a href="#哲学与艺术-philosophy-and-arts">哲学与艺术 (5)</a> · <a href="#其他-others">其他 (10)</a> · <a href="#技术博客-technical-blogs">技术博客 (77)</a>
 </p>
 <!-- TOC:END -->
 
@@ -128,7 +128,7 @@
 - <a id="course-math-13"></a>[哈佛 STAT 110·概率论](https://www.bilibili.com/BV1kE41157pa) <img src="bilibili.svg" alt="Bilibili" height="16">
   > 通过直觉与经典案例讲解概率模型、条件概率、随机变量与极限定理，建立概率思维。
 
-- <a id="course-math-16"></a>[MIT·应用统计](https://www.bilibili.com/BV14t411N7uw) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-math-16"></a>[MIT·应用统计](https://www.bilibili.com/BV14t411N7uw) <img src="bilibili.svg" alt="Bilibili" height="16"> · [MIT 18.650 官方录像（2016 秋季）](https://ocw.mit.edu/courses/18-650-statistics-for-applications-fall-2016/resources/lecture-videos/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16">
   > 学习从数据中估计、比较并作出有依据的判断。
 
 - <a id="course-math-17"></a>[MIT·离散随机过程](https://www.bilibili.com/BV1Qs41167VS) <img src="bilibili.svg" alt="Bilibili" height="16">
@@ -323,14 +323,14 @@
 - <a id="course-cs-39"></a>[CMU·智能系统软件工程](https://www.bilibili.com/BV1qA411n7X5) <img src="bilibili.svg" alt="Bilibili" height="16">
   > 探索如何为包含人工智能组件的系统设计和维护软件。
 
-- <a id="course-cs-41"></a>[康奈尔·高级编译原理](https://www.bilibili.com/BV1hZ4y1L7X4) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-cs-41"></a>[康奈尔·高级编译原理](https://www.bilibili.com/BV1hZ4y1L7X4) <img src="bilibili.svg" alt="Bilibili" height="16"> · [自学版](https://www.cs.cornell.edu/courses/cs6120/2025fa/self-guided/) <img src="icons/cornell-mark.png" alt="Cornell University" height="16">
   > 深入探索把程序转换成计算机可执行形式的编译技术。
 
 - <a id="course-cs-38"></a>[康奈尔·软件工程](https://www.bilibili.com/BV1aW411E7yr) <img src="bilibili.svg" alt="Bilibili" height="16">
   > 了解团队如何规划、设计、构建和测试软件。
 
-- <a id="course-cs-40"></a>[斯坦福·编译原理](https://www.bilibili.com/BV1NW41177q4) <img src="bilibili.svg" alt="Bilibili" height="16">
-  > 了解编译器如何把一种程序语言转换成另一种形式；原链接实际指向斯坦福《统计学习》视频，编译原理对应视频源待补充核实。
+- <a id="course-cs-40"></a>[斯坦福·编译原理](https://web.stanford.edu/class/archive/cs/cs143/cs143.1112/materials/lectures/) <img src="icons/stanford-seal.png" alt="Stanford University" height="16"> · [Coursera 录像：B 站搬运版](https://www.bilibili.com/video/BV1514y1W7Ui/) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > 阅读 Alex Aiken 的斯坦福编译原理讲义。B 站页面标注的录像来自他在 Coursera 开设的版本。
 
 
 <a id="图形学与人机交互--graphics-and-human-computer-interaction"></a>
@@ -372,11 +372,11 @@
 - <a id="course-ai-03"></a>[ETH Zurich·机器人学习：从基础到基础模型（2026）](https://cvg.ethz.ch/lectures/Robot-Learning/) <img src="icons/eth-zurich-mark.png" alt="ETH Zürich" height="16"> · [第一讲](https://www.youtube.com/watch?v=X0k14u6pSxw) <img src="youtube.svg" alt="YouTube" height="16"> · [B站转载](https://www.bilibili.com/video/BV1fSjG6LES5/) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Oier Mees 从机器人控制、模仿学习和强化学习讲起，逐步介绍视觉语言动作模型与机器人基础模型，并结合仿真和真实机器人实践。
 
-- <a id="course-ai-25"></a>[李宏毅·Deep Reinforcement Learning](https://www.youtube.com/watch?v=z95ZYgPgXOY&list=PLJV_el3uVTsODxQFgzMzPLa16h6B8kWM_) <img src="youtube.svg" alt="YouTube" height="16">
-  > 了解智能体如何通过尝试和反馈学习行动，并结合深度学习。
-
 - <a id="course-ai-27"></a>[MIT·识别，估计和学习](https://www.bilibili.com/BV1KL4y1e7F7) <img src="bilibili.svg" alt="Bilibili" height="16">
   > 探索如何根据观察识别、估计和学习系统的规律。
+
+- <a id="course-ai-25"></a>[台大·李宏毅·Deep Reinforcement Learning](https://www.youtube.com/watch?v=z95ZYgPgXOY&list=PLJV_el3uVTsODxQFgzMzPLa16h6B8kWM_) <img src="youtube.svg" alt="YouTube" height="16">
+  > 了解智能体如何通过尝试和反馈学习行动，并结合深度学习。
 
 - <a id="course-ai-01"></a>[斯坦福 CS224R·深度强化学习](https://www.bilibili.com/video/BV1U2zYBqEFB/) <img src="bilibili.svg" alt="Bilibili" height="16">
   > 了解智能体如何通过交互与奖励学习决策，以及深度学习如何用于强化学习。本转载的录制年份尚未核实。
@@ -456,20 +456,20 @@
 - <a id="course-ai-09"></a>[李宏毅·Advanced Topics in Deep Learning](https://www.youtube.com/watch?v=IzHoNwlCGnE&list=PLJV_el3uVTsPMxPbjeX7PicgWbY7F8wW9) <img src="youtube.svg" alt="YouTube" height="16">
   > 探索深度学习中更深入的研究主题。
 
-- <a id="course-ai-07"></a>[李宏毅·Deep Learning Theory](https://www.youtube.com/watch?v=KKT2VkTdFyc) <img src="youtube.svg" alt="YouTube" height="16">
-  > 从理论角度理解深度神经网络为什么可能有效。
-
 - <a id="course-ai-20"></a>[李宏毅·生成对抗网络 GAN（2017）](https://www.youtube.com/watch?v=G0dZc-8yIjE&list=PLJV_el3uVTsMd2G9ZjcpJn1YfnM9wVOBf) <img src="youtube.svg" alt="YouTube" height="16">
   > 2017 年 GAN 专题课，讲解生成器与判别器的对抗训练原理及基本图像生成应用。
-
-- <a id="course-ai-19"></a>[李宏毅·生成对抗网络 GAN（2018）](https://www.youtube.com/watch?v=DQNNMiAP5lw&list=PLJV_el3uVTsMq6JEFPW35BCiOQTsoqwNw) <img src="youtube.svg" alt="YouTube" height="16">
-  > 2018 年更新版 GAN 专题，探讨训练稳定性改进、条件生成与无监督转换方法。
 
 - <a id="course-ai-08"></a>[李宏毅·Next Step of Machine Learning](https://www.youtube.com/watch?v=XnyM3-xtxHs&list=PLJV_el3uVTsOK_ZK5L0Iv_EQoL1JefRL4) <img src="youtube.svg" alt="YouTube" height="16">
   > 思考机器学习可以向哪些方向继续发展。
 
 - <a id="course-ai-14"></a>[MIT·深度学习](https://www.bilibili.com/BV1qt411c7Na) <img src="bilibili.svg" alt="Bilibili" height="16">
   > 了解使用多层神经网络从数据中学习的深度学习。
+
+- <a id="course-ai-07"></a>[台大·李宏毅·Deep Learning Theory](https://www.youtube.com/watch?v=KKT2VkTdFyc) <img src="youtube.svg" alt="YouTube" height="16">
+  > 从理论角度理解深度神经网络为什么可能有效。
+
+- <a id="course-ai-19"></a>[台大·李宏毅·生成对抗网络 GAN（2018）](https://www.youtube.com/watch?v=DQNNMiAP5lw&list=PLJV_el3uVTsMq6JEFPW35BCiOQTsoqwNw) <img src="youtube.svg" alt="YouTube" height="16">
+  > 2018 年更新版 GAN 专题，探讨训练稳定性改进、条件生成与无监督转换方法。
 
 
 <a id="统计结构化学习与应用--statistical-learning-structured-learning-and-applications"></a>
@@ -542,12 +542,29 @@
   > 跟随 Charles Bailyn 探索系外行星、黑洞和暗能量，学习如何用观测证据分析尚无定论的科学问题。
 
 
+<a id="振动波与光学--oscillations-waves-and-optics"></a>
+
+### 振动、波与光学
+
+- <a id="course-physics-09"></a>[MIT 8.03SC·振动与波（2016 秋季，Yen-Jie Lee）](https://ocw.mit.edu/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/resources/lecture-videos/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16">
+  > 从受迫振动和耦合振子入手，再用傅里叶方法学习机械波、电磁波与干涉衍射。
+
+
 <a id="力学与量子物理--mechanics-and-quantum-physics"></a>
 
 ### 力学与量子物理
 
 - <a id="course-physics-02"></a>[MIT 8.01SC·经典力学（2016 秋季）](https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16"> · [第一周导论](https://www.youtube.com/watch?v=i4u7SZjoAs4) <img src="youtube.svg" alt="YouTube" height="16"> · [课程视频](https://www.bilibili.com/video/BV1KQ4y1B7TJ/) <img src="bilibili.svg" alt="Bilibili" height="16">
   > 从运动与受力出发，学习牛顿定律、动量、能量和旋转，练习用数学描述并解决经典力学问题。
+
+- <a id="course-physics-06"></a>[MIT 8.04·量子物理 I（2013 春季，Allan Adams）](https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/resources/lecture-videos/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16"> · [官方 YouTube 播放列表](https://www.youtube.com/playlist?list=PLUl4u3cNGP61-9PEhRognw5vryrSEVLPr) <img src="youtube.svg" alt="YouTube" height="16"> · [B 站搬运版](https://www.bilibili.com/video/BV13W411Y7af/) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > 从双缝实验和波函数入手，讲解薛定谔方程、量子测量、定态和叠加，以及一维势阱与隧穿。MIT OCW 提供 24 讲录像。
+
+- <a id="course-physics-07"></a>[MIT 8.05·量子物理 II（2013 秋季，Barton Zwiebach）](https://ocw.mit.edu/courses/8-05-quantum-physics-ii-fall-2013/resources/lecture-videos/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16">
+  > 承接 8.04，用态矢量与算符描述量子系统，涵盖量子动力学、自旋、张量积和角动量。MIT OCW 列出 26 讲。
+
+- <a id="course-physics-08"></a>[MIT 8.06·量子物理 III（2018 春季，Barton Zwiebach）](https://ocw.mit.edu/courses/8-06-quantum-physics-iii-spring-2018/resources/lecture-videos/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16">
+  > 承接 8.05，学习微扰理论、绝热近似、散射和全同粒子。MIT OCW 按 24 个讲次组织短视频。
 
 - <a id="course-physics-03"></a>[斯坦福·量子力学](https://www.bilibili.com/BV1w4411s7da) <img src="bilibili.svg" alt="Bilibili" height="16">
   > 探索量子力学如何描述原子等微观世界。
@@ -676,6 +693,9 @@
 - <a id="course-other-01"></a>[MIT·几何折叠算法](https://www.bilibili.com/BV14q4y1R7Ra) <img src="bilibili.svg" alt="Bilibili" height="16">
   > 用算法研究纸张、连杆和多面体怎样折叠。
 
+- <a id="course-other-10"></a>[圣塔菲研究所·复杂性导论](https://www.complexityexplorer.org/courses/185-introduction-to-complexity) <img src="icons/santa-fe-institute.png" alt="Santa Fe Institute" height="16">
+  > Melanie Mitchell 用混沌、分形、网络和简单的个体模型，解释复杂行为如何从局部规则中出现。无需先修。
+
 - <a id="course-other-03"></a>[斯坦福·SCI 论文写作课程](https://www.bilibili.com/BV1zv41177JQ) <img src="bilibili.svg" alt="Bilibili" height="16">
   > 学习怎样更清楚地写作和表达科学研究。
 
@@ -718,6 +738,21 @@
 <a id="智能体与-ai-编程-agents-and-ai-coding"></a>
 
 ### 智能体与 AI 编程
+
+- [用 GPT-6 系列维护软件](https://developers.openai.com/blog/maintaining-software-with-the-gpt-6-family) · <img src="icons/openai.png" alt="OpenAI" height="16"> OpenAI
+  > 分享工程团队如何从清理无用代码或旧功能开关这类小任务入手，让模型协助维护代码库。
+
+- [训练小模型群体：多智能体协作的构建、训练与评测](https://huggingface.co/blog/training-swarms) · <img src="icons/huggingface.svg" alt="Hugging Face" height="16"> Hugging Face
+  > 用共享的小模型做协作排序实验，观察奖励设计如何影响任务成功率和通信开销。
+
+- [MCP 服务如何向 Claude 提供技能与异步任务](https://claude.com/resources/articles/skills-over-mcp-tasks-and-more) · <img src="icons/anthropic.png" alt="Anthropic" height="16"> Anthropic
+  > 介绍 MCP 服务怎样随工具交付操作指南、委派长任务，并在必要时请求用户补充信息。
+
+- [用 Codex 排查生产故障](https://developers.openai.com/blog/production-monitoring-with-codex) · <img src="icons/openai.png" alt="OpenAI" height="16"> OpenAI
+  > 把告警指标、部署记录和代码改动串在一起，先核对故障假设，再决定怎么修。
+
+- [个人智能体如何把握时间并异步接收反馈](https://developers.openai.com/blog/time-awareness-and-async-input-for-personal-agents) · <img src="icons/openai.png" alt="OpenAI" height="16"> OpenAI
+  > 让智能体在等待用户补充时继续做其他工作，并由应用统一控制截止时间。
 
 - [用 Rust 编写模型工具调用解析器](https://developer.nvidia.com/blog/build-tool-calling-parsers-in-rust-with-ai-agents/) · <img src="icons/nvidia.svg" alt="NVIDIA" height="16"> NVIDIA Technical Blog
   > 了解如何用跨模型测试检查工具调用解析器是否能处理分块输出、不完整的 JSON 和异常输入。
@@ -774,6 +809,12 @@
 
 ### AI 评测
 
+- [困惑度与智能](https://openai.com/index/perplexity-and-intelligence/) · <img src="icons/openai.png" alt="OpenAI" height="16"> OpenAI
+  > 了解为什么用留出数据上的困惑度衡量预训练进展，以及跨团队比较需要哪些共同条件。
+
+- [给数据智能体建一座风洞](https://cloud.google.com/blog/products/data-analytics/a-data-simulator-to-test-agents) · <img src="icons/google-cloud.png" alt="Google Cloud" height="16"> Google Cloud Blog
+  > 用固定蓝图和随机种子生成可复现的数据表及标准答案，再核对生成文档与事实是否一致。
+
 - [从训练到部署：如何管理前沿 AI 风险](https://openai.com/index/managing-frontier-ai-risk/) · <img src="icons/openai.png" alt="OpenAI" height="16"> OpenAI
   > 了解如何在研究、内部使用和公开发布阶段搭配沙箱、行为监控与安全评审，以及这些阶段各自要解决什么风险。
 
@@ -828,6 +869,18 @@
 <a id="工程基础设施-engineering-infrastructure"></a>
 
 ### 工程基础设施
+
+- [Anthropic 如何把 Messages API 迁移到 Rust](https://www.anthropic.com/research/migrating-api-to-rust) · <img src="icons/anthropic.png" alt="Anthropic" height="16"> Anthropic
+  > 用影子流量比较 Python 与 Rust 实现，检验正式切换前的接口行为是否一致。
+
+- [vLLM 首日支持 ERNIE 5.5 Flash Preview：插件部署与推理优化](https://vllm.ai/blog/2026-11-24-ernie-5-5-flash-preview) · <img src="icons/vllm-mark.png" alt="vLLM" height="16"> vLLM
+  > 了解 ERNIE 如何通过插件接入 vLLM 而不用维护分叉，以及稀疏索引和解码分别在哪些环节减少计算。
+
+- [vLLM-GR：面向生成式推荐的高效推理](https://vllm.ai/blog/2026-11-24-vllm-gr-announcement) · <img src="icons/vllm-mark.png" alt="vLLM" height="16"> vLLM
+  > 看推荐服务如何让候选路径共享用户历史的 KV 缓存，并用商品目录约束生成的候选 ID。
+
+- [在 Apple Silicon 上原生运行 Android Cuttlefish](https://engineering.fb.com/2026/11/13/android/cuttlefish-on-mac/) · <img src="icons/meta.png" alt="Meta Engineering" height="16"> Meta Engineering
+  > 了解 Meta 如何修改 QEMU 和 Cuttlefish，让安卓虚拟设备在 Apple Silicon 的 macOS 主机上运行。
 
 - [用 NVIDIA Dynamo 缓解强化学习采样瓶颈](https://developer.nvidia.com/blog/reducing-rollout-bottlenecks-in-reinforcement-learning-with-nvidia-dynamo/) · <img src="icons/nvidia.svg" alt="NVIDIA" height="16"> NVIDIA Technical Blog
   > 看 Dynamo 如何在分布式采样中兼顾缓存复用与工作进程负载，并把更新后的权重送到推理工作进程。
@@ -893,6 +946,12 @@
 
 ### 科研与工程应用
 
+- [Nemotron 3.5 Parse：开放数据、微调与推理提速](https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin) · <img src="icons/nvidia.svg" alt="NVIDIA" height="16"> NVIDIA / Hugging Face
+  > 介绍如何用带结构标注的合成表格和图表训练文档解析器，并用推测解码加快输出。
+
+- [用 Google Antigravity 解读质谱](https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/) · <img src="icons/deepmind.png" alt="Google DeepMind" height="16"> Google DeepMind
+  > 介绍如何用质谱分析工具与参考数据库提出分子结构候选，并为化学家保留可复核的证据。
+
 - [用 AI 模型改进芯片设计](https://openai.com/index/advancing-chip-design-with-our-models/) · <img src="icons/openai.png" alt="OpenAI" height="16"> OpenAI
   > 从定制推理芯片和 RISC-V 核心的案例出发，看模型如何提出电路改写，并用芯片设计工具验证功能与衡量功耗、性能和面积。
 
@@ -940,7 +999,7 @@
 <p align="center"><strong>项目与平台</strong><br>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="icons/source-wall-projects-dark.svg">
-  <img src="icons/source-wall-projects.svg" alt="项目与平台: Ai2, Bilibili, GAMES, ggml-org, YouTube, vLLM" width="720">
+  <img src="icons/source-wall-projects.svg" alt="项目与平台: Ai2, Bilibili, GAMES, ggml-org, YouTube, Santa Fe Institute, vLLM" width="720">
 </picture>
 </p>
 <p align="center"><strong>公司</strong><br>

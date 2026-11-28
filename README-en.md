@@ -8,7 +8,7 @@ Great courses across disciplines. Follow your curiosity.
 
 [🧭 Explore the learning map ↗](https://xioacd99.github.io/study-is-wonderful/resource-map/) · [简体中文](README.md) · [English](README-en.md)
 
-[154 courses](#目录-contents) · [10 subjects](#目录-contents) · [64 articles](#技术博客-technical-blogs) · [Resource sources](#资源来源-sources) · [Suggest a resource](https://github.com/xioacd99/study-is-wonderful/issues) · [Contribute](https://github.com/xioacd99/study-is-wonderful/pulls)
+[159 courses](#目录-contents) · [10 subjects](#目录-contents) · [77 articles](#技术博客-technical-blogs) · [Resource sources](#资源来源-sources) · [Suggest a resource](https://github.com/xioacd99/study-is-wonderful/issues) · [Contribute](https://github.com/xioacd99/study-is-wonderful/pulls)
 
 </div>
 
@@ -22,8 +22,8 @@ Great courses across disciplines. Follow your curiosity.
 <a id="目录-contents"></a>
 <!-- TOC:START -->
 <p align="center">
-<a href="#数学-math">Math (26)</a> · <a href="#计算机科学-computer-science">Computer Science (57)</a> · <a href="#人工智能-artificial-intelligence">Artificial Intelligence (36)</a> · <a href="#经济学-economics">Economics (4)</a> · <a href="#物理学-physics">Physics (5)</a> · <a href="#心理学-psychology">Psychology (6)</a><br>
-<a href="#社会科学-social-sciences">Social Sciences (4)</a> · <a href="#生物学-biology">Biology (2)</a> · <a href="#哲学与艺术-philosophy-and-arts">Philosophy and Arts (5)</a> · <a href="#其他-others">Others (9)</a> · <a href="#技术博客-technical-blogs">Technical blogs (64)</a>
+<a href="#数学-math">Math (26)</a> · <a href="#计算机科学-computer-science">Computer Science (57)</a> · <a href="#人工智能-artificial-intelligence">Artificial Intelligence (36)</a> · <a href="#经济学-economics">Economics (4)</a> · <a href="#物理学-physics">Physics (9)</a> · <a href="#心理学-psychology">Psychology (6)</a><br>
+<a href="#社会科学-social-sciences">Social Sciences (4)</a> · <a href="#生物学-biology">Biology (2)</a> · <a href="#哲学与艺术-philosophy-and-arts">Philosophy and Arts (5)</a> · <a href="#其他-others">Others (10)</a> · <a href="#技术博客-technical-blogs">Technical blogs (77)</a>
 </p>
 <!-- TOC:END -->
 
@@ -128,7 +128,7 @@ Within each topic, courses are sorted by English title. Different course version
 - <a id="course-math-13"></a>[Harvard STAT 110 · Probability](https://www.bilibili.com/BV1kE41157pa) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Build probabilistic intuition through scenarios covering conditioning, random variables, and limit theorems.
 
-- <a id="course-math-16"></a>[MIT · Applied Statistics](https://www.bilibili.com/BV14t411N7uw) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-math-16"></a>[MIT · Applied Statistics](https://www.bilibili.com/BV14t411N7uw) <img src="bilibili.svg" alt="Bilibili" height="16"> · [MIT 18.650 official videos (Fall 2016)](https://ocw.mit.edu/courses/18-650-statistics-for-applications-fall-2016/resources/lecture-videos/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16">
   > Learn to estimate, compare and make informed judgments from data.
 
 - <a id="course-math-17"></a>[MIT · Discrete Stochastic Processes](https://www.bilibili.com/BV1Qs41167VS) <img src="bilibili.svg" alt="Bilibili" height="16">
@@ -323,14 +323,14 @@ Within each topic, courses are sorted by English title. Different course version
 - <a id="course-cs-39"></a>[CMU · Software Engineering for Intelligent Systems](https://www.bilibili.com/BV1qA411n7X5) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how to design and maintain software with AI components.
 
-- <a id="course-cs-41"></a>[Cornell · Advanced Compilers](https://www.bilibili.com/BV1hZ4y1L7X4) <img src="bilibili.svg" alt="Bilibili" height="16">
+- <a id="course-cs-41"></a>[Cornell · Advanced Compilers](https://www.bilibili.com/BV1hZ4y1L7X4) <img src="bilibili.svg" alt="Bilibili" height="16"> · [Self-guided course](https://www.cs.cornell.edu/courses/cs6120/2025fa/self-guided/) <img src="icons/cornell-mark.png" alt="Cornell University" height="16">
   > Explore advanced compiler techniques for translating programs.
 
 - <a id="course-cs-38"></a>[Cornell · Software Engineering](https://www.bilibili.com/BV1aW411E7yr) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how teams plan, design, build and test software.
 
-- <a id="course-cs-40"></a>[Stanford · Compilers](https://www.bilibili.com/BV1NW41177q4) <img src="bilibili.svg" alt="Bilibili" height="16">
-  > Explore how compilers translate programs; the current link points to Stanford Statistical Learning, and the Compilers video source awaits verification.
+- <a id="course-cs-40"></a>[Stanford · Compilers](https://web.stanford.edu/class/archive/cs/cs143/cs143.1112/materials/lectures/) <img src="icons/stanford-seal.png" alt="Stanford University" height="16"> · [Coursera lecture mirror on Bilibili](https://www.bilibili.com/video/BV1514y1W7Ui/) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > Read Alex Aiken’s Stanford lecture notes on compilers. The Bilibili listing identifies its recordings as his Coursera offering.
 
 
 <a id="图形学与人机交互--graphics-and-human-computer-interaction"></a>
@@ -372,11 +372,11 @@ Within each topic, courses are sorted by English title. Different course version
 - <a id="course-ai-03"></a>[ETH Zurich · Robot Learning: From Fundamentals to Foundation Models (2026)](https://cvg.ethz.ch/lectures/Robot-Learning/) <img src="icons/eth-zurich-mark.png" alt="ETH Zürich" height="16"> · [Lecture 1](https://www.youtube.com/watch?v=X0k14u6pSxw) <img src="youtube.svg" alt="YouTube" height="16"> · [Bilibili repost](https://www.bilibili.com/video/BV1fSjG6LES5/) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Oier Mees introduces robot control, imitation learning, and reinforcement learning before exploring vision-language-action and robotics foundation models, with practice in simulation and on real robots.
 
-- <a id="course-ai-25"></a>[Hung-yi Lee · Deep Reinforcement Learning](https://www.youtube.com/watch?v=z95ZYgPgXOY&list=PLJV_el3uVTsODxQFgzMzPLa16h6B8kWM_) <img src="youtube.svg" alt="YouTube" height="16">
-  > Explore how an agent can learn actions from trials and feedback using deep learning.
-
 - <a id="course-ai-27"></a>[MIT · Identification, Estimation, and Learning](https://www.bilibili.com/BV1KL4y1e7F7) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore identification, estimation and learning from observations.
+
+- <a id="course-ai-25"></a>[NTU · Hung-yi Lee · Deep Reinforcement Learning](https://www.youtube.com/watch?v=z95ZYgPgXOY&list=PLJV_el3uVTsODxQFgzMzPLa16h6B8kWM_) <img src="youtube.svg" alt="YouTube" height="16">
+  > Explore how an agent can learn actions from trials and feedback using deep learning.
 
 - <a id="course-ai-01"></a>[Stanford CS224R · Deep Reinforcement Learning](https://www.bilibili.com/video/BV1U2zYBqEFB/) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how agents learn decisions through interaction and rewards, and how deep learning is used in reinforcement learning. The recording year of this repost has not been verified.
@@ -456,20 +456,20 @@ Within each topic, courses are sorted by English title. Different course version
 - <a id="course-ai-09"></a>[Hung-yi Lee · Advanced Topics in Deep Learning](https://www.youtube.com/watch?v=IzHoNwlCGnE&list=PLJV_el3uVTsPMxPbjeX7PicgWbY7F8wW9) <img src="youtube.svg" alt="YouTube" height="16">
   > Explore advanced research topics in deep learning.
 
-- <a id="course-ai-07"></a>[Hung-yi Lee · Deep Learning Theory](https://www.youtube.com/watch?v=KKT2VkTdFyc) <img src="youtube.svg" alt="YouTube" height="16">
-  > Explore theoretical ideas about why deep neural networks can work.
-
 - <a id="course-ai-20"></a>[Hung-yi Lee · Generative Adversarial Networks (2017)](https://www.youtube.com/watch?v=G0dZc-8yIjE&list=PLJV_el3uVTsMd2G9ZjcpJn1YfnM9wVOBf) <img src="youtube.svg" alt="YouTube" height="16">
   > 2017 GAN lecture series introducing adversarial training between generator and discriminator networks.
-
-- <a id="course-ai-19"></a>[Hung-yi Lee · Generative Adversarial Networks (2018)](https://www.youtube.com/watch?v=DQNNMiAP5lw&list=PLJV_el3uVTsMq6JEFPW35BCiOQTsoqwNw) <img src="youtube.svg" alt="YouTube" height="16">
-  > 2018 updated GAN series exploring training improvements, conditional generation, and distribution alignment.
 
 - <a id="course-ai-08"></a>[Hung-yi Lee · Next Step of Machine Learning](https://www.youtube.com/watch?v=XnyM3-xtxHs&list=PLJV_el3uVTsOK_ZK5L0Iv_EQoL1JefRL4) <img src="youtube.svg" alt="YouTube" height="16">
   > Consider possible next steps in machine learning.
 
 - <a id="course-ai-14"></a>[MIT · Deep Learning](https://www.bilibili.com/BV1qt411c7Na) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore deep learning, which uses multilayer neural networks to learn from data.
+
+- <a id="course-ai-07"></a>[NTU · Hung-yi Lee · Deep Learning Theory](https://www.youtube.com/watch?v=KKT2VkTdFyc) <img src="youtube.svg" alt="YouTube" height="16">
+  > Explore theoretical ideas about why deep neural networks can work.
+
+- <a id="course-ai-19"></a>[NTU · Hung-yi Lee · Generative Adversarial Networks (2018)](https://www.youtube.com/watch?v=DQNNMiAP5lw&list=PLJV_el3uVTsMq6JEFPW35BCiOQTsoqwNw) <img src="youtube.svg" alt="YouTube" height="16">
+  > 2018 updated GAN series exploring training improvements, conditional generation, and distribution alignment.
 
 
 <a id="统计结构化学习与应用--statistical-learning-structured-learning-and-applications"></a>
@@ -542,12 +542,29 @@ Within each topic, courses are sorted by English title. Different course version
   > Explore exoplanets, black holes, and dark energy with Charles Bailyn, and learn how observational evidence helps assess unresolved scientific questions.
 
 
+<a id="振动波与光学--oscillations-waves-and-optics"></a>
+
+### Oscillations, waves and optics
+
+- <a id="course-physics-09"></a>[MIT 8.03SC · Physics III: Vibrations and Waves (Fall 2016, Yen-Jie Lee)](https://ocw.mit.edu/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/resources/lecture-videos/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16">
+  > Start with driven oscillations and coupled oscillators, then use Fourier methods to study mechanical and electromagnetic waves, interference, and diffraction.
+
+
 <a id="力学与量子物理--mechanics-and-quantum-physics"></a>
 
 ### Mechanics and quantum physics
 
 - <a id="course-physics-02"></a>[MIT 8.01SC · Classical Mechanics (Fall 2016)](https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16"> · [Week 1 Introduction](https://www.youtube.com/watch?v=i4u7SZjoAs4) <img src="youtube.svg" alt="YouTube" height="16"> · [Course videos](https://www.bilibili.com/video/BV1KQ4y1B7TJ/) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Study motion and forces through Newton’s laws, momentum, energy, and rotation, and practice using mathematics to describe and solve classical mechanics problems.
+
+- <a id="course-physics-06"></a>[MIT 8.04 · Quantum Physics I (Spring 2013, Allan Adams)](https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/resources/lecture-videos/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16"> · [Official YouTube playlist](https://www.youtube.com/playlist?list=PLUl4u3cNGP61-9PEhRognw5vryrSEVLPr) <img src="youtube.svg" alt="YouTube" height="16"> · [Bilibili mirror](https://www.bilibili.com/video/BV13W411Y7af/) <img src="bilibili.svg" alt="Bilibili" height="16">
+  > Starts with the double-slit experiment and wavefunctions, then covers the Schrödinger equation, measurement, stationary states and superposition, and one-dimensional wells and tunneling. MIT OCW provides 24 recorded lectures.
+
+- <a id="course-physics-07"></a>[MIT 8.05 · Quantum Physics II (Fall 2013, Barton Zwiebach)](https://ocw.mit.edu/courses/8-05-quantum-physics-ii-fall-2013/resources/lecture-videos/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16">
+  > Build on 8.04 with state vectors and operators, quantum dynamics, spin, tensor products, and angular momentum. MIT OCW lists 26 lectures.
+
+- <a id="course-physics-08"></a>[MIT 8.06 · Quantum Physics III (Spring 2018, Barton Zwiebach)](https://ocw.mit.edu/courses/8-06-quantum-physics-iii-spring-2018/resources/lecture-videos/) <img src="icons/mit-seal.png" alt="MIT OpenCourseWare" height="16">
+  > Build on 8.05 with perturbation theory, the adiabatic approximation, scattering, and identical particles. MIT OCW groups short videos into 24 lecture units.
 
 - <a id="course-physics-03"></a>[Stanford · Quantum Mechanics](https://www.bilibili.com/BV1w4411s7da) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Explore how quantum mechanics describes the microscopic world of atoms and particles.
@@ -676,6 +693,9 @@ Within each topic, courses are sorted by English title. Different course version
 - <a id="course-other-01"></a>[MIT · Geometric Folding Algorithms](https://www.bilibili.com/BV14q4y1R7Ra) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Use algorithms to study how paper, linkages and polyhedra can fold.
 
+- <a id="course-other-10"></a>[Santa Fe Institute · Introduction to Complexity](https://www.complexityexplorer.org/courses/185-introduction-to-complexity) <img src="icons/santa-fe-institute.png" alt="Santa Fe Institute" height="16">
+  > Melanie Mitchell uses chaos, fractals, networks, and simple agent models to show how complex behavior can emerge from local rules. No prerequisites.
+
 - <a id="course-other-03"></a>[Stanford · Scientific Paper Writing](https://www.bilibili.com/BV1zv41177JQ) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Learn to write and explain scientific research more clearly.
 
@@ -718,6 +738,21 @@ Within each topic, courses are sorted by English title. Different course version
 <a id="智能体与-ai-编程-agents-and-ai-coding"></a>
 
 ### Agents and AI coding
+
+- [Maintaining software with the GPT-6 family](https://developers.openai.com/blog/maintaining-software-with-the-gpt-6-family) · <img src="icons/openai.png" alt="OpenAI" height="16"> OpenAI
+  > Shows how an engineering team uses models for codebase maintenance, starting with small jobs such as cleaning up unused code and stale flags.
+
+- [Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems](https://huggingface.co/blog/training-swarms) · <img src="icons/huggingface.svg" alt="Hugging Face" height="16"> Hugging Face
+  > Uses a shared small model for collaborative sorting to illustrate how reward design changes success and communication cost.
+
+- [MCP servers can now ship skills, run tasks, and more with Claude](https://claude.com/resources/articles/skills-over-mcp-tasks-and-more) · <img src="icons/anthropic.png" alt="Anthropic" height="16"> Anthropic
+  > Learn how MCP servers can ship instructions alongside tools, run delegated tasks in the background, and ask the user for input.
+
+- [Production monitoring with Codex](https://developers.openai.com/blog/production-monitoring-with-codex) · <img src="icons/openai.png" alt="OpenAI" height="16"> OpenAI
+  > Follow an incident investigation that correlates telemetry with recent deploys and code changes before proposing a fix.
+
+- [Time awareness and async input for personal agents](https://developers.openai.com/blog/time-awareness-and-async-input-for-personal-agents) · <img src="icons/openai.png" alt="OpenAI" height="16"> OpenAI
+  > Let an agent continue working while it waits for user input, with the application enforcing the overall deadline.
 
 - [Build Tool-Calling Parsers in Rust with AI Agents](https://developer.nvidia.com/blog/build-tool-calling-parsers-in-rust-with-ai-agents/) · <img src="icons/nvidia.svg" alt="NVIDIA" height="16"> NVIDIA Technical Blog
   > See how shared cross-model tests check parsers against split tool calls, incomplete JSON, and malformed input.
@@ -774,6 +809,12 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### AI evaluation
 
+- [Perplexity and Intelligence](https://openai.com/index/perplexity-and-intelligence/) · <img src="icons/openai.png" alt="OpenAI" height="16"> OpenAI
+  > See why OpenAI tracks held-out perplexity during pretraining and what developers would need to align to compare this metric.
+
+- [Why your data agents need a wind tunnel](https://cloud.google.com/blog/products/data-analytics/a-data-simulator-to-test-agents) · <img src="icons/google-cloud.png" alt="Google Cloud" height="16"> Google Cloud Blog
+  > Generate reproducible datasets and SQL answers from fixed blueprints and seeds, then check generated documents against those facts.
+
 - [Managing frontier AI risk: From training to deployment](https://openai.com/index/managing-frontier-ai-risk/) · <img src="icons/openai.png" alt="OpenAI" height="16"> OpenAI
   > Learn how sandboxing, behavior monitoring, and safety reviews address different risks during research, internal use, and public deployment.
 
@@ -828,6 +869,18 @@ Within each topic, courses are sorted by English title. Different course version
 <a id="工程基础设施-engineering-infrastructure"></a>
 
 ### Engineering infrastructure
+
+- [Migrating our Messages API to Rust](https://www.anthropic.com/research/migrating-api-to-rust) · <img src="icons/anthropic.png" alt="Anthropic" height="16"> Anthropic
+  > See how shadow traffic helped check whether the Python and Rust API implementations behaved alike before switching production over.
+
+- [vLLM Day-0 Support for ERNIE 5.5 Flash Preview: Plugin Deployment and E2E Inference Acceleration](https://vllm.ai/blog/2026-11-24-ernie-5-5-flash-preview) · <img src="icons/vllm-mark.png" alt="vLLM" height="16"> vLLM
+  > See how the ERNIE model plugs into vLLM without a fork, and which optimizations reduce work in sparse indexing and decoding.
+
+- [Announcing vLLM-GR: Efficient Inference for Generative Recommendation](https://vllm.ai/blog/2026-11-24-vllm-gr-announcement) · <img src="icons/vllm-mark.png" alt="vLLM" height="16"> vLLM
+  > See how beam search shares cached user history across candidate paths and constrains the generated IDs to items in the catalog.
+
+- [Cuttlefish on Mac: Running Android’s Virtual Device Framework Natively on Apple Silicon](https://engineering.fb.com/2026/11/13/android/cuttlefish-on-mac/) · <img src="icons/meta.png" alt="Meta Engineering" height="16"> Meta Engineering
+  > See how Meta adapted QEMU and Cuttlefish to run Android virtual devices natively on Apple Silicon Macs.
 
 - [Reducing Rollout Bottlenecks in Reinforcement Learning with NVIDIA Dynamo](https://developer.nvidia.com/blog/reducing-rollout-bottlenecks-in-reinforcement-learning-with-nvidia-dynamo/) · <img src="icons/nvidia.svg" alt="NVIDIA" height="16"> NVIDIA Technical Blog
   > See how Dynamo balances cache reuse with worker load during distributed rollouts and delivers fresh weights to inference workers.
@@ -893,6 +946,12 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Science and engineering applications
 
+- [Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference](https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin) · <img src="icons/nvidia.svg" alt="NVIDIA" height="16"> NVIDIA / Hugging Face
+  > Explains how synthetic tables and charts with structured labels train a document parser, and how speculative decoding speeds up output.
+
+- [From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity](https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/) · <img src="icons/deepmind.png" alt="Google DeepMind" height="16"> Google DeepMind
+  > See how mass spectrometry tools and reference databases suggest molecular structures while keeping the evidence available for chemists to review.
+
 - [Advancing chip design with OpenAI models](https://openai.com/index/advancing-chip-design-with-our-models/) · <img src="icons/openai.png" alt="OpenAI" height="16"> OpenAI
   > Follow examples from a custom inference chip and RISC-V cores to see how models propose circuit changes and design tools verify behavior and measure power, performance, and area.
 
@@ -940,7 +999,7 @@ Within each topic, courses are sorted by English title. Different course version
 <p align="center"><strong>Projects &amp; Platforms</strong><br>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="icons/source-wall-projects-dark.svg">
-  <img src="icons/source-wall-projects.svg" alt="Projects &amp; Platforms: Ai2, Bilibili, GAMES, ggml-org, YouTube, vLLM" width="720">
+  <img src="icons/source-wall-projects.svg" alt="Projects &amp; Platforms: Ai2, Bilibili, GAMES, ggml-org, YouTube, Santa Fe Institute, vLLM" width="720">
 </picture>
 </p>
 <p align="center"><strong>Companies</strong><br>
