@@ -8,7 +8,7 @@
 
 [🧭 打开学习星图 ↗](https://xioacd99.github.io/study-is-wonderful/resource-map/) · [简体中文](README.md) · [English](README-en.md)
 
-[158 门课程](#目录-contents) · [10 个学科](#目录-contents) · [74 篇技术文章](#技术博客-technical-blogs) · [资源来源](#资源来源-sources) · [推荐资源](https://github.com/xioacd99/study-is-wonderful/issues) · [参与共建](https://github.com/xioacd99/study-is-wonderful/pulls)
+[158 门课程](#目录-contents) · [10 个学科](#目录-contents) · [77 篇技术文章](#技术博客-technical-blogs) · [资源来源](#资源来源-sources) · [推荐资源](https://github.com/xioacd99/study-is-wonderful/issues) · [参与共建](https://github.com/xioacd99/study-is-wonderful/pulls)
 
 </div>
 
@@ -23,7 +23,7 @@
 <!-- TOC:START -->
 <p align="center">
 <a href="#数学-math">数学 (26)</a> · <a href="#计算机科学-computer-science">计算机科学 (57)</a> · <a href="#人工智能-artificial-intelligence">人工智能 (36)</a> · <a href="#经济学-economics">经济学 (4)</a> · <a href="#物理学-physics">物理学 (9)</a> · <a href="#心理学-psychology">心理学 (6)</a><br>
-<a href="#社会科学-social-sciences">社会科学 (4)</a> · <a href="#生物学-biology">生物学 (2)</a> · <a href="#哲学与艺术-philosophy-and-arts">哲学与艺术 (5)</a> · <a href="#其他-others">其他 (9)</a> · <a href="#技术博客-technical-blogs">技术博客 (74)</a>
+<a href="#社会科学-social-sciences">社会科学 (4)</a> · <a href="#生物学-biology">生物学 (2)</a> · <a href="#哲学与艺术-philosophy-and-arts">哲学与艺术 (5)</a> · <a href="#其他-others">其他 (9)</a> · <a href="#技术博客-technical-blogs">技术博客 (77)</a>
 </p>
 <!-- TOC:END -->
 
@@ -736,6 +736,12 @@
 
 ### 智能体与 AI 编程
 
+- [用 GPT-6 系列维护软件](https://developers.openai.com/blog/maintaining-software-with-the-gpt-6-family) · <img src="icons/openai.png" alt="OpenAI" height="16"> OpenAI
+  > 分享工程团队如何从清理无用代码或旧功能开关这类小任务入手，让模型协助维护代码库。
+
+- [训练小模型群体：多智能体协作的构建、训练与评测](https://huggingface.co/blog/training-swarms) · <img src="icons/huggingface.svg" alt="Hugging Face" height="16"> Hugging Face
+  > 用共享的小模型做协作排序实验，观察奖励设计如何影响任务成功率和通信开销。
+
 - [MCP 服务如何向 Claude 提供技能与异步任务](https://claude.com/resources/articles/skills-over-mcp-tasks-and-more) · <img src="icons/anthropic.png" alt="Anthropic" height="16"> Anthropic
   > 介绍 MCP 服务怎样随工具交付操作指南、委派长任务，并在必要时请求用户补充信息。
 
@@ -936,6 +942,9 @@
 <a id="科研与工程应用-science-and-engineering-applications"></a>
 
 ### 科研与工程应用
+
+- [Nemotron 3.5 Parse：开放数据、微调与推理提速](https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin) · <img src="icons/nvidia.svg" alt="NVIDIA" height="16"> NVIDIA / Hugging Face
+  > 介绍如何用带结构标注的合成表格和图表训练文档解析器，并用推测解码加快输出。
 
 - [用 Google Antigravity 解读质谱](https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/) · <img src="icons/deepmind.png" alt="Google DeepMind" height="16"> Google DeepMind
   > 介绍如何用质谱分析工具与参考数据库提出分子结构候选，并为化学家保留可复核的证据。

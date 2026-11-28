@@ -97,7 +97,7 @@ class MapTests(unittest.TestCase):
   )
   self.assertEqual(expected,(ROOT/'resource-map/index.html').read_text())
  def test_catalog_hygiene_and_blog_coverage(self):
-  self.assertEqual(len(self.b),74)
+  self.assertEqual(len(self.b),77)
   for lang,text in [('zh',self.text),('en',self.english)]:
    self.assertNotIn(')<img',text)
    self.assertNotIn('Languange',text)

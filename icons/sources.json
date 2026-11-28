@@ -787,6 +787,12 @@
       "organization": "nvidia",
       "hosts": [
         "developer.nvidia.com"
+      ],
+      "credited_paths": [
+        {
+          "host": "huggingface.co",
+          "prefix": "/blog/nvidia/"
+        }
       ]
     },
     {

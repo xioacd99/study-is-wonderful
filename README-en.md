@@ -8,7 +8,7 @@ Great courses across disciplines. Follow your curiosity.
 
 [🧭 Explore the learning map ↗](https://xioacd99.github.io/study-is-wonderful/resource-map/) · [简体中文](README.md) · [English](README-en.md)
 
-[158 courses](#目录-contents) · [10 subjects](#目录-contents) · [74 articles](#技术博客-technical-blogs) · [Resource sources](#资源来源-sources) · [Suggest a resource](https://github.com/xioacd99/study-is-wonderful/issues) · [Contribute](https://github.com/xioacd99/study-is-wonderful/pulls)
+[158 courses](#目录-contents) · [10 subjects](#目录-contents) · [77 articles](#技术博客-technical-blogs) · [Resource sources](#资源来源-sources) · [Suggest a resource](https://github.com/xioacd99/study-is-wonderful/issues) · [Contribute](https://github.com/xioacd99/study-is-wonderful/pulls)
 
 </div>
 
@@ -23,7 +23,7 @@ Great courses across disciplines. Follow your curiosity.
 <!-- TOC:START -->
 <p align="center">
 <a href="#数学-math">Math (26)</a> · <a href="#计算机科学-computer-science">Computer Science (57)</a> · <a href="#人工智能-artificial-intelligence">Artificial Intelligence (36)</a> · <a href="#经济学-economics">Economics (4)</a> · <a href="#物理学-physics">Physics (9)</a> · <a href="#心理学-psychology">Psychology (6)</a><br>
-<a href="#社会科学-social-sciences">Social Sciences (4)</a> · <a href="#生物学-biology">Biology (2)</a> · <a href="#哲学与艺术-philosophy-and-arts">Philosophy and Arts (5)</a> · <a href="#其他-others">Others (9)</a> · <a href="#技术博客-technical-blogs">Technical blogs (74)</a>
+<a href="#社会科学-social-sciences">Social Sciences (4)</a> · <a href="#生物学-biology">Biology (2)</a> · <a href="#哲学与艺术-philosophy-and-arts">Philosophy and Arts (5)</a> · <a href="#其他-others">Others (9)</a> · <a href="#技术博客-technical-blogs">Technical blogs (77)</a>
 </p>
 <!-- TOC:END -->
 
@@ -736,6 +736,12 @@ Within each topic, courses are sorted by English title. Different course version
 
 ### Agents and AI coding
 
+- [Maintaining software with the GPT-6 family](https://developers.openai.com/blog/maintaining-software-with-the-gpt-6-family) · <img src="icons/openai.png" alt="OpenAI" height="16"> OpenAI
+  > Shows how an engineering team uses models for codebase maintenance, starting with small jobs such as cleaning up unused code and stale flags.
+
+- [Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems](https://huggingface.co/blog/training-swarms) · <img src="icons/huggingface.svg" alt="Hugging Face" height="16"> Hugging Face
+  > Uses a shared small model for collaborative sorting to illustrate how reward design changes success and communication cost.
+
 - [MCP servers can now ship skills, run tasks, and more with Claude](https://claude.com/resources/articles/skills-over-mcp-tasks-and-more) · <img src="icons/anthropic.png" alt="Anthropic" height="16"> Anthropic
   > Learn how MCP servers can ship instructions alongside tools, run delegated tasks in the background, and ask the user for input.
 
@@ -936,6 +942,9 @@ Within each topic, courses are sorted by English title. Different course version
 <a id="科研与工程应用-science-and-engineering-applications"></a>
 
 ### Science and engineering applications
+
+- [Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference](https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin) · <img src="icons/nvidia.svg" alt="NVIDIA" height="16"> NVIDIA / Hugging Face
+  > Explains how synthetic tables and charts with structured labels train a document parser, and how speculative decoding speeds up output.
 
 - [From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity](https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/) · <img src="icons/deepmind.png" alt="Google DeepMind" height="16"> Google DeepMind
   > See how mass spectrometry tools and reference databases suggest molecular structures while keeping the evidence available for chemists to review.
