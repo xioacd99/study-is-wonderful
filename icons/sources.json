@@ -1259,6 +1259,24 @@
       "sha256": "ae935ed2f4341e942b1dbf4096165beea69a98f11222b2e48ee3b815c93f4f82",
       "upstream_sha256": "84e78abeca0042adc239148938d73019db974c96e1c43480c298460a4a3ce9da",
       "format_note": "Proportionally downsampled to max 160px for lightweight wall embedding without cropping or recoloring."
+    },
+    {
+      "id": "santa-fe-institute",
+      "group": "project",
+      "name": "Santa Fe Institute",
+      "path": "icons/santa-fe-institute.png",
+      "source": "https://www.santafe.edu/assets/88d5a9989e46366ede61.ico",
+      "brand_reference": "https://www.santafe.edu/",
+      "header_width": 44,
+      "inline_width": 24,
+      "sha256": "8a1352c6c0c32bb88592937a5994755ceddf78aac63cd5bf87ed86a7ffa5422d",
+      "organization": "santa-fe-institute",
+      "hosts": [
+        "complexityexplorer.org",
+        "www.complexityexplorer.org"
+      ],
+      "upstream_sha256": "ec2979557522cbb346bcb36cad5b4f726f9e268faced7a9a22b9847c5a6839e1",
+      "format_note": "Selected the official 256px favicon frame and downsampled proportionally to a transparent 160 × 160 PNG without recoloring or cropping."
     }
   ],
   "organization_names": {
@@ -1289,6 +1307,7 @@
     "oxford": "University of Oxford",
     "cambridge": "University of Cambridge",
     "nju": "Nanjing University",
-    "games": "GAMES"
+    "games": "GAMES",
+    "santa-fe-institute": "Santa Fe Institute"
   }
 }

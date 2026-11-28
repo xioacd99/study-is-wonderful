@@ -8,7 +8,7 @@ Great courses across disciplines. Follow your curiosity.
 
 [🧭 Explore the learning map ↗](https://xioacd99.github.io/study-is-wonderful/resource-map/) · [简体中文](README.md) · [English](README-en.md)
 
-[158 courses](#目录-contents) · [10 subjects](#目录-contents) · [77 articles](#技术博客-technical-blogs) · [Resource sources](#资源来源-sources) · [Suggest a resource](https://github.com/xioacd99/study-is-wonderful/issues) · [Contribute](https://github.com/xioacd99/study-is-wonderful/pulls)
+[159 courses](#目录-contents) · [10 subjects](#目录-contents) · [77 articles](#技术博客-technical-blogs) · [Resource sources](#资源来源-sources) · [Suggest a resource](https://github.com/xioacd99/study-is-wonderful/issues) · [Contribute](https://github.com/xioacd99/study-is-wonderful/pulls)
 
 </div>
 
@@ -23,7 +23,7 @@ Great courses across disciplines. Follow your curiosity.
 <!-- TOC:START -->
 <p align="center">
 <a href="#数学-math">Math (26)</a> · <a href="#计算机科学-computer-science">Computer Science (57)</a> · <a href="#人工智能-artificial-intelligence">Artificial Intelligence (36)</a> · <a href="#经济学-economics">Economics (4)</a> · <a href="#物理学-physics">Physics (9)</a> · <a href="#心理学-psychology">Psychology (6)</a><br>
-<a href="#社会科学-social-sciences">Social Sciences (4)</a> · <a href="#生物学-biology">Biology (2)</a> · <a href="#哲学与艺术-philosophy-and-arts">Philosophy and Arts (5)</a> · <a href="#其他-others">Others (9)</a> · <a href="#技术博客-technical-blogs">Technical blogs (77)</a>
+<a href="#社会科学-social-sciences">Social Sciences (4)</a> · <a href="#生物学-biology">Biology (2)</a> · <a href="#哲学与艺术-philosophy-and-arts">Philosophy and Arts (5)</a> · <a href="#其他-others">Others (10)</a> · <a href="#技术博客-technical-blogs">Technical blogs (77)</a>
 </p>
 <!-- TOC:END -->
 
@@ -693,6 +693,9 @@ Within each topic, courses are sorted by English title. Different course version
 - <a id="course-other-01"></a>[MIT · Geometric Folding Algorithms](https://www.bilibili.com/BV14q4y1R7Ra) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Use algorithms to study how paper, linkages and polyhedra can fold.
 
+- <a id="course-other-10"></a>[Santa Fe Institute · Introduction to Complexity](https://www.complexityexplorer.org/courses/185-introduction-to-complexity) <img src="icons/santa-fe-institute.png" alt="Santa Fe Institute" height="16">
+  > Melanie Mitchell uses chaos, fractals, networks, and simple agent models to show how complex behavior can emerge from local rules. No prerequisites.
+
 - <a id="course-other-03"></a>[Stanford · Scientific Paper Writing](https://www.bilibili.com/BV1zv41177JQ) <img src="bilibili.svg" alt="Bilibili" height="16">
   > Learn to write and explain scientific research more clearly.
 
@@ -996,7 +999,7 @@ Within each topic, courses are sorted by English title. Different course version
 <p align="center"><strong>Projects &amp; Platforms</strong><br>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="icons/source-wall-projects-dark.svg">
-  <img src="icons/source-wall-projects.svg" alt="Projects &amp; Platforms: Ai2, Bilibili, GAMES, ggml-org, YouTube, vLLM" width="720">
+  <img src="icons/source-wall-projects.svg" alt="Projects &amp; Platforms: Ai2, Bilibili, GAMES, ggml-org, YouTube, Santa Fe Institute, vLLM" width="720">
 </picture>
 </p>
 <p align="center"><strong>Companies</strong><br>

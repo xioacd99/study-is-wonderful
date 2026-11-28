@@ -8,7 +8,7 @@
 
 [🧭 打开学习星图 ↗](https://xioacd99.github.io/study-is-wonderful/resource-map/) · [简体中文](README.md) · [English](README-en.md)
 
-[158 门课程](#目录-contents) · [10 个学科](#目录-contents) · [77 篇技术文章](#技术博客-technical-blogs) · [资源来源](#资源来源-sources) · [推荐资源](https://github.com/xioacd99/study-is-wonderful/issues) · [参与共建](https://github.com/xioacd99/study-is-wonderful/pulls)
+[159 门课程](#目录-contents) · [10 个学科](#目录-contents) · [77 篇技术文章](#技术博客-technical-blogs) · [资源来源](#资源来源-sources) · [推荐资源](https://github.com/xioacd99/study-is-wonderful/issues) · [参与共建](https://github.com/xioacd99/study-is-wonderful/pulls)
 
 </div>
 
@@ -23,7 +23,7 @@
 <!-- TOC:START -->
 <p align="center">
 <a href="#数学-math">数学 (26)</a> · <a href="#计算机科学-computer-science">计算机科学 (57)</a> · <a href="#人工智能-artificial-intelligence">人工智能 (36)</a> · <a href="#经济学-economics">经济学 (4)</a> · <a href="#物理学-physics">物理学 (9)</a> · <a href="#心理学-psychology">心理学 (6)</a><br>
-<a href="#社会科学-social-sciences">社会科学 (4)</a> · <a href="#生物学-biology">生物学 (2)</a> · <a href="#哲学与艺术-philosophy-and-arts">哲学与艺术 (5)</a> · <a href="#其他-others">其他 (9)</a> · <a href="#技术博客-technical-blogs">技术博客 (77)</a>
+<a href="#社会科学-social-sciences">社会科学 (4)</a> · <a href="#生物学-biology">生物学 (2)</a> · <a href="#哲学与艺术-philosophy-and-arts">哲学与艺术 (5)</a> · <a href="#其他-others">其他 (10)</a> · <a href="#技术博客-technical-blogs">技术博客 (77)</a>
 </p>
 <!-- TOC:END -->
 
@@ -693,6 +693,9 @@
 - <a id="course-other-01"></a>[MIT·几何折叠算法](https://www.bilibili.com/BV14q4y1R7Ra) <img src="bilibili.svg" alt="Bilibili" height="16">
   > 用算法研究纸张、连杆和多面体怎样折叠。
 
+- <a id="course-other-10"></a>[圣塔菲研究所·复杂性导论](https://www.complexityexplorer.org/courses/185-introduction-to-complexity) <img src="icons/santa-fe-institute.png" alt="Santa Fe Institute" height="16">
+  > Melanie Mitchell 用混沌、分形、网络和简单的个体模型，解释复杂行为如何从局部规则中出现。无需先修。
+
 - <a id="course-other-03"></a>[斯坦福·SCI 论文写作课程](https://www.bilibili.com/BV1zv41177JQ) <img src="bilibili.svg" alt="Bilibili" height="16">
   > 学习怎样更清楚地写作和表达科学研究。
 
@@ -996,7 +999,7 @@
 <p align="center"><strong>项目与平台</strong><br>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="icons/source-wall-projects-dark.svg">
-  <img src="icons/source-wall-projects.svg" alt="项目与平台: Ai2, Bilibili, GAMES, ggml-org, YouTube, vLLM" width="720">
+  <img src="icons/source-wall-projects.svg" alt="项目与平台: Ai2, Bilibili, GAMES, ggml-org, YouTube, Santa Fe Institute, vLLM" width="720">
 </picture>
 </p>
 <p align="center"><strong>公司</strong><br>
